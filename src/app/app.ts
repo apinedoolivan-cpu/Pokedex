@@ -1,12 +1,17 @@
-import { Component, signal } from '@angular/core';
-import { HomePage } from './components/home-page/home-page';
+import { Component } from '@angular/core';
+import { RouterOutlet, Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [HomePage],
+  standalone: true,
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('Pokedex');
+  constructor(private router: Router) {}
+
+  isRoot() {
+    return this.router.url === '/';
+  }
 }
