@@ -1,17 +1,15 @@
 import { Component, inject } from '@angular/core';
-
-import { GameService } from '../../services/game-service';
-
 import { POKEMON_GAMES } from '../../models/pokemon-game.model';
 import { PokemonGame } from '../../models/pokemon-game.model';
+import { GameService } from '../../services/game-service';
 
 @Component({
   selector: 'app-home-page',
-  standalone: true,
+  imports: [],
   templateUrl: './home-page.html',
   styleUrl: './home-page.scss',
 })
-export class HomePage {
+export class HomePageComponent {
   games = POKEMON_GAMES;
 
   public gameService = inject(GameService);

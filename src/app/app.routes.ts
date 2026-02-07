@@ -1,15 +1,9 @@
 import { Routes, } from '@angular/router';
-import { HomePage } from './components/home-page/home-page';
+import { HomePageComponent } from './pages/home-page/home-page';
+import { PokedexPageComponent } from './pages/pokedex/pokedex-page';
 
 export const routes: Routes = [
-  {
-    path: '',
-    component: HomePage
-  },
-  {
-    path: 'pokedex',
-    loadComponent: () =>
-      import('./pages/pokedex/pokedex-page')
-        .then(m => m.PokedexPage)
-  }
+  { path: '', component: HomePageComponent },
+  { path: 'pokedex', component: PokedexPageComponent },
+  { path: '**', redirectTo: '' } 
 ];

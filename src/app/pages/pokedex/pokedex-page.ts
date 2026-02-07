@@ -7,7 +7,7 @@ import { GameService } from '../../services/game-service';
   templateUrl: './pokedex-page.html',
   styleUrl: './pokedex-page.scss',
 })
-export class PokedexPage {
+export class PokedexPageComponent {
   public gameService = inject(GameService);
 
   activeGame = this.gameService.getActiveGame();

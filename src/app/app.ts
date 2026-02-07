@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet, Router } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,10 +8,4 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule, RouterOutlet],
   templateUrl: './app.html',
 })
-export class App {
-  constructor(private router: Router) {}
-
-  isRoot() {
-    return this.router.url === '/';
-  }
-}
+export class App {}
