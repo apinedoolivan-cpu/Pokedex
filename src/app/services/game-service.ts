@@ -12,6 +12,7 @@ export class GameService {
   }
 
   getActiveGame() {
+    console.log(this.activeGame())
     return this.activeGame;
   }
 }

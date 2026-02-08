@@ -1,1 +1,14 @@
-<p>pokedex-page works!</p>
+@if(!activeGame()){
+  <div>No hay juego seleccionado</div>
+}
+@else{
+  <h1>Pokédex</h1>
+
+  <ul>
+    @for (pokemon of pokemons(); track pokemon.id) {
+      <li>
+        {{ pokemon.name }}
+      </li>
+    }
+  </ul>
+}
