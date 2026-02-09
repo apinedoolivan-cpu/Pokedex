@@ -6,6 +6,6 @@ import { PokemonPageComponent } from './pages/pokedex/pokemon-page/pokemon-page'
 export const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'pokedex', component: PokedexPageComponent },
-  { path: 'pokedex/:name ', component: PokemonPageComponent },
+  { path: 'pokedex/:slug ', component: PokemonPageComponent },
   { path: '**', redirectTo: '' } 
 ];
