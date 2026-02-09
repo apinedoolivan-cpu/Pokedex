@@ -1,39 +1,52 @@
-import { Injectable, signal, computed } from '@angular/core';
+import { Injectable, signal, computed, effect, inject } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { Pokemon } from '../models/pokemon.model';
-import pokedexData from '../../assets/pokemon.json';
-
-type RawPokedex = Record<string, any>;
+import { GameService } from './game-service';
 
 @Injectable({ providedIn: 'root' })
 export class PokedexStore {
 
-  private readonly _list = signal<Pokemon[]>(
-    Object.values(pokedexData as RawPokedex).map(this.normalize)
-  );
+  private readonly http = inject(HttpClient);
+  private readonly gameService = inject(GameService);
 
-  private readonly _byId = computed(() =>
-    Object.fromEntries(
-      this._list().map(p => [p.id, p])
-    )
-  );
+  private readonly _list = signal<Pokemon[]>([]);
+  private readonly _loading = signal(false);
+  private readonly _error = signal<string | null>(null);
 
   readonly all = computed(() => this._list());
+  readonly loading = this._loading.asReadonly();
+  readonly error = this._error.asReadonly();
 
-  getById(id: string) {
-    return computed(() =>
-      this._byId()[id.toUpperCase()]
-    );
+  constructor() {
+    effect(() => {
+      const game = this.gameService.getActiveGame()();
+      console.log('Juego activo:', game);
+      if (!game) {
+        this._list.set([]);
+        return;
+      }
+
+      this.loadPokedex(game.pokedexPath);
+    });
   }
 
-  search = signal('');
+  private loadPokedex(path: string) {
+    this._loading.set(true);
+    this._error.set(null);
 
-  readonly filtered = computed(() => {
-    const q = this.search().toLowerCase();
-    if (!q) return this._list();
-    return this._list().filter(p =>
-      p.name.toLowerCase().includes(q)
-    );
-  });
+    this.http.get<Record<string, any>>(path).subscribe({
+      next: raw => {
+        const normalized = Object.values(raw).map(this.normalize);
+        this._list.set(normalized);
+        this._loading.set(false);
+      },
+      error: () => {
+        this._error.set('No se pudo cargar la Pokédex');
+        this._list.set([]);
+        this._loading.set(false);
+      }
+    });
+  }
 
   private normalize(raw: any): Pokemon {
     return {
