@@ -5,11 +5,13 @@
   <h1>Pokédex</h1>
 
   <ul>
-    @for (pokemon of pokemons(); track pokemon.name) {
-      <li>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemon.id}}.png">
-        {{ pokemon.name }}
-      </li>
-    }
+    @for (pokemon of pokemons(); track pokemon.name; let i = $index) {
+    <li>
+      <img
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ i + 1 }}.png"
+      >
+      {{ pokemon.name }}
+    </li>
+  }
   </ul>
 }
