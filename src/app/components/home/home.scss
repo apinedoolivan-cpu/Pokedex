@@ -1,0 +1,26 @@
+.home {
+  padding: 2rem;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.game-card {
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #f5f5f5;
+  transition: transform 0.2s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+}
+
+.game-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}

@@ -1,14 +1,11 @@
-import { Component, inject } from '@angular/core';
-import { GameService } from '../../services/game-service';
+import { Component } from '@angular/core';
+import { PokedexComponent } from '../../components/pokedex/pokedex';
 
 @Component({
   selector: 'app-pokedex-page',
-  imports: [],
+  imports: [PokedexComponent],
   templateUrl: './pokedex-page.html',
   styleUrl: './pokedex-page.scss',
 })
 export class PokedexPageComponent {
-  public gameService = inject(GameService);
-
-  activeGame = this.gameService.getActiveGame();
 }

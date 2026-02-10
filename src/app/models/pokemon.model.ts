@@ -1,6 +1,7 @@
 export interface Pokemon {
   id: string;
   name: string;
+  slug: string;
   types: string[];
 
   baseStats: {
@@ -48,5 +49,7 @@ export interface Pokemon {
   habitat?: string;
   category?: string;
   pokedexEntry?: string;
-  generation: number;
+  generation: string;
 }
+
+export type PokedexMap = Record<string, Pokemon>;

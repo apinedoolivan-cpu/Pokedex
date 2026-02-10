@@ -1,0 +1,21 @@
+<section class="home">
+  <h1>Pokédex disponibles</h1>
+
+  <div class="games">
+    @for (game of games; track game.id) {
+      <article
+        class="game-card"
+        (click)="selectGame(game)"
+        (click)="goToPokedex()"
+      >
+        @if (game.coverImage) {
+          <img [src]="game.coverImage" />
+        }
+
+        <h2>{{ game.name }}</h2>
+        <p>{{ game.description }}</p>
+      </article>
+    }
+  </div>
+</section>
+

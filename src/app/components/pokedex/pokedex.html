@@ -1,0 +1,41 @@
+@if(!activeGame()){
+  <div class="no-game">
+    <div class="pokeball-icon"></div>
+    <p>No hay juego seleccionado</p>
+  </div>
+}
+@else{
+  <div class="pokedex-container">
+    <div class="pokedex-header">
+      <div class="header-lights">
+        <div class="light big-light"></div>
+        <div class="light small-light red"></div>
+        <div class="light small-light yellow"></div>
+        <div class="light small-light green"></div>
+      </div>
+      <h1>Pokédex</h1>
+    </div>
+
+    <ul class="pokemon-grid">
+      @for (pokemon of pokemons(); track pokemon.name; let i = $index) {
+        <li class="pokemon-item">
+          <a
+            class="pokemon-link"
+            [routerLink]="['/pokedex', pokemon.slug]"
+            (click)="pokemonSelected(pokemon)"
+          >
+            <div class="pokemon-image-container">
+              <div class="pokeball-bg"></div>
+              <img
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ i + 1 }}.png"
+                alt="{{ pokemon.name }}"
+              >
+            </div>
+            <span class="pokemon-number">#{{ (i + 1).toString().padStart(3, '0') }}</span>
+            <span class="pokemon-name">{{ pokemon.name }}</span>
+          </a>
+        </li>
+      }
+    </ul>
+  </div>
+}
