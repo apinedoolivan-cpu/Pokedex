@@ -6,12 +6,16 @@
 
   <ul>
     @for (pokemon of pokemons(); track pokemon.name; let i = $index) {
-    <li>
+      <a
+        class="pokemon-link"
+        [routerLink]="['/pokedex', pokemon.slug]"
+        (click)="pokemonSelected(pokemon)"
+      >
       <img
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ i + 1 }}.png"
       >
       {{ pokemon.name }}
-    </li>
+    </a>
   }
   </ul>
 }

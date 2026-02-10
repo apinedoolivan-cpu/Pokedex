@@ -1,20 +1,25 @@
 import { Component, inject } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { GameService } from '../../services/game-service';
-import { PokedexStore } from '../../services/pokemon-service';
+import { PokedexStoreService } from '../../services/pokedex-store-service';
+import { PokemonDataService } from '../../services/pokemon-data-service';
+import { Pokemon } from '../../models/pokemon.model';
 
 @Component({
   selector: 'app-pokedex-page',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './pokedex-page.html',
   styleUrl: './pokedex-page.scss',
 })
 export class PokedexPageComponent {
-  public gameService = inject(GameService);
+  private gameService = inject(GameService);
+  private store = inject(PokedexStoreService);
+  private pokemonData = inject(PokemonDataService);
 
-  activeGame = this.gameService.getActiveGame();
-
-  readonly store = inject(PokedexStore);
-
+  readonly activeGame = this.gameService.getActiveGame();
   readonly pokemons = this.store.all;
 
+  pokemonSelected(pokemon: Pokemon){
+    this.pokemonData.selectedPokemon(pokemon);
+  }
 }

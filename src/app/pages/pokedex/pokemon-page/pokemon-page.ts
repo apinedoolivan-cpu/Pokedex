@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { GameService } from '../../../services/game-service';
+import { PokemonDataService } from '../../../services/pokemon-data-service';
 
 @Component({
   selector: 'app-pokemon-page',
@@ -9,10 +10,8 @@ import { GameService } from '../../../services/game-service';
 })
 export class PokemonPageComponent {
   public gameService = inject(GameService)
+  public pokemonData = inject(PokemonDataService);
 
   public game = this.gameService.getActiveGame();
-
-  dameJuego(){
-    console.log(this.game());
-  }
+  public selectedPokemon = this.pokemonData.getSelectedPokemon();
 }

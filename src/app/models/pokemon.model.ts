@@ -1,6 +1,7 @@
 export interface Pokemon {
   id: string;
   name: string;
+  slug: string;
   types: string[];
 
   baseStats: {

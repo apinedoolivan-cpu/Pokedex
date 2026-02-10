@@ -4,7 +4,7 @@ import { Pokemon } from '../models/pokemon.model';
 import { GameService } from './game-service';
 
 @Injectable({ providedIn: 'root' })
-export class PokedexStore {
+export class PokedexStoreService {
 
   private readonly http = inject(HttpClient);
   private readonly gameService = inject(GameService);
@@ -46,7 +46,6 @@ export class PokedexStore {
       }
     });
   }
-
   private normalize(raw: any): Pokemon {
     return {
       ...raw,
