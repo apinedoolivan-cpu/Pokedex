@@ -1,6 +1,7 @@
 {
   "BULBASAUR": {
     "id": "BULBASAUR",
+    "dexNumber": "1",
     "name": "Bulbasaur",
     "slug": "bulbasaur",
     "types": [
@@ -209,6 +210,7 @@
   },
   "IVYSAUR": {
     "id": "IVYSAUR",
+    "dexNumber": "2",
     "name": "Ivysaur",
     "slug": "ivysaur",
     "types": [
@@ -409,6 +411,7 @@
   },
   "VENUSAUR": {
     "id": "VENUSAUR",
+    "dexNumber": "3",
     "name": "Venusaur",
     "slug": "venusaur",
     "types": [
@@ -619,6 +622,7 @@
   },
   "CHARMANDER": {
     "id": "CHARMANDER",
+    "dexNumber": "4",
     "name": "Charmander",
     "slug": "charmander",
     "types": [
@@ -824,6 +828,7 @@
   },
   "CHARMELEON": {
     "id": "CHARMELEON",
+    "dexNumber": "5",
     "name": "Charmeleon",
     "slug": "charmeleon",
     "types": [
@@ -1015,6 +1020,7 @@
   },
   "CHARIZARD": {
     "id": "CHARIZARD",
+    "dexNumber": "6",
     "name": "Charizard",
     "slug": "charizard",
     "types": [
@@ -1252,6 +1258,7 @@
   },
   "SQUIRTLE": {
     "id": "SQUIRTLE",
+    "dexNumber": "7",
     "name": "Squirtle",
     "slug": "squirtle",
     "types": [
@@ -1458,6 +1465,7 @@
   },
   "WARTORTLE": {
     "id": "WARTORTLE",
+    "dexNumber": "8",
     "name": "Wartortle",
     "slug": "wartortle",
     "types": [
@@ -1650,6 +1658,7 @@
   },
   "BLASTOISE": {
     "id": "BLASTOISE",
+    "dexNumber": "9",
     "name": "Blastoise",
     "slug": "blastoise",
     "types": [
@@ -1859,6 +1868,7 @@
   },
   "CATERPIE": {
     "id": "CATERPIE",
+    "dexNumber": "10",
     "name": "Caterpie",
     "slug": "caterpie",
     "types": [
@@ -1924,6 +1934,7 @@
   },
   "METAPOD": {
     "id": "METAPOD",
+    "dexNumber": "11",
     "name": "Metapod",
     "slug": "metapod",
     "types": [
@@ -1987,6 +1998,7 @@
   },
   "BUTTERFREE": {
     "id": "BUTTERFREE",
+    "dexNumber": "12",
     "name": "Butterfree",
     "slug": "butterfree",
     "types": [
@@ -2183,6 +2195,7 @@
   },
   "WEEDLE": {
     "id": "WEEDLE",
+    "dexNumber": "13",
     "name": "Weedle",
     "slug": "weedle",
     "types": [
@@ -2253,6 +2266,7 @@
   },
   "KAKUNA": {
     "id": "KAKUNA",
+    "dexNumber": "14",
     "name": "Kakuna",
     "slug": "kakuna",
     "types": [
@@ -2317,6 +2331,7 @@
   },
   "BEEDRILL": {
     "id": "BEEDRILL",
+    "dexNumber": "15",
     "name": "Beedrill",
     "slug": "beedrill",
     "types": [
@@ -2519,6 +2534,7 @@
   },
   "PIDGEY": {
     "id": "PIDGEY",
+    "dexNumber": "16",
     "name": "Pidgey",
     "slug": "pidgey",
     "types": [
@@ -2682,6 +2698,7 @@
   },
   "PIDGEOTTO": {
     "id": "PIDGEOTTO",
+    "dexNumber": "17",
     "name": "Pidgeotto",
     "slug": "pidgeotto",
     "types": [
@@ -2835,6 +2852,7 @@
   },
   "PIDGEOT": {
     "id": "PIDGEOT",
+    "dexNumber": "18",
     "name": "Pidgeot",
     "slug": "pidgeot",
     "types": [
@@ -2988,6 +3006,7 @@
   },
   "RATTATA": {
     "id": "RATTATA",
+    "dexNumber": "19",
     "name": "Rattata",
     "slug": "rattata",
     "types": [
@@ -3171,6 +3190,7 @@
   },
   "RATICATE": {
     "id": "RATICATE",
+    "dexNumber": "20",
     "name": "Raticate",
     "slug": "raticate",
     "types": [
@@ -3360,6 +3380,7 @@
   },
   "SPEAROW": {
     "id": "SPEAROW",
+    "dexNumber": "21",
     "name": "Spearow",
     "slug": "spearow",
     "types": [
@@ -3523,6 +3544,7 @@
   },
   "FEAROW": {
     "id": "FEAROW",
+    "dexNumber": "22",
     "name": "Fearow",
     "slug": "fearow",
     "types": [
@@ -3682,6 +3704,7 @@
   },
   "EKANS": {
     "id": "EKANS",
+    "dexNumber": "23",
     "name": "Ekans",
     "slug": "ekans",
     "types": [
@@ -3889,6 +3912,7 @@
   },
   "ARBOK": {
     "id": "ARBOK",
+    "dexNumber": "24",
     "name": "Arbok",
     "slug": "arbok",
     "types": [
@@ -4105,6 +4129,7 @@
   },
   "PIKACHU": {
     "id": "PIKACHU",
+    "dexNumber": "25",
     "name": "Pikachu",
     "slug": "pikachu",
     "types": [
@@ -4352,6 +4377,7 @@
   },
   "RAICHU": {
     "id": "RAICHU",
+    "dexNumber": "26",
     "name": "Raichu",
     "slug": "raichu",
     "types": [
@@ -4589,6 +4615,7 @@
   },
   "SANDSHREW": {
     "id": "SANDSHREW",
+    "dexNumber": "27",
     "name": "Sandshrew",
     "slug": "sandshrew",
     "types": [
@@ -4809,6 +4836,7 @@
   },
   "SANDSLASH": {
     "id": "SANDSLASH",
+    "dexNumber": "28",
     "name": "Sandslash",
     "slug": "sandslash",
     "types": [
@@ -5031,6 +5059,7 @@
   },
   "NIDORANfE": {
     "id": "NIDORANfE",
+    "dexNumber": "29",
     "name": "Nidoran♀",
     "slug": "nidoran",
     "types": [
@@ -5217,6 +5246,7 @@
   },
   "NIDORINA": {
     "id": "NIDORINA",
+    "dexNumber": "30",
     "name": "Nidorina",
     "slug": "nidorina",
     "types": [
@@ -5388,6 +5418,7 @@
   },
   "NIDOQUEEN": {
     "id": "NIDOQUEEN",
+    "dexNumber": "31",
     "name": "Nidoqueen",
     "slug": "nidoqueen",
     "types": [
@@ -5613,6 +5644,7 @@
   },
   "NIDORANmA": {
     "id": "NIDORANmA",
+    "dexNumber": "32",
     "name": "Nidoran♂",
     "slug": "nidoran",
     "types": [
@@ -5801,6 +5833,7 @@
   },
   "NIDORINO": {
     "id": "NIDORINO",
+    "dexNumber": "33",
     "name": "Nidorino",
     "slug": "nidorino",
     "types": [
@@ -5977,6 +6010,7 @@
   },
   "NIDOKING": {
     "id": "NIDOKING",
+    "dexNumber": "34",
     "name": "Nidoking",
     "slug": "nidoking",
     "types": [
@@ -6203,6 +6237,7 @@
   },
   "CLEFAIRY": {
     "id": "CLEFAIRY",
+    "dexNumber": "35",
     "name": "Clefairy",
     "slug": "clefairy",
     "types": [
@@ -6496,6 +6531,7 @@
   },
   "CLEFABLE": {
     "id": "CLEFABLE",
+    "dexNumber": "36",
     "name": "Clefable",
     "slug": "clefable",
     "types": [
@@ -6779,6 +6815,7 @@
   },
   "VULPIX": {
     "id": "VULPIX",
+    "dexNumber": "37",
     "name": "Vulpix",
     "slug": "vulpix",
     "types": [
@@ -7003,6 +7040,7 @@
   },
   "NINETALES": {
     "id": "NINETALES",
+    "dexNumber": "38",
     "name": "Ninetales",
     "slug": "ninetales",
     "types": [
@@ -7204,6 +7242,7 @@
   },
   "JIGGLYPUFF": {
     "id": "JIGGLYPUFF",
+    "dexNumber": "39",
     "name": "Jigglypuff",
     "slug": "jigglypuff",
     "types": [
@@ -7479,6 +7518,7 @@
   },
   "WIGGLYTUFF": {
     "id": "WIGGLYTUFF",
+    "dexNumber": "40",
     "name": "Wigglytuff",
     "slug": "wigglytuff",
     "types": [
@@ -7765,6 +7805,7 @@
   },
   "ZUBAT": {
     "id": "ZUBAT",
+    "dexNumber": "41",
     "name": "Zubat",
     "slug": "zubat",
     "types": [
@@ -7951,6 +7992,7 @@
   },
   "GOLBAT": {
     "id": "GOLBAT",
+    "dexNumber": "42",
     "name": "Golbat",
     "slug": "golbat",
     "types": [
@@ -8127,6 +8169,7 @@
   },
   "ODDISH": {
     "id": "ODDISH",
+    "dexNumber": "43",
     "name": "Oddish",
     "slug": "oddish",
     "types": [
@@ -8305,6 +8348,7 @@
   },
   "GLOOM": {
     "id": "GLOOM",
+    "dexNumber": "44",
     "name": "Gloom",
     "slug": "gloom",
     "types": [
@@ -8478,6 +8522,7 @@
   },
   "VILEPLUME": {
     "id": "VILEPLUME",
+    "dexNumber": "45",
     "name": "Vileplume",
     "slug": "vileplume",
     "types": [
@@ -8667,6 +8712,7 @@
   },
   "PARAS": {
     "id": "PARAS",
+    "dexNumber": "46",
     "name": "Paras",
     "slug": "paras",
     "types": [
@@ -8850,6 +8896,7 @@
   },
   "PARASECT": {
     "id": "PARASECT",
+    "dexNumber": "47",
     "name": "Parasect",
     "slug": "parasect",
     "types": [
@@ -9027,6 +9074,7 @@
   },
   "VENONAT": {
     "id": "VENONAT",
+    "dexNumber": "48",
     "name": "Venonat",
     "slug": "venonat",
     "types": [
@@ -9214,6 +9262,7 @@
   },
   "VENOMOTH": {
     "id": "VENOMOTH",
+    "dexNumber": "49",
     "name": "Venomoth",
     "slug": "venomoth",
     "types": [
@@ -9431,6 +9480,7 @@
   },
   "DIGLETT": {
     "id": "DIGLETT",
+    "dexNumber": "50",
     "name": "Diglett",
     "slug": "diglett",
     "types": [
@@ -9621,6 +9671,7 @@
   },
   "DUGTRIO": {
     "id": "DUGTRIO",
+    "dexNumber": "51",
     "name": "Dugtrio",
     "slug": "dugtrio",
     "types": [
@@ -9805,6 +9856,7 @@
   },
   "MEOWTH": {
     "id": "MEOWTH",
+    "dexNumber": "52",
     "name": "Meowth",
     "slug": "meowth",
     "types": [
@@ -10020,6 +10072,7 @@
   },
   "PERSIAN": {
     "id": "PERSIAN",
+    "dexNumber": "53",
     "name": "Persian",
     "slug": "persian",
     "types": [
@@ -10239,6 +10292,7 @@
   },
   "PSYDUCK": {
     "id": "PSYDUCK",
+    "dexNumber": "54",
     "name": "Psyduck",
     "slug": "psyduck",
     "types": [
@@ -10472,6 +10526,7 @@
   },
   "GOLDUCK": {
     "id": "GOLDUCK",
+    "dexNumber": "55",
     "name": "Golduck",
     "slug": "golduck",
     "types": [
@@ -10706,6 +10761,7 @@
   },
   "MANKEY": {
     "id": "MANKEY",
+    "dexNumber": "56",
     "name": "Mankey",
     "slug": "mankey",
     "types": [
@@ -10950,6 +11006,7 @@
   },
   "PRIMEAPE": {
     "id": "PRIMEAPE",
+    "dexNumber": "57",
     "name": "Primeape",
     "slug": "primeape",
     "types": [
@@ -11203,6 +11260,7 @@
   },
   "GROWLITHE": {
     "id": "GROWLITHE",
+    "dexNumber": "58",
     "name": "Growlithe",
     "slug": "growlithe",
     "types": [
@@ -11413,6 +11471,7 @@
   },
   "ARCANINE": {
     "id": "ARCANINE",
+    "dexNumber": "59",
     "name": "Arcanine",
     "slug": "arcanine",
     "types": [
@@ -11618,6 +11677,7 @@
   },
   "POLIWAG": {
     "id": "POLIWAG",
+    "dexNumber": "60",
     "name": "Poliwag",
     "slug": "poliwag",
     "types": [
@@ -11809,6 +11869,7 @@
   },
   "POLIWHIRL": {
     "id": "POLIWHIRL",
+    "dexNumber": "61",
     "name": "Poliwhirl",
     "slug": "poliwhirl",
     "types": [
@@ -12010,6 +12071,7 @@
   },
   "POLIWRATH": {
     "id": "POLIWRATH",
+    "dexNumber": "62",
     "name": "Poliwrath",
     "slug": "poliwrath",
     "types": [
@@ -12232,6 +12294,7 @@
   },
   "ABRA": {
     "id": "ABRA",
+    "dexNumber": "63",
     "name": "Abra",
     "slug": "abra",
     "types": [
@@ -12400,6 +12463,7 @@
   },
   "KADABRA": {
     "id": "KADABRA",
+    "dexNumber": "64",
     "name": "Kadabra",
     "slug": "kadabra",
     "types": [
@@ -12626,6 +12690,7 @@
   },
   "ALAKAZAM": {
     "id": "ALAKAZAM",
+    "dexNumber": "65",
     "name": "Alakazam",
     "slug": "alakazam",
     "types": [
@@ -12842,6 +12907,7 @@
   },
   "MACHOP": {
     "id": "MACHOP",
+    "dexNumber": "66",
     "name": "Machop",
     "slug": "machop",
     "types": [
@@ -13061,6 +13127,7 @@
   },
   "MACHOKE": {
     "id": "MACHOKE",
+    "dexNumber": "67",
     "name": "Machoke",
     "slug": "machoke",
     "types": [
@@ -13273,6 +13340,7 @@
   },
   "MACHAMP": {
     "id": "MACHAMP",
+    "dexNumber": "68",
     "name": "Machamp",
     "slug": "machamp",
     "types": [
@@ -13481,6 +13549,7 @@
   },
   "BELLSPROUT": {
     "id": "BELLSPROUT",
+    "dexNumber": "69",
     "name": "Bellsprout",
     "slug": "bellsprout",
     "types": [
@@ -13666,6 +13735,7 @@
   },
   "WEEPINBELL": {
     "id": "WEEPINBELL",
+    "dexNumber": "70",
     "name": "Weepinbell",
     "slug": "weepinbell",
     "types": [
@@ -13837,6 +13907,7 @@
   },
   "VICTREEBEL": {
     "id": "VICTREEBEL",
+    "dexNumber": "71",
     "name": "Victreebel",
     "slug": "victreebel",
     "types": [
@@ -14036,6 +14107,7 @@
   },
   "TENTACOOL": {
     "id": "TENTACOOL",
+    "dexNumber": "72",
     "name": "Tentacool",
     "slug": "tentacool",
     "types": [
@@ -14245,6 +14317,7 @@
   },
   "TENTACRUEL": {
     "id": "TENTACRUEL",
+    "dexNumber": "73",
     "name": "Tentacruel",
     "slug": "tentacruel",
     "types": [
@@ -14445,6 +14518,7 @@
   },
   "GEODUDE": {
     "id": "GEODUDE",
+    "dexNumber": "74",
     "name": "Geodude",
     "slug": "geodude",
     "types": [
@@ -14651,6 +14725,7 @@
   },
   "GRAVELER": {
     "id": "GRAVELER",
+    "dexNumber": "75",
     "name": "Graveler",
     "slug": "graveler",
     "types": [
@@ -14860,6 +14935,7 @@
   },
   "GOLEM": {
     "id": "GOLEM",
+    "dexNumber": "76",
     "name": "Golem",
     "slug": "golem",
     "types": [
@@ -15065,6 +15141,7 @@
   },
   "PONYTA": {
     "id": "PONYTA",
+    "dexNumber": "77",
     "name": "Ponyta",
     "slug": "ponyta",
     "types": [
@@ -15236,6 +15313,7 @@
   },
   "RAPIDASH": {
     "id": "RAPIDASH",
+    "dexNumber": "78",
     "name": "Rapidash",
     "slug": "rapidash",
     "types": [
@@ -15432,6 +15510,7 @@
   },
   "SLOWPOKE": {
     "id": "SLOWPOKE",
+    "dexNumber": "79",
     "name": "Slowpoke",
     "slug": "slowpoke",
     "types": [
@@ -15672,6 +15751,7 @@
   },
   "SLOWBRO": {
     "id": "SLOWBRO",
+    "dexNumber": "80",
     "name": "Slowbro",
     "slug": "slowbro",
     "types": [
@@ -15917,6 +15997,7 @@
   },
   "MAGNEMITE": {
     "id": "MAGNEMITE",
+    "dexNumber": "81",
     "name": "Magnemite",
     "slug": "magnemite",
     "types": [
@@ -16099,6 +16180,7 @@
   },
   "MAGNETON": {
     "id": "MAGNETON",
+    "dexNumber": "82",
     "name": "Magneton",
     "slug": "magneton",
     "types": [
@@ -16296,6 +16378,7 @@
   },
   "FARFETCHD": {
     "id": "FARFETCHD",
+    "dexNumber": "83",
     "name": "Farfetch'd",
     "slug": "farfetchd",
     "types": [
@@ -16518,6 +16601,7 @@
   },
   "DODUO": {
     "id": "DODUO",
+    "dexNumber": "84",
     "name": "Doduo",
     "slug": "doduo",
     "types": [
@@ -16716,6 +16800,7 @@
   },
   "DODRIO": {
     "id": "DODRIO",
+    "dexNumber": "85",
     "name": "Dodrio",
     "slug": "dodrio",
     "types": [
@@ -16917,6 +17002,7 @@
   },
   "SEEL": {
     "id": "SEEL",
+    "dexNumber": "86",
     "name": "Seel",
     "slug": "seel",
     "types": [
@@ -17133,6 +17219,7 @@
   },
   "DEWGONG": {
     "id": "DEWGONG",
+    "dexNumber": "87",
     "name": "Dewgong",
     "slug": "dewgong",
     "types": [
@@ -17336,6 +17423,7 @@
   },
   "GRIMER": {
     "id": "GRIMER",
+    "dexNumber": "88",
     "name": "Grimer",
     "slug": "grimer",
     "types": [
@@ -17551,6 +17639,7 @@
   },
   "MUK": {
     "id": "MUK",
+    "dexNumber": "89",
     "name": "Muk",
     "slug": "muk",
     "types": [
@@ -17766,6 +17855,7 @@
   },
   "SHELLDER": {
     "id": "SHELLDER",
+    "dexNumber": "90",
     "name": "Shellder",
     "slug": "shellder",
     "types": [
@@ -17961,6 +18051,7 @@
   },
   "CLOYSTER": {
     "id": "CLOYSTER",
+    "dexNumber": "91",
     "name": "Cloyster",
     "slug": "cloyster",
     "types": [
@@ -18151,6 +18242,7 @@
   },
   "GASTLY": {
     "id": "GASTLY",
+    "dexNumber": "92",
     "name": "Gastly",
     "slug": "gastly",
     "types": [
@@ -18356,6 +18448,7 @@
   },
   "HAUNTER": {
     "id": "HAUNTER",
+    "dexNumber": "93",
     "name": "Haunter",
     "slug": "haunter",
     "types": [
@@ -18562,6 +18655,7 @@
   },
   "GENGAR": {
     "id": "GENGAR",
+    "dexNumber": "94",
     "name": "Gengar",
     "slug": "gengar",
     "types": [
@@ -18779,6 +18873,7 @@
   },
   "ONIX": {
     "id": "ONIX",
+    "dexNumber": "95",
     "name": "Onix",
     "slug": "onix",
     "types": [
@@ -19013,6 +19108,7 @@
   },
   "DROWZEE": {
     "id": "DROWZEE",
+    "dexNumber": "96",
     "name": "Drowzee",
     "slug": "drowzee",
     "types": [
@@ -19239,6 +19335,7 @@
   },
   "HYPNO": {
     "id": "HYPNO",
+    "dexNumber": "97",
     "name": "Hypno",
     "slug": "hypno",
     "types": [
@@ -19458,6 +19555,7 @@
   },
   "KRABBY": {
     "id": "KRABBY",
+    "dexNumber": "98",
     "name": "Krabby",
     "slug": "krabby",
     "types": [
@@ -19661,6 +19759,7 @@
   },
   "KINGLER": {
     "id": "KINGLER",
+    "dexNumber": "99",
     "name": "Kingler",
     "slug": "kingler",
     "types": [
@@ -19852,6 +19951,7 @@
   },
   "VOLTORB": {
     "id": "VOLTORB",
+    "dexNumber": "100",
     "name": "Voltorb",
     "slug": "voltorb",
     "types": [
@@ -20025,6 +20125,7 @@
   },
   "ELECTRODE": {
     "id": "ELECTRODE",
+    "dexNumber": "101",
     "name": "Electrode",
     "slug": "electrode",
     "types": [
@@ -20209,6 +20310,7 @@
   },
   "EXEGGCUTE": {
     "id": "EXEGGCUTE",
+    "dexNumber": "102",
     "name": "Exeggcute",
     "slug": "exeggcute",
     "types": [
@@ -20422,6 +20524,7 @@
   },
   "EXEGGUTOR": {
     "id": "EXEGGUTOR",
+    "dexNumber": "103",
     "name": "Exeggutor",
     "slug": "exeggutor",
     "types": [
@@ -20637,6 +20740,7 @@
   },
   "CUBONE": {
     "id": "CUBONE",
+    "dexNumber": "104",
     "name": "Cubone",
     "slug": "cubone",
     "types": [
@@ -20848,6 +20952,7 @@
   },
   "MAROWAK": {
     "id": "MAROWAK",
+    "dexNumber": "105",
     "name": "Marowak",
     "slug": "marowak",
     "types": [
@@ -21053,6 +21158,7 @@
   },
   "HITMONLEE": {
     "id": "HITMONLEE",
+    "dexNumber": "106",
     "name": "Hitmonlee",
     "slug": "hitmonlee",
     "types": [
@@ -21275,6 +21381,7 @@
   },
   "HITMONCHAN": {
     "id": "HITMONCHAN",
+    "dexNumber": "107",
     "name": "Hitmonchan",
     "slug": "hitmonchan",
     "types": [
@@ -21500,6 +21607,7 @@
   },
   "LICKITUNG": {
     "id": "LICKITUNG",
+    "dexNumber": "108",
     "name": "Lickitung",
     "slug": "lickitung",
     "types": [
@@ -21718,6 +21826,7 @@
   },
   "KOFFING": {
     "id": "KOFFING",
+    "dexNumber": "109",
     "name": "Koffing",
     "slug": "koffing",
     "types": [
@@ -21910,6 +22019,7 @@
   },
   "WEEZING": {
     "id": "WEEZING",
+    "dexNumber": "110",
     "name": "Weezing",
     "slug": "weezing",
     "types": [
@@ -22087,6 +22197,7 @@
   },
   "RHYHORN": {
     "id": "RHYHORN",
+    "dexNumber": "111",
     "name": "Rhyhorn",
     "slug": "rhyhorn",
     "types": [
@@ -22309,6 +22420,7 @@
   },
   "RHYDON": {
     "id": "RHYDON",
+    "dexNumber": "112",
     "name": "Rhydon",
     "slug": "rhydon",
     "types": [
@@ -22557,6 +22669,7 @@
   },
   "CHANSEY": {
     "id": "CHANSEY",
+    "dexNumber": "113",
     "name": "Chansey",
     "slug": "chansey",
     "types": [
@@ -22839,6 +22952,7 @@
   },
   "TANGELA": {
     "id": "TANGELA",
+    "dexNumber": "114",
     "name": "Tangela",
     "slug": "tangela",
     "types": [
@@ -23045,6 +23159,7 @@
   },
   "KANGASKHAN": {
     "id": "KANGASKHAN",
+    "dexNumber": "115",
     "name": "Kangaskhan",
     "slug": "kangaskhan",
     "types": [
@@ -23284,6 +23399,7 @@
   },
   "HORSEA": {
     "id": "HORSEA",
+    "dexNumber": "116",
     "name": "Horsea",
     "slug": "horsea",
     "types": [
@@ -23467,6 +23583,7 @@
   },
   "SEADRA": {
     "id": "SEADRA",
+    "dexNumber": "117",
     "name": "Seadra",
     "slug": "seadra",
     "types": [
@@ -23657,6 +23774,7 @@
   },
   "GOLDEEN": {
     "id": "GOLDEEN",
+    "dexNumber": "118",
     "name": "Goldeen",
     "slug": "goldeen",
     "types": [
@@ -23832,6 +23950,7 @@
   },
   "SEAKING": {
     "id": "SEAKING",
+    "dexNumber": "119",
     "name": "Seaking",
     "slug": "seaking",
     "types": [
@@ -24005,6 +24124,7 @@
   },
   "STARYU": {
     "id": "STARYU",
+    "dexNumber": "120",
     "name": "Staryu",
     "slug": "staryu",
     "types": [
@@ -24193,6 +24313,7 @@
   },
   "STARMIE": {
     "id": "STARMIE",
+    "dexNumber": "121",
     "name": "Starmie",
     "slug": "starmie",
     "types": [
@@ -24397,6 +24518,7 @@
   },
   "MRMIME": {
     "id": "MRMIME",
+    "dexNumber": "122",
     "name": "Mr. Mime",
     "slug": "mr-mime",
     "types": [
@@ -24694,6 +24816,7 @@
   },
   "SCYTHER": {
     "id": "SCYTHER",
+    "dexNumber": "123",
     "name": "Scyther",
     "slug": "scyther",
     "types": [
@@ -24924,6 +25047,7 @@
   },
   "JYNX": {
     "id": "JYNX",
+    "dexNumber": "124",
     "name": "Jynx",
     "slug": "jynx",
     "types": [
@@ -25155,6 +25279,7 @@
   },
   "ELECTABUZZ": {
     "id": "ELECTABUZZ",
+    "dexNumber": "125",
     "name": "Electabuzz",
     "slug": "electabuzz",
     "types": [
@@ -25357,6 +25482,7 @@
   },
   "MAGMAR": {
     "id": "MAGMAR",
+    "dexNumber": "126",
     "name": "Magmar",
     "slug": "magmar",
     "types": [
@@ -25561,6 +25687,7 @@
   },
   "PINSIR": {
     "id": "PINSIR",
+    "dexNumber": "127",
     "name": "Pinsir",
     "slug": "pinsir",
     "types": [
@@ -25759,6 +25886,7 @@
   },
   "TAUROS": {
     "id": "TAUROS",
+    "dexNumber": "128",
     "name": "Tauros",
     "slug": "tauros",
     "types": [
@@ -25953,6 +26081,7 @@
   },
   "MAGIKARP": {
     "id": "MAGIKARP",
+    "dexNumber": "129",
     "name": "Magikarp",
     "slug": "magikarp",
     "types": [
@@ -26020,6 +26149,7 @@
   },
   "GYARADOS": {
     "id": "GYARADOS",
+    "dexNumber": "130",
     "name": "Gyarados",
     "slug": "gyarados",
     "types": [
@@ -26241,6 +26371,7 @@
   },
   "LAPRAS": {
     "id": "LAPRAS",
+    "dexNumber": "131",
     "name": "Lapras",
     "slug": "lapras",
     "types": [
@@ -26455,6 +26586,7 @@
   },
   "DITTO": {
     "id": "DITTO",
+    "dexNumber": "132",
     "name": "Ditto",
     "slug": "ditto",
     "types": [
@@ -26500,6 +26632,7 @@
   },
   "EEVEE": {
     "id": "EEVEE",
+    "dexNumber": "133",
     "name": "Eevee",
     "slug": "eevee",
     "types": [
@@ -26736,6 +26869,7 @@
   },
   "VAPOREON": {
     "id": "VAPOREON",
+    "dexNumber": "134",
     "name": "Vaporeon",
     "slug": "vaporeon",
     "types": [
@@ -26957,6 +27091,7 @@
   },
   "JOLTEON": {
     "id": "JOLTEON",
+    "dexNumber": "135",
     "name": "Jolteon",
     "slug": "jolteon",
     "types": [
@@ -27189,6 +27324,7 @@
   },
   "FLAREON": {
     "id": "FLAREON",
+    "dexNumber": "136",
     "name": "Flareon",
     "slug": "flareon",
     "types": [
@@ -27412,6 +27548,7 @@
   },
   "PORYGON": {
     "id": "PORYGON",
+    "dexNumber": "137",
     "name": "Porygon",
     "slug": "porygon",
     "types": [
@@ -27598,6 +27735,7 @@
   },
   "OMANYTE": {
     "id": "OMANYTE",
+    "dexNumber": "138",
     "name": "Omanyte",
     "slug": "omanyte",
     "types": [
@@ -27796,6 +27934,7 @@
   },
   "OMASTAR": {
     "id": "OMASTAR",
+    "dexNumber": "139",
     "name": "Omastar",
     "slug": "omastar",
     "types": [
@@ -27989,6 +28128,7 @@
   },
   "KABUTO": {
     "id": "KABUTO",
+    "dexNumber": "140",
     "name": "Kabuto",
     "slug": "kabuto",
     "types": [
@@ -28182,6 +28322,7 @@
   },
   "KABUTOPS": {
     "id": "KABUTOPS",
+    "dexNumber": "141",
     "name": "Kabutops",
     "slug": "kabutops",
     "types": [
@@ -28389,6 +28530,7 @@
   },
   "AERODACTYL": {
     "id": "AERODACTYL",
+    "dexNumber": "142",
     "name": "Aerodactyl",
     "slug": "aerodactyl",
     "types": [
@@ -28599,6 +28741,7 @@
   },
   "SNORLAX": {
     "id": "SNORLAX",
+    "dexNumber": "143",
     "name": "Snorlax",
     "slug": "snorlax",
     "types": [
@@ -28888,6 +29031,7 @@
   },
   "ARTICUNO": {
     "id": "ARTICUNO",
+    "dexNumber": "144",
     "name": "Articuno",
     "slug": "articuno",
     "types": [
@@ -29073,6 +29217,7 @@
   },
   "ZAPDOS": {
     "id": "ZAPDOS",
+    "dexNumber": "145",
     "name": "Zapdos",
     "slug": "zapdos",
     "types": [
@@ -29252,6 +29397,7 @@
   },
   "MOLTRES": {
     "id": "MOLTRES",
+    "dexNumber": "146",
     "name": "Moltres",
     "slug": "moltres",
     "types": [
@@ -29443,6 +29589,7 @@
   },
   "DRATINI": {
     "id": "DRATINI",
+    "dexNumber": "147",
     "name": "Dratini",
     "slug": "dratini",
     "types": [
@@ -29633,6 +29780,7 @@
   },
   "DRAGONAIR": {
     "id": "DRAGONAIR",
+    "dexNumber": "148",
     "name": "Dragonair",
     "slug": "dragonair",
     "types": [
@@ -29811,6 +29959,7 @@
   },
   "DRAGONITE": {
     "id": "DRAGONITE",
+    "dexNumber": "149",
     "name": "Dragonite",
     "slug": "dragonite",
     "types": [
@@ -30059,6 +30208,7 @@
   },
   "MEWTWO": {
     "id": "MEWTWO",
+    "dexNumber": "150",
     "name": "Mewtwo",
     "slug": "mewtwo",
     "types": [
@@ -30335,6 +30485,7 @@
   },
   "MEW": {
     "id": "MEW",
+    "dexNumber": "151",
     "name": "Mew",
     "slug": "mew",
     "types": [
@@ -30779,6 +30930,7 @@
   },
   "CHIKORITA": {
     "id": "CHIKORITA",
+    "dexNumber": "152",
     "name": "Chikorita",
     "slug": "chikorita",
     "types": [
@@ -30979,6 +31131,7 @@
   },
   "BAYLEEF": {
     "id": "BAYLEEF",
+    "dexNumber": "153",
     "name": "Bayleef",
     "slug": "bayleef",
     "types": [
@@ -31175,6 +31328,7 @@
   },
   "MEGANIUM": {
     "id": "MEGANIUM",
+    "dexNumber": "154",
     "name": "Meganium",
     "slug": "meganium",
     "types": [
@@ -31391,6 +31545,7 @@
   },
   "CYNDAQUIL": {
     "id": "CYNDAQUIL",
+    "dexNumber": "155",
     "name": "Cyndaquil",
     "slug": "cyndaquil",
     "types": [
@@ -31580,6 +31735,7 @@
   },
   "QUILAVA": {
     "id": "QUILAVA",
+    "dexNumber": "156",
     "name": "Quilava",
     "slug": "quilava",
     "types": [
@@ -31771,6 +31927,7 @@
   },
   "TYPHLOSION": {
     "id": "TYPHLOSION",
+    "dexNumber": "157",
     "name": "Typhlosion",
     "slug": "typhlosion",
     "types": [
@@ -31991,6 +32148,7 @@
   },
   "TOTODILE": {
     "id": "TOTODILE",
+    "dexNumber": "158",
     "name": "Totodile",
     "slug": "totodile",
     "types": [
@@ -32211,6 +32369,7 @@
   },
   "CROCONAW": {
     "id": "CROCONAW",
+    "dexNumber": "159",
     "name": "Croconaw",
     "slug": "croconaw",
     "types": [
@@ -32424,6 +32583,7 @@
   },
   "FERALIGATR": {
     "id": "FERALIGATR",
+    "dexNumber": "160",
     "name": "Feraligatr",
     "slug": "feraligatr",
     "types": [
@@ -32660,6 +32820,7 @@
   },
   "SENTRET": {
     "id": "SENTRET",
+    "dexNumber": "161",
     "name": "Sentret",
     "slug": "sentret",
     "types": [
@@ -32872,6 +33033,7 @@
   },
   "FURRET": {
     "id": "FURRET",
+    "dexNumber": "162",
     "name": "Furret",
     "slug": "furret",
     "types": [
@@ -33075,6 +33237,7 @@
   },
   "HOOTHOOT": {
     "id": "HOOTHOOT",
+    "dexNumber": "163",
     "name": "Hoothoot",
     "slug": "hoothoot",
     "types": [
@@ -33288,6 +33451,7 @@
   },
   "NOCTOWL": {
     "id": "NOCTOWL",
+    "dexNumber": "164",
     "name": "Noctowl",
     "slug": "noctowl",
     "types": [
@@ -33496,6 +33660,7 @@
   },
   "LEDYBA": {
     "id": "LEDYBA",
+    "dexNumber": "165",
     "name": "Ledyba",
     "slug": "ledyba",
     "types": [
@@ -33691,6 +33856,7 @@
   },
   "LEDIAN": {
     "id": "LEDIAN",
+    "dexNumber": "166",
     "name": "Ledian",
     "slug": "ledian",
     "types": [
@@ -33880,6 +34046,7 @@
   },
   "SPINARAK": {
     "id": "SPINARAK",
+    "dexNumber": "167",
     "name": "Spinarak",
     "slug": "spinarak",
     "types": [
@@ -34085,6 +34252,7 @@
   },
   "ARIADOS": {
     "id": "ARIADOS",
+    "dexNumber": "168",
     "name": "Ariados",
     "slug": "ariados",
     "types": [
@@ -34306,6 +34474,7 @@
   },
   "CROBAT": {
     "id": "CROBAT",
+    "dexNumber": "169",
     "name": "Crobat",
     "slug": "crobat",
     "types": [
@@ -34498,6 +34667,7 @@
   },
   "CHINCHOU": {
     "id": "CHINCHOU",
+    "dexNumber": "170",
     "name": "Chinchou",
     "slug": "chinchou",
     "types": [
@@ -34688,6 +34858,7 @@
   },
   "LANTURN": {
     "id": "LANTURN",
+    "dexNumber": "171",
     "name": "Lanturn",
     "slug": "lanturn",
     "types": [
@@ -34880,6 +35051,7 @@
   },
   "PICHU": {
     "id": "PICHU",
+    "dexNumber": "172",
     "name": "Pichu",
     "slug": "pichu",
     "types": [
@@ -35045,6 +35217,7 @@
   },
   "CLEFFA": {
     "id": "CLEFFA",
+    "dexNumber": "173",
     "name": "Cleffa",
     "slug": "cleffa",
     "types": [
@@ -35240,6 +35413,7 @@
   },
   "IGGLYBUFF": {
     "id": "IGGLYBUFF",
+    "dexNumber": "174",
     "name": "Igglybuff",
     "slug": "igglybuff",
     "types": [
@@ -35420,6 +35594,7 @@
   },
   "TOGEPI": {
     "id": "TOGEPI",
+    "dexNumber": "175",
     "name": "Togepi",
     "slug": "togepi",
     "types": [
@@ -35639,6 +35814,7 @@
   },
   "TOGETIC": {
     "id": "TOGETIC",
+    "dexNumber": "176",
     "name": "Togetic",
     "slug": "togetic",
     "types": [
@@ -35878,6 +36054,7 @@
   },
   "NATU": {
     "id": "NATU",
+    "dexNumber": "177",
     "name": "Natu",
     "slug": "natu",
     "types": [
@@ -36086,6 +36263,7 @@
   },
   "XATU": {
     "id": "XATU",
+    "dexNumber": "178",
     "name": "Xatu",
     "slug": "xatu",
     "types": [
@@ -36301,6 +36479,7 @@
   },
   "MAREEP": {
     "id": "MAREEP",
+    "dexNumber": "179",
     "name": "Mareep",
     "slug": "mareep",
     "types": [
@@ -36496,6 +36675,7 @@
   },
   "FLAAFFY": {
     "id": "FLAAFFY",
+    "dexNumber": "180",
     "name": "Flaaffy",
     "slug": "flaaffy",
     "types": [
@@ -36693,6 +36873,7 @@
   },
   "AMPHAROS": {
     "id": "AMPHAROS",
+    "dexNumber": "181",
     "name": "Ampharos",
     "slug": "ampharos",
     "types": [
@@ -36922,6 +37103,7 @@
   },
   "BELLOSSOM": {
     "id": "BELLOSSOM",
+    "dexNumber": "182",
     "name": "Bellossom",
     "slug": "bellossom",
     "types": [
@@ -37119,6 +37301,7 @@
   },
   "MARILL": {
     "id": "MARILL",
+    "dexNumber": "183",
     "name": "Marill",
     "slug": "marill",
     "types": [
@@ -37359,6 +37542,7 @@
   },
   "AZUMARILL": {
     "id": "AZUMARILL",
+    "dexNumber": "184",
     "name": "Azumarill",
     "slug": "azumarill",
     "types": [
@@ -37579,6 +37763,7 @@
   },
   "SUDOWOODO": {
     "id": "SUDOWOODO",
+    "dexNumber": "185",
     "name": "Sudowoodo",
     "slug": "sudowoodo",
     "types": [
@@ -37812,6 +37997,7 @@
   },
   "POLITOED": {
     "id": "POLITOED",
+    "dexNumber": "186",
     "name": "Politoed",
     "slug": "politoed",
     "types": [
@@ -38004,6 +38190,7 @@
   },
   "HOPPIP": {
     "id": "HOPPIP",
+    "dexNumber": "187",
     "name": "Hoppip",
     "slug": "hoppip",
     "types": [
@@ -38216,6 +38403,7 @@
   },
   "SKIPLOOM": {
     "id": "SKIPLOOM",
+    "dexNumber": "188",
     "name": "Skiploom",
     "slug": "skiploom",
     "types": [
@@ -38411,6 +38599,7 @@
   },
   "JUMPLUFF": {
     "id": "JUMPLUFF",
+    "dexNumber": "189",
     "name": "Jumpluff",
     "slug": "jumpluff",
     "types": [
@@ -38621,6 +38810,7 @@
   },
   "AIPOM": {
     "id": "AIPOM",
+    "dexNumber": "190",
     "name": "Aipom",
     "slug": "aipom",
     "types": [
@@ -38843,6 +39033,7 @@
   },
   "SUNKERN": {
     "id": "SUNKERN",
+    "dexNumber": "191",
     "name": "Sunkern",
     "slug": "sunkern",
     "types": [
@@ -39031,6 +39222,7 @@
   },
   "SUNFLORA": {
     "id": "SUNFLORA",
+    "dexNumber": "192",
     "name": "Sunflora",
     "slug": "sunflora",
     "types": [
@@ -39243,6 +39435,7 @@
   },
   "YANMA": {
     "id": "YANMA",
+    "dexNumber": "193",
     "name": "Yanma",
     "slug": "yanma",
     "types": [
@@ -39449,6 +39642,7 @@
   },
   "WOOPER": {
     "id": "WOOPER",
+    "dexNumber": "194",
     "name": "Wooper",
     "slug": "wooper",
     "types": [
@@ -39661,6 +39855,7 @@
   },
   "QUAGSIRE": {
     "id": "QUAGSIRE",
+    "dexNumber": "195",
     "name": "Quagsire",
     "slug": "quagsire",
     "types": [
@@ -39869,6 +40064,7 @@
   },
   "ESPEON": {
     "id": "ESPEON",
+    "dexNumber": "196",
     "name": "Espeon",
     "slug": "espeon",
     "types": [
@@ -40098,6 +40294,7 @@
   },
   "UMBREON": {
     "id": "UMBREON",
+    "dexNumber": "197",
     "name": "Umbreon",
     "slug": "umbreon",
     "types": [
@@ -40339,6 +40536,7 @@
   },
   "MURKROW": {
     "id": "MURKROW",
+    "dexNumber": "198",
     "name": "Murkrow",
     "slug": "murkrow",
     "types": [
@@ -40556,6 +40754,7 @@
   },
   "SLOWKING": {
     "id": "SLOWKING",
+    "dexNumber": "199",
     "name": "Slowking",
     "slug": "slowking",
     "types": [
@@ -40825,6 +41024,7 @@
   },
   "MISDREAVUS": {
     "id": "MISDREAVUS",
+    "dexNumber": "200",
     "name": "Misdreavus",
     "slug": "misdreavus",
     "types": [
@@ -41042,6 +41242,7 @@
   },
   "UNOWN": {
     "id": "UNOWN",
+    "dexNumber": "201",
     "name": "Unown",
     "slug": "unown",
     "types": [
@@ -41103,6 +41304,7 @@
   },
   "WOBBUFFET": {
     "id": "WOBBUFFET",
+    "dexNumber": "202",
     "name": "Wobbuffet",
     "slug": "wobbuffet",
     "types": [
@@ -41182,6 +41384,7 @@
   },
   "GIRAFARIG": {
     "id": "GIRAFARIG",
+    "dexNumber": "203",
     "name": "Girafarig",
     "slug": "girafarig",
     "types": [
@@ -41413,6 +41616,7 @@
   },
   "PINECO": {
     "id": "PINECO",
+    "dexNumber": "204",
     "name": "Pineco",
     "slug": "pineco",
     "types": [
@@ -41611,6 +41815,7 @@
   },
   "FORRETRESS": {
     "id": "FORRETRESS",
+    "dexNumber": "205",
     "name": "Forretress",
     "slug": "forretress",
     "types": [
@@ -41831,6 +42036,7 @@
   },
   "DUNSPARCE": {
     "id": "DUNSPARCE",
+    "dexNumber": "206",
     "name": "Dunsparce",
     "slug": "dunsparce",
     "types": [
@@ -42102,6 +42308,7 @@
   },
   "GLIGAR": {
     "id": "GLIGAR",
+    "dexNumber": "207",
     "name": "Gligar",
     "slug": "gligar",
     "types": [
@@ -42339,6 +42546,7 @@
   },
   "STEELIX": {
     "id": "STEELIX",
+    "dexNumber": "208",
     "name": "Steelix",
     "slug": "steelix",
     "types": [
@@ -42595,6 +42803,7 @@
   },
   "SNUBBULL": {
     "id": "SNUBBULL",
+    "dexNumber": "209",
     "name": "Snubbull",
     "slug": "snubbull",
     "types": [
@@ -42841,6 +43050,7 @@
   },
   "GRANBULL": {
     "id": "GRANBULL",
+    "dexNumber": "210",
     "name": "Granbull",
     "slug": "granbull",
     "types": [
@@ -43082,6 +43292,7 @@
   },
   "QWILFISH": {
     "id": "QWILFISH",
+    "dexNumber": "211",
     "name": "Qwilfish",
     "slug": "qwilfish",
     "types": [
@@ -43317,6 +43528,7 @@
   },
   "SCIZOR": {
     "id": "SCIZOR",
+    "dexNumber": "212",
     "name": "Scizor",
     "slug": "scizor",
     "types": [
@@ -43536,6 +43748,7 @@
   },
   "SHUCKLE": {
     "id": "SHUCKLE",
+    "dexNumber": "213",
     "name": "Shuckle",
     "slug": "shuckle",
     "types": [
@@ -43744,6 +43957,7 @@
   },
   "HERACROSS": {
     "id": "HERACROSS",
+    "dexNumber": "214",
     "name": "Heracross",
     "slug": "heracross",
     "types": [
@@ -43962,6 +44176,7 @@
   },
   "SNEASEL": {
     "id": "SNEASEL",
+    "dexNumber": "215",
     "name": "Sneasel",
     "slug": "sneasel",
     "types": [
@@ -44193,6 +44408,7 @@
   },
   "TEDDIURSA": {
     "id": "TEDDIURSA",
+    "dexNumber": "216",
     "name": "Teddiursa",
     "slug": "teddiursa",
     "types": [
@@ -44418,6 +44634,7 @@
   },
   "URSARING": {
     "id": "URSARING",
+    "dexNumber": "217",
     "name": "Ursaring",
     "slug": "ursaring",
     "types": [
@@ -44644,6 +44861,7 @@
   },
   "SLUGMA": {
     "id": "SLUGMA",
+    "dexNumber": "218",
     "name": "Slugma",
     "slug": "slugma",
     "types": [
@@ -44834,6 +45052,7 @@
   },
   "MAGCARGO": {
     "id": "MAGCARGO",
+    "dexNumber": "219",
     "name": "Magcargo",
     "slug": "magcargo",
     "types": [
@@ -45020,6 +45239,7 @@
   },
   "SWINUB": {
     "id": "SWINUB",
+    "dexNumber": "220",
     "name": "Swinub",
     "slug": "swinub",
     "types": [
@@ -45211,6 +45431,7 @@
   },
   "PILOSWINE": {
     "id": "PILOSWINE",
+    "dexNumber": "221",
     "name": "Piloswine",
     "slug": "piloswine",
     "types": [
@@ -45422,6 +45643,7 @@
   },
   "CORSOLA": {
     "id": "CORSOLA",
+    "dexNumber": "222",
     "name": "Corsola",
     "slug": "corsola",
     "types": [
@@ -45647,6 +45869,7 @@
   },
   "REMORAID": {
     "id": "REMORAID",
+    "dexNumber": "223",
     "name": "Remoraid",
     "slug": "remoraid",
     "types": [
@@ -45836,6 +46059,7 @@
   },
   "OCTILLERY": {
     "id": "OCTILLERY",
+    "dexNumber": "224",
     "name": "Octillery",
     "slug": "octillery",
     "types": [
@@ -46045,6 +46269,7 @@
   },
   "DELIBIRD": {
     "id": "DELIBIRD",
+    "dexNumber": "225",
     "name": "Delibird",
     "slug": "delibird",
     "types": [
@@ -46261,6 +46486,7 @@
   },
   "MANTINE": {
     "id": "MANTINE",
+    "dexNumber": "226",
     "name": "Mantine",
     "slug": "mantine",
     "types": [
@@ -46475,6 +46701,7 @@
   },
   "SKARMORY": {
     "id": "SKARMORY",
+    "dexNumber": "227",
     "name": "Skarmory",
     "slug": "skarmory",
     "types": [
@@ -46700,6 +46927,7 @@
   },
   "HOUNDOUR": {
     "id": "HOUNDOUR",
+    "dexNumber": "228",
     "name": "Houndour",
     "slug": "houndour",
     "types": [
@@ -46932,6 +47160,7 @@
   },
   "HOUNDOOM": {
     "id": "HOUNDOOM",
+    "dexNumber": "229",
     "name": "Houndoom",
     "slug": "houndoom",
     "types": [
@@ -47151,6 +47380,7 @@
   },
   "KINGDRA": {
     "id": "KINGDRA",
+    "dexNumber": "230",
     "name": "Kingdra",
     "slug": "kingdra",
     "types": [
@@ -47353,6 +47583,7 @@
   },
   "PHANPY": {
     "id": "PHANPY",
+    "dexNumber": "231",
     "name": "Phanpy",
     "slug": "phanpy",
     "types": [
@@ -47545,6 +47776,7 @@
   },
   "DONPHAN": {
     "id": "DONPHAN",
+    "dexNumber": "232",
     "name": "Donphan",
     "slug": "donphan",
     "types": [
@@ -47796,6 +48028,7 @@
   },
   "PORYGON2": {
     "id": "PORYGON2",
+    "dexNumber": "233",
     "name": "Porygon2",
     "slug": "porygon2",
     "types": [
@@ -47987,6 +48220,7 @@
   },
   "STANTLER": {
     "id": "STANTLER",
+    "dexNumber": "234",
     "name": "Stantler",
     "slug": "stantler",
     "types": [
@@ -48216,6 +48450,7 @@
   },
   "SMEARGLE": {
     "id": "SMEARGLE",
+    "dexNumber": "235",
     "name": "Smeargle",
     "slug": "smeargle",
     "types": [
@@ -48262,6 +48497,7 @@
   },
   "TYROGUE": {
     "id": "TYROGUE",
+    "dexNumber": "236",
     "name": "Tyrogue",
     "slug": "tyrogue",
     "types": [
@@ -48407,6 +48643,7 @@
   },
   "HITMONTOP": {
     "id": "HITMONTOP",
+    "dexNumber": "237",
     "name": "Hitmontop",
     "slug": "hitmontop",
     "types": [
@@ -48608,6 +48845,7 @@
   },
   "SMOOCHUM": {
     "id": "SMOOCHUM",
+    "dexNumber": "238",
     "name": "Smoochum",
     "slug": "smoochum",
     "types": [
@@ -48821,6 +49059,7 @@
   },
   "ELEKID": {
     "id": "ELEKID",
+    "dexNumber": "239",
     "name": "Elekid",
     "slug": "elekid",
     "types": [
@@ -49014,6 +49253,7 @@
   },
   "MAGBY": {
     "id": "MAGBY",
+    "dexNumber": "240",
     "name": "Magby",
     "slug": "magby",
     "types": [
@@ -49214,6 +49454,7 @@
   },
   "MILTANK": {
     "id": "MILTANK",
+    "dexNumber": "241",
     "name": "Miltank",
     "slug": "miltank",
     "types": [
@@ -49426,6 +49667,7 @@
   },
   "BLISSEY": {
     "id": "BLISSEY",
+    "dexNumber": "242",
     "name": "Blissey",
     "slug": "blissey",
     "types": [
@@ -49692,6 +49934,7 @@
   },
   "RAIKOU": {
     "id": "RAIKOU",
+    "dexNumber": "243",
     "name": "Raikou",
     "slug": "raikou",
     "types": [
@@ -49884,6 +50127,7 @@
   },
   "ENTEI": {
     "id": "ENTEI",
+    "dexNumber": "244",
     "name": "Entei",
     "slug": "entei",
     "types": [
@@ -50082,6 +50326,7 @@
   },
   "SUICUNE": {
     "id": "SUICUNE",
+    "dexNumber": "245",
     "name": "Suicune",
     "slug": "suicune",
     "types": [
@@ -50286,6 +50531,7 @@
   },
   "LARVITAR": {
     "id": "LARVITAR",
+    "dexNumber": "246",
     "name": "Larvitar",
     "slug": "larvitar",
     "types": [
@@ -50493,6 +50739,7 @@
   },
   "PUPITAR": {
     "id": "PUPITAR",
+    "dexNumber": "247",
     "name": "Pupitar",
     "slug": "pupitar",
     "types": [
@@ -50690,6 +50937,7 @@
   },
   "TYRANITAR": {
     "id": "TYRANITAR",
+    "dexNumber": "248",
     "name": "Tyranitar",
     "slug": "tyranitar",
     "types": [
@@ -50950,6 +51198,7 @@
   },
   "LUGIA": {
     "id": "LUGIA",
+    "dexNumber": "249",
     "name": "Lugia",
     "slug": "lugia",
     "types": [
@@ -51162,6 +51411,7 @@
   },
   "HOOH": {
     "id": "HOOH",
+    "dexNumber": "250",
     "name": "Ho-Oh",
     "slug": "hooh",
     "types": [
@@ -51367,6 +51617,7 @@
   },
   "CELEBI": {
     "id": "CELEBI",
+    "dexNumber": "251",
     "name": "Celebi",
     "slug": "celebi",
     "types": [
@@ -51565,6 +51816,7 @@
   },
   "TREECKO": {
     "id": "TREECKO",
+    "dexNumber": "252",
     "name": "Treecko",
     "slug": "treecko",
     "types": [
@@ -51785,6 +52037,7 @@
   },
   "GROVYLE": {
     "id": "GROVYLE",
+    "dexNumber": "253",
     "name": "Grovyle",
     "slug": "grovyle",
     "types": [
@@ -52011,6 +52264,7 @@
   },
   "SCEPTILE": {
     "id": "SCEPTILE",
+    "dexNumber": "254",
     "name": "Sceptile",
     "slug": "sceptile",
     "types": [
@@ -52283,6 +52537,7 @@
   },
   "TORCHIC": {
     "id": "TORCHIC",
+    "dexNumber": "255",
     "name": "Torchic",
     "slug": "torchic",
     "types": [
@@ -52488,6 +52743,7 @@
   },
   "COMBUSKEN": {
     "id": "COMBUSKEN",
+    "dexNumber": "256",
     "name": "Combusken",
     "slug": "combusken",
     "types": [
@@ -52712,6 +52968,7 @@
   },
   "BLAZIKEN": {
     "id": "BLAZIKEN",
+    "dexNumber": "257",
     "name": "Blaziken",
     "slug": "blaziken",
     "types": [
@@ -52957,6 +53214,7 @@
   },
   "MUDKIP": {
     "id": "MUDKIP",
+    "dexNumber": "258",
     "name": "Mudkip",
     "slug": "mudkip",
     "types": [
@@ -53168,6 +53426,7 @@
   },
   "MARSHTOMP": {
     "id": "MARSHTOMP",
+    "dexNumber": "259",
     "name": "Marshtomp",
     "slug": "marshtomp",
     "types": [
@@ -53376,6 +53635,7 @@
   },
   "SWAMPERT": {
     "id": "SWAMPERT",
+    "dexNumber": "260",
     "name": "Swampert",
     "slug": "swampert",
     "types": [
@@ -53612,6 +53872,7 @@
   },
   "POOCHYENA": {
     "id": "POOCHYENA",
+    "dexNumber": "261",
     "name": "Poochyena",
     "slug": "poochyena",
     "types": [
@@ -53817,6 +54078,7 @@
   },
   "MIGHTYENA": {
     "id": "MIGHTYENA",
+    "dexNumber": "262",
     "name": "Mightyena",
     "slug": "mightyena",
     "types": [
@@ -54029,6 +54291,7 @@
   },
   "ZIGZAGOON": {
     "id": "ZIGZAGOON",
+    "dexNumber": "263",
     "name": "Zigzagoon",
     "slug": "zigzagoon",
     "types": [
@@ -54234,6 +54497,7 @@
   },
   "LINOONE": {
     "id": "LINOONE",
+    "dexNumber": "264",
     "name": "Linoone",
     "slug": "linoone",
     "types": [
@@ -54440,6 +54704,7 @@
   },
   "WURMPLE": {
     "id": "WURMPLE",
+    "dexNumber": "265",
     "name": "Wurmple",
     "slug": "wurmple",
     "types": [
@@ -54515,6 +54780,7 @@
   },
   "SILCOON": {
     "id": "SILCOON",
+    "dexNumber": "266",
     "name": "Silcoon",
     "slug": "silcoon",
     "types": [
@@ -54570,6 +54836,7 @@
   },
   "BEAUTIFLY": {
     "id": "BEAUTIFLY",
+    "dexNumber": "267",
     "name": "Beautifly",
     "slug": "beautifly",
     "types": [
@@ -54748,6 +55015,7 @@
   },
   "CASCOON": {
     "id": "CASCOON",
+    "dexNumber": "268",
     "name": "Cascoon",
     "slug": "cascoon",
     "types": [
@@ -54803,6 +55071,7 @@
   },
   "DUSTOX": {
     "id": "DUSTOX",
+    "dexNumber": "269",
     "name": "Dustox",
     "slug": "dustox",
     "types": [
@@ -54979,6 +55248,7 @@
   },
   "LOTAD": {
     "id": "LOTAD",
+    "dexNumber": "270",
     "name": "Lotad",
     "slug": "lotad",
     "types": [
@@ -55161,6 +55431,7 @@
   },
   "LOMBRE": {
     "id": "LOMBRE",
+    "dexNumber": "271",
     "name": "Lombre",
     "slug": "lombre",
     "types": [
@@ -55382,6 +55653,7 @@
   },
   "LUDICOLO": {
     "id": "LUDICOLO",
+    "dexNumber": "272",
     "name": "Ludicolo",
     "slug": "ludicolo",
     "types": [
@@ -55599,6 +55871,7 @@
   },
   "SEEDOT": {
     "id": "SEEDOT",
+    "dexNumber": "273",
     "name": "Seedot",
     "slug": "seedot",
     "types": [
@@ -55787,6 +56060,7 @@
   },
   "NUZLEAF": {
     "id": "NUZLEAF",
+    "dexNumber": "274",
     "name": "Nuzleaf",
     "slug": "nuzleaf",
     "types": [
@@ -56030,6 +56304,7 @@
   },
   "SHIFTRY": {
     "id": "SHIFTRY",
+    "dexNumber": "275",
     "name": "Shiftry",
     "slug": "shiftry",
     "types": [
@@ -56327,6 +56602,7 @@
   },
   "TAILLOW": {
     "id": "TAILLOW",
+    "dexNumber": "276",
     "name": "Taillow",
     "slug": "taillow",
     "types": [
@@ -56487,6 +56763,7 @@
   },
   "SWELLOW": {
     "id": "SWELLOW",
+    "dexNumber": "277",
     "name": "Swellow",
     "slug": "swellow",
     "types": [
@@ -56632,6 +56909,7 @@
   },
   "WINGULL": {
     "id": "WINGULL",
+    "dexNumber": "278",
     "name": "Wingull",
     "slug": "wingull",
     "types": [
@@ -56821,6 +57099,7 @@
   },
   "PELIPPER": {
     "id": "PELIPPER",
+    "dexNumber": "279",
     "name": "Pelipper",
     "slug": "pelipper",
     "types": [
@@ -57035,6 +57314,7 @@
   },
   "RALTS": {
     "id": "RALTS",
+    "dexNumber": "280",
     "name": "Ralts",
     "slug": "ralts",
     "types": [
@@ -57270,6 +57550,7 @@
   },
   "KIRLIA": {
     "id": "KIRLIA",
+    "dexNumber": "281",
     "name": "Kirlia",
     "slug": "kirlia",
     "types": [
@@ -57493,6 +57774,7 @@
   },
   "GARDEVOIR": {
     "id": "GARDEVOIR",
+    "dexNumber": "282",
     "name": "Gardevoir",
     "slug": "gardevoir",
     "types": [
@@ -57754,6 +58036,7 @@
   },
   "SURSKIT": {
     "id": "SURSKIT",
+    "dexNumber": "283",
     "name": "Surskit",
     "slug": "surskit",
     "types": [
@@ -57931,6 +58214,7 @@
   },
   "MASQUERAIN": {
     "id": "MASQUERAIN",
+    "dexNumber": "284",
     "name": "Masquerain",
     "slug": "masquerain",
     "types": [
@@ -58166,6 +58450,7 @@
   },
   "SHROOMISH": {
     "id": "SHROOMISH",
+    "dexNumber": "285",
     "name": "Shroomish",
     "slug": "shroomish",
     "types": [
@@ -58334,6 +58619,7 @@
   },
   "BRELOOM": {
     "id": "BRELOOM",
+    "dexNumber": "286",
     "name": "Breloom",
     "slug": "breloom",
     "types": [
@@ -58562,6 +58848,7 @@
   },
   "SLAKOTH": {
     "id": "SLAKOTH",
+    "dexNumber": "287",
     "name": "Slakoth",
     "slug": "slakoth",
     "types": [
@@ -58760,6 +59047,7 @@
   },
   "VIGOROTH": {
     "id": "VIGOROTH",
+    "dexNumber": "288",
     "name": "Vigoroth",
     "slug": "vigoroth",
     "types": [
@@ -58990,6 +59278,7 @@
   },
   "SLAKING": {
     "id": "SLAKING",
+    "dexNumber": "289",
     "name": "Slaking",
     "slug": "slaking",
     "types": [
@@ -59256,6 +59545,7 @@
   },
   "NINCADA": {
     "id": "NINCADA",
+    "dexNumber": "290",
     "name": "Nincada",
     "slug": "nincada",
     "types": [
@@ -59413,6 +59703,7 @@
   },
   "NINJASK": {
     "id": "NINJASK",
+    "dexNumber": "291",
     "name": "Ninjask",
     "slug": "ninjask",
     "types": [
@@ -59615,6 +59906,7 @@
   },
   "SHEDINJA": {
     "id": "SHEDINJA",
+    "dexNumber": "292",
     "name": "Shedinja",
     "slug": "shedinja",
     "types": [
@@ -59787,6 +60079,7 @@
   },
   "WHISMUR": {
     "id": "WHISMUR",
+    "dexNumber": "293",
     "name": "Whismur",
     "slug": "whismur",
     "types": [
@@ -59960,6 +60253,7 @@
   },
   "LOUDRED": {
     "id": "LOUDRED",
+    "dexNumber": "294",
     "name": "Loudred",
     "slug": "loudred",
     "types": [
@@ -60138,6 +60432,7 @@
   },
   "EXPLOUD": {
     "id": "EXPLOUD",
+    "dexNumber": "295",
     "name": "Exploud",
     "slug": "exploud",
     "types": [
@@ -60347,6 +60642,7 @@
   },
   "MAKUHITA": {
     "id": "MAKUHITA",
+    "dexNumber": "296",
     "name": "Makuhita",
     "slug": "makuhita",
     "types": [
@@ -60577,6 +60873,7 @@
   },
   "HARIYAMA": {
     "id": "HARIYAMA",
+    "dexNumber": "297",
     "name": "Hariyama",
     "slug": "hariyama",
     "types": [
@@ -60808,6 +61105,7 @@
   },
   "AZURILL": {
     "id": "AZURILL",
+    "dexNumber": "298",
     "name": "Azurill",
     "slug": "azurill",
     "types": [
@@ -60973,6 +61271,7 @@
   },
   "NOSEPASS": {
     "id": "NOSEPASS",
+    "dexNumber": "299",
     "name": "Nosepass",
     "slug": "nosepass",
     "types": [
@@ -61169,6 +61468,7 @@
   },
   "SKITTY": {
     "id": "SKITTY",
+    "dexNumber": "300",
     "name": "Skitty",
     "slug": "skitty",
     "types": [
@@ -61395,6 +61695,7 @@
   },
   "DELCATTY": {
     "id": "DELCATTY",
+    "dexNumber": "301",
     "name": "Delcatty",
     "slug": "delcatty",
     "types": [
@@ -61583,6 +61884,7 @@
   },
   "SABLEYE": {
     "id": "SABLEYE",
+    "dexNumber": "302",
     "name": "Sableye",
     "slug": "sableye",
     "types": [
@@ -61853,6 +62155,7 @@
   },
   "MAWILE": {
     "id": "MAWILE",
+    "dexNumber": "303",
     "name": "Mawile",
     "slug": "mawile",
     "types": [
@@ -62092,6 +62395,7 @@
   },
   "ARON": {
     "id": "ARON",
+    "dexNumber": "304",
     "name": "Aron",
     "slug": "aron",
     "types": [
@@ -62293,6 +62597,7 @@
   },
   "LAIRON": {
     "id": "LAIRON",
+    "dexNumber": "305",
     "name": "Lairon",
     "slug": "lairon",
     "types": [
@@ -62487,6 +62792,7 @@
   },
   "AGGRON": {
     "id": "AGGRON",
+    "dexNumber": "306",
     "name": "Aggron",
     "slug": "aggron",
     "types": [
@@ -62726,6 +63032,7 @@
   },
   "MEDITITE": {
     "id": "MEDITITE",
+    "dexNumber": "307",
     "name": "Meditite",
     "slug": "meditite",
     "types": [
@@ -62970,6 +63277,7 @@
   },
   "MEDICHAM": {
     "id": "MEDICHAM",
+    "dexNumber": "308",
     "name": "Medicham",
     "slug": "medicham",
     "types": [
@@ -63212,6 +63520,7 @@
   },
   "ELECTRIKE": {
     "id": "ELECTRIKE",
+    "dexNumber": "309",
     "name": "Electrike",
     "slug": "electrike",
     "types": [
@@ -63393,6 +63702,7 @@
   },
   "MANECTRIC": {
     "id": "MANECTRIC",
+    "dexNumber": "310",
     "name": "Manectric",
     "slug": "manectric",
     "types": [
@@ -63569,6 +63879,7 @@
   },
   "PLUSLE": {
     "id": "PLUSLE",
+    "dexNumber": "311",
     "name": "Plusle",
     "slug": "plusle",
     "types": [
@@ -63793,6 +64104,7 @@
   },
   "MINUN": {
     "id": "MINUN",
+    "dexNumber": "312",
     "name": "Minun",
     "slug": "minun",
     "types": [
@@ -64011,6 +64323,7 @@
   },
   "VOLBEAT": {
     "id": "VOLBEAT",
+    "dexNumber": "313",
     "name": "Volbeat",
     "slug": "volbeat",
     "types": [
@@ -64233,6 +64546,7 @@
   },
   "ILLUMISE": {
     "id": "ILLUMISE",
+    "dexNumber": "314",
     "name": "Illumise",
     "slug": "illumise",
     "types": [
@@ -64457,6 +64771,7 @@
   },
   "ROSELIA": {
     "id": "ROSELIA",
+    "dexNumber": "315",
     "name": "Roselia",
     "slug": "roselia",
     "types": [
@@ -64660,6 +64975,7 @@
   },
   "GULPIN": {
     "id": "GULPIN",
+    "dexNumber": "316",
     "name": "Gulpin",
     "slug": "gulpin",
     "types": [
@@ -64858,6 +65174,7 @@
   },
   "SWALOT": {
     "id": "SWALOT",
+    "dexNumber": "317",
     "name": "Swalot",
     "slug": "swalot",
     "types": [
@@ -65057,6 +65374,7 @@
   },
   "CARVANHA": {
     "id": "CARVANHA",
+    "dexNumber": "318",
     "name": "Carvanha",
     "slug": "carvanha",
     "types": [
@@ -65242,6 +65560,7 @@
   },
   "SHARPEDO": {
     "id": "SHARPEDO",
+    "dexNumber": "319",
     "name": "Sharpedo",
     "slug": "sharpedo",
     "types": [
@@ -65445,6 +65764,7 @@
   },
   "WAILMER": {
     "id": "WAILMER",
+    "dexNumber": "320",
     "name": "Wailmer",
     "slug": "wailmer",
     "types": [
@@ -65638,6 +65958,7 @@
   },
   "WAILORD": {
     "id": "WAILORD",
+    "dexNumber": "321",
     "name": "Wailord",
     "slug": "wailord",
     "types": [
@@ -65826,6 +66147,7 @@
   },
   "NUMEL": {
     "id": "NUMEL",
+    "dexNumber": "322",
     "name": "Numel",
     "slug": "numel",
     "types": [
@@ -66044,6 +66366,7 @@
   },
   "CAMERUPT": {
     "id": "CAMERUPT",
+    "dexNumber": "323",
     "name": "Camerupt",
     "slug": "camerupt",
     "types": [
@@ -66258,6 +66581,7 @@
   },
   "TORKOAL": {
     "id": "TORKOAL",
+    "dexNumber": "324",
     "name": "Torkoal",
     "slug": "torkoal",
     "types": [
@@ -66469,6 +66793,7 @@
   },
   "SPOINK": {
     "id": "SPOINK",
+    "dexNumber": "325",
     "name": "Spoink",
     "slug": "spoink",
     "types": [
@@ -66683,6 +67008,7 @@
   },
   "GRUMPIG": {
     "id": "GRUMPIG",
+    "dexNumber": "326",
     "name": "Grumpig",
     "slug": "grumpig",
     "types": [
@@ -66917,6 +67243,7 @@
   },
   "SPINDA": {
     "id": "SPINDA",
+    "dexNumber": "327",
     "name": "Spinda",
     "slug": "spinda",
     "types": [
@@ -67120,6 +67447,7 @@
   },
   "TRAPINCH": {
     "id": "TRAPINCH",
+    "dexNumber": "328",
     "name": "Trapinch",
     "slug": "trapinch",
     "types": [
@@ -67313,6 +67641,7 @@
   },
   "VIBRAVA": {
     "id": "VIBRAVA",
+    "dexNumber": "329",
     "name": "Vibrava",
     "slug": "vibrava",
     "types": [
@@ -67550,6 +67879,7 @@
   },
   "FLYGON": {
     "id": "FLYGON",
+    "dexNumber": "330",
     "name": "Flygon",
     "slug": "flygon",
     "types": [
@@ -67818,6 +68148,7 @@
   },
   "CACNEA": {
     "id": "CACNEA",
+    "dexNumber": "331",
     "name": "Cacnea",
     "slug": "cacnea",
     "types": [
@@ -68052,6 +68383,7 @@
   },
   "CACTURNE": {
     "id": "CACTURNE",
+    "dexNumber": "332",
     "name": "Cacturne",
     "slug": "cacturne",
     "types": [
@@ -68300,6 +68632,7 @@
   },
   "SWABLU": {
     "id": "SWABLU",
+    "dexNumber": "333",
     "name": "Swablu",
     "slug": "swablu",
     "types": [
@@ -68517,6 +68850,7 @@
   },
   "ALTARIA": {
     "id": "ALTARIA",
+    "dexNumber": "334",
     "name": "Altaria",
     "slug": "altaria",
     "types": [
@@ -68740,6 +69074,7 @@
   },
   "ZANGOOSE": {
     "id": "ZANGOOSE",
+    "dexNumber": "335",
     "name": "Zangoose",
     "slug": "zangoose",
     "types": [
@@ -69033,6 +69368,7 @@
   },
   "SEVIPER": {
     "id": "SEVIPER",
+    "dexNumber": "336",
     "name": "Seviper",
     "slug": "seviper",
     "types": [
@@ -69265,6 +69601,7 @@
   },
   "LUNATONE": {
     "id": "LUNATONE",
+    "dexNumber": "337",
     "name": "Lunatone",
     "slug": "lunatone",
     "types": [
@@ -69476,6 +69813,7 @@
   },
   "SOLROCK": {
     "id": "SOLROCK",
+    "dexNumber": "338",
     "name": "Solrock",
     "slug": "solrock",
     "types": [
@@ -69696,6 +70034,7 @@
   },
   "BARBOACH": {
     "id": "BARBOACH",
+    "dexNumber": "339",
     "name": "Barboach",
     "slug": "barboach",
     "types": [
@@ -69881,6 +70220,7 @@
   },
   "WHISCASH": {
     "id": "WHISCASH",
+    "dexNumber": "340",
     "name": "Whiscash",
     "slug": "whiscash",
     "types": [
@@ -70075,6 +70415,7 @@
   },
   "CORPHISH": {
     "id": "CORPHISH",
+    "dexNumber": "341",
     "name": "Corphish",
     "slug": "corphish",
     "types": [
@@ -70281,6 +70622,7 @@
   },
   "CRAWDAUNT": {
     "id": "CRAWDAUNT",
+    "dexNumber": "342",
     "name": "Crawdaunt",
     "slug": "crawdaunt",
     "types": [
@@ -70495,6 +70837,7 @@
   },
   "BALTOY": {
     "id": "BALTOY",
+    "dexNumber": "343",
     "name": "Baltoy",
     "slug": "baltoy",
     "types": [
@@ -70689,6 +71032,7 @@
   },
   "CLAYDOL": {
     "id": "CLAYDOL",
+    "dexNumber": "344",
     "name": "Claydol",
     "slug": "claydol",
     "types": [
@@ -70915,6 +71259,7 @@
   },
   "LILEEP": {
     "id": "LILEEP",
+    "dexNumber": "345",
     "name": "Lileep",
     "slug": "lileep",
     "types": [
@@ -71100,6 +71445,7 @@
   },
   "CRADILY": {
     "id": "CRADILY",
+    "dexNumber": "346",
     "name": "Cradily",
     "slug": "cradily",
     "types": [
@@ -71287,6 +71633,7 @@
   },
   "ANORITH": {
     "id": "ANORITH",
+    "dexNumber": "347",
     "name": "Anorith",
     "slug": "anorith",
     "types": [
@@ -71470,6 +71817,7 @@
   },
   "ARMALDO": {
     "id": "ARMALDO",
+    "dexNumber": "348",
     "name": "Armaldo",
     "slug": "armaldo",
     "types": [
@@ -71657,6 +72005,7 @@
   },
   "FEEBAS": {
     "id": "FEEBAS",
+    "dexNumber": "349",
     "name": "Feebas",
     "slug": "feebas",
     "types": [
@@ -71800,6 +72149,7 @@
   },
   "MILOTIC": {
     "id": "MILOTIC",
+    "dexNumber": "350",
     "name": "Milotic",
     "slug": "milotic",
     "types": [
@@ -72006,6 +72356,7 @@
   },
   "CASTFORM": {
     "id": "CASTFORM",
+    "dexNumber": "351",
     "name": "Castform",
     "slug": "castform",
     "types": [
@@ -72163,6 +72514,7 @@
   },
   "KECLEON": {
     "id": "KECLEON",
+    "dexNumber": "352",
     "name": "Kecleon",
     "slug": "kecleon",
     "types": [
@@ -72395,6 +72747,7 @@
   },
   "SHUPPET": {
     "id": "SHUPPET",
+    "dexNumber": "353",
     "name": "Shuppet",
     "slug": "shuppet",
     "types": [
@@ -72612,6 +72965,7 @@
   },
   "BANETTE": {
     "id": "BANETTE",
+    "dexNumber": "354",
     "name": "Banette",
     "slug": "banette",
     "types": [
@@ -72815,6 +73169,7 @@
   },
   "DUSKULL": {
     "id": "DUSKULL",
+    "dexNumber": "355",
     "name": "Duskull",
     "slug": "duskull",
     "types": [
@@ -73006,6 +73361,7 @@
   },
   "DUSCLOPS": {
     "id": "DUSCLOPS",
+    "dexNumber": "356",
     "name": "Dusclops",
     "slug": "dusclops",
     "types": [
@@ -73240,6 +73596,7 @@
   },
   "TROPIUS": {
     "id": "TROPIUS",
+    "dexNumber": "357",
     "name": "Tropius",
     "slug": "tropius",
     "types": [
@@ -73460,6 +73817,7 @@
   },
   "CHIMECHO": {
     "id": "CHIMECHO",
+    "dexNumber": "358",
     "name": "Chimecho",
     "slug": "chimecho",
     "types": [
@@ -73688,6 +74046,7 @@
   },
   "ABSOL": {
     "id": "ABSOL",
+    "dexNumber": "359",
     "name": "Absol",
     "slug": "absol",
     "types": [
@@ -73931,6 +74290,7 @@
   },
   "WYNAUT": {
     "id": "WYNAUT",
+    "dexNumber": "360",
     "name": "Wynaut",
     "slug": "wynaut",
     "types": [
@@ -74017,6 +74377,7 @@
   },
   "SNORUNT": {
     "id": "SNORUNT",
+    "dexNumber": "361",
     "name": "Snorunt",
     "slug": "snorunt",
     "types": [
@@ -74203,6 +74564,7 @@
   },
   "GLALIE": {
     "id": "GLALIE",
+    "dexNumber": "362",
     "name": "Glalie",
     "slug": "glalie",
     "types": [
@@ -74406,6 +74768,7 @@
   },
   "SPHEAL": {
     "id": "SPHEAL",
+    "dexNumber": "363",
     "name": "Spheal",
     "slug": "spheal",
     "types": [
@@ -74590,6 +74953,7 @@
   },
   "SEALEO": {
     "id": "SEALEO",
+    "dexNumber": "364",
     "name": "Sealeo",
     "slug": "sealeo",
     "types": [
@@ -74765,6 +75129,7 @@
   },
   "WALREIN": {
     "id": "WALREIN",
+    "dexNumber": "365",
     "name": "Walrein",
     "slug": "walrein",
     "types": [
@@ -74960,6 +75325,7 @@
   },
   "CLAMPERL": {
     "id": "CLAMPERL",
+    "dexNumber": "366",
     "name": "Clamperl",
     "slug": "clamperl",
     "types": [
@@ -75095,6 +75461,7 @@
   },
   "HUNTAIL": {
     "id": "HUNTAIL",
+    "dexNumber": "367",
     "name": "Huntail",
     "slug": "huntail",
     "types": [
@@ -75262,6 +75629,7 @@
   },
   "GOREBYSS": {
     "id": "GOREBYSS",
+    "dexNumber": "368",
     "name": "Gorebyss",
     "slug": "gorebyss",
     "types": [
@@ -75429,6 +75797,7 @@
   },
   "RELICANTH": {
     "id": "RELICANTH",
+    "dexNumber": "369",
     "name": "Relicanth",
     "slug": "relicanth",
     "types": [
@@ -75626,6 +75995,7 @@
   },
   "LUVDISC": {
     "id": "LUVDISC",
+    "dexNumber": "370",
     "name": "Luvdisc",
     "slug": "luvdisc",
     "types": [
@@ -75815,6 +76185,7 @@
   },
   "BAGON": {
     "id": "BAGON",
+    "dexNumber": "371",
     "name": "Bagon",
     "slug": "bagon",
     "types": [
@@ -75994,6 +76365,7 @@
   },
   "SHELGON": {
     "id": "SHELGON",
+    "dexNumber": "372",
     "name": "Shelgon",
     "slug": "shelgon",
     "types": [
@@ -76168,6 +76540,7 @@
   },
   "SALAMENCE": {
     "id": "SALAMENCE",
+    "dexNumber": "373",
     "name": "Salamence",
     "slug": "salamence",
     "types": [
@@ -76383,6 +76756,7 @@
   },
   "BELDUM": {
     "id": "BELDUM",
+    "dexNumber": "374",
     "name": "Beldum",
     "slug": "beldum",
     "types": [
@@ -76448,6 +76822,7 @@
   },
   "METANG": {
     "id": "METANG",
+    "dexNumber": "375",
     "name": "Metang",
     "slug": "metang",
     "types": [
@@ -76653,6 +77028,7 @@
   },
   "METAGROSS": {
     "id": "METAGROSS",
+    "dexNumber": "376",
     "name": "Metagross",
     "slug": "metagross",
     "types": [
@@ -76868,6 +77244,7 @@
   },
   "REGIROCK": {
     "id": "REGIROCK",
+    "dexNumber": "377",
     "name": "Regirock",
     "slug": "regirock",
     "types": [
@@ -77052,6 +77429,7 @@
   },
   "REGICE": {
     "id": "REGICE",
+    "dexNumber": "378",
     "name": "Regice",
     "slug": "regice",
     "types": [
@@ -77234,6 +77612,7 @@
   },
   "REGISTEEL": {
     "id": "REGISTEEL",
+    "dexNumber": "379",
     "name": "Registeel",
     "slug": "registeel",
     "types": [
@@ -77433,6 +77812,7 @@
   },
   "LATIAS": {
     "id": "LATIAS",
+    "dexNumber": "380",
     "name": "Latias",
     "slug": "latias",
     "types": [
@@ -77667,6 +78047,7 @@
   },
   "LATIOS": {
     "id": "LATIOS",
+    "dexNumber": "381",
     "name": "Latios",
     "slug": "latios",
     "types": [
@@ -77904,6 +78285,7 @@
   },
   "KYOGRE": {
     "id": "KYOGRE",
+    "dexNumber": "382",
     "name": "Kyogre",
     "slug": "kyogre",
     "types": [
@@ -78067,6 +78449,7 @@
   },
   "GROUDON": {
     "id": "GROUDON",
+    "dexNumber": "383",
     "name": "Groudon",
     "slug": "groudon",
     "types": [
@@ -78263,6 +78646,7 @@
   },
   "RAYQUAZA": {
     "id": "RAYQUAZA",
+    "dexNumber": "384",
     "name": "Rayquaza",
     "slug": "rayquaza",
     "types": [
@@ -78470,6 +78854,7 @@
   },
   "JIRACHI": {
     "id": "JIRACHI",
+    "dexNumber": "385",
     "name": "Jirachi",
     "slug": "jirachi",
     "types": [
@@ -78677,6 +79062,7 @@
   },
   "DEOXYS": {
     "id": "DEOXYS",
+    "dexNumber": "386",
     "name": "Deoxys",
     "slug": "deoxys",
     "types": [
@@ -78915,6 +79301,7 @@
   },
   "TURTWIG": {
     "id": "TURTWIG",
+    "dexNumber": "387",
     "name": "Turtwig",
     "slug": "turtwig",
     "types": [
@@ -79105,6 +79492,7 @@
   },
   "GROTLE": {
     "id": "GROTLE",
+    "dexNumber": "388",
     "name": "Grotle",
     "slug": "grotle",
     "types": [
@@ -79280,6 +79668,7 @@
   },
   "TORTERRA": {
     "id": "TORTERRA",
+    "dexNumber": "389",
     "name": "Torterra",
     "slug": "torterra",
     "types": [
@@ -79485,6 +79874,7 @@
   },
   "CHIMCHAR": {
     "id": "CHIMCHAR",
+    "dexNumber": "390",
     "name": "Chimchar",
     "slug": "chimchar",
     "types": [
@@ -79691,6 +80081,7 @@
   },
   "MONFERNO": {
     "id": "MONFERNO",
+    "dexNumber": "391",
     "name": "Monferno",
     "slug": "monferno",
     "types": [
@@ -79911,6 +80302,7 @@
   },
   "INFERNAPE": {
     "id": "INFERNAPE",
+    "dexNumber": "392",
     "name": "Infernape",
     "slug": "infernape",
     "types": [
@@ -80159,6 +80551,7 @@
   },
   "PIPLUP": {
     "id": "PIPLUP",
+    "dexNumber": "393",
     "name": "Piplup",
     "slug": "piplup",
     "types": [
@@ -80354,6 +80747,7 @@
   },
   "PRINPLUP": {
     "id": "PRINPLUP",
+    "dexNumber": "394",
     "name": "Prinplup",
     "slug": "prinplup",
     "types": [
@@ -80545,6 +80939,7 @@
   },
   "EMPOLEON": {
     "id": "EMPOLEON",
+    "dexNumber": "395",
     "name": "Empoleon",
     "slug": "empoleon",
     "types": [
@@ -80770,6 +81165,7 @@
   },
   "STARLY": {
     "id": "STARLY",
+    "dexNumber": "396",
     "name": "Starly",
     "slug": "starly",
     "types": [
@@ -80936,6 +81332,7 @@
   },
   "STARAVIA": {
     "id": "STARAVIA",
+    "dexNumber": "397",
     "name": "Staravia",
     "slug": "staravia",
     "types": [
@@ -81089,6 +81486,7 @@
   },
   "STARAPTOR": {
     "id": "STARAPTOR",
+    "dexNumber": "398",
     "name": "Staraptor",
     "slug": "staraptor",
     "types": [
@@ -81245,6 +81643,7 @@
   },
   "BIDOOF": {
     "id": "BIDOOF",
+    "dexNumber": "399",
     "name": "Bidoof",
     "slug": "bidoof",
     "types": [
@@ -81423,6 +81822,7 @@
   },
   "BIBAREL": {
     "id": "BIBAREL",
+    "dexNumber": "400",
     "name": "Bibarel",
     "slug": "bibarel",
     "types": [
@@ -81606,6 +82006,7 @@
   },
   "KRICKETOT": {
     "id": "KRICKETOT",
+    "dexNumber": "401",
     "name": "Kricketot",
     "slug": "kricketot",
     "types": [
@@ -81685,6 +82086,7 @@
   },
   "KRICKETUNE": {
     "id": "KRICKETUNE",
+    "dexNumber": "402",
     "name": "Kricketune",
     "slug": "kricketune",
     "types": [
@@ -81878,6 +82280,7 @@
   },
   "SHINX": {
     "id": "SHINX",
+    "dexNumber": "403",
     "name": "Shinx",
     "slug": "shinx",
     "types": [
@@ -82066,6 +82469,7 @@
   },
   "LUXIO": {
     "id": "LUXIO",
+    "dexNumber": "404",
     "name": "Luxio",
     "slug": "luxio",
     "types": [
@@ -82237,6 +82641,7 @@
   },
   "LUXRAY": {
     "id": "LUXRAY",
+    "dexNumber": "405",
     "name": "Luxray",
     "slug": "luxray",
     "types": [
@@ -82425,6 +82830,7 @@
   },
   "BUDEW": {
     "id": "BUDEW",
+    "dexNumber": "406",
     "name": "Budew",
     "slug": "budew",
     "types": [
@@ -82566,6 +82972,7 @@
   },
   "ROSERADE": {
     "id": "ROSERADE",
+    "dexNumber": "407",
     "name": "Roserade",
     "slug": "roserade",
     "types": [
@@ -82765,6 +83172,7 @@
   },
   "CRANIDOS": {
     "id": "CRANIDOS",
+    "dexNumber": "408",
     "name": "Cranidos",
     "slug": "cranidos",
     "types": [
@@ -82964,6 +83372,7 @@
   },
   "RAMPARDOS": {
     "id": "RAMPARDOS",
+    "dexNumber": "409",
     "name": "Rampardos",
     "slug": "rampardos",
     "types": [
@@ -83165,6 +83574,7 @@
   },
   "SHIELDON": {
     "id": "SHIELDON",
+    "dexNumber": "410",
     "name": "Shieldon",
     "slug": "shieldon",
     "types": [
@@ -83347,6 +83757,7 @@
   },
   "BASTIODON": {
     "id": "BASTIODON",
+    "dexNumber": "411",
     "name": "Bastiodon",
     "slug": "bastiodon",
     "types": [
@@ -83526,6 +83937,7 @@
   },
   "BURMY": {
     "id": "BURMY",
+    "dexNumber": "412",
     "name": "Burmy",
     "slug": "burmy",
     "types": [
@@ -83606,6 +84018,7 @@
   },
   "WORMADAM": {
     "id": "WORMADAM",
+    "dexNumber": "413",
     "name": "Wormadam",
     "slug": "wormadam",
     "types": [
@@ -83777,6 +84190,7 @@
   },
   "MOTHIM": {
     "id": "MOTHIM",
+    "dexNumber": "414",
     "name": "Mothim",
     "slug": "mothim",
     "types": [
@@ -83956,6 +84370,7 @@
   },
   "COMBEE": {
     "id": "COMBEE",
+    "dexNumber": "415",
     "name": "Combee",
     "slug": "combee",
     "types": [
@@ -84040,6 +84455,7 @@
   },
   "VESPIQUEN": {
     "id": "VESPIQUEN",
+    "dexNumber": "416",
     "name": "Vespiquen",
     "slug": "vespiquen",
     "types": [
@@ -84262,6 +84678,7 @@
   },
   "PACHIRISU": {
     "id": "PACHIRISU",
+    "dexNumber": "417",
     "name": "Pachirisu",
     "slug": "pachirisu",
     "types": [
@@ -84469,6 +84886,7 @@
   },
   "BUIZEL": {
     "id": "BUIZEL",
+    "dexNumber": "418",
     "name": "Buizel",
     "slug": "buizel",
     "types": [
@@ -84684,6 +85102,7 @@
   },
   "FLOATZEL": {
     "id": "FLOATZEL",
+    "dexNumber": "419",
     "name": "Floatzel",
     "slug": "floatzel",
     "types": [
@@ -84902,6 +85321,7 @@
   },
   "CHERUBI": {
     "id": "CHERUBI",
+    "dexNumber": "420",
     "name": "Cherubi",
     "slug": "cherubi",
     "types": [
@@ -85061,6 +85481,7 @@
   },
   "CHERRIM": {
     "id": "CHERRIM",
+    "dexNumber": "421",
     "name": "Cherrim",
     "slug": "cherrim",
     "types": [
@@ -85209,6 +85630,7 @@
   },
   "SHELLOS": {
     "id": "SHELLOS",
+    "dexNumber": "422",
     "name": "Shellos",
     "slug": "shellos",
     "types": [
@@ -85391,6 +85813,7 @@
   },
   "GASTRODON": {
     "id": "GASTRODON",
+    "dexNumber": "423",
     "name": "Gastrodon",
     "slug": "gastrodon",
     "types": [
@@ -85565,6 +85988,7 @@
   },
   "AMBIPOM": {
     "id": "AMBIPOM",
+    "dexNumber": "424",
     "name": "Ambipom",
     "slug": "ambipom",
     "types": [
@@ -85775,6 +86199,7 @@
   },
   "DRIFLOON": {
     "id": "DRIFLOON",
+    "dexNumber": "425",
     "name": "Drifloon",
     "slug": "drifloon",
     "types": [
@@ -85991,6 +86416,7 @@
   },
   "DRIFBLIM": {
     "id": "DRIFBLIM",
+    "dexNumber": "426",
     "name": "Drifblim",
     "slug": "drifblim",
     "types": [
@@ -86204,6 +86630,7 @@
   },
   "BUNEARY": {
     "id": "BUNEARY",
+    "dexNumber": "427",
     "name": "Buneary",
     "slug": "buneary",
     "types": [
@@ -86426,6 +86853,7 @@
   },
   "LOPUNNY": {
     "id": "LOPUNNY",
+    "dexNumber": "428",
     "name": "Lopunny",
     "slug": "lopunny",
     "types": [
@@ -86648,6 +87076,7 @@
   },
   "MISMAGIUS": {
     "id": "MISMAGIUS",
+    "dexNumber": "429",
     "name": "Mismagius",
     "slug": "mismagius",
     "types": [
@@ -86869,6 +87298,7 @@
   },
   "HONCHKROW": {
     "id": "HONCHKROW",
+    "dexNumber": "430",
     "name": "Honchkrow",
     "slug": "honchkrow",
     "types": [
@@ -87082,6 +87512,7 @@
   },
   "GLAMEOW": {
     "id": "GLAMEOW",
+    "dexNumber": "431",
     "name": "Glameow",
     "slug": "glameow",
     "types": [
@@ -87268,6 +87699,7 @@
   },
   "PURUGLY": {
     "id": "PURUGLY",
+    "dexNumber": "432",
     "name": "Purugly",
     "slug": "purugly",
     "types": [
@@ -87449,6 +87881,7 @@
   },
   "CHINGLING": {
     "id": "CHINGLING",
+    "dexNumber": "433",
     "name": "Chingling",
     "slug": "chingling",
     "types": [
@@ -87611,6 +88044,7 @@
   },
   "STUNKY": {
     "id": "STUNKY",
+    "dexNumber": "434",
     "name": "Stunky",
     "slug": "stunky",
     "types": [
@@ -87828,6 +88262,7 @@
   },
   "SKUNTANK": {
     "id": "SKUNTANK",
+    "dexNumber": "435",
     "name": "Skuntank",
     "slug": "skuntank",
     "types": [
@@ -88041,6 +88476,7 @@
   },
   "BRONZOR": {
     "id": "BRONZOR",
+    "dexNumber": "436",
     "name": "Bronzor",
     "slug": "bronzor",
     "types": [
@@ -88234,6 +88670,7 @@
   },
   "BRONZONG": {
     "id": "BRONZONG",
+    "dexNumber": "437",
     "name": "Bronzong",
     "slug": "bronzong",
     "types": [
@@ -88473,6 +88910,7 @@
   },
   "BONSLY": {
     "id": "BONSLY",
+    "dexNumber": "438",
     "name": "Bonsly",
     "slug": "bonsly",
     "types": [
@@ -88663,6 +89101,7 @@
   },
   "MIMEJR": {
     "id": "MIMEJR",
+    "dexNumber": "439",
     "name": "Mime Jr.",
     "slug": "mime-jr",
     "types": [
@@ -88901,6 +89340,7 @@
   },
   "HAPPINY": {
     "id": "HAPPINY",
+    "dexNumber": "440",
     "name": "Happiny",
     "slug": "happiny",
     "types": [
@@ -89067,6 +89507,7 @@
   },
   "CHATOT": {
     "id": "CHATOT",
+    "dexNumber": "441",
     "name": "Chatot",
     "slug": "chatot",
     "types": [
@@ -89236,6 +89677,7 @@
   },
   "SPIRITOMB": {
     "id": "SPIRITOMB",
+    "dexNumber": "442",
     "name": "Spiritomb",
     "slug": "spiritomb",
     "types": [
@@ -89448,6 +89890,7 @@
   },
   "GIBLE": {
     "id": "GIBLE",
+    "dexNumber": "443",
     "name": "Gible",
     "slug": "gible",
     "types": [
@@ -89635,6 +90078,7 @@
   },
   "GABITE": {
     "id": "GABITE",
+    "dexNumber": "444",
     "name": "Gabite",
     "slug": "gabite",
     "types": [
@@ -89816,6 +90260,7 @@
   },
   "GARCHOMP": {
     "id": "GARCHOMP",
+    "dexNumber": "445",
     "name": "Garchomp",
     "slug": "garchomp",
     "types": [
@@ -90014,6 +90459,7 @@
   },
   "MUNCHLAX": {
     "id": "MUNCHLAX",
+    "dexNumber": "446",
     "name": "Munchlax",
     "slug": "munchlax",
     "types": [
@@ -90260,6 +90706,7 @@
   },
   "RIOLU": {
     "id": "RIOLU",
+    "dexNumber": "447",
     "name": "Riolu",
     "slug": "riolu",
     "types": [
@@ -90485,6 +90932,7 @@
   },
   "LUCARIO": {
     "id": "LUCARIO",
+    "dexNumber": "448",
     "name": "Lucario",
     "slug": "lucario",
     "types": [
@@ -90758,6 +91206,7 @@
   },
   "HIPPOPOTAS": {
     "id": "HIPPOPOTAS",
+    "dexNumber": "449",
     "name": "Hippopotas",
     "slug": "hippopotas",
     "types": [
@@ -90940,6 +91389,7 @@
   },
   "HIPPOWDON": {
     "id": "HIPPOWDON",
+    "dexNumber": "450",
     "name": "Hippowdon",
     "slug": "hippowdon",
     "types": [
@@ -91121,6 +91571,7 @@
   },
   "SKORUPI": {
     "id": "SKORUPI",
+    "dexNumber": "451",
     "name": "Skorupi",
     "slug": "skorupi",
     "types": [
@@ -91328,6 +91779,7 @@
   },
   "DRAPION": {
     "id": "DRAPION",
+    "dexNumber": "452",
     "name": "Drapion",
     "slug": "drapion",
     "types": [
@@ -91554,6 +92006,7 @@
   },
   "CROAGUNK": {
     "id": "CROAGUNK",
+    "dexNumber": "453",
     "name": "Croagunk",
     "slug": "croagunk",
     "types": [
@@ -91789,6 +92242,7 @@
   },
   "TOXICROAK": {
     "id": "TOXICROAK",
+    "dexNumber": "454",
     "name": "Toxicroak",
     "slug": "toxicroak",
     "types": [
@@ -92005,6 +92459,7 @@
   },
   "CARNIVINE": {
     "id": "CARNIVINE",
+    "dexNumber": "455",
     "name": "Carnivine",
     "slug": "carnivine",
     "types": [
@@ -92198,6 +92653,7 @@
   },
   "FINNEON": {
     "id": "FINNEON",
+    "dexNumber": "456",
     "name": "Finneon",
     "slug": "finneon",
     "types": [
@@ -92387,6 +92843,7 @@
   },
   "LUMINEON": {
     "id": "LUMINEON",
+    "dexNumber": "457",
     "name": "Lumineon",
     "slug": "lumineon",
     "types": [
@@ -92562,6 +93019,7 @@
   },
   "MANTYKE": {
     "id": "MANTYKE",
+    "dexNumber": "458",
     "name": "Mantyke",
     "slug": "mantyke",
     "types": [
@@ -92743,6 +93201,7 @@
   },
   "SNOVER": {
     "id": "SNOVER",
+    "dexNumber": "459",
     "name": "Snover",
     "slug": "snover",
     "types": [
@@ -92926,6 +93385,7 @@
   },
   "ABOMASNOW": {
     "id": "ABOMASNOW",
+    "dexNumber": "460",
     "name": "Abomasnow",
     "slug": "abomasnow",
     "types": [
@@ -93132,6 +93592,7 @@
   },
   "WEAVILE": {
     "id": "WEAVILE",
+    "dexNumber": "461",
     "name": "Weavile",
     "slug": "weavile",
     "types": [
@@ -93381,6 +93842,7 @@
   },
   "MAGNEZONE": {
     "id": "MAGNEZONE",
+    "dexNumber": "462",
     "name": "Magnezone",
     "slug": "magnezone",
     "types": [
@@ -93597,6 +94059,7 @@
   },
   "LICKILICKY": {
     "id": "LICKILICKY",
+    "dexNumber": "463",
     "name": "Lickilicky",
     "slug": "lickilicky",
     "types": [
@@ -93801,6 +94264,7 @@
   },
   "RHYPERIOR": {
     "id": "RHYPERIOR",
+    "dexNumber": "464",
     "name": "Rhyperior",
     "slug": "rhyperior",
     "types": [
@@ -94048,6 +94512,7 @@
   },
   "TANGROWTH": {
     "id": "TANGROWTH",
+    "dexNumber": "465",
     "name": "Tangrowth",
     "slug": "tangrowth",
     "types": [
@@ -94252,6 +94717,7 @@
   },
   "ELECTIVIRE": {
     "id": "ELECTIVIRE",
+    "dexNumber": "466",
     "name": "Electivire",
     "slug": "electivire",
     "types": [
@@ -94464,6 +94930,7 @@
   },
   "MAGMORTAR": {
     "id": "MAGMORTAR",
+    "dexNumber": "467",
     "name": "Magmortar",
     "slug": "magmortar",
     "types": [
@@ -94678,6 +95145,7 @@
   },
   "TOGEKISS": {
     "id": "TOGEKISS",
+    "dexNumber": "468",
     "name": "Togekiss",
     "slug": "togekiss",
     "types": [
@@ -94924,6 +95392,7 @@
   },
   "YANMEGA": {
     "id": "YANMEGA",
+    "dexNumber": "469",
     "name": "Yanmega",
     "slug": "yanmega",
     "types": [
@@ -95125,6 +95594,7 @@
   },
   "LEAFEON": {
     "id": "LEAFEON",
+    "dexNumber": "470",
     "name": "Leafeon",
     "slug": "leafeon",
     "types": [
@@ -95351,6 +95821,7 @@
   },
   "GLACEON": {
     "id": "GLACEON",
+    "dexNumber": "471",
     "name": "Glaceon",
     "slug": "glaceon",
     "types": [
@@ -95580,6 +96051,7 @@
   },
   "GLISCOR": {
     "id": "GLISCOR",
+    "dexNumber": "472",
     "name": "Gliscor",
     "slug": "gliscor",
     "types": [
@@ -95813,6 +96285,7 @@
   },
   "MAMOSWINE": {
     "id": "MAMOSWINE",
+    "dexNumber": "473",
     "name": "Mamoswine",
     "slug": "mamoswine",
     "types": [
@@ -96029,6 +96502,7 @@
   },
   "PORYGONZ": {
     "id": "PORYGONZ",
+    "dexNumber": "474",
     "name": "Porygon-Z",
     "slug": "porygonz",
     "types": [
@@ -96220,6 +96694,7 @@
   },
   "GALLADE": {
     "id": "GALLADE",
+    "dexNumber": "475",
     "name": "Gallade",
     "slug": "gallade",
     "types": [
@@ -96542,6 +97017,7 @@
   },
   "PROBOPASS": {
     "id": "PROBOPASS",
+    "dexNumber": "476",
     "name": "Probopass",
     "slug": "probopass",
     "types": [
@@ -96774,6 +97250,7 @@
   },
   "DUSKNOIR": {
     "id": "DUSKNOIR",
+    "dexNumber": "477",
     "name": "Dusknoir",
     "slug": "dusknoir",
     "types": [
@@ -97021,6 +97498,7 @@
   },
   "FROSLASS": {
     "id": "FROSLASS",
+    "dexNumber": "478",
     "name": "Froslass",
     "slug": "froslass",
     "types": [
@@ -97269,6 +97747,7 @@
   },
   "ROTOM": {
     "id": "ROTOM",
+    "dexNumber": "479",
     "name": "Rotom",
     "slug": "rotom",
     "types": [
@@ -97435,6 +97914,7 @@
   },
   "UXIE": {
     "id": "UXIE",
+    "dexNumber": "480",
     "name": "Uxie",
     "slug": "uxie",
     "types": [
@@ -97669,6 +98149,7 @@
   },
   "MESPRIT": {
     "id": "MESPRIT",
+    "dexNumber": "481",
     "name": "Mesprit",
     "slug": "mesprit",
     "types": [
@@ -97914,6 +98395,7 @@
   },
   "AZELF": {
     "id": "AZELF",
+    "dexNumber": "482",
     "name": "Azelf",
     "slug": "azelf",
     "types": [
@@ -98165,6 +98647,7 @@
   },
   "DIALGA": {
     "id": "DIALGA",
+    "dexNumber": "483",
     "name": "Dialga",
     "slug": "dialga",
     "types": [
@@ -98347,6 +98830,7 @@
   },
   "PALKIA": {
     "id": "PALKIA",
+    "dexNumber": "484",
     "name": "Palkia",
     "slug": "palkia",
     "types": [
@@ -98535,6 +99019,7 @@
   },
   "HEATRAN": {
     "id": "HEATRAN",
+    "dexNumber": "485",
     "name": "Heatran",
     "slug": "heatran",
     "types": [
@@ -98716,6 +99201,7 @@
   },
   "REGIGIGAS": {
     "id": "REGIGIGAS",
+    "dexNumber": "486",
     "name": "Regigigas",
     "slug": "regigigas",
     "types": [
@@ -98916,6 +99402,7 @@
   },
   "GIRATINA": {
     "id": "GIRATINA",
+    "dexNumber": "487",
     "name": "Giratina",
     "slug": "giratina",
     "types": [
@@ -99108,6 +99595,7 @@
   },
   "CRESSELIA": {
     "id": "CRESSELIA",
+    "dexNumber": "488",
     "name": "Cresselia",
     "slug": "cresselia",
     "types": [
@@ -99282,6 +99770,7 @@
   },
   "PHIONE": {
     "id": "PHIONE",
+    "dexNumber": "489",
     "name": "Phione",
     "slug": "phione",
     "types": [
@@ -99433,6 +99922,7 @@
   },
   "MANAPHY": {
     "id": "MANAPHY",
+    "dexNumber": "490",
     "name": "Manaphy",
     "slug": "manaphy",
     "types": [
@@ -99605,6 +100095,7 @@
   },
   "DARKRAI": {
     "id": "DARKRAI",
+    "dexNumber": "491",
     "name": "Darkrai",
     "slug": "darkrai",
     "types": [
@@ -99798,6 +100289,7 @@
   },
   "SHAYMIN": {
     "id": "SHAYMIN",
+    "dexNumber": "492",
     "name": "Shaymin",
     "slug": "shaymin",
     "types": [
@@ -99953,6 +100445,7 @@
   },
   "ARCEUS": {
     "id": "ARCEUS",
+    "dexNumber": "493",
     "name": "Arceus",
     "slug": "arceus",
     "types": [
@@ -100212,6 +100705,7 @@
   },
   "VICTINI": {
     "id": "VICTINI",
+    "dexNumber": "494",
     "name": "Victini",
     "slug": "victini",
     "types": [
@@ -100419,6 +100913,7 @@
   },
   "SNIVY": {
     "id": "SNIVY",
+    "dexNumber": "495",
     "name": "Snivy",
     "slug": "snivy",
     "types": [
@@ -100612,6 +101107,7 @@
   },
   "SERVINE": {
     "id": "SERVINE",
+    "dexNumber": "496",
     "name": "Servine",
     "slug": "servine",
     "types": [
@@ -100799,6 +101295,7 @@
   },
   "SERPERIOR": {
     "id": "SERPERIOR",
+    "dexNumber": "497",
     "name": "Serperior",
     "slug": "serperior",
     "types": [
@@ -101003,6 +101500,7 @@
   },
   "TEPIG": {
     "id": "TEPIG",
+    "dexNumber": "498",
     "name": "Tepig",
     "slug": "tepig",
     "types": [
@@ -101194,6 +101692,7 @@
   },
   "PIGNITE": {
     "id": "PIGNITE",
+    "dexNumber": "499",
     "name": "Pignite",
     "slug": "pignite",
     "types": [
@@ -101400,6 +101899,7 @@
   },
   "EMBOAR": {
     "id": "EMBOAR",
+    "dexNumber": "500",
     "name": "Emboar",
     "slug": "emboar",
     "types": [
@@ -101618,6 +102118,7 @@
   },
   "OSHAWOTT": {
     "id": "OSHAWOTT",
+    "dexNumber": "501",
     "name": "Oshawott",
     "slug": "oshawott",
     "types": [
@@ -101809,6 +102310,7 @@
   },
   "DEWOTT": {
     "id": "DEWOTT",
+    "dexNumber": "502",
     "name": "Dewott",
     "slug": "dewott",
     "types": [
@@ -101990,6 +102492,7 @@
   },
   "SAMUROTT": {
     "id": "SAMUROTT",
+    "dexNumber": "503",
     "name": "Samurott",
     "slug": "samurott",
     "types": [
@@ -102206,6 +102709,7 @@
   },
   "PATRAT": {
     "id": "PATRAT",
+    "dexNumber": "504",
     "name": "Patrat",
     "slug": "patrat",
     "types": [
@@ -102381,6 +102885,7 @@
   },
   "WATCHOG": {
     "id": "WATCHOG",
+    "dexNumber": "505",
     "name": "Watchog",
     "slug": "watchog",
     "types": [
@@ -102570,6 +103075,7 @@
   },
   "LILLIPUP": {
     "id": "LILLIPUP",
+    "dexNumber": "506",
     "name": "Lillipup",
     "slug": "lillipup",
     "types": [
@@ -102747,6 +103253,7 @@
   },
   "HERDIER": {
     "id": "HERDIER",
+    "dexNumber": "507",
     "name": "Herdier",
     "slug": "herdier",
     "types": [
@@ -102911,6 +103418,7 @@
   },
   "STOUTLAND": {
     "id": "STOUTLAND",
+    "dexNumber": "508",
     "name": "Stoutland",
     "slug": "stoutland",
     "types": [
@@ -103084,6 +103592,7 @@
   },
   "PURRLOIN": {
     "id": "PURRLOIN",
+    "dexNumber": "509",
     "name": "Purrloin",
     "slug": "purrloin",
     "types": [
@@ -103281,6 +103790,7 @@
   },
   "LIEPARD": {
     "id": "LIEPARD",
+    "dexNumber": "510",
     "name": "Liepard",
     "slug": "liepard",
     "types": [
@@ -103477,6 +103987,7 @@
   },
   "PANSAGE": {
     "id": "PANSAGE",
+    "dexNumber": "511",
     "name": "Pansage",
     "slug": "pansage",
     "types": [
@@ -103672,6 +104183,7 @@
   },
   "SIMISAGE": {
     "id": "SIMISAGE",
+    "dexNumber": "512",
     "name": "Simisage",
     "slug": "simisage",
     "types": [
@@ -103799,6 +104311,7 @@
   },
   "PANSEAR": {
     "id": "PANSEAR",
+    "dexNumber": "513",
     "name": "Pansear",
     "slug": "pansear",
     "types": [
@@ -103998,6 +104511,7 @@
   },
   "SIMISEAR": {
     "id": "SIMISEAR",
+    "dexNumber": "514",
     "name": "Simisear",
     "slug": "simisear",
     "types": [
@@ -104124,6 +104638,7 @@
   },
   "PANPOUR": {
     "id": "PANPOUR",
+    "dexNumber": "515",
     "name": "Panpour",
     "slug": "panpour",
     "types": [
@@ -104325,6 +104840,7 @@
   },
   "SIMIPOUR": {
     "id": "SIMIPOUR",
+    "dexNumber": "516",
     "name": "Simipour",
     "slug": "simipour",
     "types": [
@@ -104459,6 +104975,7 @@
   },
   "MUNNA": {
     "id": "MUNNA",
+    "dexNumber": "517",
     "name": "Munna",
     "slug": "munna",
     "types": [
@@ -104673,6 +105190,7 @@
   },
   "MUSHARNA": {
     "id": "MUSHARNA",
+    "dexNumber": "518",
     "name": "Musharna",
     "slug": "musharna",
     "types": [
@@ -104860,6 +105378,7 @@
   },
   "PIDOVE": {
     "id": "PIDOVE",
+    "dexNumber": "519",
     "name": "Pidove",
     "slug": "pidove",
     "types": [
@@ -105027,6 +105546,7 @@
   },
   "TRANQUILL": {
     "id": "TRANQUILL",
+    "dexNumber": "520",
     "name": "Tranquill",
     "slug": "tranquill",
     "types": [
@@ -105183,6 +105703,7 @@
   },
   "UNFEZANT": {
     "id": "UNFEZANT",
+    "dexNumber": "521",
     "name": "Unfezant",
     "slug": "unfezant",
     "types": [
@@ -105345,6 +105866,7 @@
   },
   "BLITZLE": {
     "id": "BLITZLE",
+    "dexNumber": "522",
     "name": "Blitzle",
     "slug": "blitzle",
     "types": [
@@ -105515,6 +106037,7 @@
   },
   "ZEBSTRIKA": {
     "id": "ZEBSTRIKA",
+    "dexNumber": "523",
     "name": "Zebstrika",
     "slug": "zebstrika",
     "types": [
@@ -105691,6 +106214,7 @@
   },
   "ROGGENROLA": {
     "id": "ROGGENROLA",
+    "dexNumber": "524",
     "name": "Roggenrola",
     "slug": "roggenrola",
     "types": [
@@ -105848,6 +106372,7 @@
   },
   "BOLDORE": {
     "id": "BOLDORE",
+    "dexNumber": "525",
     "name": "Boldore",
     "slug": "boldore",
     "types": [
@@ -106013,6 +106538,7 @@
   },
   "GIGALITH": {
     "id": "GIGALITH",
+    "dexNumber": "526",
     "name": "Gigalith",
     "slug": "gigalith",
     "types": [
@@ -106171,6 +106697,7 @@
   },
   "WOOBAT": {
     "id": "WOOBAT",
+    "dexNumber": "527",
     "name": "Woobat",
     "slug": "woobat",
     "types": [
@@ -106378,6 +106905,7 @@
   },
   "SWOOBAT": {
     "id": "SWOOBAT",
+    "dexNumber": "528",
     "name": "Swoobat",
     "slug": "swoobat",
     "types": [
@@ -106579,6 +107107,7 @@
   },
   "DRILBUR": {
     "id": "DRILBUR",
+    "dexNumber": "529",
     "name": "Drilbur",
     "slug": "drilbur",
     "types": [
@@ -106765,6 +107294,7 @@
   },
   "EXCADRILL": {
     "id": "EXCADRILL",
+    "dexNumber": "530",
     "name": "Excadrill",
     "slug": "excadrill",
     "types": [
@@ -106954,6 +107484,7 @@
   },
   "AUDINO": {
     "id": "AUDINO",
+    "dexNumber": "531",
     "name": "Audino",
     "slug": "audino",
     "types": [
@@ -107188,6 +107719,7 @@
   },
   "TIMBURR": {
     "id": "TIMBURR",
+    "dexNumber": "532",
     "name": "Timburr",
     "slug": "timburr",
     "types": [
@@ -107386,6 +107918,7 @@
   },
   "GURDURR": {
     "id": "GURDURR",
+    "dexNumber": "533",
     "name": "Gurdurr",
     "slug": "gurdurr",
     "types": [
@@ -107575,6 +108108,7 @@
   },
   "CONKELDURR": {
     "id": "CONKELDURR",
+    "dexNumber": "534",
     "name": "Conkeldurr",
     "slug": "conkeldurr",
     "types": [
@@ -107764,6 +108298,7 @@
   },
   "TYMPOLE": {
     "id": "TYMPOLE",
+    "dexNumber": "535",
     "name": "Tympole",
     "slug": "tympole",
     "types": [
@@ -107931,6 +108466,7 @@
   },
   "PALPITOAD": {
     "id": "PALPITOAD",
+    "dexNumber": "536",
     "name": "Palpitoad",
     "slug": "palpitoad",
     "types": [
@@ -108093,6 +108629,7 @@
   },
   "SEISMITOAD": {
     "id": "SEISMITOAD",
+    "dexNumber": "537",
     "name": "Seismitoad",
     "slug": "seismitoad",
     "types": [
@@ -108289,6 +108826,7 @@
   },
   "THROH": {
     "id": "THROH",
+    "dexNumber": "538",
     "name": "Throh",
     "slug": "throh",
     "types": [
@@ -108457,6 +108995,7 @@
   },
   "SAWK": {
     "id": "SAWK",
+    "dexNumber": "539",
     "name": "Sawk",
     "slug": "sawk",
     "types": [
@@ -108625,6 +109164,7 @@
   },
   "SEWADDLE": {
     "id": "SEWADDLE",
+    "dexNumber": "540",
     "name": "Sewaddle",
     "slug": "sewaddle",
     "types": [
@@ -108780,6 +109320,7 @@
   },
   "SWADLOON": {
     "id": "SWADLOON",
+    "dexNumber": "541",
     "name": "Swadloon",
     "slug": "swadloon",
     "types": [
@@ -108931,6 +109472,7 @@
   },
   "LEAVANNY": {
     "id": "LEAVANNY",
+    "dexNumber": "542",
     "name": "Leavanny",
     "slug": "leavanny",
     "types": [
@@ -109119,6 +109661,7 @@
   },
   "VENIPEDE": {
     "id": "VENIPEDE",
+    "dexNumber": "543",
     "name": "Venipede",
     "slug": "venipede",
     "types": [
@@ -109290,6 +109833,7 @@
   },
   "WHIRLIPEDE": {
     "id": "WHIRLIPEDE",
+    "dexNumber": "544",
     "name": "Whirlipede",
     "slug": "whirlipede",
     "types": [
@@ -109459,6 +110003,7 @@
   },
   "SCOLIPEDE": {
     "id": "SCOLIPEDE",
+    "dexNumber": "545",
     "name": "Scolipede",
     "slug": "scolipede",
     "types": [
@@ -109659,6 +110204,7 @@
   },
   "COTTONEE": {
     "id": "COTTONEE",
+    "dexNumber": "546",
     "name": "Cottonee",
     "slug": "cottonee",
     "types": [
@@ -109840,6 +110386,7 @@
   },
   "WHIMSICOTT": {
     "id": "WHIMSICOTT",
+    "dexNumber": "547",
     "name": "Whimsicott",
     "slug": "whimsicott",
     "types": [
@@ -110041,6 +110588,7 @@
   },
   "PETILIL": {
     "id": "PETILIL",
+    "dexNumber": "548",
     "name": "Petilil",
     "slug": "petilil",
     "types": [
@@ -110218,6 +110766,7 @@
   },
   "LILLIGANT": {
     "id": "LILLIGANT",
+    "dexNumber": "549",
     "name": "Lilligant",
     "slug": "lilligant",
     "types": [
@@ -110433,6 +110982,7 @@
   },
   "BASCULIN": {
     "id": "BASCULIN",
+    "dexNumber": "550",
     "name": "Basculin",
     "slug": "basculin",
     "types": [
@@ -110621,6 +111171,7 @@
   },
   "SANDILE": {
     "id": "SANDILE",
+    "dexNumber": "551",
     "name": "Sandile",
     "slug": "sandile",
     "types": [
@@ -110839,6 +111390,7 @@
   },
   "KROKOROK": {
     "id": "KROKOROK",
+    "dexNumber": "552",
     "name": "Krokorok",
     "slug": "krokorok",
     "types": [
@@ -111060,6 +111612,7 @@
   },
   "KROOKODILE": {
     "id": "KROOKODILE",
+    "dexNumber": "553",
     "name": "Krookodile",
     "slug": "krookodile",
     "types": [
@@ -111296,6 +111849,7 @@
   },
   "DARUMAKA": {
     "id": "DARUMAKA",
+    "dexNumber": "554",
     "name": "Darumaka",
     "slug": "darumaka",
     "types": [
@@ -111487,6 +112041,7 @@
   },
   "DARMANITAN": {
     "id": "DARMANITAN",
+    "dexNumber": "555",
     "name": "Darmanitan",
     "slug": "darmanitan",
     "types": [
@@ -111697,6 +112252,7 @@
   },
   "MARACTUS": {
     "id": "MARACTUS",
+    "dexNumber": "556",
     "name": "Maractus",
     "slug": "maractus",
     "types": [
@@ -111900,6 +112456,7 @@
   },
   "DWEBBLE": {
     "id": "DWEBBLE",
+    "dexNumber": "557",
     "name": "Dwebble",
     "slug": "dwebble",
     "types": [
@@ -112077,6 +112634,7 @@
   },
   "CRUSTLE": {
     "id": "CRUSTLE",
+    "dexNumber": "558",
     "name": "Crustle",
     "slug": "crustle",
     "types": [
@@ -112254,6 +112812,7 @@
   },
   "SCRAGGY": {
     "id": "SCRAGGY",
+    "dexNumber": "559",
     "name": "Scraggy",
     "slug": "scraggy",
     "types": [
@@ -112489,6 +113048,7 @@
   },
   "SCRAFTY": {
     "id": "SCRAFTY",
+    "dexNumber": "560",
     "name": "Scrafty",
     "slug": "scrafty",
     "types": [
@@ -112712,6 +113272,7 @@
   },
   "SIGILYPH": {
     "id": "SIGILYPH",
+    "dexNumber": "561",
     "name": "Sigilyph",
     "slug": "sigilyph",
     "types": [
@@ -112920,6 +113481,7 @@
   },
   "YAMASK": {
     "id": "YAMASK",
+    "dexNumber": "562",
     "name": "Yamask",
     "slug": "yamask",
     "types": [
@@ -113104,6 +113666,7 @@
   },
   "COFAGRIGUS": {
     "id": "COFAGRIGUS",
+    "dexNumber": "563",
     "name": "Cofagrigus",
     "slug": "cofagrigus",
     "types": [
@@ -113289,6 +113852,7 @@
   },
   "TIRTOUGA": {
     "id": "TIRTOUGA",
+    "dexNumber": "564",
     "name": "Tirtouga",
     "slug": "tirtouga",
     "types": [
@@ -113491,6 +114055,7 @@
   },
   "CARRACOSTA": {
     "id": "CARRACOSTA",
+    "dexNumber": "565",
     "name": "Carracosta",
     "slug": "carracosta",
     "types": [
@@ -113681,6 +114246,7 @@
   },
   "ARCHEN": {
     "id": "ARCHEN",
+    "dexNumber": "566",
     "name": "Archen",
     "slug": "archen",
     "types": [
@@ -113885,6 +114451,7 @@
   },
   "ARCHEOPS": {
     "id": "ARCHEOPS",
+    "dexNumber": "567",
     "name": "Archeops",
     "slug": "archeops",
     "types": [
@@ -114079,6 +114646,7 @@
   },
   "TRUBBISH": {
     "id": "TRUBBISH",
+    "dexNumber": "568",
     "name": "Trubbish",
     "slug": "trubbish",
     "types": [
@@ -114258,6 +114826,7 @@
   },
   "GARBODOR": {
     "id": "GARBODOR",
+    "dexNumber": "569",
     "name": "Garbodor",
     "slug": "garbodor",
     "types": [
@@ -114458,6 +115027,7 @@
   },
   "ZORUA": {
     "id": "ZORUA",
+    "dexNumber": "570",
     "name": "Zorua",
     "slug": "zorua",
     "types": [
@@ -114665,6 +115235,7 @@
   },
   "ZOROARK": {
     "id": "ZOROARK",
+    "dexNumber": "571",
     "name": "Zoroark",
     "slug": "zoroark",
     "types": [
@@ -114877,6 +115448,7 @@
   },
   "MINCCINO": {
     "id": "MINCCINO",
+    "dexNumber": "572",
     "name": "Minccino",
     "slug": "minccino",
     "types": [
@@ -115077,6 +115649,7 @@
   },
   "CINCCINO": {
     "id": "CINCCINO",
+    "dexNumber": "573",
     "name": "Cinccino",
     "slug": "cinccino",
     "types": [
@@ -115256,6 +115829,7 @@
   },
   "GOTHITA": {
     "id": "GOTHITA",
+    "dexNumber": "574",
     "name": "Gothita",
     "slug": "gothita",
     "types": [
@@ -115470,6 +116044,7 @@
   },
   "GOTHORITA": {
     "id": "GOTHORITA",
+    "dexNumber": "575",
     "name": "Gothorita",
     "slug": "gothorita",
     "types": [
@@ -115674,6 +116249,7 @@
   },
   "GOTHITELLE": {
     "id": "GOTHITELLE",
+    "dexNumber": "576",
     "name": "Gothitelle",
     "slug": "gothitelle",
     "types": [
@@ -115881,6 +116457,7 @@
   },
   "SOLOSIS": {
     "id": "SOLOSIS",
+    "dexNumber": "577",
     "name": "Solosis",
     "slug": "solosis",
     "types": [
@@ -116095,6 +116672,7 @@
   },
   "DUOSION": {
     "id": "DUOSION",
+    "dexNumber": "578",
     "name": "Duosion",
     "slug": "duosion",
     "types": [
@@ -116308,6 +116886,7 @@
   },
   "REUNICLUS": {
     "id": "REUNICLUS",
+    "dexNumber": "579",
     "name": "Reuniclus",
     "slug": "reuniclus",
     "types": [
@@ -116537,6 +117116,7 @@
   },
   "DUCKLETT": {
     "id": "DUCKLETT",
+    "dexNumber": "580",
     "name": "Ducklett",
     "slug": "ducklett",
     "types": [
@@ -116712,6 +117292,7 @@
   },
   "SWANNA": {
     "id": "SWANNA",
+    "dexNumber": "581",
     "name": "Swanna",
     "slug": "swanna",
     "types": [
@@ -116877,6 +117458,7 @@
   },
   "VANILLITE": {
     "id": "VANILLITE",
+    "dexNumber": "582",
     "name": "Vanillite",
     "slug": "vanillite",
     "types": [
@@ -117049,6 +117631,7 @@
   },
   "VANILLISH": {
     "id": "VANILLISH",
+    "dexNumber": "583",
     "name": "Vanillish",
     "slug": "vanillish",
     "types": [
@@ -117212,6 +117795,7 @@
   },
   "VANILLUXE": {
     "id": "VANILLUXE",
+    "dexNumber": "584",
     "name": "Vanilluxe",
     "slug": "vanilluxe",
     "types": [
@@ -117384,6 +117968,7 @@
   },
   "DEERLING": {
     "id": "DEERLING",
+    "dexNumber": "585",
     "name": "Deerling",
     "slug": "deerling",
     "types": [
@@ -117576,6 +118161,7 @@
   },
   "SAWSBUCK": {
     "id": "SAWSBUCK",
+    "dexNumber": "586",
     "name": "Sawsbuck",
     "slug": "sawsbuck",
     "types": [
@@ -117771,6 +118357,7 @@
   },
   "EMOLGA": {
     "id": "EMOLGA",
+    "dexNumber": "587",
     "name": "Emolga",
     "slug": "emolga",
     "types": [
@@ -117967,6 +118554,7 @@
   },
   "KARRABLAST": {
     "id": "KARRABLAST",
+    "dexNumber": "588",
     "name": "Karrablast",
     "slug": "karrablast",
     "types": [
@@ -118146,6 +118734,7 @@
   },
   "ESCAVALIER": {
     "id": "ESCAVALIER",
+    "dexNumber": "589",
     "name": "Escavalier",
     "slug": "escavalier",
     "types": [
@@ -118357,6 +118946,7 @@
   },
   "FOONGUS": {
     "id": "FOONGUS",
+    "dexNumber": "590",
     "name": "Foongus",
     "slug": "foongus",
     "types": [
@@ -118527,6 +119117,7 @@
   },
   "AMOONGUSS": {
     "id": "AMOONGUSS",
+    "dexNumber": "591",
     "name": "Amoonguss",
     "slug": "amoonguss",
     "types": [
@@ -118684,6 +119275,7 @@
   },
   "FRILLISH": {
     "id": "FRILLISH",
+    "dexNumber": "592",
     "name": "Frillish",
     "slug": "frillish",
     "types": [
@@ -118882,6 +119474,7 @@
   },
   "JELLICENT": {
     "id": "JELLICENT",
+    "dexNumber": "593",
     "name": "Jellicent",
     "slug": "jellicent",
     "types": [
@@ -119074,6 +119667,7 @@
   },
   "ALOMOMOLA": {
     "id": "ALOMOMOLA",
+    "dexNumber": "594",
     "name": "Alomomola",
     "slug": "alomomola",
     "types": [
@@ -119264,6 +119858,7 @@
   },
   "JOLTIK": {
     "id": "JOLTIK",
+    "dexNumber": "595",
     "name": "Joltik",
     "slug": "joltik",
     "types": [
@@ -119457,6 +120052,7 @@
   },
   "GALVANTULA": {
     "id": "GALVANTULA",
+    "dexNumber": "596",
     "name": "Galvantula",
     "slug": "galvantula",
     "types": [
@@ -119638,6 +120234,7 @@
   },
   "FERROSEED": {
     "id": "FERROSEED",
+    "dexNumber": "597",
     "name": "Ferroseed",
     "slug": "ferroseed",
     "types": [
@@ -119822,6 +120419,7 @@
   },
   "FERROTHORN": {
     "id": "FERROTHORN",
+    "dexNumber": "598",
     "name": "Ferrothorn",
     "slug": "ferrothorn",
     "types": [
@@ -120010,6 +120608,7 @@
   },
   "KLINK": {
     "id": "KLINK",
+    "dexNumber": "599",
     "name": "Klink",
     "slug": "klink",
     "types": [
@@ -120165,6 +120764,7 @@
   },
   "KLANG": {
     "id": "KLANG",
+    "dexNumber": "600",
     "name": "Klang",
     "slug": "klang",
     "types": [
@@ -120321,6 +120921,7 @@
   },
   "KLINKLANG": {
     "id": "KLINKLANG",
+    "dexNumber": "601",
     "name": "Klinklang",
     "slug": "klinklang",
     "types": [
@@ -120485,6 +121086,7 @@
   },
   "TYNAMO": {
     "id": "TYNAMO",
+    "dexNumber": "602",
     "name": "Tynamo",
     "slug": "tynamo",
     "types": [
@@ -120552,6 +121154,7 @@
   },
   "EELEKTRIK": {
     "id": "EELEKTRIK",
+    "dexNumber": "603",
     "name": "Eelektrik",
     "slug": "eelektrik",
     "types": [
@@ -120715,6 +121318,7 @@
   },
   "EELEKTROSS": {
     "id": "EELEKTROSS",
+    "dexNumber": "604",
     "name": "Eelektross",
     "slug": "eelektross",
     "types": [
@@ -120898,6 +121502,7 @@
   },
   "ELGYEM": {
     "id": "ELGYEM",
+    "dexNumber": "605",
     "name": "Elgyem",
     "slug": "elgyem",
     "types": [
@@ -121106,6 +121711,7 @@
   },
   "BEHEEYEM": {
     "id": "BEHEEYEM",
+    "dexNumber": "606",
     "name": "Beheeyem",
     "slug": "beheeyem",
     "types": [
@@ -121313,6 +121919,7 @@
   },
   "LITWICK": {
     "id": "LITWICK",
+    "dexNumber": "607",
     "name": "Litwick",
     "slug": "litwick",
     "types": [
@@ -121509,6 +122116,7 @@
   },
   "LAMPENT": {
     "id": "LAMPENT",
+    "dexNumber": "608",
     "name": "Lampent",
     "slug": "lampent",
     "types": [
@@ -121696,6 +122304,7 @@
   },
   "CHANDELURE": {
     "id": "CHANDELURE",
+    "dexNumber": "609",
     "name": "Chandelure",
     "slug": "chandelure",
     "types": [
@@ -121880,6 +122489,7 @@
   },
   "AXEW": {
     "id": "AXEW",
+    "dexNumber": "610",
     "name": "Axew",
     "slug": "axew",
     "types": [
@@ -122100,6 +122710,7 @@
   },
   "FRAXURE": {
     "id": "FRAXURE",
+    "dexNumber": "611",
     "name": "Fraxure",
     "slug": "fraxure",
     "types": [
@@ -122308,6 +122919,7 @@
   },
   "HAXORUS": {
     "id": "HAXORUS",
+    "dexNumber": "612",
     "name": "Haxorus",
     "slug": "haxorus",
     "types": [
@@ -122524,6 +123136,7 @@
   },
   "CUBCHOO": {
     "id": "CUBCHOO",
+    "dexNumber": "613",
     "name": "Cubchoo",
     "slug": "cubchoo",
     "types": [
@@ -122732,6 +123345,7 @@
   },
   "BEARTIC": {
     "id": "BEARTIC",
+    "dexNumber": "614",
     "name": "Beartic",
     "slug": "beartic",
     "types": [
@@ -122968,6 +123582,7 @@
   },
   "CRYOGONAL": {
     "id": "CRYOGONAL",
+    "dexNumber": "615",
     "name": "Cryogonal",
     "slug": "cryogonal",
     "types": [
@@ -123163,6 +123778,7 @@
   },
   "SHELMET": {
     "id": "SHELMET",
+    "dexNumber": "616",
     "name": "Shelmet",
     "slug": "shelmet",
     "types": [
@@ -123336,6 +123952,7 @@
   },
   "ACCELGOR": {
     "id": "ACCELGOR",
+    "dexNumber": "617",
     "name": "Accelgor",
     "slug": "accelgor",
     "types": [
@@ -123534,6 +124151,7 @@
   },
   "STUNFISK": {
     "id": "STUNFISK",
+    "dexNumber": "618",
     "name": "Stunfisk",
     "slug": "stunfisk",
     "types": [
@@ -123731,6 +124349,7 @@
   },
   "MIENFOO": {
     "id": "MIENFOO",
+    "dexNumber": "619",
     "name": "Mienfoo",
     "slug": "mienfoo",
     "types": [
@@ -123935,6 +124554,7 @@
   },
   "MIENSHAO": {
     "id": "MIENSHAO",
+    "dexNumber": "620",
     "name": "Mienshao",
     "slug": "mienshao",
     "types": [
@@ -124135,6 +124755,7 @@
   },
   "DRUDDIGON": {
     "id": "DRUDDIGON",
+    "dexNumber": "621",
     "name": "Druddigon",
     "slug": "druddigon",
     "types": [
@@ -124349,6 +124970,7 @@
   },
   "GOLETT": {
     "id": "GOLETT",
+    "dexNumber": "622",
     "name": "Golett",
     "slug": "golett",
     "types": [
@@ -124559,6 +125181,7 @@
   },
   "GOLURK": {
     "id": "GOLURK",
+    "dexNumber": "623",
     "name": "Golurk",
     "slug": "golurk",
     "types": [
@@ -124793,6 +125416,7 @@
   },
   "PAWNIARD": {
     "id": "PAWNIARD",
+    "dexNumber": "624",
     "name": "Pawniard",
     "slug": "pawniard",
     "types": [
@@ -125001,6 +125625,7 @@
   },
   "BISHARP": {
     "id": "BISHARP",
+    "dexNumber": "625",
     "name": "Bisharp",
     "slug": "bisharp",
     "types": [
@@ -125209,6 +125834,7 @@
   },
   "BOUFFALANT": {
     "id": "BOUFFALANT",
+    "dexNumber": "626",
     "name": "Bouffalant",
     "slug": "bouffalant",
     "types": [
@@ -125398,6 +126024,7 @@
   },
   "RUFFLET": {
     "id": "RUFFLET",
+    "dexNumber": "627",
     "name": "Rufflet",
     "slug": "rufflet",
     "types": [
@@ -125570,6 +126197,7 @@
   },
   "BRAVIARY": {
     "id": "BRAVIARY",
+    "dexNumber": "628",
     "name": "Braviary",
     "slug": "braviary",
     "types": [
@@ -125754,6 +126382,7 @@
   },
   "VULLABY": {
     "id": "VULLABY",
+    "dexNumber": "629",
     "name": "Vullaby",
     "slug": "vullaby",
     "types": [
@@ -125957,6 +126586,7 @@
   },
   "MANDIBUZZ": {
     "id": "MANDIBUZZ",
+    "dexNumber": "630",
     "name": "Mandibuzz",
     "slug": "mandibuzz",
     "types": [
@@ -126162,6 +126792,7 @@
   },
   "HEATMOR": {
     "id": "HEATMOR",
+    "dexNumber": "631",
     "name": "Heatmor",
     "slug": "heatmor",
     "types": [
@@ -126380,6 +127011,7 @@
   },
   "DURANT": {
     "id": "DURANT",
+    "dexNumber": "632",
     "name": "Durant",
     "slug": "durant",
     "types": [
@@ -126566,6 +127198,7 @@
   },
   "DEINO": {
     "id": "DEINO",
+    "dexNumber": "633",
     "name": "Deino",
     "slug": "deino",
     "types": [
@@ -126752,6 +127385,7 @@
   },
   "ZWEILOUS": {
     "id": "ZWEILOUS",
+    "dexNumber": "634",
     "name": "Zweilous",
     "slug": "zweilous",
     "types": [
@@ -126937,6 +127571,7 @@
   },
   "HYDREIGON": {
     "id": "HYDREIGON",
+    "dexNumber": "635",
     "name": "Hydreigon",
     "slug": "hydreigon",
     "types": [
@@ -127160,6 +127795,7 @@
   },
   "LARVESTA": {
     "id": "LARVESTA",
+    "dexNumber": "636",
     "name": "Larvesta",
     "slug": "larvesta",
     "types": [
@@ -127337,6 +127973,7 @@
   },
   "VOLCARONA": {
     "id": "VOLCARONA",
+    "dexNumber": "637",
     "name": "Volcarona",
     "slug": "volcarona",
     "types": [
@@ -127542,6 +128179,7 @@
   },
   "COBALION": {
     "id": "COBALION",
+    "dexNumber": "638",
     "name": "Cobalion",
     "slug": "cobalion",
     "types": [
@@ -127715,6 +128353,7 @@
   },
   "TERRAKION": {
     "id": "TERRAKION",
+    "dexNumber": "639",
     "name": "Terrakion",
     "slug": "terrakion",
     "types": [
@@ -127882,6 +128521,7 @@
   },
   "VIRIZION": {
     "id": "VIRIZION",
+    "dexNumber": "640",
     "name": "Virizion",
     "slug": "virizion",
     "types": [
@@ -128059,6 +128699,7 @@
   },
   "TORNADUS": {
     "id": "TORNADUS",
+    "dexNumber": "641",
     "name": "Tornadus",
     "slug": "tornadus",
     "types": [
@@ -128255,6 +128896,7 @@
   },
   "THUNDURUS": {
     "id": "THUNDURUS",
+    "dexNumber": "642",
     "name": "Thundurus",
     "slug": "thundurus",
     "types": [
@@ -128467,6 +129109,7 @@
   },
   "RESHIRAM": {
     "id": "RESHIRAM",
+    "dexNumber": "643",
     "name": "Reshiram",
     "slug": "reshiram",
     "types": [
@@ -128657,6 +129300,7 @@
   },
   "ZEKROM": {
     "id": "ZEKROM",
+    "dexNumber": "644",
     "name": "Zekrom",
     "slug": "zekrom",
     "types": [
@@ -128855,6 +129499,7 @@
   },
   "LANDORUS": {
     "id": "LANDORUS",
+    "dexNumber": "645",
     "name": "Landorus",
     "slug": "landorus",
     "types": [
@@ -129058,6 +129703,7 @@
   },
   "KYUREM": {
     "id": "KYUREM",
+    "dexNumber": "646",
     "name": "Kyurem",
     "slug": "kyurem",
     "types": [
@@ -129255,6 +129901,7 @@
   },
   "KELDEO": {
     "id": "KELDEO",
+    "dexNumber": "647",
     "name": "Keldeo",
     "slug": "keldeo",
     "types": [
@@ -129432,6 +130079,7 @@
   },
   "MELOETTA": {
     "id": "MELOETTA",
+    "dexNumber": "648",
     "name": "Meloetta",
     "slug": "meloetta",
     "types": [
@@ -129644,6 +130292,7 @@
   },
   "GENESECT": {
     "id": "GENESECT",
+    "dexNumber": "649",
     "name": "Genesect",
     "slug": "genesect",
     "types": [
@@ -129845,6 +130494,7 @@
   },
   "CHESPIN": {
     "id": "CHESPIN",
+    "dexNumber": "650",
     "name": "Chespin",
     "slug": "chespin",
     "types": [
@@ -130046,6 +130696,7 @@
   },
   "QUILLADIN": {
     "id": "QUILLADIN",
+    "dexNumber": "651",
     "name": "Quilladin",
     "slug": "quilladin",
     "types": [
@@ -130246,6 +130897,7 @@
   },
   "CHESNAUGHT": {
     "id": "CHESNAUGHT",
+    "dexNumber": "652",
     "name": "Chesnaught",
     "slug": "chesnaught",
     "types": [
@@ -130493,6 +131145,7 @@
   },
   "FENNEKIN": {
     "id": "FENNEKIN",
+    "dexNumber": "653",
     "name": "Fennekin",
     "slug": "fennekin",
     "types": [
@@ -130681,6 +131334,7 @@
   },
   "BRAIXEN": {
     "id": "BRAIXEN",
+    "dexNumber": "654",
     "name": "Braixen",
     "slug": "braixen",
     "types": [
@@ -130873,6 +131527,7 @@
   },
   "DELPHOX": {
     "id": "DELPHOX",
+    "dexNumber": "655",
     "name": "Delphox",
     "slug": "delphox",
     "types": [
@@ -131104,6 +131759,7 @@
   },
   "FROAKIE": {
     "id": "FROAKIE",
+    "dexNumber": "656",
     "name": "Froakie",
     "slug": "froakie",
     "types": [
@@ -131292,6 +131948,7 @@
   },
   "FROGADIER": {
     "id": "FROGADIER",
+    "dexNumber": "657",
     "name": "Frogadier",
     "slug": "frogadier",
     "types": [
@@ -131476,6 +132133,7 @@
   },
   "GRENINJA": {
     "id": "GRENINJA",
+    "dexNumber": "658",
     "name": "Greninja",
     "slug": "greninja",
     "types": [
@@ -131684,6 +132342,7 @@
   },
   "BUNNELBY": {
     "id": "BUNNELBY",
+    "dexNumber": "659",
     "name": "Bunnelby",
     "slug": "bunnelby",
     "types": [
@@ -131872,6 +132531,7 @@
   },
   "DIGGERSBY": {
     "id": "DIGGERSBY",
+    "dexNumber": "660",
     "name": "Diggersby",
     "slug": "diggersby",
     "types": [
@@ -132076,6 +132736,7 @@
   },
   "FLETCHLING": {
     "id": "FLETCHLING",
+    "dexNumber": "661",
     "name": "Fletchling",
     "slug": "fletchling",
     "types": [
@@ -132251,6 +132912,7 @@
   },
   "FLETCHINDER": {
     "id": "FLETCHINDER",
+    "dexNumber": "662",
     "name": "Fletchinder",
     "slug": "fletchinder",
     "types": [
@@ -132428,6 +133090,7 @@
   },
   "TALONFLAME": {
     "id": "TALONFLAME",
+    "dexNumber": "663",
     "name": "Talonflame",
     "slug": "talonflame",
     "types": [
@@ -132612,6 +133275,7 @@
   },
   "SCATTERBUG": {
     "id": "SCATTERBUG",
+    "dexNumber": "664",
     "name": "Scatterbug",
     "slug": "scatterbug",
     "types": [
@@ -132686,6 +133350,7 @@
   },
   "SPEWPA": {
     "id": "SPEWPA",
+    "dexNumber": "665",
     "name": "Spewpa",
     "slug": "spewpa",
     "types": [
@@ -132751,6 +133416,7 @@
   },
   "VIVILLON": {
     "id": "VIVILLON",
+    "dexNumber": "666",
     "name": "Vivillon",
     "slug": "vivillon",
     "types": [
@@ -132934,6 +133600,7 @@
   },
   "LITLEO": {
     "id": "LITLEO",
+    "dexNumber": "667",
     "name": "Litleo",
     "slug": "litleo",
     "types": [
@@ -133122,6 +133789,7 @@
   },
   "PYROAR": {
     "id": "PYROAR",
+    "dexNumber": "668",
     "name": "Pyroar",
     "slug": "pyroar",
     "types": [
@@ -133321,6 +133989,7 @@
   },
   "FLABEBE": {
     "id": "FLABEBE",
+    "dexNumber": "669",
     "name": "Flabébé",
     "slug": "flabebe",
     "types": [
@@ -133504,6 +134173,7 @@
   },
   "FLOETTE": {
     "id": "FLOETTE",
+    "dexNumber": "670",
     "name": "Floette",
     "slug": "floette",
     "types": [
@@ -133683,6 +134353,7 @@
   },
   "FLORGES": {
     "id": "FLORGES",
+    "dexNumber": "671",
     "name": "Florges",
     "slug": "florges",
     "types": [
@@ -133868,6 +134539,7 @@
   },
   "SKIDDO": {
     "id": "SKIDDO",
+    "dexNumber": "672",
     "name": "Skiddo",
     "slug": "skiddo",
     "types": [
@@ -134052,6 +134724,7 @@
   },
   "GOGOAT": {
     "id": "GOGOAT",
+    "dexNumber": "673",
     "name": "Gogoat",
     "slug": "gogoat",
     "types": [
@@ -134243,6 +134916,7 @@
   },
   "PANCHAM": {
     "id": "PANCHAM",
+    "dexNumber": "674",
     "name": "Pancham",
     "slug": "pancham",
     "types": [
@@ -134448,6 +135122,7 @@
   },
   "PANGORO": {
     "id": "PANGORO",
+    "dexNumber": "675",
     "name": "Pangoro",
     "slug": "pangoro",
     "types": [
@@ -134678,6 +135353,7 @@
   },
   "FURFROU": {
     "id": "FURFROU",
+    "dexNumber": "676",
     "name": "Furfrou",
     "slug": "furfrou",
     "types": [
@@ -134822,6 +135498,7 @@
   },
   "ESPURR": {
     "id": "ESPURR",
+    "dexNumber": "677",
     "name": "Espurr",
     "slug": "espurr",
     "types": [
@@ -134994,6 +135671,7 @@
   },
   "MEOWSTIC": {
     "id": "MEOWSTIC",
+    "dexNumber": "678",
     "name": "Meowstic",
     "slug": "meowstic",
     "types": [
@@ -135216,6 +135894,7 @@
   },
   "HONEDGE": {
     "id": "HONEDGE",
+    "dexNumber": "679",
     "name": "Honedge",
     "slug": "honedge",
     "types": [
@@ -135379,6 +136058,7 @@
   },
   "DOUBLADE": {
     "id": "DOUBLADE",
+    "dexNumber": "680",
     "name": "Doublade",
     "slug": "doublade",
     "types": [
@@ -135535,6 +136215,7 @@
   },
   "AEGISLASH": {
     "id": "AEGISLASH",
+    "dexNumber": "681",
     "name": "Aegislash",
     "slug": "aegislash",
     "types": [
@@ -135706,6 +136387,7 @@
   },
   "SPRITZEE": {
     "id": "SPRITZEE",
+    "dexNumber": "682",
     "name": "Spritzee",
     "slug": "spritzee",
     "types": [
@@ -135891,6 +136573,7 @@
   },
   "AROMATISSE": {
     "id": "AROMATISSE",
+    "dexNumber": "683",
     "name": "Aromatisse",
     "slug": "aromatisse",
     "types": [
@@ -136083,6 +136766,7 @@
   },
   "SWIRLIX": {
     "id": "SWIRLIX",
+    "dexNumber": "684",
     "name": "Swirlix",
     "slug": "swirlix",
     "types": [
@@ -136271,6 +136955,7 @@
   },
   "SLURPUFF": {
     "id": "SLURPUFF",
+    "dexNumber": "685",
     "name": "Slurpuff",
     "slug": "slurpuff",
     "types": [
@@ -136448,6 +137133,7 @@
   },
   "INKAY": {
     "id": "INKAY",
+    "dexNumber": "686",
     "name": "Inkay",
     "slug": "inkay",
     "types": [
@@ -136661,6 +137347,7 @@
   },
   "MALAMAR": {
     "id": "MALAMAR",
+    "dexNumber": "687",
     "name": "Malamar",
     "slug": "malamar",
     "types": [
@@ -136877,6 +137564,7 @@
   },
   "BINACLE": {
     "id": "BINACLE",
+    "dexNumber": "688",
     "name": "Binacle",
     "slug": "binacle",
     "types": [
@@ -137080,6 +137768,7 @@
   },
   "BARBARACLE": {
     "id": "BARBARACLE",
+    "dexNumber": "689",
     "name": "Barbaracle",
     "slug": "barbaracle",
     "types": [
@@ -137299,6 +137988,7 @@
   },
   "SKRELP": {
     "id": "SKRELP",
+    "dexNumber": "690",
     "name": "Skrelp",
     "slug": "skrelp",
     "types": [
@@ -137486,6 +138176,7 @@
   },
   "DRAGALGE": {
     "id": "DRAGALGE",
+    "dexNumber": "691",
     "name": "Dragalge",
     "slug": "dragalge",
     "types": [
@@ -137674,6 +138365,7 @@
   },
   "CLAUNCHER": {
     "id": "CLAUNCHER",
+    "dexNumber": "692",
     "name": "Clauncher",
     "slug": "clauncher",
     "types": [
@@ -137857,6 +138549,7 @@
   },
   "CLAWITZER": {
     "id": "CLAWITZER",
+    "dexNumber": "693",
     "name": "Clawitzer",
     "slug": "clawitzer",
     "types": [
@@ -138047,6 +138740,7 @@
   },
   "HELIOPTILE": {
     "id": "HELIOPTILE",
+    "dexNumber": "694",
     "name": "Helioptile",
     "slug": "helioptile",
     "types": [
@@ -138222,6 +138916,7 @@
   },
   "HELIOLISK": {
     "id": "HELIOLISK",
+    "dexNumber": "695",
     "name": "Heliolisk",
     "slug": "heliolisk",
     "types": [
@@ -138418,6 +139113,7 @@
   },
   "TYRUNT": {
     "id": "TYRUNT",
+    "dexNumber": "696",
     "name": "Tyrunt",
     "slug": "tyrunt",
     "types": [
@@ -138607,6 +139303,7 @@
   },
   "TYRANTRUM": {
     "id": "TYRANTRUM",
+    "dexNumber": "697",
     "name": "Tyrantrum",
     "slug": "tyrantrum",
     "types": [
@@ -138792,6 +139489,7 @@
   },
   "AMAURA": {
     "id": "AMAURA",
+    "dexNumber": "698",
     "name": "Amaura",
     "slug": "amaura",
     "types": [
@@ -138997,6 +139695,7 @@
   },
   "AURORUS": {
     "id": "AURORUS",
+    "dexNumber": "699",
     "name": "Aurorus",
     "slug": "aurorus",
     "types": [
@@ -139203,6 +139902,7 @@
   },
   "SYLVEON": {
     "id": "SYLVEON",
+    "dexNumber": "700",
     "name": "Sylveon",
     "slug": "sylveon",
     "types": [
@@ -139434,6 +140134,7 @@
   },
   "HAWLUCHA": {
     "id": "HAWLUCHA",
+    "dexNumber": "701",
     "name": "Hawlucha",
     "slug": "hawlucha",
     "types": [
@@ -139677,6 +140378,7 @@
   },
   "DEDENNE": {
     "id": "DEDENNE",
+    "dexNumber": "702",
     "name": "Dedenne",
     "slug": "dedenne",
     "types": [
@@ -139883,6 +140585,7 @@
   },
   "CARBINK": {
     "id": "CARBINK",
+    "dexNumber": "703",
     "name": "Carbink",
     "slug": "carbink",
     "types": [
@@ -140084,6 +140787,7 @@
   },
   "GOOMY": {
     "id": "GOOMY",
+    "dexNumber": "704",
     "name": "Goomy",
     "slug": "goomy",
     "types": [
@@ -140237,6 +140941,7 @@
   },
   "SLIGGOO": {
     "id": "SLIGGOO",
+    "dexNumber": "705",
     "name": "Sliggoo",
     "slug": "sliggoo",
     "types": [
@@ -140393,6 +141098,7 @@
   },
   "GOODRA": {
     "id": "GOODRA",
+    "dexNumber": "706",
     "name": "Goodra",
     "slug": "goodra",
     "types": [
@@ -140597,6 +141303,7 @@
   },
   "KLEFKI": {
     "id": "KLEFKI",
+    "dexNumber": "707",
     "name": "Klefki",
     "slug": "klefki",
     "types": [
@@ -140782,6 +141489,7 @@
   },
   "PHANTUMP": {
     "id": "PHANTUMP",
+    "dexNumber": "708",
     "name": "Phantump",
     "slug": "phantump",
     "types": [
@@ -140986,6 +141694,7 @@
   },
   "TREVENANT": {
     "id": "TREVENANT",
+    "dexNumber": "709",
     "name": "Trevenant",
     "slug": "trevenant",
     "types": [
@@ -141200,6 +141909,7 @@
   },
   "PUMPKABOO": {
     "id": "PUMPKABOO",
+    "dexNumber": "710",
     "name": "Pumpkaboo",
     "slug": "pumpkaboo",
     "types": [
@@ -141386,6 +142096,7 @@
   },
   "GOURGEIST": {
     "id": "GOURGEIST",
+    "dexNumber": "711",
     "name": "Gourgeist",
     "slug": "gourgeist",
     "types": [
@@ -141581,6 +142292,7 @@
   },
   "BERGMITE": {
     "id": "BERGMITE",
+    "dexNumber": "712",
     "name": "Bergmite",
     "slug": "bergmite",
     "types": [
@@ -141765,6 +142477,7 @@
   },
   "AVALUGG": {
     "id": "AVALUGG",
+    "dexNumber": "713",
     "name": "Avalugg",
     "slug": "avalugg",
     "types": [
@@ -141980,6 +142693,7 @@
   },
   "NOIBAT": {
     "id": "NOIBAT",
+    "dexNumber": "714",
     "name": "Noibat",
     "slug": "noibat",
     "types": [
@@ -142177,6 +142891,7 @@
   },
   "NOIVERN": {
     "id": "NOIVERN",
+    "dexNumber": "715",
     "name": "Noivern",
     "slug": "noivern",
     "types": [
@@ -142389,6 +143104,7 @@
   },
   "XERNEAS": {
     "id": "XERNEAS",
+    "dexNumber": "716",
     "name": "Xerneas",
     "slug": "xerneas",
     "types": [
@@ -142574,6 +143290,7 @@
   },
   "YVELTAL": {
     "id": "YVELTAL",
+    "dexNumber": "717",
     "name": "Yveltal",
     "slug": "yveltal",
     "types": [
@@ -142758,6 +143475,7 @@
   },
   "ZYGARDE": {
     "id": "ZYGARDE",
+    "dexNumber": "718",
     "name": "Zygarde",
     "slug": "zygarde",
     "types": [
@@ -142948,6 +143666,7 @@
   },
   "DIANCIE": {
     "id": "DIANCIE",
+    "dexNumber": "719",
     "name": "Diancie",
     "slug": "diancie",
     "types": [
@@ -143155,6 +143874,7 @@
   },
   "HOOPA": {
     "id": "HOOPA",
+    "dexNumber": "720",
     "name": "Hoopa",
     "slug": "hoopa",
     "types": [
@@ -143367,6 +144087,7 @@
   },
   "VOLCANION": {
     "id": "VOLCANION",
+    "dexNumber": "721",
     "name": "Volcanion",
     "slug": "volcanion",
     "types": [
@@ -143569,6 +144290,7 @@
   },
   "ROWLET": {
     "id": "ROWLET",
+    "dexNumber": "722",
     "name": "Rowlet",
     "slug": "rowlet",
     "types": [
@@ -143771,6 +144493,7 @@
   },
   "DARTRIX": {
     "id": "DARTRIX",
+    "dexNumber": "723",
     "name": "Dartrix",
     "slug": "dartrix",
     "types": [
@@ -143965,6 +144688,7 @@
   },
   "DECIDUEYE": {
     "id": "DECIDUEYE",
+    "dexNumber": "724",
     "name": "Decidueye",
     "slug": "decidueye",
     "types": [
@@ -144202,6 +144926,7 @@
   },
   "LITTEN": {
     "id": "LITTEN",
+    "dexNumber": "725",
     "name": "Litten",
     "slug": "litten",
     "types": [
@@ -144390,6 +145115,7 @@
   },
   "TORRACAT": {
     "id": "TORRACAT",
+    "dexNumber": "726",
     "name": "Torracat",
     "slug": "torracat",
     "types": [
@@ -144569,6 +145295,7 @@
   },
   "INCINEROAR": {
     "id": "INCINEROAR",
+    "dexNumber": "727",
     "name": "Incineroar",
     "slug": "incineroar",
     "types": [
@@ -144809,6 +145536,7 @@
   },
   "POPPLIO": {
     "id": "POPPLIO",
+    "dexNumber": "728",
     "name": "Popplio",
     "slug": "popplio",
     "types": [
@@ -145000,6 +145728,7 @@
   },
   "BRIONNE": {
     "id": "BRIONNE",
+    "dexNumber": "729",
     "name": "Brionne",
     "slug": "brionne",
     "types": [
@@ -145183,6 +145912,7 @@
   },
   "PRIMARINA": {
     "id": "PRIMARINA",
+    "dexNumber": "730",
     "name": "Primarina",
     "slug": "primarina",
     "types": [
@@ -145389,6 +146119,7 @@
   },
   "PIKIPEK": {
     "id": "PIKIPEK",
+    "dexNumber": "731",
     "name": "Pikipek",
     "slug": "pikipek",
     "types": [
@@ -145551,6 +146282,7 @@
   },
   "TRUMBEAK": {
     "id": "TRUMBEAK",
+    "dexNumber": "732",
     "name": "Trumbeak",
     "slug": "trumbeak",
     "types": [
@@ -145712,6 +146444,7 @@
   },
   "TOUCANNON": {
     "id": "TOUCANNON",
+    "dexNumber": "733",
     "name": "Toucannon",
     "slug": "toucannon",
     "types": [
@@ -145889,6 +146622,7 @@
   },
   "YUNGOOS": {
     "id": "YUNGOOS",
+    "dexNumber": "734",
     "name": "Yungoos",
     "slug": "yungoos",
     "types": [
@@ -146082,6 +146816,7 @@
   },
   "GUMSHOOS": {
     "id": "GUMSHOOS",
+    "dexNumber": "735",
     "name": "Gumshoos",
     "slug": "gumshoos",
     "types": [
@@ -146275,6 +147010,7 @@
   },
   "GRUBBIN": {
     "id": "GRUBBIN",
+    "dexNumber": "736",
     "name": "Grubbin",
     "slug": "grubbin",
     "types": [
@@ -146428,6 +147164,7 @@
   },
   "CHARJABUG": {
     "id": "CHARJABUG",
+    "dexNumber": "737",
     "name": "Charjabug",
     "slug": "charjabug",
     "types": [
@@ -146600,6 +147337,7 @@
   },
   "VIKAVOLT": {
     "id": "VIKAVOLT",
+    "dexNumber": "738",
     "name": "Vikavolt",
     "slug": "vikavolt",
     "types": [
@@ -146805,6 +147543,7 @@
   },
   "CRABRAWLER": {
     "id": "CRABRAWLER",
+    "dexNumber": "739",
     "name": "Crabrawler",
     "slug": "crabrawler",
     "types": [
@@ -147000,6 +147739,7 @@
   },
   "CRABOMINABLE": {
     "id": "CRABOMINABLE",
+    "dexNumber": "740",
     "name": "Crabominable",
     "slug": "crabominable",
     "types": [
@@ -147203,6 +147943,7 @@
   },
   "ORICORIO": {
     "id": "ORICORIO",
+    "dexNumber": "741",
     "name": "Oricorio",
     "slug": "oricorio",
     "types": [
@@ -147390,6 +148131,7 @@
   },
   "CUTIEFLY": {
     "id": "CUTIEFLY",
+    "dexNumber": "742",
     "name": "Cutiefly",
     "slug": "cutiefly",
     "types": [
@@ -147579,6 +148321,7 @@
   },
   "RIBOMBEE": {
     "id": "RIBOMBEE",
+    "dexNumber": "743",
     "name": "Ribombee",
     "slug": "ribombee",
     "types": [
@@ -147767,6 +148510,7 @@
   },
   "ROCKRUFF": {
     "id": "ROCKRUFF",
+    "dexNumber": "744",
     "name": "Rockruff",
     "slug": "rockruff",
     "types": [
@@ -147953,6 +148697,7 @@
   },
   "LYCANROC": {
     "id": "LYCANROC",
+    "dexNumber": "745",
     "name": "Lycanroc",
     "slug": "lycanroc",
     "types": [
@@ -148155,6 +148900,7 @@
   },
   "WISHIWASHI": {
     "id": "WISHIWASHI",
+    "dexNumber": "746",
     "name": "Wishiwashi",
     "slug": "wishiwashi",
     "types": [
@@ -148318,6 +149064,7 @@
   },
   "MAREANIE": {
     "id": "MAREANIE",
+    "dexNumber": "747",
     "name": "Mareanie",
     "slug": "mareanie",
     "types": [
@@ -148502,6 +149249,7 @@
   },
   "TOXAPEX": {
     "id": "TOXAPEX",
+    "dexNumber": "748",
     "name": "Toxapex",
     "slug": "toxapex",
     "types": [
@@ -148690,6 +149438,7 @@
   },
   "MUDBRAY": {
     "id": "MUDBRAY",
+    "dexNumber": "749",
     "name": "Mudbray",
     "slug": "mudbray",
     "types": [
@@ -148867,6 +149616,7 @@
   },
   "MUDSDALE": {
     "id": "MUDSDALE",
+    "dexNumber": "750",
     "name": "Mudsdale",
     "slug": "mudsdale",
     "types": [
@@ -149043,6 +149793,7 @@
   },
   "DEWPIDER": {
     "id": "DEWPIDER",
+    "dexNumber": "751",
     "name": "Dewpider",
     "slug": "dewpider",
     "types": [
@@ -149234,6 +149985,7 @@
   },
   "ARAQUANID": {
     "id": "ARAQUANID",
+    "dexNumber": "752",
     "name": "Araquanid",
     "slug": "araquanid",
     "types": [
@@ -149420,6 +150172,7 @@
   },
   "FOMANTIS": {
     "id": "FOMANTIS",
+    "dexNumber": "753",
     "name": "Fomantis",
     "slug": "fomantis",
     "types": [
@@ -149591,6 +150344,7 @@
   },
   "LURANTIS": {
     "id": "LURANTIS",
+    "dexNumber": "754",
     "name": "Lurantis",
     "slug": "lurantis",
     "types": [
@@ -149788,6 +150542,7 @@
   },
   "MORELULL": {
     "id": "MORELULL",
+    "dexNumber": "755",
     "name": "Morelull",
     "slug": "morelull",
     "types": [
@@ -149954,6 +150709,7 @@
   },
   "SHIINOTIC": {
     "id": "SHIINOTIC",
+    "dexNumber": "756",
     "name": "Shiinotic",
     "slug": "shiinotic",
     "types": [
@@ -150108,6 +150864,7 @@
   },
   "SALANDIT": {
     "id": "SALANDIT",
+    "dexNumber": "757",
     "name": "Salandit",
     "slug": "salandit",
     "types": [
@@ -150307,6 +151064,7 @@
   },
   "SALAZZLE": {
     "id": "SALAZZLE",
+    "dexNumber": "758",
     "name": "Salazzle",
     "slug": "salazzle",
     "types": [
@@ -150545,6 +151303,7 @@
   },
   "STUFFUL": {
     "id": "STUFFUL",
+    "dexNumber": "759",
     "name": "Stufful",
     "slug": "stufful",
     "types": [
@@ -150725,6 +151484,7 @@
   },
   "BEWEAR": {
     "id": "BEWEAR",
+    "dexNumber": "760",
     "name": "Bewear",
     "slug": "bewear",
     "types": [
@@ -150903,6 +151663,7 @@
   },
   "BOUNSWEET": {
     "id": "BOUNSWEET",
+    "dexNumber": "761",
     "name": "Bounsweet",
     "slug": "bounsweet",
     "types": [
@@ -151063,6 +151824,7 @@
   },
   "STEENEE": {
     "id": "STEENEE",
+    "dexNumber": "762",
     "name": "Steenee",
     "slug": "steenee",
     "types": [
@@ -151236,6 +151998,7 @@
   },
   "TSAREENA": {
     "id": "TSAREENA",
+    "dexNumber": "763",
     "name": "Tsareena",
     "slug": "tsareena",
     "types": [
@@ -151428,6 +152191,7 @@
   },
   "COMFEY": {
     "id": "COMFEY",
+    "dexNumber": "764",
     "name": "Comfey",
     "slug": "comfey",
     "types": [
@@ -151656,6 +152420,7 @@
   },
   "ORANGURU": {
     "id": "ORANGURU",
+    "dexNumber": "765",
     "name": "Oranguru",
     "slug": "oranguru",
     "types": [
@@ -151868,6 +152633,7 @@
   },
   "PASSIMIAN": {
     "id": "PASSIMIAN",
+    "dexNumber": "766",
     "name": "Passimian",
     "slug": "passimian",
     "types": [
@@ -152073,6 +152839,7 @@
   },
   "WIMPOD": {
     "id": "WIMPOD",
+    "dexNumber": "767",
     "name": "Wimpod",
     "slug": "wimpod",
     "types": [
@@ -152187,6 +152954,7 @@
   },
   "GOLISOPOD": {
     "id": "GOLISOPOD",
+    "dexNumber": "768",
     "name": "Golisopod",
     "slug": "golisopod",
     "types": [
@@ -152393,6 +153161,7 @@
   },
   "SANDYGAST": {
     "id": "SANDYGAST",
+    "dexNumber": "769",
     "name": "Sandygast",
     "slug": "sandygast",
     "types": [
@@ -152576,6 +153345,7 @@
   },
   "PALOSSAND": {
     "id": "PALOSSAND",
+    "dexNumber": "770",
     "name": "Palossand",
     "slug": "palossand",
     "types": [
@@ -152749,6 +153519,7 @@
   },
   "PYUKUMUKU": {
     "id": "PYUKUMUKU",
+    "dexNumber": "771",
     "name": "Pyukumuku",
     "slug": "pyukumuku",
     "types": [
@@ -152917,6 +153688,7 @@
   },
   "TYPENULL": {
     "id": "TYPENULL",
+    "dexNumber": "772",
     "name": "Código Cero",
     "slug": "codigo-cero",
     "types": [
@@ -153093,6 +153865,7 @@
   },
   "SILVALLY": {
     "id": "SILVALLY",
+    "dexNumber": "773",
     "name": "Silvally",
     "slug": "silvally",
     "types": [
@@ -153324,6 +154097,7 @@
   },
   "MINIOR": {
     "id": "MINIOR",
+    "dexNumber": "774",
     "name": "Minior",
     "slug": "minior",
     "types": [
@@ -153501,6 +154275,7 @@
   },
   "KOMALA": {
     "id": "KOMALA",
+    "dexNumber": "775",
     "name": "Komala",
     "slug": "komala",
     "types": [
@@ -153671,6 +154446,7 @@
   },
   "TURTONATOR": {
     "id": "TURTONATOR",
+    "dexNumber": "776",
     "name": "Turtonator",
     "slug": "turtonator",
     "types": [
@@ -153861,6 +154637,7 @@
   },
   "TOGEDEMARU": {
     "id": "TOGEDEMARU",
+    "dexNumber": "777",
     "name": "Togedemaru",
     "slug": "togedemaru",
     "types": [
@@ -154057,6 +154834,7 @@
   },
   "MIMIKYU": {
     "id": "MIMIKYU",
+    "dexNumber": "778",
     "name": "Mimikyu",
     "slug": "mimikyu",
     "types": [
@@ -154252,6 +155030,7 @@
   },
   "BRUXISH": {
     "id": "BRUXISH",
+    "dexNumber": "779",
     "name": "Bruxish",
     "slug": "bruxish",
     "types": [
@@ -154444,6 +155223,7 @@
   },
   "DRAMPA": {
     "id": "DRAMPA",
+    "dexNumber": "780",
     "name": "Drampa",
     "slug": "drampa",
     "types": [
@@ -154648,6 +155428,7 @@
   },
   "DHELMISE": {
     "id": "DHELMISE",
+    "dexNumber": "781",
     "name": "Dhelmise",
     "slug": "dhelmise",
     "types": [
@@ -154852,6 +155633,7 @@
   },
   "JANGMOO": {
     "id": "JANGMOO",
+    "dexNumber": "782",
     "name": "Jangmo-o",
     "slug": "jangmoo",
     "types": [
@@ -155032,6 +155814,7 @@
   },
   "HAKAMOO": {
     "id": "HAKAMOO",
+    "dexNumber": "783",
     "name": "Hakamo-o",
     "slug": "hakamoo",
     "types": [
@@ -155227,6 +156010,7 @@
   },
   "KOMMOO": {
     "id": "KOMMOO",
+    "dexNumber": "784",
     "name": "Kommo-o",
     "slug": "kommoo",
     "types": [
@@ -155461,6 +156245,7 @@
   },
   "TAPUKOKO": {
     "id": "TAPUKOKO",
+    "dexNumber": "785",
     "name": "Tapu Koko",
     "slug": "tapu-koko",
     "types": [
@@ -155651,6 +156436,7 @@
   },
   "TAPULELE": {
     "id": "TAPULELE",
+    "dexNumber": "786",
     "name": "Tapu Lele",
     "slug": "tapu-lele",
     "types": [
@@ -155834,6 +156620,7 @@
   },
   "TAPUBULU": {
     "id": "TAPUBULU",
+    "dexNumber": "787",
     "name": "Tapu Bulu",
     "slug": "tapu-bulu",
     "types": [
@@ -156035,6 +156822,7 @@
   },
   "TAPUFINI": {
     "id": "TAPUFINI",
+    "dexNumber": "788",
     "name": "Tapu Fini",
     "slug": "tapu-fini",
     "types": [
@@ -156224,6 +157012,7 @@
   },
   "COSMOG": {
     "id": "COSMOG",
+    "dexNumber": "789",
     "name": "Cosmog",
     "slug": "cosmog",
     "types": [
@@ -156280,6 +157069,7 @@
   },
   "COSMOEM": {
     "id": "COSMOEM",
+    "dexNumber": "790",
     "name": "Cosmoem",
     "slug": "cosmoem",
     "types": [
@@ -156348,6 +157138,7 @@
   },
   "SOLGALEO": {
     "id": "SOLGALEO",
+    "dexNumber": "791",
     "name": "Solgaleo",
     "slug": "solgaleo",
     "types": [
@@ -156550,6 +157341,7 @@
   },
   "LUNALA": {
     "id": "LUNALA",
+    "dexNumber": "792",
     "name": "Lunala",
     "slug": "lunala",
     "types": [
@@ -156741,6 +157533,7 @@
   },
   "NIHILEGO": {
     "id": "NIHILEGO",
+    "dexNumber": "793",
     "name": "Nihilego",
     "slug": "nihilego",
     "types": [
@@ -156922,6 +157715,7 @@
   },
   "BUZZWOLE": {
     "id": "BUZZWOLE",
+    "dexNumber": "794",
     "name": "Buzzwole",
     "slug": "buzzwole",
     "types": [
@@ -157113,6 +157907,7 @@
   },
   "PHEROMOSA": {
     "id": "PHEROMOSA",
+    "dexNumber": "795",
     "name": "Pheromosa",
     "slug": "pheromosa",
     "types": [
@@ -157293,6 +158088,7 @@
   },
   "XURKITREE": {
     "id": "XURKITREE",
+    "dexNumber": "796",
     "name": "Xurkitree",
     "slug": "xurkitree",
     "types": [
@@ -157463,6 +158259,7 @@
   },
   "CELESTEELA": {
     "id": "CELESTEELA",
+    "dexNumber": "797",
     "name": "Celesteela",
     "slug": "celesteela",
     "types": [
@@ -157644,6 +158441,7 @@
   },
   "KARTANA": {
     "id": "KARTANA",
+    "dexNumber": "798",
     "name": "Kartana",
     "slug": "kartana",
     "types": [
@@ -157803,6 +158601,7 @@
   },
   "GUZZLORD": {
     "id": "GUZZLORD",
+    "dexNumber": "799",
     "name": "Guzzlord",
     "slug": "guzzlord",
     "types": [
@@ -157998,6 +158797,7 @@
   },
   "NECROZMA": {
     "id": "NECROZMA",
+    "dexNumber": "800",
     "name": "Necrozma",
     "slug": "necrozma",
     "types": [
@@ -158211,6 +159011,7 @@
   },
   "MAGEARNA": {
     "id": "MAGEARNA",
+    "dexNumber": "801",
     "name": "Magearna",
     "slug": "magearna",
     "types": [
@@ -158448,6 +159249,7 @@
   },
   "MARSHADOW": {
     "id": "MARSHADOW",
+    "dexNumber": "802",
     "name": "Marshadow",
     "slug": "marshadow",
     "types": [
@@ -158664,6 +159466,7 @@
   },
   "POIPOLE": {
     "id": "POIPOLE",
+    "dexNumber": "803",
     "name": "Poipole",
     "slug": "poipole",
     "types": [
@@ -158801,6 +159604,7 @@
   },
   "NAGANADEL": {
     "id": "NAGANADEL",
+    "dexNumber": "804",
     "name": "Naganadel",
     "slug": "naganadel",
     "types": [
@@ -158986,6 +159790,7 @@
   },
   "STAKATAKA": {
     "id": "STAKATAKA",
+    "dexNumber": "805",
     "name": "Stakataka",
     "slug": "stakataka",
     "types": [
@@ -159154,6 +159959,7 @@
   },
   "BLACEPHALON": {
     "id": "BLACEPHALON",
+    "dexNumber": "806",
     "name": "Blacephalon",
     "slug": "blacephalon",
     "types": [
@@ -159326,6 +160132,7 @@
   },
   "ZERAORA": {
     "id": "ZERAORA",
+    "dexNumber": "807",
     "name": "Zeraora",
     "slug": "zeraora",
     "types": [
@@ -159547,6 +160354,7 @@
   },
   "MELTAN": {
     "id": "MELTAN",
+    "dexNumber": "808",
     "name": "Meltan",
     "slug": "meltan",
     "types": [
@@ -159646,6 +160454,7 @@
   },
   "MELMETAL": {
     "id": "MELMETAL",
+    "dexNumber": "809",
     "name": "Melmetal",
     "slug": "melmetal",
     "types": [
@@ -159798,6 +160607,7 @@
   },
   "GROOKEY": {
     "id": "GROOKEY",
+    "dexNumber": "810",
     "name": "Grookey",
     "slug": "grookey",
     "types": [
@@ -159970,6 +160780,7 @@
   },
   "THWACKEY": {
     "id": "THWACKEY",
+    "dexNumber": "811",
     "name": "Thwackey",
     "slug": "thwackey",
     "types": [
@@ -160139,6 +160950,7 @@
   },
   "RILLABOOM": {
     "id": "RILLABOOM",
+    "dexNumber": "812",
     "name": "Rillaboom",
     "slug": "rillaboom",
     "types": [
@@ -160340,6 +161152,7 @@
   },
   "SCORBUNNY": {
     "id": "SCORBUNNY",
+    "dexNumber": "813",
     "name": "Scorbunny",
     "slug": "scorbunny",
     "types": [
@@ -160509,6 +161322,7 @@
   },
   "RABOOT": {
     "id": "RABOOT",
+    "dexNumber": "814",
     "name": "Raboot",
     "slug": "raboot",
     "types": [
@@ -160674,6 +161488,7 @@
   },
   "CINDERACE": {
     "id": "CINDERACE",
+    "dexNumber": "815",
     "name": "Cinderace",
     "slug": "cinderace",
     "types": [
@@ -160864,6 +161679,7 @@
   },
   "SOBBLE": {
     "id": "SOBBLE",
+    "dexNumber": "816",
     "name": "Sobble",
     "slug": "sobble",
     "types": [
@@ -161040,6 +161856,7 @@
   },
   "DRIZZILE": {
     "id": "DRIZZILE",
+    "dexNumber": "817",
     "name": "Drizzile",
     "slug": "drizzile",
     "types": [
@@ -161205,6 +162022,7 @@
   },
   "INTELEON": {
     "id": "INTELEON",
+    "dexNumber": "818",
     "name": "Inteleon",
     "slug": "inteleon",
     "types": [
@@ -161400,6 +162218,7 @@
   },
   "SKWOVET": {
     "id": "SKWOVET",
+    "dexNumber": "819",
     "name": "Skwovet",
     "slug": "skwovet",
     "types": [
@@ -161556,6 +162375,7 @@
   },
   "GREEDENT": {
     "id": "GREEDENT",
+    "dexNumber": "820",
     "name": "Greedent",
     "slug": "greedent",
     "types": [
@@ -161720,6 +162540,7 @@
   },
   "ROOKIDEE": {
     "id": "ROOKIDEE",
+    "dexNumber": "821",
     "name": "Rookidee",
     "slug": "rookidee",
     "types": [
@@ -161878,6 +162699,7 @@
   },
   "CORVISQUIRE": {
     "id": "CORVISQUIRE",
+    "dexNumber": "822",
     "name": "Corvisquire",
     "slug": "corvisquire",
     "types": [
@@ -162030,6 +162852,7 @@
   },
   "CORVIKNIGHT": {
     "id": "CORVIKNIGHT",
+    "dexNumber": "823",
     "name": "Corviknight",
     "slug": "corviknight",
     "types": [
@@ -162212,6 +163035,7 @@
   },
   "BLIPBUG": {
     "id": "BLIPBUG",
+    "dexNumber": "824",
     "name": "Blipbug",
     "slug": "blipbug",
     "types": [
@@ -162280,6 +163104,7 @@
   },
   "DOTTLER": {
     "id": "DOTTLER",
+    "dexNumber": "825",
     "name": "Dottler",
     "slug": "dottler",
     "types": [
@@ -162410,6 +163235,7 @@
   },
   "ORBEETLE": {
     "id": "ORBEETLE",
+    "dexNumber": "826",
     "name": "Orbeetle",
     "slug": "orbeetle",
     "types": [
@@ -162586,6 +163412,7 @@
   },
   "NICKIT": {
     "id": "NICKIT",
+    "dexNumber": "827",
     "name": "Nickit",
     "slug": "nickit",
     "types": [
@@ -162725,6 +163552,7 @@
   },
   "THIEVUL": {
     "id": "THIEVUL",
+    "dexNumber": "828",
     "name": "Thievul",
     "slug": "thievul",
     "types": [
@@ -162880,6 +163708,7 @@
   },
   "GOSSIFLEUR": {
     "id": "GOSSIFLEUR",
+    "dexNumber": "829",
     "name": "Gossifleur",
     "slug": "gossifleur",
     "types": [
@@ -163020,6 +163849,7 @@
   },
   "ELDEGOSS": {
     "id": "ELDEGOSS",
+    "dexNumber": "830",
     "name": "Eldegoss",
     "slug": "eldegoss",
     "types": [
@@ -163160,6 +163990,7 @@
   },
   "WOOLOO": {
     "id": "WOOLOO",
+    "dexNumber": "831",
     "name": "Wooloo",
     "slug": "wooloo",
     "types": [
@@ -163313,6 +164144,7 @@
   },
   "DUBWOOL": {
     "id": "DUBWOOL",
+    "dexNumber": "832",
     "name": "Dubwool",
     "slug": "dubwool",
     "types": [
@@ -163475,6 +164307,7 @@
   },
   "CHEWTLE": {
     "id": "CHEWTLE",
+    "dexNumber": "833",
     "name": "Chewtle",
     "slug": "chewtle",
     "types": [
@@ -163638,6 +164471,7 @@
   },
   "DREDNAW": {
     "id": "DREDNAW",
+    "dexNumber": "834",
     "name": "Drednaw",
     "slug": "drednaw",
     "types": [
@@ -163845,6 +164679,7 @@
   },
   "YAMPER": {
     "id": "YAMPER",
+    "dexNumber": "835",
     "name": "Yamper",
     "slug": "yamper",
     "types": [
@@ -163992,6 +164827,7 @@
   },
   "BOLTUND": {
     "id": "BOLTUND",
+    "dexNumber": "836",
     "name": "Boltund",
     "slug": "boltund",
     "types": [
@@ -164150,6 +164986,7 @@
   },
   "ROLYCOLY": {
     "id": "ROLYCOLY",
+    "dexNumber": "837",
     "name": "Rolycoly",
     "slug": "rolycoly",
     "types": [
@@ -164304,6 +165141,7 @@
   },
   "CARKOL": {
     "id": "CARKOL",
+    "dexNumber": "838",
     "name": "Carkol",
     "slug": "carkol",
     "types": [
@@ -164477,6 +165315,7 @@
   },
   "COALOSSAL": {
     "id": "COALOSSAL",
+    "dexNumber": "839",
     "name": "Coalossal",
     "slug": "coalossal",
     "types": [
@@ -164660,6 +165499,7 @@
   },
   "APPLIN": {
     "id": "APPLIN",
+    "dexNumber": "840",
     "name": "Applin",
     "slug": "applin",
     "types": [
@@ -164767,6 +165607,7 @@
   },
   "FLAPPLE": {
     "id": "FLAPPLE",
+    "dexNumber": "841",
     "name": "Flapple",
     "slug": "flapple",
     "types": [
@@ -164948,6 +165789,7 @@
   },
   "APPLETUN": {
     "id": "APPLETUN",
+    "dexNumber": "842",
     "name": "Appletun",
     "slug": "appletun",
     "types": [
@@ -165130,6 +165972,7 @@
   },
   "SILICOBRA": {
     "id": "SILICOBRA",
+    "dexNumber": "843",
     "name": "Silicobra",
     "slug": "silicobra",
     "types": [
@@ -165293,6 +166136,7 @@
   },
   "SANDACONDA": {
     "id": "SANDACONDA",
+    "dexNumber": "844",
     "name": "Sandaconda",
     "slug": "sandaconda",
     "types": [
@@ -165456,6 +166300,7 @@
   },
   "CRAMORANT": {
     "id": "CRAMORANT",
+    "dexNumber": "845",
     "name": "Cramorant",
     "slug": "cramorant",
     "types": [
@@ -165614,6 +166459,7 @@
   },
   "ARROKUDA": {
     "id": "ARROKUDA",
+    "dexNumber": "846",
     "name": "Arrokuda",
     "slug": "arrokuda",
     "types": [
@@ -165773,6 +166619,7 @@
   },
   "BARRASKEWDA": {
     "id": "BARRASKEWDA",
+    "dexNumber": "847",
     "name": "Barraskewda",
     "slug": "barraskewda",
     "types": [
@@ -165940,6 +166787,7 @@
   },
   "TOXEL": {
     "id": "TOXEL",
+    "dexNumber": "848",
     "name": "Toxel",
     "slug": "toxel",
     "types": [
@@ -166078,6 +166926,7 @@
   },
   "TOXTRICITY": {
     "id": "TOXTRICITY",
+    "dexNumber": "849",
     "name": "Toxtricity",
     "slug": "toxtricity",
     "types": [
@@ -166328,6 +167177,7 @@
   },
   "SIZZLIPEDE": {
     "id": "SIZZLIPEDE",
+    "dexNumber": "850",
     "name": "Sizzlipede",
     "slug": "sizzlipede",
     "types": [
@@ -166493,6 +167343,7 @@
   },
   "CENTISKORCH": {
     "id": "CENTISKORCH",
+    "dexNumber": "851",
     "name": "Centiskorch",
     "slug": "centiskorch",
     "types": [
@@ -166662,6 +167513,7 @@
   },
   "CLOBBOPUS": {
     "id": "CLOBBOPUS",
+    "dexNumber": "852",
     "name": "Clobbopus",
     "slug": "clobbopus",
     "types": [
@@ -166818,6 +167670,7 @@
   },
   "GRAPPLOCT": {
     "id": "GRAPPLOCT",
+    "dexNumber": "853",
     "name": "Grapploct",
     "slug": "grapploct",
     "types": [
@@ -166989,6 +167842,7 @@
   },
   "SINISTEA": {
     "id": "SINISTEA",
+    "dexNumber": "854",
     "name": "Sinistea",
     "slug": "sinistea",
     "types": [
@@ -167145,6 +167999,7 @@
   },
   "POLTEAGEIST": {
     "id": "POLTEAGEIST",
+    "dexNumber": "855",
     "name": "Polteageist",
     "slug": "polteageist",
     "types": [
@@ -167320,6 +168175,7 @@
   },
   "HATENNA": {
     "id": "HATENNA",
+    "dexNumber": "856",
     "name": "Hatenna",
     "slug": "hatenna",
     "types": [
@@ -167491,6 +168347,7 @@
   },
   "HATTREM": {
     "id": "HATTREM",
+    "dexNumber": "857",
     "name": "Hattrem",
     "slug": "hattrem",
     "types": [
@@ -167660,6 +168517,7 @@
   },
   "HATTERENE": {
     "id": "HATTERENE",
+    "dexNumber": "858",
     "name": "Hatterene",
     "slug": "hatterene",
     "types": [
@@ -167858,6 +168716,7 @@
   },
   "IMPIDIMP": {
     "id": "IMPIDIMP",
+    "dexNumber": "859",
     "name": "Impidimp",
     "slug": "impidimp",
     "types": [
@@ -168034,6 +168893,7 @@
   },
   "MORGREM": {
     "id": "MORGREM",
+    "dexNumber": "860",
     "name": "Morgrem",
     "slug": "morgrem",
     "types": [
@@ -168220,6 +169080,7 @@
   },
   "GRIMMSNARL": {
     "id": "GRIMMSNARL",
+    "dexNumber": "861",
     "name": "Grimmsnarl",
     "slug": "grimmsnarl",
     "types": [
@@ -168438,6 +169299,7 @@
   },
   "OBSTAGOON": {
     "id": "OBSTAGOON",
+    "dexNumber": "862",
     "name": "Obstagoon",
     "slug": "obstagoon",
     "types": [
@@ -168667,6 +169529,7 @@
   },
   "PERRSERKER": {
     "id": "PERRSERKER",
+    "dexNumber": "863",
     "name": "Perrserker",
     "slug": "perrserker",
     "types": [
@@ -168890,6 +169753,7 @@
   },
   "CURSOLA": {
     "id": "CURSOLA",
+    "dexNumber": "864",
     "name": "Cursola",
     "slug": "cursola",
     "types": [
@@ -169090,6 +169954,7 @@
   },
   "SIRFETCHD": {
     "id": "SIRFETCHD",
+    "dexNumber": "865",
     "name": "Sirfetch'd",
     "slug": "sirfetchd",
     "types": [
@@ -169300,6 +170165,7 @@
   },
   "MRRIME": {
     "id": "MRRIME",
+    "dexNumber": "866",
     "name": "Mr. Rime",
     "slug": "mr-rime",
     "types": [
@@ -169592,6 +170458,7 @@
   },
   "RUNERIGUS": {
     "id": "RUNERIGUS",
+    "dexNumber": "867",
     "name": "Runerigus",
     "slug": "runerigus",
     "types": [
@@ -169794,6 +170661,7 @@
   },
   "MILCERY": {
     "id": "MILCERY",
+    "dexNumber": "868",
     "name": "Milcery",
     "slug": "milcery",
     "types": [
@@ -169944,6 +170812,7 @@
   },
   "ALCREMIE": {
     "id": "ALCREMIE",
+    "dexNumber": "869",
     "name": "Alcremie",
     "slug": "alcremie",
     "types": [
@@ -170120,6 +170989,7 @@
   },
   "FALINKS": {
     "id": "FALINKS",
+    "dexNumber": "870",
     "name": "Falinks",
     "slug": "falinks",
     "types": [
@@ -170304,6 +171174,7 @@
   },
   "PINCURCHIN": {
     "id": "PINCURCHIN",
+    "dexNumber": "871",
     "name": "Pincurchin",
     "slug": "pincurchin",
     "types": [
@@ -170485,6 +171356,7 @@
   },
   "SNOM": {
     "id": "SNOM",
+    "dexNumber": "872",
     "name": "Snom",
     "slug": "snom",
     "types": [
@@ -170584,6 +171456,7 @@
   },
   "FROSMOTH": {
     "id": "FROSMOTH",
+    "dexNumber": "873",
     "name": "Frosmoth",
     "slug": "frosmoth",
     "types": [
@@ -170773,6 +171646,7 @@
   },
   "STONJOURNER": {
     "id": "STONJOURNER",
+    "dexNumber": "874",
     "name": "Stonjourner",
     "slug": "stonjourner",
     "types": [
@@ -170932,6 +171806,7 @@
   },
   "EISCUE": {
     "id": "EISCUE",
+    "dexNumber": "875",
     "name": "Eiscue",
     "slug": "eiscue",
     "types": [
@@ -171105,6 +171980,7 @@
   },
   "INDEEDEE": {
     "id": "INDEEDEE",
+    "dexNumber": "876",
     "name": "Indeedee",
     "slug": "indeedee",
     "types": [
@@ -171280,6 +172156,7 @@
   },
   "MORPEKO": {
     "id": "MORPEKO",
+    "dexNumber": "877",
     "name": "Morpeko",
     "slug": "morpeko",
     "types": [
@@ -171479,6 +172356,7 @@
   },
   "CUFANT": {
     "id": "CUFANT",
+    "dexNumber": "878",
     "name": "Cufant",
     "slug": "cufant",
     "types": [
@@ -171661,6 +172539,7 @@
   },
   "COPPERAJAH": {
     "id": "COPPERAJAH",
+    "dexNumber": "879",
     "name": "Copperajah",
     "slug": "copperajah",
     "types": [
@@ -171846,6 +172725,7 @@
   },
   "DRACOZOLT": {
     "id": "DRACOZOLT",
+    "dexNumber": "880",
     "name": "Dracozolt",
     "slug": "dracozolt",
     "types": [
@@ -172011,6 +172891,7 @@
   },
   "ARCTOZOLT": {
     "id": "ARCTOZOLT",
+    "dexNumber": "881",
     "name": "Arctozolt",
     "slug": "arctozolt",
     "types": [
@@ -172183,6 +173064,7 @@
   },
   "DRACOVISH": {
     "id": "DRACOVISH",
+    "dexNumber": "882",
     "name": "Dracovish",
     "slug": "dracovish",
     "types": [
@@ -172351,6 +173233,7 @@
   },
   "ARCTOVISH": {
     "id": "ARCTOVISH",
+    "dexNumber": "883",
     "name": "Arctovish",
     "slug": "arctovish",
     "types": [
@@ -172516,6 +173399,7 @@
   },
   "DURALUDON": {
     "id": "DURALUDON",
+    "dexNumber": "884",
     "name": "Duraludon",
     "slug": "duraludon",
     "types": [
@@ -172703,6 +173587,7 @@
   },
   "DREEPY": {
     "id": "DREEPY",
+    "dexNumber": "885",
     "name": "Dreepy",
     "slug": "dreepy",
     "types": [
@@ -172844,6 +173729,7 @@
   },
   "DRAKLOAK": {
     "id": "DRAKLOAK",
+    "dexNumber": "886",
     "name": "Drakloak",
     "slug": "drakloak",
     "types": [
@@ -173049,6 +173935,7 @@
   },
   "DRAGAPULT": {
     "id": "DRAGAPULT",
+    "dexNumber": "887",
     "name": "Dragapult",
     "slug": "dragapult",
     "types": [
@@ -173263,6 +174150,7 @@
   },
   "ZACIAN": {
     "id": "ZACIAN",
+    "dexNumber": "888",
     "name": "Zacian",
     "slug": "zacian",
     "types": [
@@ -173429,6 +174317,7 @@
   },
   "ZAMAZENTA": {
     "id": "ZAMAZENTA",
+    "dexNumber": "889",
     "name": "Zamazenta",
     "slug": "zamazenta",
     "types": [
@@ -173605,6 +174494,7 @@
   },
   "ETERNATUS": {
     "id": "ETERNATUS",
+    "dexNumber": "890",
     "name": "Eternatus",
     "slug": "eternatus",
     "types": [
@@ -173772,6 +174662,7 @@
   },
   "KUBFU": {
     "id": "KUBFU",
+    "dexNumber": "891",
     "name": "Kubfu",
     "slug": "kubfu",
     "types": [
@@ -173935,6 +174826,7 @@
   },
   "URSHIFU": {
     "id": "URSHIFU",
+    "dexNumber": "892",
     "name": "Urshifu",
     "slug": "urshifu",
     "types": [
@@ -174124,6 +175016,7 @@
   },
   "ZARUDE": {
     "id": "ZARUDE",
+    "dexNumber": "893",
     "name": "Zarude",
     "slug": "zarude",
     "types": [
@@ -174316,6 +175209,7 @@
   },
   "REGIELEKI": {
     "id": "REGIELEKI",
+    "dexNumber": "894",
     "name": "Regieleki",
     "slug": "regieleki",
     "types": [
@@ -174465,6 +175359,7 @@
   },
   "REGIDRAGO": {
     "id": "REGIDRAGO",
+    "dexNumber": "895",
     "name": "Regidrago",
     "slug": "regidrago",
     "types": [
@@ -174615,6 +175510,7 @@
   },
   "GLASTRIER": {
     "id": "GLASTRIER",
+    "dexNumber": "896",
     "name": "Glastrier",
     "slug": "glastrier",
     "types": [
@@ -174767,6 +175663,7 @@
   },
   "SPECTRIER": {
     "id": "SPECTRIER",
+    "dexNumber": "897",
     "name": "Spectrier",
     "slug": "spectrier",
     "types": [
@@ -174916,6 +175813,7 @@
   },
   "CALYREX": {
     "id": "CALYREX",
+    "dexNumber": "898",
     "name": "Calyrex",
     "slug": "calyrex",
     "types": [
@@ -175095,6 +175993,7 @@
   },
   "WYRDEER": {
     "id": "WYRDEER",
+    "dexNumber": "899",
     "name": "Wyrdeer",
     "slug": "wyrdeer",
     "types": [
@@ -175283,6 +176182,7 @@
   },
   "KLEAVOR": {
     "id": "KLEAVOR",
+    "dexNumber": "900",
     "name": "Kleavor",
     "slug": "kleavor",
     "types": [
@@ -175462,6 +176362,7 @@
   },
   "URSALUNA": {
     "id": "URSALUNA",
+    "dexNumber": "901",
     "name": "Ursaluna",
     "slug": "ursaluna",
     "types": [
@@ -175653,6 +176554,7 @@
   },
   "BASCULEGION": {
     "id": "BASCULEGION",
+    "dexNumber": "902",
     "name": "Basculegion",
     "slug": "basculegion",
     "types": [
@@ -175840,6 +176742,7 @@
   },
   "SNEASLER": {
     "id": "SNEASLER",
+    "dexNumber": "903",
     "name": "Sneasler",
     "slug": "sneasler",
     "types": [
@@ -176051,6 +176954,7 @@
   },
   "OVERQWIL": {
     "id": "OVERQWIL",
+    "dexNumber": "904",
     "name": "Overqwil",
     "slug": "overqwil",
     "types": [
@@ -176257,6 +177161,7 @@
   },
   "ENAMORUS": {
     "id": "ENAMORUS",
+    "dexNumber": "905",
     "name": "Enamorus",
     "slug": "enamorus",
     "types": [
@@ -176426,6 +177331,7 @@
   },
   "SPRIGATITO": {
     "id": "SPRIGATITO",
+    "dexNumber": "906",
     "name": "Sprigatito",
     "slug": "sprigatito",
     "types": [
@@ -176588,6 +177494,7 @@
   },
   "FLORAGATO": {
     "id": "FLORAGATO",
+    "dexNumber": "907",
     "name": "Floragato",
     "slug": "floragato",
     "types": [
@@ -176749,6 +177656,7 @@
   },
   "MEOWSCARADA": {
     "id": "MEOWSCARADA",
+    "dexNumber": "908",
     "name": "Meowscarada",
     "slug": "meowscarada",
     "types": [
@@ -176951,6 +177859,7 @@
   },
   "FUECOCO": {
     "id": "FUECOCO",
+    "dexNumber": "909",
     "name": "Fuecoco",
     "slug": "fuecoco",
     "types": [
@@ -177102,6 +178011,7 @@
   },
   "CROCALOR": {
     "id": "CROCALOR",
+    "dexNumber": "910",
     "name": "Crocalor",
     "slug": "crocalor",
     "types": [
@@ -177255,6 +178165,7 @@
   },
   "SKELEDIRGE": {
     "id": "SKELEDIRGE",
+    "dexNumber": "911",
     "name": "Skeledirge",
     "slug": "skeledirge",
     "types": [
@@ -177440,6 +178351,7 @@
   },
   "QUAXLY": {
     "id": "QUAXLY",
+    "dexNumber": "912",
     "name": "Quaxly",
     "slug": "quaxly",
     "types": [
@@ -177595,6 +178507,7 @@
   },
   "QUAXWELL": {
     "id": "QUAXWELL",
+    "dexNumber": "913",
     "name": "Quaxwell",
     "slug": "quaxwell",
     "types": [
@@ -177759,6 +178672,7 @@
   },
   "QUAQUAVAL": {
     "id": "QUAQUAVAL",
+    "dexNumber": "914",
     "name": "Quaquaval",
     "slug": "quaquaval",
     "types": [
@@ -177949,6 +178863,7 @@
   },
   "LECHONK": {
     "id": "LECHONK",
+    "dexNumber": "915",
     "name": "Lechonk",
     "slug": "lechonk",
     "types": [
@@ -178105,6 +179020,7 @@
   },
   "OINKOLOGNE": {
     "id": "OINKOLOGNE",
+    "dexNumber": "916",
     "name": "Oinkologne",
     "slug": "oinkologne",
     "types": [
@@ -178263,6 +179179,7 @@
   },
   "TAROUNTULA": {
     "id": "TAROUNTULA",
+    "dexNumber": "917",
     "name": "Tarountula",
     "slug": "tarountula",
     "types": [
@@ -178422,6 +179339,7 @@
   },
   "SPIDOPS": {
     "id": "SPIDOPS",
+    "dexNumber": "918",
     "name": "Spidops",
     "slug": "spidops",
     "types": [
@@ -178599,6 +179517,7 @@
   },
   "NYMBLE": {
     "id": "NYMBLE",
+    "dexNumber": "919",
     "name": "Nymble",
     "slug": "nymble",
     "types": [
@@ -178741,6 +179660,7 @@
   },
   "LOKIX": {
     "id": "LOKIX",
+    "dexNumber": "920",
     "name": "Lokix",
     "slug": "lokix",
     "types": [
@@ -178918,6 +179838,7 @@
   },
   "PAWMI": {
     "id": "PAWMI",
+    "dexNumber": "921",
     "name": "Pawmi",
     "slug": "pawmi",
     "types": [
@@ -179096,6 +180017,7 @@
   },
   "PAWMO": {
     "id": "PAWMO",
+    "dexNumber": "922",
     "name": "Pawmo",
     "slug": "pawmo",
     "types": [
@@ -179278,6 +180200,7 @@
   },
   "PAWMOT": {
     "id": "PAWMOT",
+    "dexNumber": "923",
     "name": "Pawmot",
     "slug": "pawmot",
     "types": [
@@ -179476,6 +180399,7 @@
   },
   "TANDEMAUS": {
     "id": "TANDEMAUS",
+    "dexNumber": "924",
     "name": "Tandemaus",
     "slug": "tandemaus",
     "types": [
@@ -179641,6 +180565,7 @@
   },
   "MAUSHOLD": {
     "id": "MAUSHOLD",
+    "dexNumber": "925",
     "name": "Maushold",
     "slug": "maushold",
     "types": [
@@ -179806,6 +180731,7 @@
   },
   "FIDOUGH": {
     "id": "FIDOUGH",
+    "dexNumber": "926",
     "name": "Fidough",
     "slug": "fidough",
     "types": [
@@ -179965,6 +180891,7 @@
   },
   "DACHSBUN": {
     "id": "DACHSBUN",
+    "dexNumber": "927",
     "name": "Dachsbun",
     "slug": "dachsbun",
     "types": [
@@ -180119,6 +181046,7 @@
   },
   "SMOLIV": {
     "id": "SMOLIV",
+    "dexNumber": "928",
     "name": "Smoliv",
     "slug": "smoliv",
     "types": [
@@ -180259,6 +181187,7 @@
   },
   "DOLLIV": {
     "id": "DOLLIV",
+    "dexNumber": "929",
     "name": "Dolliv",
     "slug": "dolliv",
     "types": [
@@ -180389,6 +181318,7 @@
   },
   "ARBOLIVA": {
     "id": "ARBOLIVA",
+    "dexNumber": "930",
     "name": "Arboliva",
     "slug": "arboliva",
     "types": [
@@ -180549,6 +181479,7 @@
   },
   "SQUAWKABILLY": {
     "id": "SQUAWKABILLY",
+    "dexNumber": "931",
     "name": "Squawkabilly",
     "slug": "squawkabilly",
     "types": [
@@ -180714,6 +181645,7 @@
   },
   "NACLI": {
     "id": "NACLI",
+    "dexNumber": "932",
     "name": "Nacli",
     "slug": "nacli",
     "types": [
@@ -180868,6 +181800,7 @@
   },
   "NACLSTACK": {
     "id": "NACLSTACK",
+    "dexNumber": "933",
     "name": "Naclstack",
     "slug": "naclstack",
     "types": [
@@ -181020,6 +181953,7 @@
   },
   "GARGANACL": {
     "id": "GARGANACL",
+    "dexNumber": "934",
     "name": "Garganacl",
     "slug": "garganacl",
     "types": [
@@ -181194,6 +182128,7 @@
   },
   "CHARCADET": {
     "id": "CHARCADET",
+    "dexNumber": "935",
     "name": "Charcadet",
     "slug": "charcadet",
     "types": [
@@ -181331,6 +182266,7 @@
   },
   "ARMAROUGE": {
     "id": "ARMAROUGE",
+    "dexNumber": "936",
     "name": "Armarouge",
     "slug": "armarouge",
     "types": [
@@ -181509,6 +182445,7 @@
   },
   "CERULEDGE": {
     "id": "CERULEDGE",
+    "dexNumber": "937",
     "name": "Ceruledge",
     "slug": "ceruledge",
     "types": [
@@ -181690,6 +182627,7 @@
   },
   "TADBULB": {
     "id": "TADBULB",
+    "dexNumber": "938",
     "name": "Tadbulb",
     "slug": "tadbulb",
     "types": [
@@ -181841,6 +182779,7 @@
   },
   "BELLIBOLT": {
     "id": "BELLIBOLT",
+    "dexNumber": "939",
     "name": "Bellibolt",
     "slug": "bellibolt",
     "types": [
@@ -181988,6 +182927,7 @@
   },
   "WATTREL": {
     "id": "WATTREL",
+    "dexNumber": "940",
     "name": "Wattrel",
     "slug": "wattrel",
     "types": [
@@ -182138,6 +183078,7 @@
   },
   "KILOWATTREL": {
     "id": "KILOWATTREL",
+    "dexNumber": "941",
     "name": "Kilowattrel",
     "slug": "kilowattrel",
     "types": [
@@ -182289,6 +183230,7 @@
   },
   "MASCHIFF": {
     "id": "MASCHIFF",
+    "dexNumber": "942",
     "name": "Maschiff",
     "slug": "maschiff",
     "types": [
@@ -182450,6 +183392,7 @@
   },
   "MABOSSTIFF": {
     "id": "MABOSSTIFF",
+    "dexNumber": "943",
     "name": "Mabosstiff",
     "slug": "mabosstiff",
     "types": [
@@ -182614,6 +183557,7 @@
   },
   "SHROODLE": {
     "id": "SHROODLE",
+    "dexNumber": "944",
     "name": "Shroodle",
     "slug": "shroodle",
     "types": [
@@ -182786,6 +183730,7 @@
   },
   "GRAFAIAI": {
     "id": "GRAFAIAI",
+    "dexNumber": "945",
     "name": "Grafaiai",
     "slug": "grafaiai",
     "types": [
@@ -182953,6 +183898,7 @@
   },
   "BRAMBLIN": {
     "id": "BRAMBLIN",
+    "dexNumber": "946",
     "name": "Bramblin",
     "slug": "bramblin",
     "types": [
@@ -183121,6 +184067,7 @@
   },
   "BRAMBLEGHAST": {
     "id": "BRAMBLEGHAST",
+    "dexNumber": "947",
     "name": "Brambleghast",
     "slug": "brambleghast",
     "types": [
@@ -183278,6 +184225,7 @@
   },
   "TOEDSCOOL": {
     "id": "TOEDSCOOL",
+    "dexNumber": "948",
     "name": "Toedscool",
     "slug": "toedscool",
     "types": [
@@ -183444,6 +184392,7 @@
   },
   "TOEDSCRUEL": {
     "id": "TOEDSCRUEL",
+    "dexNumber": "949",
     "name": "Toedscruel",
     "slug": "toedscruel",
     "types": [
@@ -183600,6 +184549,7 @@
   },
   "KLAWF": {
     "id": "KLAWF",
+    "dexNumber": "950",
     "name": "Klawf",
     "slug": "klawf",
     "types": [
@@ -183779,6 +184729,7 @@
   },
   "CAPSAKID": {
     "id": "CAPSAKID",
+    "dexNumber": "951",
     "name": "Capsakid",
     "slug": "capsakid",
     "types": [
@@ -183929,6 +184880,7 @@
   },
   "SCOVILLAIN": {
     "id": "SCOVILLAIN",
+    "dexNumber": "952",
     "name": "Scovillain",
     "slug": "scovillain",
     "types": [
@@ -184102,6 +185054,7 @@
   },
   "RELLOR": {
     "id": "RELLOR",
+    "dexNumber": "953",
     "name": "Rellor",
     "slug": "rellor",
     "types": [
@@ -184249,6 +185202,7 @@
   },
   "RABSCA": {
     "id": "RABSCA",
+    "dexNumber": "954",
     "name": "Rabsca",
     "slug": "rabsca",
     "types": [
@@ -184440,6 +185394,7 @@
   },
   "FLITTLE": {
     "id": "FLITTLE",
+    "dexNumber": "955",
     "name": "Flittle",
     "slug": "flittle",
     "types": [
@@ -184585,6 +185540,7 @@
   },
   "ESPATHRA": {
     "id": "ESPATHRA",
+    "dexNumber": "956",
     "name": "Espathra",
     "slug": "espathra",
     "types": [
@@ -184757,6 +185713,7 @@
   },
   "TINKATINK": {
     "id": "TINKATINK",
+    "dexNumber": "957",
     "name": "Tinkatink",
     "slug": "tinkatink",
     "types": [
@@ -184921,6 +185878,7 @@
   },
   "TINKATUFF": {
     "id": "TINKATUFF",
+    "dexNumber": "958",
     "name": "Tinkatuff",
     "slug": "tinkatuff",
     "types": [
@@ -185080,6 +186038,7 @@
   },
   "TINKATON": {
     "id": "TINKATON",
+    "dexNumber": "959",
     "name": "Tinkaton",
     "slug": "tinkaton",
     "types": [
@@ -185260,6 +186219,7 @@
   },
   "WIGLETT": {
     "id": "WIGLETT",
+    "dexNumber": "960",
     "name": "Wiglett",
     "slug": "wiglett",
     "types": [
@@ -185392,6 +186352,7 @@
   },
   "WUGTRIO": {
     "id": "WUGTRIO",
+    "dexNumber": "961",
     "name": "Wugtrio",
     "slug": "wugtrio",
     "types": [
@@ -185520,6 +186481,7 @@
   },
   "BOMBIRDIER": {
     "id": "BOMBIRDIER",
+    "dexNumber": "962",
     "name": "Bombirdier",
     "slug": "bombirdier",
     "types": [
@@ -185690,6 +186652,7 @@
   },
   "FINIZEN": {
     "id": "FINIZEN",
+    "dexNumber": "963",
     "name": "Finizen",
     "slug": "finizen",
     "types": [
@@ -185840,6 +186803,7 @@
   },
   "PALAFIN": {
     "id": "PALAFIN",
+    "dexNumber": "964",
     "name": "Palafin",
     "slug": "palafin",
     "types": [
@@ -186013,6 +186977,7 @@
   },
   "VAROOM": {
     "id": "VAROOM",
+    "dexNumber": "965",
     "name": "Varoom",
     "slug": "varoom",
     "types": [
@@ -186178,6 +187143,7 @@
   },
   "REVAVROOM": {
     "id": "REVAVROOM",
+    "dexNumber": "966",
     "name": "Revavroom",
     "slug": "revavroom",
     "types": [
@@ -186346,6 +187312,7 @@
   },
   "CYCLIZAR": {
     "id": "CYCLIZAR",
+    "dexNumber": "967",
     "name": "Cyclizar",
     "slug": "cyclizar",
     "types": [
@@ -186510,6 +187477,7 @@
   },
   "ORTHWORM": {
     "id": "ORTHWORM",
+    "dexNumber": "968",
     "name": "Orthworm",
     "slug": "orthworm",
     "types": [
@@ -186663,6 +187631,7 @@
   },
   "GLIMMET": {
     "id": "GLIMMET",
+    "dexNumber": "969",
     "name": "Glimmet",
     "slug": "glimmet",
     "types": [
@@ -186816,6 +187785,7 @@
   },
   "GLIMMORA": {
     "id": "GLIMMORA",
+    "dexNumber": "970",
     "name": "Glimmora",
     "slug": "glimmora",
     "types": [
@@ -186974,6 +187944,7 @@
   },
   "GREAVARD": {
     "id": "GREAVARD",
+    "dexNumber": "971",
     "name": "Greavard",
     "slug": "greavard",
     "types": [
@@ -187147,6 +188118,7 @@
   },
   "HOUNDSTONE": {
     "id": "HOUNDSTONE",
+    "dexNumber": "972",
     "name": "Houndstone",
     "slug": "houndstone",
     "types": [
@@ -187321,6 +188293,7 @@
   },
   "FLAMIGO": {
     "id": "FLAMIGO",
+    "dexNumber": "973",
     "name": "Flamigo",
     "slug": "flamigo",
     "types": [
@@ -187489,6 +188462,7 @@
   },
   "CETODDLE": {
     "id": "CETODDLE",
+    "dexNumber": "974",
     "name": "Cetoddle",
     "slug": "cetoddle",
     "types": [
@@ -187666,6 +188640,7 @@
   },
   "CETITAN": {
     "id": "CETITAN",
+    "dexNumber": "975",
     "name": "Cetitan",
     "slug": "cetitan",
     "types": [
@@ -187835,6 +188810,7 @@
   },
   "VELUZA": {
     "id": "VELUZA",
+    "dexNumber": "976",
     "name": "Veluza",
     "slug": "veluza",
     "types": [
@@ -187986,6 +188962,7 @@
   },
   "DONDOZO": {
     "id": "DONDOZO",
+    "dexNumber": "977",
     "name": "Dondozo",
     "slug": "dondozo",
     "types": [
@@ -188156,6 +189133,7 @@
   },
   "TATSUGIRI": {
     "id": "TATSUGIRI",
+    "dexNumber": "978",
     "name": "Tatsugiri",
     "slug": "tatsugiri",
     "types": [
@@ -188291,6 +189269,7 @@
   },
   "ANNIHILAPE": {
     "id": "ANNIHILAPE",
+    "dexNumber": "979",
     "name": "Annihilape",
     "slug": "annihilape",
     "types": [
@@ -188497,6 +189476,7 @@
   },
   "CLODSIRE": {
     "id": "CLODSIRE",
+    "dexNumber": "980",
     "name": "Clodsire",
     "slug": "clodsire",
     "types": [
@@ -188657,6 +189637,7 @@
   },
   "FARIGIRAF": {
     "id": "FARIGIRAF",
+    "dexNumber": "981",
     "name": "Farigiraf",
     "slug": "farigiraf",
     "types": [
@@ -188845,6 +189826,7 @@
   },
   "DUDUNSPARCE": {
     "id": "DUDUNSPARCE",
+    "dexNumber": "982",
     "name": "Dudunsparce",
     "slug": "dudunsparce",
     "types": [
@@ -189039,6 +190021,7 @@
   },
   "KINGAMBIT": {
     "id": "KINGAMBIT",
+    "dexNumber": "983",
     "name": "Kingambit",
     "slug": "kingambit",
     "types": [
@@ -189207,6 +190190,7 @@
   },
   "GREATTUSK": {
     "id": "GREATTUSK",
+    "dexNumber": "984",
     "name": "Colmilargo",
     "slug": "colmilargo",
     "types": [
@@ -189366,6 +190350,7 @@
   },
   "SCREAMTAIL": {
     "id": "SCREAMTAIL",
+    "dexNumber": "985",
     "name": "Colagrito",
     "slug": "colagrito",
     "types": [
@@ -189545,6 +190530,7 @@
   },
   "BRUTEBONNET": {
     "id": "BRUTEBONNET",
+    "dexNumber": "986",
     "name": "Furioseta",
     "slug": "furioseta",
     "types": [
@@ -189687,6 +190673,7 @@
   },
   "FLUTTERMANE": {
     "id": "FLUTTERMANE",
+    "dexNumber": "987",
     "name": "Melenaleteo",
     "slug": "melenaleteo",
     "types": [
@@ -189837,6 +190824,7 @@
   },
   "SLITHERWING": {
     "id": "SLITHERWING",
+    "dexNumber": "988",
     "name": "Reptalada",
     "slug": "reptalada",
     "types": [
@@ -189996,6 +190984,7 @@
   },
   "SANDYSHOCKS": {
     "id": "SANDYSHOCKS",
+    "dexNumber": "989",
     "name": "Pelarena",
     "slug": "pelarena",
     "types": [
@@ -190153,6 +191142,7 @@
   },
   "IRONTREADS": {
     "id": "IRONTREADS",
+    "dexNumber": "990",
     "name": "Ferrodada",
     "slug": "ferrodada",
     "types": [
@@ -190303,6 +191293,7 @@
   },
   "IRONBUNDLE": {
     "id": "IRONBUNDLE",
+    "dexNumber": "991",
     "name": "Ferrosaco",
     "slug": "ferrosaco",
     "types": [
@@ -190439,6 +191430,7 @@
   },
   "IRONHANDS": {
     "id": "IRONHANDS",
+    "dexNumber": "992",
     "name": "Ferropalmas",
     "slug": "ferropalmas",
     "types": [
@@ -190596,6 +191588,7 @@
   },
   "IRONJUGULIS": {
     "id": "IRONJUGULIS",
+    "dexNumber": "993",
     "name": "Ferrocuello",
     "slug": "ferrocuello",
     "types": [
@@ -190755,6 +191748,7 @@
   },
   "IRONMOTH": {
     "id": "IRONMOTH",
+    "dexNumber": "994",
     "name": "Ferropolilla",
     "slug": "ferropolilla",
     "types": [
@@ -190912,6 +191906,7 @@
   },
   "IRONTHORNS": {
     "id": "IRONTHORNS",
+    "dexNumber": "995",
     "name": "Ferropúas",
     "slug": "ferropuas",
     "types": [
@@ -191096,6 +192091,7 @@
   },
   "FRIGIBAX": {
     "id": "FRIGIBAX",
+    "dexNumber": "996",
     "name": "Frigibax",
     "slug": "frigibax",
     "types": [
@@ -191253,6 +192249,7 @@
   },
   "ARCTIBAX": {
     "id": "ARCTIBAX",
+    "dexNumber": "997",
     "name": "Arctibax",
     "slug": "arctibax",
     "types": [
@@ -191403,6 +192400,7 @@
   },
   "BAXCALIBUR": {
     "id": "BAXCALIBUR",
+    "dexNumber": "998",
     "name": "Baxcalibur",
     "slug": "baxcalibur",
     "types": [
@@ -191579,6 +192577,7 @@
   },
   "GIMMIGHOUL": {
     "id": "GIMMIGHOUL",
+    "dexNumber": "999",
     "name": "Gimmighoul",
     "slug": "gimmighoul",
     "types": [
@@ -191663,6 +192662,7 @@
   },
   "GHOLDENGO": {
     "id": "GHOLDENGO",
+    "dexNumber": "1000",
     "name": "Gholdengo",
     "slug": "gholdengo",
     "types": [
@@ -191805,6 +192805,7 @@
   },
   "WOCHIEN": {
     "id": "WOCHIEN",
+    "dexNumber": "1001",
     "name": "Wo-Chien",
     "slug": "wochien",
     "types": [
@@ -191966,6 +192967,7 @@
   },
   "CHIENPAO": {
     "id": "CHIENPAO",
+    "dexNumber": "1002",
     "name": "Chien-Pao",
     "slug": "chienpao",
     "types": [
@@ -192119,6 +193121,7 @@
   },
   "TINGLU": {
     "id": "TINGLU",
+    "dexNumber": "1003",
     "name": "Ting-Lu",
     "slug": "tinglu",
     "types": [
@@ -192278,6 +193281,7 @@
   },
   "CHIYU": {
     "id": "CHIYU",
+    "dexNumber": "1004",
     "name": "Chi-Yu",
     "slug": "chiyu",
     "types": [
@@ -192430,6 +193434,7 @@
   },
   "ROARINGMOON": {
     "id": "ROARINGMOON",
+    "dexNumber": "1005",
     "name": "Bramaluna",
     "slug": "bramaluna",
     "types": [
@@ -192612,6 +193617,7 @@
   },
   "IRONVALIANT": {
     "id": "IRONVALIANT",
+    "dexNumber": "1006",
     "name": "Ferropaladín",
     "slug": "ferropaladin",
     "types": [
@@ -192794,6 +193800,7 @@
   },
   "KORAIDON": {
     "id": "KORAIDON",
+    "dexNumber": "1007",
     "name": "Koraidon",
     "slug": "koraidon",
     "types": [
@@ -192970,6 +193977,7 @@
   },
   "MIRAIDON": {
     "id": "MIRAIDON",
+    "dexNumber": "1008",
     "name": "Miraidon",
     "slug": "miraidon",
     "types": [
@@ -193128,6 +194136,7 @@
   },
   "WALKINGWAKE": {
     "id": "WALKINGWAKE",
+    "dexNumber": "1009",
     "name": "Ondulagua",
     "slug": "ondulagua",
     "types": [
@@ -193280,6 +194289,7 @@
   },
   "IRONLEAVES": {
     "id": "IRONLEAVES",
+    "dexNumber": "1010",
     "name": "Ferroverdor",
     "slug": "ferroverdor",
     "types": [
@@ -193441,6 +194451,7 @@
   },
   "DIPPLIN": {
     "id": "DIPPLIN",
+    "dexNumber": "1011",
     "name": "Dipplin",
     "slug": "dipplin",
     "types": [
@@ -193628,6 +194639,7 @@
   },
   "POLTCHAGEIST": {
     "id": "POLTCHAGEIST",
+    "dexNumber": "1012",
     "name": "Poltchageist",
     "slug": "poltchageist",
     "types": [
@@ -193761,6 +194773,7 @@
   },
   "SINISTCHA": {
     "id": "SINISTCHA",
+    "dexNumber": "1013",
     "name": "Sinistcha",
     "slug": "sinistcha",
     "types": [
@@ -193949,6 +194962,7 @@
   },
   "OKIDOGI": {
     "id": "OKIDOGI",
+    "dexNumber": "1014",
     "name": "Okidogi",
     "slug": "okidogi",
     "types": [
@@ -194130,6 +195144,7 @@
   },
   "MUNKIDORI": {
     "id": "MUNKIDORI",
+    "dexNumber": "1015",
     "name": "Munkidori",
     "slug": "munkidori",
     "types": [
@@ -194303,6 +195318,7 @@
   },
   "FEZANDIPITI": {
     "id": "FEZANDIPITI",
+    "dexNumber": "1016",
     "name": "Fezandipiti",
     "slug": "fezandipiti",
     "types": [
@@ -194484,6 +195500,7 @@
   },
   "OGERPON": {
     "id": "OGERPON",
+    "dexNumber": "1017",
     "name": "Ogerpon",
     "slug": "ogerpon",
     "types": [
@@ -194656,6 +195673,7 @@
   },
   "ARCHALUDON": {
     "id": "ARCHALUDON",
+    "dexNumber": "1018",
     "name": "Archaludon",
     "slug": "archaludon",
     "types": [
@@ -194830,6 +195848,7 @@
   },
   "HYDRAPPLE": {
     "id": "HYDRAPPLE",
+    "dexNumber": "1019",
     "name": "Hydrapple",
     "slug": "hydrapple",
     "types": [
@@ -195042,6 +196061,7 @@
   },
   "GOUGINGFIRE": {
     "id": "GOUGINGFIRE",
+    "dexNumber": "1020",
     "name": "Flamariete",
     "slug": "flamariete",
     "types": [
@@ -195209,6 +196229,7 @@
   },
   "RAGINGBOLT": {
     "id": "RAGINGBOLT",
+    "dexNumber": "1021",
     "name": "Electrofuria",
     "slug": "electrofuria",
     "types": [
@@ -195366,6 +196387,7 @@
   },
   "IRONBOULDER": {
     "id": "IRONBOULDER",
+    "dexNumber": "1022",
     "name": "Ferromole",
     "slug": "ferromole",
     "types": [
@@ -195512,6 +196534,7 @@
   },
   "IRONCROWN": {
     "id": "IRONCROWN",
+    "dexNumber": "1023",
     "name": "Ferrotesta",
     "slug": "ferrotesta",
     "types": [
@@ -195661,6 +196684,7 @@
   },
   "TERAPAGOS": {
     "id": "TERAPAGOS",
+    "dexNumber": "1024",
     "name": "Terapagos",
     "slug": "terapagos",
     "types": [
@@ -195801,6 +196825,7 @@
   },
   "PECHARUNT": {
     "id": "PECHARUNT",
+    "dexNumber": "1025",
     "name": "Pecharunt",
     "slug": "pecharunt",
     "types": [
@@ -195928,6 +196953,7 @@
   },
   "ROYALEON": {
     "id": "ROYALEON",
+    "dexNumber": "1026",
     "name": "Royaleon",
     "slug": "royaleon",
     "types": [
@@ -196064,6 +197090,7 @@
   },
   "CEFIREON": {
     "id": "CEFIREON",
+    "dexNumber": "1027",
     "name": "Cefireon",
     "slug": "cefireon",
     "types": [

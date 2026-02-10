@@ -1,5 +1,6 @@
 export interface Pokemon {
   id: string;
+  dexNumber: string;
   name: string;
   slug: string;
   types: string[];
