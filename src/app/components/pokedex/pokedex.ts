@@ -7,6 +7,7 @@ import { GameService } from '../../services/game-service';
 import { PokedexStoreService } from '../../services/pokedex-store-service';
 import { PokemonDataService } from '../../services/pokemon-data-service';
 import { Pokemon } from '../../models/pokemon.model';
+import { PokemonSpriteService } from '../../services/pokemon-sprite-service';
 
 @Component({
   selector: 'app-pokedex',
@@ -20,9 +21,11 @@ export class PokedexComponent {
   private gameService = inject(GameService);
   private store = inject(PokedexStoreService);
   private pokemonData = inject(PokemonDataService);
+  public spriteService = inject(PokemonSpriteService);
 
   readonly activeGame = this.gameService.getActiveGame();
   readonly pokemons = this.store.all;
+
   private readonly search$ = new Subject<string>();
 
 
@@ -49,5 +52,8 @@ export class PokedexComponent {
 
   pokemonSelected(pokemon: Pokemon) {
     this.pokemonData.selectedPokemon(pokemon);
+  }
+  spriteSelected(pokemon: Pokemon) {
+     return this.spriteService.getSmallSpritePath(pokemon)
   }
 }
