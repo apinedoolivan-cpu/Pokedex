@@ -13,11 +13,23 @@
         <div class="light small-light yellow"></div>
         <div class="light small-light green"></div>
       </div>
-      <h1>Pokédex</h1>
+      <div class="header-content">
+        <h1>Pokédex</h1>
+        <div class="search-container">
+          <div class="search-wrapper">
+            <input
+              type="text"
+              placeholder="Buscar Pokémon..."
+              (input)="onSearch($event.target.value)"
+            />
+            <div class="search-light"></div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <ul class="pokemon-grid">
-      @for (pokemon of pokemons(); track pokemon.name; let i = $index) {
+      @for (pokemon of filtered(); track pokemon.name; let i = $index) {
         <li class="pokemon-item">
           <a
             class="pokemon-link"
@@ -27,11 +39,11 @@
             <div class="pokemon-image-container">
               <div class="pokeball-bg"></div>
               <img
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ i + 1 }}.png"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemon.dexNumber}}.png"
                 alt="{{ pokemon.name }}"
               >
             </div>
-            <span class="pokemon-number">#{{ (i + 1).toString().padStart(3, '0') }}</span>
+            <span class="pokemon-number">#{{ pokemon.dexNumber.toString().padStart(3, '0') }}</span>
             <span class="pokemon-name">{{ pokemon.name }}</span>
           </a>
         </li>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  // Colores principales
+  --color-primary: #dc0a2d;
+  --color-primary-dark: #cc0000;
+  --color-primary-darker: #8b0000;
+  --color-secondary: #4dd0e1;
+  --color-secondary-dark: #00acc1;
+  --color-error: #f44336;
+  --color-error-dark: #d32f2f;
+  
+  // Colores de texto
+  --color-text: #2c2c2c;
+  --color-text-light: #666;
+  --color-text-lighter: #888;
+  
+  // Colores de fondo
+  --color-bg: #ffffff;
+  --color-bg-gray: #f0f0f0;
+  --color-bg-light: #f8f8f8;
+  
+  // Colores de borde
+  --color-border: #2c2c2c;
+  --color-border-dark: #1a1a1a;
+  
+  // Colores hover
+  --color-hover: #ffeb3b;
+  --color-hover-light: #fff9c4;
+  --color-hover-border: #ffa000;
+  
+  // Luces decorativas
+  --light-red: #ff5252;
+  --light-red-dark: #d32f2f;
+  --light-yellow: #ffeb3b;
+  --light-yellow-dark: #fbc02d;
+  --light-green: #66bb6a;
+  --light-green-dark: #43a047;
+  
+  // Espaciado
+  --spacing-xs: 0.3rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 0.7rem;
+  --spacing-lg: 1rem;
+  --spacing-xl: 1.5rem;
+  --spacing-xxl: 2rem;
+  
+  // Bordes y radios
+  --border-width: 3px;
+  --border-width-sm: 2px;
+  --border-width-lg: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 15px;
+  --radius-xl: 20px;
+  --radius-full: 50%;
+  
+  // Sombras
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.4);
+  --shadow-xxl: 0 10px 30px rgba(0, 0, 0, 0.3);
+  --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-inset-light: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --shadow-inset-bright: inset 0 2px 4px rgba(255, 255, 255, 0.5);
+  
+  // Transiciones
+  --transition: 0.3s ease;
+  
+  // Tamaños de imágenes
+  --img-sm: 80px;
+  --img-md: 120px;
+  
+  // Fuentes
+  --font-retro: 'Press Start 2P', 'Courier New', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #b80000;
+  background-image: url('/pokeball-pattern.png');
+  background-repeat: repeat;
+}
