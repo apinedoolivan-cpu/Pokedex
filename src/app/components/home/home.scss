@@ -1,26 +1,341 @@
+// ===== HOME SECTION =====
 .home {
-  padding: 2rem;
+  font-family: var(--font-retro);
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--spacing-xxl) var(--spacing-xl);
 }
 
-.games {
+// ===== HEADER =====
+.home-header {
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-primary-dark));
+  border: 6px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xxl);
+  margin-bottom: var(--spacing-xxl);
+  box-shadow: 
+    var(--shadow-xxl),
+    inset 0 -3px 10px rgba(0, 0, 0, 0.3);
+  
+  h1 {
+    color: var(--color-bg);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 3vw, 1.8rem);
+    margin: 0;
+    text-shadow: 
+      3px 3px 0px #660000,
+      0 0 10px rgba(255, 255, 255, 0.3);
+    letter-spacing: 3px;
+  }
+}
+
+// ===== GAMES SHOWCASE =====
+.games-showcase {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-xxl);
 }
 
-.game-card {
+// ===== CARTUCHO NINTENDO DS =====
+.game-cartridge {
+  max-width: 280px;
   cursor: pointer;
-  padding: 1.5rem;
-  border-radius: 8px;
-  background: #f5f5f5;
-  transition: transform 0.2s ease;
+  transition: all var(--transition);
+  position: relative;
+  
+  &:hover {
+    transform: translateY(-12px) scale(1.02);
+    
+    .cartridge-sticker img {
+      transform: scale(1.08);
+    }
+    
+    .cartridge-sticker::after {
+      left: 100%;
+    }
+    
+    .cartridge-body {
+      box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.4),
+        inset 0 2px 8px rgba(255, 255, 255, 0.3),
+        inset 0 -2px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+    .cartridge-info {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  &:active {
+    transform: translateY(-8px) scale(1.01);
+  }
 }
 
-.game-card:hover {
-  transform: translateY(-4px);
+// ===== PARTE SUPERIOR DEL CARTUCHO =====
+.cartridge-top {
+  background: linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 100%);
+  border: 3px solid var(--color-border);
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  text-align: center;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.game-card img {
-  max-width: 100%;
+.cartridge-label {
+  color: #999;
+  font-size: 0.5rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+// ===== CUERPO DEL CARTUCHO =====
+.cartridge-body {
+  background: linear-gradient(135deg, #5a5a5a 0%, #4a4a4a 50%, #5a5a5a 100%);
+  border-left: 3px solid var(--color-border);
+  border-right: 3px solid var(--color-border);
+  padding: var(--spacing-lg);
+  position: relative;
+  transition: all var(--transition);
+  box-shadow: 
+    0 15px 30px rgba(0, 0, 0, 0.3),
+    inset 0 2px 8px rgba(255, 255, 255, 0.2),
+    inset 0 -2px 8px rgba(0, 0, 0, 0.3);
+  
+  // Efecto de textura del plástico
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+      90deg,
+      transparent 0px,
+      rgba(255, 255, 255, 0.02) 1px,
+      transparent 2px
+    );
+    pointer-events: none;
+  }
+  
+  // Brillo lateral
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 100%
+    );
+    pointer-events: none;
+  }
+}
+
+// ===== STICKER/ETIQUETA DEL JUEGO - PROPORCIÓN 512x312 =====
+.cartridge-sticker {
+  height: 130px;
+  background: white;
+  border: 2px solid #2a2a2a;
+  border-radius: var(--radius-sm);
+  padding: 6px;
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  // Efecto de sticker despegándose
+  &::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(135deg, transparent 50%, rgba(0, 0, 0, 0.1) 50%);
+    border-radius: 0 0 0 100%;
+    z-index: 2;
+  }
+  
+  // Brillo que cruza (animación)
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.4) 50%,
+      transparent 100%
+    );
+    transition: left 0.6s ease;
+    pointer-events: none;
+    transform: skewX(-20deg);
+    z-index: 1;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 85px;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.4s ease;
+    border-radius: 2px;
+    aspect-ratio: 512 / 312;
+  }
+}
+
+// ===== PARTE INFERIOR DEL CARTUCHO =====
+.cartridge-bottom {
+  background: linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 100%);
+  border: 3px solid var(--color-border);
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  padding: var(--spacing-md);
+  position: relative;
+  box-shadow: 
+    inset 0 -2px 4px rgba(0, 0, 0, 0.3),
+    0 4px 8px rgba(0, 0, 0, 0.2);
+  
+  // Líneas decorativas
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 20%;
+    right: 20%;
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      #666 20%,
+      #666 80%,
+      transparent 100%
+    );
+  }
+}
+
+// ===== MUESCA DEL CARTUCHO =====
+.cartridge-notch {
+  width: 60%;
+  height: 8px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #2a2a2a, #1a1a1a);
   border-radius: 4px;
+  box-shadow: 
+    inset 0 2px 4px rgba(0, 0, 0, 0.5),
+    0 1px 0 rgba(255, 255, 255, 0.1);
+  position: relative;
+  
+  // Detalles de la muesca
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 3px;
+    background: #444;
+    border-radius: var(--radius-full);
+  }
+  
+  &::before {
+    left: 10%;
+  }
+  
+  &::after {
+    right: 10%;
+  }
+}
+
+// ===== INFO DEL JUEGO - APARECE EN HOVER =====
+.cartridge-info {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background: linear-gradient(to bottom, var(--color-bg-light), var(--color-bg-gray));
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
+  
+  h2 {
+    color: var(--color-text);
+    font-size: clamp(0.7rem, 2vw, 0.9rem);
+    margin: 0 0 var(--spacing-sm);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.4;
+  }
+  
+  p {
+    color: var(--color-text-light);
+    font-size: clamp(0.5rem, 1.5vw, 0.65rem);
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+// ===== MEDIA QUERIES =====
+@media (min-width: 1200px) {
+  .games-showcase {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .games-showcase {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .games-showcase {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 599px) {
+  .games-showcase {
+    gap: var(--spacing-xl);
+  }
+  
+  .home {
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+  
+  .cartridge-sticker img {
+    max-height: 75px;
+  }
+  
+  .cartridge-info {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 479px) {
+  .home-header {
+    padding: var(--spacing-xl);
+  }
+  
+  .cartridge-sticker img {
+    max-height: 65px;
+  }
 }

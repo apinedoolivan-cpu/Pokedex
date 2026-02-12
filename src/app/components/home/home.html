@@ -1,21 +1,36 @@
 <section class="home">
-  <h1>Pokédex disponibles</h1>
+  <div class="home-header">
+    <h1>Selecciona un juego</h1>
+  </div>
 
-  <div class="games">
+  <div class="games-showcase">
     @for (game of games; track game.id) {
       <article
-        class="game-card"
+        class="game-cartridge"
         (click)="selectGame(game)"
         (click)="goToPokedex()"
       >
-        @if (game.coverImage) {
-          <img [src]="game.coverImage" />
-        }
-
-        <h2>{{ game.name }}</h2>
-        <p>{{ game.description }}</p>
+        <div class="cartridge-top">
+          <div class="cartridge-label">NINTENDO DS</div>
+        </div>
+        
+        <div class="cartridge-body">
+          @if (game.coverImage) {
+            <div class="cartridge-sticker">
+              <img [src]="game.coverImage" [alt]="game.name" />
+            </div>
+          }
+        </div>
+        
+        <div class="cartridge-bottom">
+          <div class="cartridge-notch"></div>
+        </div>
+        
+        <div class="cartridge-info">
+          <h2>{{ game.name }}</h2>
+          <p>{{ game.description }}</p>
+        </div>
       </article>
     }
   </div>
 </section>
-
