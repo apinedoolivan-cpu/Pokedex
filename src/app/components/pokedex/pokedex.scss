@@ -322,64 +322,6 @@
   word-break: break-word;
   hyphens: auto;
 }
-
-// ===== NO GAME MESSAGE =====
-.no-game {
-  font-family: var(--font-retro);
-  text-align: center;
-  padding: var(--spacing-xxl);
-  background: linear-gradient(135deg, var(--color-error), var(--color-error-dark));
-  color: white;
-  border-radius: var(--radius-lg);
-  margin: var(--spacing-xxl) auto;
-  max-width: 500px;
-  box-shadow: var(--shadow-lg), 0 0 0 var(--border-width-lg) var(--color-border);
-  font-size: clamp(0.8rem, 2vw, 1rem);
-  line-height: 1.6;
-  position: relative;
-  
-  p {
-    margin: 0;
-    position: relative;
-    z-index: 1;
-  }
-}
-
-.pokeball-icon {
-  @include pokeball-icon;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--color-border);
-    transform: translateY(-50%);
-    z-index: 2;
-  }
-  
-  &::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 18px;
-    height: 18px;
-    background: white;
-    border: 3px solid var(--color-border);
-    border-radius: var(--radius-full);
-    z-index: 3;
-    box-shadow: 0 0 0 2px white;
-  }
-}
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-
 // ===== MEDIA QUERIES UNIFICADAS =====
 @media (min-width: 1328px) {
   .pokemon-grid { grid-template-columns: repeat(6, 1fr); }

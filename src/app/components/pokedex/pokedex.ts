@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { Subject, debounceTime } from 'rxjs';
 
+import { GameErrorComponent } from '../game-error/game-error';
 import { GameService } from '../../services/game-service';
 import { PokedexStoreService } from '../../services/pokedex-store-service';
 import { PokemonDataService } from '../../services/pokemon-data-service';
@@ -12,7 +13,7 @@ import { PokemonSpriteService } from '../../services/pokemon-sprite-service';
 @Component({
   selector: 'app-pokedex',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterModule, GameErrorComponent],
   templateUrl: './pokedex.html',
   styleUrl: './pokedex.scss',
 })

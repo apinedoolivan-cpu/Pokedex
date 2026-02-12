@@ -1,8 +1,5 @@
 @if(!activeGame()){
-  <div class="no-game">
-    <div class="pokeball-icon"></div>
-    <p>No hay juego seleccionado</p>
-  </div>
+  <app-game-error></app-game-error>
 }
 @else{
   <div class="pokedex-container">
