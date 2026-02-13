@@ -1,8 +1,291 @@
 @if(!game()){
-  <app-game-error />
+  <app-game-error></app-game-error>
 }
 @else {
   <div class="pokemon-detail">
-    <!-- Todo el contenido anterior -->
+    <!-- Header con imagen y datos básicos -->
+    <header class="pokemon-header">
+      <div class="header-top">
+        <button class="back-button" routerLink="/pokedex">
+          <span class="arrow">←</span> Volver
+        </button>
+        <span class="dex-number">#{{ selectedPokemon?.dexNumber }}</span>
+      </div>
+
+      <div class="pokemon-showcase">
+        <div class="pokemon-image-container">
+          <div class="pokeball-bg-large"></div>
+          @if(spritePath) {
+            <img 
+              [src]="spritePath" 
+              [alt]="selectedPokemon?.name"
+              class="pokemon-sprite"
+            />
+          }
+        </div>
+
+        <div class="pokemon-basic-info">
+          <h1 class="pokemon-name">{{ selectedPokemon?.name }}</h1>
+          
+          <div class="pokemon-types">
+            @for(type of selectedPokemon?.types; track type) {
+              <span class="type-badge" [attr.data-type]="type">
+                {{ type }}
+              </span>
+            }
+          </div>
+
+          @if(selectedPokemon?.category) {
+            <p class="pokemon-category">{{ selectedPokemon?.category }}</p>
+          }
+
+          @if(selectedPokemon?.pokedexEntry) {
+            <p class="pokemon-description">{{ selectedPokemon?.pokedexEntry }}</p>
+          }
+        </div>
+      </div>
+    </header>
+
+    <!-- Información física -->
+    <section class="info-section physical-info">
+      <h2 class="section-title">Información física</h2>
+      <div class="info-grid">
+        @if(selectedPokemon?.height) {
+          <div class="info-item">
+            <span class="info-label">Altura</span>
+            <span class="info-value">{{ selectedPokemon?.height }} m</span>
+          </div>
+        }
+        @if(selectedPokemon?.weight) {
+          <div class="info-item">
+            <span class="info-label">Peso</span>
+            <span class="info-value">{{ selectedPokemon?.weight }} kg</span>
+          </div>
+        }
+        @if(selectedPokemon?.color) {
+          <div class="info-item">
+            <span class="info-label">Color</span>
+            <span class="info-value">{{ selectedPokemon?.color }}</span>
+          </div>
+        }
+        @if(selectedPokemon?.shape) {
+          <div class="info-item">
+            <span class="info-label">Forma</span>
+            <span class="info-value">{{ selectedPokemon?.shape }}</span>
+          </div>
+        }
+        @if(selectedPokemon?.habitat) {
+          <div class="info-item">
+            <span class="info-label">Hábitat</span>
+            <span class="info-value">{{ selectedPokemon?.habitat }}</span>
+          </div>
+        }
+        <div class="info-item">
+          <span class="info-label">Generación</span>
+          <span class="info-value">{{ selectedPokemon?.generation }}</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Estadísticas base 
+    <section class="info-section stats-section">
+      <h2 class="section-title">Estadísticas base</h2>
+      <div class="stats-container">
+        <div class="stat-row">
+          <span class="stat-name">HP</span>
+          <span class="stat-value">{{ selectedPokemon?.baseStats?.hp }}</span>
+          <div class="stat-bar">
+            <div class="stat-fill" [style.width.%]="(selectedPokemon?.baseStats?.hp / 255) * 100"></div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <span class="stat-name">Ataque</span>
+          <span class="stat-value">{{ selectedPokemon?.baseStats?.attack }}</span>
+          <div class="stat-bar">
+            <div class="stat-fill" [style.width.%]="(selectedPokemon?.baseStats?.attack / 255) * 100"></div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <span class="stat-name">Defensa</span>
+          <span class="stat-value">{{ selectedPokemon?.baseStats?.defense }}</span>
+          <div class="stat-bar">
+            <div class="stat-fill" [style.width.%]="(selectedPokemon?.baseStats?.defense / 255) * 100"></div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <span class="stat-name">At. Esp.</span>
+          <span class="stat-value">{{ selectedPokemon?.baseStats?.specialAttack }}</span>
+          <div class="stat-bar">
+            <div class="stat-fill" [style.width.%]="(selectedPokemon?.baseStats?.specialAttack / 255) * 100"></div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <span class="stat-name">Def. Esp.</span>
+          <span class="stat-value">{{ selectedPokemon?.baseStats?.specialDefense }}</span>
+          <div class="stat-bar">
+            <div class="stat-fill" [style.width.%]="(selectedPokemon?.baseStats?.specialDefense / 255) * 100"></div>
+          </div>
+        </div>
+        <div class="stat-row">
+          <span class="stat-name">Velocidad</span>
+          <span class="stat-value">{{ selectedPokemon?.baseStats?.speed }}</span>
+          <div class="stat-bar">
+            <div class="stat-fill" [style.width.%]="(selectedPokemon?.baseStats?.speed / 255) * 100"></div>
+          </div>
+        </div>
+        <div class="stat-row total">
+          <span class="stat-name">Total</span>
+          <span class="stat-value">
+            {{ 
+              selectedPokemon?.baseStats?.hp + 
+              selectedPokemon?.baseStats?.attack + 
+              selectedPokemon?.baseStats?.defense + 
+              selectedPokemon?.baseStats?.specialAttack + 
+              selectedPokemon?.baseStats?.specialDefense + 
+              selectedPokemon?.baseStats?.speed 
+            }}
+          </span>
+        </div>
+      </div>
+    </section>
+    -->
+    <!-- Habilidades -->
+    <section class="info-section abilities-section">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="abilities-container">
+        <div class="abilities-group">
+          <h3 class="abilities-subtitle">Normales</h3>  
+          <div class="abilities-list">
+            @for(ability of selectedPokemon?.abilities; track ability) {
+              <span class="ability-badge">{{ ability }}</span>
+            }
+          </div>
+        </div>
+        @if(selectedPokemon?.hiddenAbilities && selectedPokemon?.hiddenAbilities!.length > 0) {
+          <div class="abilities-group">
+            <h3 class="abilities-subtitle">Ocultas</h3>
+            <div class="abilities-list">
+              @for(ability of selectedPokemon?.hiddenAbilities; track ability) {
+                <span class="ability-badge hidden">{{ ability }}</span>
+              }
+            </div>
+          </div>
+        }
+      </div>
+    </section>
+
+    <!-- EVs -->
+    @if(selectedPokemon?.evs && selectedPokemon?.evs!.length > 0) {
+      <section class="info-section evs-section">
+        <h2 class="section-title">Puntos de esfuerzo (EVs)</h2>
+        <div class="evs-list">
+          @for(ev of selectedPokemon?.evs; track ev.stat) {
+            <div class="ev-item">
+              <span class="ev-stat">{{ ev.stat }}</span>
+              <span class="ev-value">+{{ ev.value }}</span>
+            </div>
+          }
+        </div>
+      </section>
+    }
+
+    <!-- Grupos huevo -->
+    @if(selectedPokemon?.eggGroups && selectedPokemon?.eggGroups!.length > 0) {
+      <section class="info-section egg-groups-section">
+        <h2 class="section-title">Grupos huevo</h2>
+        <div class="egg-groups-list">
+          @for(group of selectedPokemon?.eggGroups; track group) {
+            <span class="egg-group-badge">{{ group }}</span>
+          }
+        </div>
+      </section>
+    }
+
+    <!-- Objetos equipados -->
+    @if(selectedPokemon?.heldItems) {
+      <section class="info-section held-items-section">
+        <h2 class="section-title">Objetos equipados</h2>
+        <div class="held-items-grid">
+          @if(selectedPokemon?.heldItems!.common) {
+            <div class="held-item common">
+              <span class="item-rarity">Común (50%)</span>
+              <span class="item-name">{{ selectedPokemon?.heldItems!.common }}</span>
+            </div>
+          }
+          @if(selectedPokemon?.heldItems!.uncommon) {
+            <div class="held-item uncommon">
+              <span class="item-rarity">Poco común (5%)</span>
+              <span class="item-name">{{ selectedPokemon?.heldItems!.uncommon }}</span>
+            </div>
+          }
+          @if(selectedPokemon?.heldItems!.rare) {
+            <div class="held-item rare">
+              <span class="item-rarity">Raro (1%)</span>
+              <span class="item-name">{{ selectedPokemon?.heldItems!.rare }}</span>
+            </div>
+          }
+        </div>
+      </section>
+    }
+
+    <!-- Evoluciones -->
+    @if(selectedPokemon?.evolutions && selectedPokemon?.evolutions!.length > 0) {
+      <section class="info-section evolutions-section">
+        <h2 class="section-title">Evoluciones</h2>
+        <div class="evolutions-list">
+          @for(evolution of selectedPokemon?.evolutions; track evolution.to) {
+            <div class="evolution-item">
+              <span class="evolution-arrow">→</span>
+              <span class="evolution-to">{{ evolution.to }}</span>
+              <span class="evolution-method">{{ evolution.method }}</span>
+              @if(evolution.value) {
+                <span class="evolution-value">{{ evolution.value }}</span>
+              }
+            </div>
+          }
+        </div>
+      </section>
+    }
+
+    <!-- Movimientos por nivel -->
+    <section class="info-section moves-section">
+      <h2 class="section-title">Movimientos por nivel</h2>
+      <div class="moves-table">
+        <div class="moves-header">
+          <span class="move-level-header">Nivel</span>
+          <span class="move-name-header">Movimiento</span>
+        </div>
+        @for(move of selectedPokemon?.moves; track move.move) {
+          <div class="move-row">
+            <span class="move-level">{{ move.level }}</span>
+            <span class="move-name">{{ move.move }}</span>
+          </div>
+        }
+      </div>
+    </section>
+
+    <!-- Movimientos tutor -->
+    @if(selectedPokemon?.tutorMoves && selectedPokemon?.tutorMoves!.length > 0) {
+      <section class="info-section tutor-moves-section">
+        <h2 class="section-title">Movimientos tutor</h2>
+        <div class="moves-grid">
+          @for(move of selectedPokemon?.tutorMoves; track move) {
+            <span class="move-badge">{{ move }}</span>
+          }
+        </div>
+      </section>
+    }
+
+    <!-- Movimientos huevo -->
+    @if(selectedPokemon?.eggMoves && selectedPokemon?.eggMoves!.length > 0) {
+      <section class="info-section egg-moves-section">
+        <h2 class="section-title">Movimientos huevo</h2>
+        <div class="moves-grid">
+          @for(move of selectedPokemon?.eggMoves; track move) {
+            <span class="move-badge">{{ move }}</span>
+          }
+        </div>
+      </section>
+    }
   </div>
 }
