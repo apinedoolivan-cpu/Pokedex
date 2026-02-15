@@ -52,5 +52,3 @@ export interface Pokemon {
   pokedexEntry?: string;
   generation: string;
 }
-
-export type PokedexMap = Record<string, Pokemon>;
