@@ -7,6 +7,50 @@
     <div class ="pokemon-info-showcase">
       <app-pokemon-showcase></app-pokemon-showcase>
       <div class="pokemon-info-details">
+        <nav class="tabs-nav">
+          @for (tab of tabs; track tab.id) {
+            <button 
+              [class.active]="selectedTab === tab.id"
+              (click)="selectTab(tab.id)">
+              {{tab.label}}
+            </button>
+          }
+        </nav>
+
+        <div class="tab-content">
+          @switch (selectedTab) {
+            @case ('caracteristicas') {
+              <div>
+                Características del Pokémon
+              </div>
+            }
+            @case ('ubicacion') {
+              <div>
+                Ubicación del Pokémon
+              </div>
+            }
+            @case ('evolucion') {
+              <div>
+                Evolución del Pokémon
+              </div>
+            }
+            @case ('estadisticas') {
+              <div>
+                Estadísticas del Pokémon
+              </div>
+            }
+            @case ('efectividad') {
+              <div>
+                Efectividad del Pokémon
+              </div>
+            }
+            @case ('movimientos') {
+              <div>
+                Movimientos del Pokémon
+              </div>
+            }
+          }
+        </div>
       </div>
     </div>
   </div>
