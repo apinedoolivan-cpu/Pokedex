@@ -1,8 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
-import { GameService } from '../../services/game-service';
-
 @Component({
   selector: 'app-game-error',
   imports: [RouterLink],
@@ -10,7 +8,4 @@ import { GameService } from '../../services/game-service';
   styleUrl: './game-error.scss',
 })
 export class GameErrorComponent {
-  private gameService = inject(GameService);
-
-  public activeGame = this.gameService.getActiveGame();
 }

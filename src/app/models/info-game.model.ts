@@ -1,11 +1,4 @@
-export interface PokemonType {
-  id: string;
-  name: string;
-  color: string;
-  mtType: string;
-  weaknesses: string[];
-  resistances: string[];
-}
+import { PokemonType } from "./types.model";
 export interface PokemonItem {
   id: string;
   name: string;

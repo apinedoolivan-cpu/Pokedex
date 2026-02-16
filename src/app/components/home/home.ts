@@ -10,7 +10,7 @@ import { PokemonGame } from '../../models/pokemon-game.model';
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
-export class Home {
+export class HomeComponent {
   games = POKEMON_GAMES;
 
   public gameService = inject(GameService);
