@@ -1,7 +1,7 @@
 <div class="pokemon-showcase-container">
-    <h1 class="pokemon-showcase-name">{{ selectedPokemon?.name }}</h1>
+    <h1 class="pokemon-showcase-name">{{ pokemon().name }}</h1>
     <div class="pokemon-showcase-image-container">
-        <img class="pokemon-showcase-image" [src]="selectedPokemonSprite" alt="{{ selectedPokemon?.name }}" />
+        <img class="pokemon-showcase-image" [src]="selectedPokemonSprite()" alt="{{ pokemon().name }}" />
         <div class="pokemon-showcase-types">
              @for (type of pokemonTypes(); track type.id) {
                 <span class="pokemon-showcase-type" [style.background-color]="type.color">{{ type.name }}</span>

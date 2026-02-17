@@ -4,6 +4,7 @@ import { GameErrorComponent } from '../game-error/game-error';
 import { PokemonShowcaseComponent } from '../pokemon-showcase/pokemon-showcase';
 import { PokemonSearchComponent } from '../pokemon-search/pokemon-search';
 import { GameService } from '../../services/game-service';
+import { PokemonDataService } from '../../services/pokemon-data-service';
 
 @Component({
   selector: 'app-pokemon-info',
@@ -12,7 +13,10 @@ import { GameService } from '../../services/game-service';
   styleUrl: './pokemon-info.scss',
 })
 export class PokemonInfoComponent {
-  public gameService = inject(GameService);
+  private gameService = inject(GameService);
+  private pokemonDataService = inject(PokemonDataService);
+  
+  public pokemon = this.pokemonDataService.getSelectedPokemon();
   public game = this.gameService.getActiveGame();
 
   selectedTab = 'caracteristicas';

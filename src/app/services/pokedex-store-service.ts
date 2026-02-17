@@ -19,7 +19,7 @@ export class PokedexStoreService {
 
   constructor() {
     effect(() => {
-      const game = this.gameService.getActiveGame()();
+      const game = this.gameService.getActiveGame();
       if (!game) {
         this._list.set([]);
         return;
