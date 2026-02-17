@@ -12,6 +12,6 @@ export class GameService {
   }
 
   getActiveGame() {
-    return this.activeGame();
+    return this.activeGame;
   }
 }

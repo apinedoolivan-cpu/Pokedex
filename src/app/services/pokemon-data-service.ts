@@ -11,6 +11,6 @@ export class PokemonDataService {
     this._pokemonSelected.set(pokemon);
   }
   getSelectedPokemon(){
-    return this._pokemonSelected();
+    return this._pokemonSelected;
   }
 }

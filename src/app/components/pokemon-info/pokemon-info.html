@@ -1,11 +1,11 @@
-@if(!game){
+@if(!game()){
   <app-game-error></app-game-error>
 }
 @else {
   <div class="pokemon-info-container">
     <app-pokemon-search></app-pokemon-search>
     <div class ="pokemon-info-showcase">
-      @if (pokemon) {
+      @if (pokemon(); as pokemon) {
         <app-pokemon-showcase [pokemon]="pokemon"></app-pokemon-showcase>
       }
       <div class="pokemon-info-details">

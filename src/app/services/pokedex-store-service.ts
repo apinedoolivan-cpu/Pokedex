@@ -25,7 +25,13 @@ export class PokedexStoreService {
         return;
       }
 
-      this.loadPokedex(game.pokedexPath);
+      const activeGame = game();
+      if (!activeGame) {
+        this._list.set([]);
+        return;
+      }
+
+      this.loadPokedex(activeGame.pokedexPath);
     });
   }
 
