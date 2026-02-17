@@ -7,12 +7,12 @@ import { GameService } from '../../services/game-service';
 import { PokemonDataService } from '../../services/pokemon-data-service';
 
 @Component({
-  selector: 'app-pokemon-info',
+  selector: 'app-pokemon',
   imports: [GameErrorComponent, PokemonSearchComponent, PokemonShowcaseComponent],
-  templateUrl: './pokemon-info.html',
-  styleUrl: './pokemon-info.scss',
+  templateUrl: './pokemon.html',
+  styleUrl: './pokemon.scss',
 })
-export class PokemonInfoComponent {
+export class PokemonComponent {
   private gameService = inject(GameService);
   private pokemonDataService = inject(PokemonDataService);
   
