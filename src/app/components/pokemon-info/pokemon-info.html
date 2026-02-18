@@ -1,0 +1,35 @@
+<div class="pokemon-info">
+    <div class="pokemon-info-container">
+        <h3>Tipo</h3>
+        <div class="pokemon-types">
+            @for (type of pokemonTypes(); track type.id) {
+                <span class="pokemon-info-type" [style.background-color]="type.color">{{ type.name }}</span>
+             }
+        </div>
+    </div>
+    <div class="pokemon-info-container">
+        <h3>Datos fisicos</h3>
+        <span class="pokemon-info-physical">Altura: {{ pokemon().height }}</span>
+        <span class="pokemon-info-physical">Peso: {{ pokemon().weight }}</span>
+    </div>
+    <div class="pokemon-info-container">
+        <h3>Habilidades</h3>
+        <div class="pokemon-info-abilities">
+            @for (ability of abilities(); track ability.id) {
+                <div class="ability">
+                    <h4>{{ ability.name }}</h4>
+                    <span class="ability-type">Normal</span>
+                    <p>{{ ability.description }}</p>
+                </div>
+            }
+            @if (hiddenAbility()) {
+                <div class="ability">
+                    <h4>{{ hiddenAbility()?.name }}</h4>
+                    <span class="ability-type">Oculta</span>
+                    <p>{{ hiddenAbility()?.description }}</p>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>

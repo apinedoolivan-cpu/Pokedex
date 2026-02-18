@@ -1,6 +1,6 @@
 import { Component, computed, input, inject } from '@angular/core';
 import { PokemonSpriteService } from '../../services/pokemon-sprite-service';
-import { getPokemonTypeById, PokemonType } from '../../models/types.model';
+import { PokemonType } from '../../models/types.model';
 import { Pokemon } from '../../models/pokemon.model';
 
 @Component({
@@ -14,12 +14,9 @@ export class PokemonShowcaseComponent {
   private readonly pokemonSprite = inject(PokemonSpriteService);
 
   readonly pokemon = input.required<Pokemon>();
+  readonly pokemonTypes = input.required<PokemonType[]>();
 
   readonly selectedPokemonSprite = computed(() =>
     this.pokemonSprite.getSpritePath(this.pokemon())
-  );
-
-  readonly pokemonTypes = computed<PokemonType[]>(() =>
-    this.pokemon().types.map(typeId => getPokemonTypeById(typeId)).filter((t): t is PokemonType => !!t)
   );
 }

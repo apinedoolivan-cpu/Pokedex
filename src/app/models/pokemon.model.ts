@@ -15,7 +15,7 @@ export interface Pokemon {
   };
 
   abilities: string[];
-  hiddenAbilities?: string[];
+  hiddenAbility?: string;
 
   moves: {
     level: number;

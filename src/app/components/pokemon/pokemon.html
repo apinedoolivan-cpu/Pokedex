@@ -2,13 +2,16 @@
   <app-game-error></app-game-error>
 }
 @else {
-  <div class="pokemon-info-container">
+  <div class="pokemon-container">
     <app-pokemon-search></app-pokemon-search>
-    <div class ="pokemon-info-showcase">
+    <div class ="pokemon-showcase">
       @if (pokemon(); as pokemon) {
-        <app-pokemon-showcase [pokemon]="pokemon"></app-pokemon-showcase>
+        <app-pokemon-showcase 
+          [pokemon]="pokemon" 
+          [pokemonTypes]="pokemonTypes()">
+        </app-pokemon-showcase>
       }
-      <div class="pokemon-info-details">
+      <div class="pokemon-details">
         <nav class="tabs-nav">
           @for (tab of tabs; track tab.id) {
             <button 
@@ -23,7 +26,12 @@
           @switch (selectedTab) {
             @case ('caracteristicas') {
               <div>
-                Características del Pokémon
+                @if (pokemon(); as pokemon) {
+                  <app-pokemon-info 
+                    [pokemon]="pokemon" 
+                    [pokemonTypes]="pokemonTypes()">
+                  </app-pokemon-info>
+                }
               </div>
             }
             @case ('ubicacion') {
