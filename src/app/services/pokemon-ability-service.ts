@@ -1,4 +1,4 @@
-import { Injectable, inject, signal, effect } from '@angular/core';
+import { Injectable, signal, effect } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { PokemonAbility } from '../models/info-game.model';
 import { Pokemon } from '../models/pokemon.model';

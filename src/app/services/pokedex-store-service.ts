@@ -1,5 +1,7 @@
-import { Injectable, signal, computed, effect, inject } from '@angular/core';
+import { Injectable, inject, signal, computed } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { toObservable, toSignal } from '@angular/core/rxjs-interop';
+import { switchMap, map, catchError, tap, of } from 'rxjs';
 import { Pokemon } from '../models/pokemon.model';
 import { GameService } from './game-service';
 
@@ -9,49 +11,46 @@ export class PokedexStoreService {
   private readonly http = inject(HttpClient);
   private readonly gameService = inject(GameService);
 
-  private readonly _list = signal<Pokemon[]>([]);
   private readonly _loading = signal(false);
   private readonly _error = signal<string | null>(null);
 
-  readonly all = computed(() => this._list());
   readonly loading = this._loading.asReadonly();
   readonly error = this._error.asReadonly();
 
-  constructor() {
-    effect(() => {
-      const game = this.gameService.getActiveGame();
+  private readonly activeGame = this.gameService.getActiveGame();
+
+  private readonly pokedex$ = toObservable(this.activeGame).pipe(
+    switchMap(game => {
+
       if (!game) {
-        this._list.set([]);
-        return;
-      }
-
-      const activeGame = game();
-      if (!activeGame) {
-        this._list.set([]);
-        return;
-      }
-
-      this.loadPokedex(activeGame.pokedexPath);
-    });
-  }
-
-  private loadPokedex(path: string) {
-    this._loading.set(true);
-    this._error.set(null);
-
-    this.http.get<Record<string, any>>(path).subscribe({
-      next: raw => {
-        const normalized = Object.values(raw).map(this.normalize);
-        this._list.set(normalized);
         this._loading.set(false);
-      },
-      error: () => {
-        this._error.set('No se pudo cargar la Pokédex');
-        this._list.set([]);
-        this._loading.set(false);
+        this._error.set(null);
+        return of([] as Pokemon[]);
       }
-    });
-  }
+
+      this._loading.set(true);
+      this._error.set(null);
+
+      return this.http.get<Record<string, any>>(game.pokedexPath).pipe(
+        map(raw =>
+          Object.values(raw).map(this.normalize)
+        ),
+        tap(() => this._loading.set(false)),
+        catchError(() => {
+          this._error.set('No se pudo cargar la Pokédex');
+          this._loading.set(false);
+          return of([] as Pokemon[]);
+        })
+      );
+    })
+  );
+
+  private readonly _list = toSignal(this.pokedex$, {
+    initialValue: []
+  });
+
+  readonly all = computed(() => this._list());
+  
   private normalize(raw: any): Pokemon {
     return {
       ...raw,

@@ -8,9 +8,15 @@
         </div>
     </div>
     <div class="pokemon-info-container">
+        <h2>Pokemon {{ pokemon().category }}</h2>
+        <p>{{ pokemon().pokedexEntry }}</p>
+    </div>
+    <div class="pokemon-info-container">
         <h3>Datos fisicos</h3>
-        <span class="pokemon-info-physical">Altura: {{ pokemon().height }}</span>
-        <span class="pokemon-info-physical">Peso: {{ pokemon().weight }}</span>
+        <span class="pokemon-info-label">Altura</span>
+        <span class="pokemon-info-value">{{ pokemon().height }} m</span>
+        <span class="pokemon-info-label">Peso</span>
+        <span class="pokemon-info-value">{{ pokemon().weight }} kg</span>
     </div>
     <div class="pokemon-info-container">
         <h3>Habilidades</h3>
@@ -30,6 +36,19 @@
                 </div>
             }
         </div>
+    </div>
+    <div class="pokemon-info-container">
+        <h3>Información adicional</h3>
+        <div class="pokemon-info-additional">
+            <span class="pokemon-info-label">Color</span>
+            <span class="pokemon-info-value">{{ pokemon().color }}</span>
+            <span class="pokemon-info-label">Forma</span>
+            <span class="pokemon-info-value">{{ pokemon().shape }}</span>
+            <span class="pokemon-info-label">Hábitat</span>
+            <span class="pokemon-info-value">{{ pokemon().habitat }}</span>
+            <span class="pokemon-info-label">Generación</span>
+            <span class="pokemon-info-value">{{ pokemon().generation }}</span>
+        </div>     
     </div>
 
 </div>
