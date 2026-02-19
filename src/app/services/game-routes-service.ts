@@ -19,7 +19,10 @@ export class GameRoutesService {
     for (const route of this._routes()) {
       for (const pokemonId of route.pokemons) {
         if (!map.has(pokemonId)) map.set(pokemonId, []);
-        map.get(pokemonId)!.push(route);
+        const existing = map.get(pokemonId)!;
+        if (!existing.some(r => r.id === route.id)) {
+          existing.push(route);
+        }
       }
     }
     return map;

@@ -29,12 +29,10 @@ export class PokemonGameInfoComponent {
     this.spriteService.getUbicationImagePath(this.pokemon())
   );
 
-  readonly routesForPokemon = computed(() => {
-    const routes = this.ubicationService.getRoutesByPokemon(this.pokemon().id);
-    return routes.length ? routes : [{ id: 'Ubicación desconocida', pokemons: [] }];
-  });
-
-
+  readonly routesForPokemon = computed(() =>
+    this.ubicationService.getRoutesByPokemon(this.pokemon().id)
+  );
+  
   readonly heldItemsList = computed(() => {
     const heldItems = this.pokemon().heldItems;
     const itemsMap = this.itemService.itemsMap();
