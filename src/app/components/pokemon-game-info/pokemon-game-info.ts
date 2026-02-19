@@ -36,7 +36,6 @@ export class PokemonGameInfoComponent {
   readonly heldItemsList = computed(() => {
     const heldItems = this.pokemon().heldItems;
     const itemsMap = this.itemService.itemsMap();
-    console.log('heldItems', heldItems);
 
     if (!heldItems) return [];
 

@@ -1,4 +1,5 @@
 import { PokemonType } from "./types.model";
+
 export interface PokemonItem {
   id: string;
   name: string;
@@ -22,4 +23,10 @@ export interface PokemonMove {
 export interface PokemonRoute {
   id: string;
   pokemons: string[];
+}
+export interface EvolutionNode {
+  idPokemon: string;
+  method?: string;
+  value?: number | string;
+  evolvesInto: EvolutionNode[];
 }

@@ -1,0 +1,47 @@
+<section class="evolution-chain">
+  <h2 class="chain-title">Línea evolutiva</h2>
+
+  @if (chain(); as root) {
+    <div class="chain-root">
+        <ng-container [ngTemplateOutlet]="evoNode" [ngTemplateOutletContext]="{ $implicit: root }" />
+    </div>
+  } @else {
+    <p class="chain-empty">Este Pokémon no tiene evoluciones</p>
+  }
+</section>
+
+<ng-template #evoNode let-node>
+  <div class="evo-node">
+    @if (store.getById(node.idPokemon); as poke) {
+      <div class="evo-card">
+        <img
+          [src]="spriteService.getSmallSpritePath(poke)"
+          [alt]="poke.name"
+          loading="lazy"
+          class="evo-sprite"
+        />
+        <span class="evo-name">{{ poke.name }}</span>
+      </div>
+    }
+
+    @if (node.evolvesInto.length) {
+      <div class="evo-branches">
+        @for (child of node.evolvesInto; track child.idPokemon) {
+          <div class="evo-branch">
+            <div class="evo-arrow">
+              <span class="method-label">{{ getMethodLabel(child.method) }}</span>
+              @if (child.value) {
+                <span class="method-value">{{ child.value }}</span>
+              }
+              <span>▶</span>
+            </div>
+            <ng-container
+              [ngTemplateOutlet]="evoNode"
+              [ngTemplateOutletContext]="{ $implicit: child }"
+            />
+          </div>
+        }
+      </div>
+    }
+  </div>
+</ng-template>

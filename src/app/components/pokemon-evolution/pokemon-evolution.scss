@@ -1,0 +1,64 @@
+.evolution-chain {
+  padding: 1rem;
+}
+
+.chain-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.chain-root {
+  display: flex;
+  align-items: center;
+}
+
+.evo-node {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.evo-branches {
+  display: flex;
+  flex-direction: column;  /* Las ramas se apilan verticalmente */
+  gap: 1rem;
+}
+
+.evo-branch {
+  display: flex;
+  flex-direction: row;     /* Cada rama: flecha + nodo en horizontal */
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.evo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.evo-sprite {
+  width: 80px;
+  height: 80px;
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+
+.evo-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.evo-arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.7rem;
+  color: #888;
+  gap: 2px;
+}

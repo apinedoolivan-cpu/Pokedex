@@ -5,13 +5,15 @@ import { PokemonShowcaseComponent } from '../pokemon-showcase/pokemon-showcase';
 import { PokemonSearchComponent } from '../pokemon-search/pokemon-search';
 import { PokemonInfoComponent } from '../pokemon-info/pokemon-info';
 import { PokemonGameInfoComponent } from '../pokemon-game-info/pokemon-game-info';
+import { PokemonEvolutionComponent } from '../pokemon-evolution/pokemon-evolution';
 import { GameService } from '../../services/game-service';
 import { PokemonDataService } from '../../services/pokemon-data-service';
 import { getPokemonTypeById, PokemonType } from '../../models/types.model';
 
 @Component({
   selector: 'app-pokemon',
-  imports: [GameErrorComponent, PokemonSearchComponent, PokemonShowcaseComponent, PokemonInfoComponent, PokemonGameInfoComponent],
+  imports: [GameErrorComponent, PokemonSearchComponent, PokemonShowcaseComponent, PokemonInfoComponent, PokemonGameInfoComponent, 
+    PokemonEvolutionComponent],
   templateUrl: './pokemon.html',
   styleUrl: './pokemon.scss',
 })

@@ -45,7 +45,11 @@
             }
             @case ('evolucion') {
               <div>
-                Evolución del Pokémon
+                @if (pokemon(); as pokemon) {
+                  <app-pokemon-evolution 
+                    [pokemon]="pokemon">
+                  </app-pokemon-evolution>
+                }
               </div>
             }
             @case ('estadisticas') {

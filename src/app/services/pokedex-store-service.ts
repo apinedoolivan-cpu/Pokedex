@@ -57,4 +57,8 @@ export class PokedexStoreService {
       generation: Number(raw.generation),
     };
   }
+  
+  getById(id: string): Pokemon | undefined {
+    return this.all().find(p => p.id === id);
+  }
 }
