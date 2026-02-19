@@ -1,0 +1,27 @@
+<div class="stats">
+  @for (stat of stats(); track stat.label) {
+    <div class="stat-row">
+      <span class="stat-label">{{ stat.label }}</span>
+      <span class="stat-value">{{ stat.value }}</span>
+      <div class="stat-bar-track">
+        <div
+          class="stat-bar-fill"
+          [style.width]="getBarWidth(stat.value)"
+          [style.background-color]="stat.color"
+        ></div>
+      </div>
+    </div>
+  }
+
+  <div class="stat-row total">
+    <span class="stat-label">Total</span>
+    <span class="stat-value">{{ total() }}</span>
+    <div class="stat-bar-track">
+      <div
+        class="stat-bar-fill"
+        [style.width]="getBarWidth(total() / 6)"
+        style="background: linear-gradient(90deg, #60a5fa, #a855f7)"
+      ></div>
+    </div>
+  </div>
+</div>

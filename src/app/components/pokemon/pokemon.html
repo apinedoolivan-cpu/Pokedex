@@ -54,7 +54,11 @@
             }
             @case ('estadisticas') {
               <div>
-                Estadísticas del Pokémon
+                @if (pokemon(); as pokemon) {
+                  <app-pokemon-stats 
+                    [pokemon]="pokemon">
+                  </app-pokemon-stats>
+                }
               </div>
             }
             @case ('efectividad') {
