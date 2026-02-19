@@ -36,7 +36,11 @@
             }
             @case ('ubicacion') {
               <div>
-                Ubicación del Pokémon
+                @if (pokemon(); as pokemon) {
+                  <app-pokemon-game-info 
+                    [pokemon]="pokemon">
+                  </app-pokemon-game-info>
+                }
               </div>
             }
             @case ('evolucion') {

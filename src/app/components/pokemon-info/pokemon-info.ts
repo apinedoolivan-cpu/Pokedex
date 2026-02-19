@@ -11,24 +11,23 @@ import { PokemonAbilityService } from '../../services/pokemon-ability-service';
 })
 export class PokemonInfoComponent {
   
-  public readonly abilityService = inject(PokemonAbilityService);
-  readonly pokemon = input.required<Pokemon>();
-  readonly pokemonTypes = input.required<PokemonType[]>();
+  private readonly abilityService = inject(PokemonAbilityService);
+  public readonly pokemon = input.required<Pokemon>();
+  public readonly pokemonTypes = input.required<PokemonType[]>();
 
-  readonly abilities = computed(() =>
+  public readonly abilities = computed(() =>
     this.abilityService.getAbilitiesForPokemon(this.pokemon())
   );
 
-  readonly hiddenAbility = computed(() => {
-  const p = this.pokemon();
-  
-  const abilityMap = this.abilityService.abilities();
-  
-  const id = p.hiddenAbility;
-  if (!id) return null;
+  public readonly hiddenAbility = computed(() => {
+    const p = this.pokemon();
+    const abilityMap = this.abilityService.abilities();
+    
+    const id = p.hiddenAbility;
+    if (!id) return null;
 
-  const ability = abilityMap[id];
-  return ability ?? null;
-});
+    const ability = abilityMap[id];
+    return ability ?? null;
+  });
 
 }

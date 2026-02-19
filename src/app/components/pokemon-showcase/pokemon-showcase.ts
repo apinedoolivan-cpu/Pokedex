@@ -13,10 +13,10 @@ export class PokemonShowcaseComponent {
 
   private readonly pokemonSprite = inject(PokemonSpriteService);
 
-  readonly pokemon = input.required<Pokemon>();
-  readonly pokemonTypes = input.required<PokemonType[]>();
+  public readonly pokemon = input.required<Pokemon>();
+  public readonly pokemonTypes = input.required<PokemonType[]>();
 
-  readonly selectedPokemonSprite = computed(() =>
+  public readonly selectedPokemonSprite = computed(() =>
     this.pokemonSprite.getSpritePath(this.pokemon())
   );
 }

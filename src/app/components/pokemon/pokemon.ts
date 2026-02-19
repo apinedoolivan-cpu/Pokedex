@@ -4,24 +4,25 @@ import { GameErrorComponent } from '../game-error/game-error';
 import { PokemonShowcaseComponent } from '../pokemon-showcase/pokemon-showcase';
 import { PokemonSearchComponent } from '../pokemon-search/pokemon-search';
 import { PokemonInfoComponent } from '../pokemon-info/pokemon-info';
+import { PokemonGameInfoComponent } from '../pokemon-game-info/pokemon-game-info';
 import { GameService } from '../../services/game-service';
 import { PokemonDataService } from '../../services/pokemon-data-service';
 import { getPokemonTypeById, PokemonType } from '../../models/types.model';
 
 @Component({
   selector: 'app-pokemon',
-  imports: [GameErrorComponent, PokemonSearchComponent, PokemonShowcaseComponent, PokemonInfoComponent],
+  imports: [GameErrorComponent, PokemonSearchComponent, PokemonShowcaseComponent, PokemonInfoComponent, PokemonGameInfoComponent],
   templateUrl: './pokemon.html',
   styleUrl: './pokemon.scss',
 })
 export class PokemonComponent {
-  private gameService = inject(GameService);
-  private pokemonDataService = inject(PokemonDataService);
+  private readonly gameService = inject(GameService);
+  private readonly pokemonDataService = inject(PokemonDataService);
   
-  public pokemon = this.pokemonDataService.getSelectedPokemon();
-  public game = this.gameService.getActiveGame();
+  public readonly pokemon = this.pokemonDataService.getSelectedPokemon();
+  public readonly game = this.gameService.getActiveGame();
 
-  readonly pokemonTypes = computed<PokemonType[]>(() => {
+  public readonly pokemonTypes = computed<PokemonType[]>(() => {
     const p = this.pokemon();
     if (!p) return [];
 
