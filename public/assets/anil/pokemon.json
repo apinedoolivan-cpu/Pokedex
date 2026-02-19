@@ -5033,10 +5033,10 @@
     "hiddenAbility": "SANDRUSH"
   },
   "NIDORANfE": {
-    "id": "NIDORANfE",
+    "id": "NIDORANF",
     "dexNumber": "29",
     "name": "Nidoran♀",
-    "slug": "nidoran-f",
+    "slug": "nidoranf",
     "types": [
       "POISON"
     ],
@@ -5612,7 +5612,7 @@
     "hiddenAbility": "RIVALRY"
   },
   "NIDORANmA": {
-    "id": "NIDORANmA",
+    "id": "NIDORANM",
     "dexNumber": "32",
     "name": "Nidoran♂",
     "slug": "nidoran-m",
