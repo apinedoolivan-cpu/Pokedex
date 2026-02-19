@@ -6,19 +6,28 @@
         <span>Ubicación del Pokémon</span>
         <p>Desconocida</p>
     </div>
-    @if(pokemon().heldItems){
+    @if (heldItemsList().length > 0) {
         <div class="pokemon-game-info-container">
-            <span>Posibles objetos del pokemon</span>
-                @if (heldItemsList().length > 0) {
-                    <div class="pokemon-game-info-held-items">
-                        @for (item of heldItemsList(); track item.rarity) {
-                        <div class="pokemon-game-info-held-item">
-                            <span class="pokemon-game-info-rarity">{{ item.rarityLabel }}</span>
-                            <img [src]="spriteService.getItemImagePath(item.itemId).toLocaleLowerCase()"/>
-                        </div>
-                        }
-                    </div>
+            <span>Posibles objetos del Pokémon</span>
+
+            <div class="pokemon-game-info-held-items">
+            @for (entry of heldItemsList(); track entry.rarity) {
+                <div class="pokemon-game-info-held-item">
+                <span class="pokemon-game-info-rarity">
+                    {{ entry.rarityLabel }}
+                </span>
+
+                @if (entry.item) {
+                    <img 
+                    [src]="spriteService.getItemImagePath(entry.item.id).toLocaleLowerCase()"
+                    [alt]="entry.item.name"
+                    />
+                    <span>{{ entry.item.name }}</span>
+                    <span>{{ entry.item.description }}</span>
                 }
+                </div>
+            }
+            </div>
         </div>
     }
 </div>

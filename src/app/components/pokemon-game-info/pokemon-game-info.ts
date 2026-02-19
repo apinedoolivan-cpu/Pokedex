@@ -1,6 +1,7 @@
 import { Component, inject, input,  computed } from '@angular/core';
 import { PokemonSpriteService } from '../../services/pokemon-sprite-service';
 import { Pokemon } from '../../models/pokemon.model';
+import { GameItemsService } from '../../services/game-items-service';
 
 type ItemRarity = 'common' | 'uncommon' | 'rare';
 
@@ -12,6 +13,8 @@ type ItemRarity = 'common' | 'uncommon' | 'rare';
 })
 export class PokemonGameInfoComponent {
   public readonly spriteService = inject(PokemonSpriteService);
+  public readonly itemService = inject(GameItemsService);
+  
   public readonly pokemon = input.required<Pokemon>();
   private readonly rarityLabels: Record<ItemRarity, string> = {
     common: 'Común',
@@ -22,17 +25,19 @@ export class PokemonGameInfoComponent {
   public readonly urlUbicacion = computed(() =>
     this.spriteService.getUbicationImagePath(this.pokemon())
   );
-
   readonly heldItemsList = computed(() => {
-    const items = this.pokemon().heldItems;
-    if (!items) return [];
+    const heldItems = this.pokemon().heldItems;
+    const itemsMap = this.itemService.itemsMap();
+    console.log('heldItems', heldItems);
 
-    return Object.entries(items)
+    if (!heldItems) return [];
+
+    return Object.entries(heldItems)
       .filter(([, value]) => !!value)
       .map(([rarity, itemId]) => ({
         rarity: rarity as ItemRarity,
         rarityLabel: this.rarityLabels[rarity as ItemRarity],
-        itemId: itemId as string
+        item: itemsMap.get(itemId as string) ?? null
       }));
   });
 }

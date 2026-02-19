@@ -1,0 +1,4407 @@
+[
+  {
+    "id": "REPEL",
+    "name": "Repelente",
+    "description": "Repele Pokémon salvajes débiles en un recorrido de 100 pasos."
+  },
+  {
+    "id": "SUPER-REPEL",
+    "name": "Superrepelente",
+    "description": "Repele Pokémon salvajes débiles en un recorrido de 200 pasos."
+  },
+  {
+    "id": "MAX-REPEL",
+    "name": "Repelente Máximo",
+    "description": "Repele Pokémon salvajes débiles en un recorrido de 250 pasos."
+  },
+  {
+    "id": "BLACK-FLUTE",
+    "name": "Flauta Negra",
+    "description": "Flauta de cristal negro cuya melodía reduce las probabilidades de encontrarse con Pokémon salvajes."
+  },
+  {
+    "id": "WHITE-FLUTE",
+    "name": "Flauta Blanca",
+    "description": "Flauta de cristal blanco cuya melodía aumenta las probabilidades de encontrarse con Pokémon salvajes."
+  },
+  {
+    "id": "HONEY",
+    "name": "Miel",
+    "description": "Su delicioso aroma atrae a Pokémon salvajes si se usa en zonas de hierba alta, cuevas o árboles especiales."
+  },
+  {
+    "id": "RED-SHARD",
+    "name": "Parte Roja",
+    "description": "Un pequeño fragmento rojo. Parece formar parte de algún tipo de herramienta antigua."
+  },
+  {
+    "id": "YELLOW-SHARD",
+    "name": "Parte Amarilla",
+    "description": "Un pequeño fragmento amarillo. Parece formar parte de algún tipo de herramienta antigua."
+  },
+  {
+    "id": "BLUE-SHARD",
+    "name": "Parte Azul",
+    "description": "Un pequeño fragmento azul. Parece formar parte de algún tipo de herramienta antigua."
+  },
+  {
+    "id": "GREEN-SHARD",
+    "name": "Parte Verde",
+    "description": "Un pequeño fragmento verde. Parece formar parte de algún tipo de herramienta antigua."
+  },
+  {
+    "id": "FIRE-STONE",
+    "name": "Piedra Fuego",
+    "description": "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Amarilla como el fuego."
+  },
+  {
+    "id": "THUNDER-STONE",
+    "name": "Piedra Trueno",
+    "description": "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene dibujado un rayo."
+  },
+  {
+    "id": "WATER-STONE",
+    "name": "Piedra Agua",
+    "description": "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Es azul, como el agua."
+  },
+  {
+    "id": "LEAF-STONE",
+    "name": "Piedra Hoja",
+    "description": "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene dibujada una hoja."
+  },
+  {
+    "id": "MOON-STONE",
+    "name": "Piedra Lunar",
+    "description": "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Negra como el azabache."
+  },
+  {
+    "id": "SUN-STONE",
+    "name": "Piedra Solar",
+    "description": "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Es roja como el sol."
+  },
+  {
+    "id": "DUSK-STONE",
+    "name": "Piedra Noche",
+    "description": "Una piedra peculiar que permite evolucionar a algunos Pokémon. Es oscura como la noche."
+  },
+  {
+    "id": "DAWN-STONE",
+    "name": "Piedra Alba",
+    "description": "Una piedra peculiar que permite evolucionar a algunos Pokémon. Brilla como un lucero."
+  },
+  {
+    "id": "SHINY-STONE",
+    "name": "Piedra Día",
+    "description": "Una piedra peculiar que permite evolucionar a algunos Pokémon. Tiene un brillo espectacular."
+  },
+  {
+    "id": "ICE-STONE",
+    "name": "Piedra Hielo",
+    "description": "Curiosa piedra que permite evolucionar a determinadas especies de Pokémon. Tiene un patrón nevado."
+  },
+  {
+    "id": "SWEET-APPLE",
+    "name": "Manzana Dulce",
+    "description": "Curiosa manzana, de sabor particularmente dulce, que permite evolucionar a Applin."
+  },
+  {
+    "id": "TART-APPLE",
+    "name": "Manzana Ácida",
+    "description": "Curiosa manzana, de sabor particularmente ácido, que permite evolucionar a Applin."
+  },
+  {
+    "id": "CRACKED-POT",
+    "name": "Tetera Agrietada",
+    "description": "Tetera agrietada que permite evolucionar a Sinistea (forma Falsificada). Sirve un té exquisito."
+  },
+  {
+    "id": "CHIPPED-POT",
+    "name": "Tetera Rota",
+    "description": "Tetera rota que permite evolucionar a Sinistea (forma Genuina). Sirve un té exquisito."
+  },
+  {
+    "id": "GALARICA-CUFF",
+    "name": "Brazal Galanuez",
+    "description": "Un brazalete hecho de Ramas de Galanuez trenzadas. Los Slowpoke de Galar lo adoran."
+  },
+  {
+    "id": "GALARICA-WREATH",
+    "name": "Corona Galanuez",
+    "description": "Una corona hecha con Ramas de Galanuez. Los Slowpoke de Galar lo adoran."
+  },
+  {
+    "id": "RED-APRICORN",
+    "name": "Bonguri Roja",
+    "description": "Bonguri de color rojo y aroma muy penetrante."
+  },
+  {
+    "id": "YELLOW-APRICORN",
+    "name": "Bonguri Amarilla",
+    "description": "Bonguri de color amarillo y aroma refrescante."
+  },
+  {
+    "id": "BLUE-APRICORN",
+    "name": "Bonguri Azul",
+    "description": "Bonguri de color azul y aroma tierno."
+  },
+  {
+    "id": "GREEN-APRICORN",
+    "name": "Bonguri Verde",
+    "description": "Bonguri de color verde y aroma peculiar que recuerda al café tostado."
+  },
+  {
+    "id": "PINK-APRICORN",
+    "name": "Bonguri Rosa",
+    "description": "Bonguri de color rosa y aroma dulce."
+  },
+  {
+    "id": "WHITE-APRICORN",
+    "name": "Bonguri Blanca",
+    "description": "Bonguri de color blanco que no desprende aroma alguno."
+  },
+  {
+    "id": "BLACK-APRICORN",
+    "name": "Bonguri Negra",
+    "description": "Bonguri de color negro y aroma indescriptible."
+  },
+  {
+    "id": "HELIX-FOSSIL",
+    "name": "Fósil Helix",
+    "description": "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser un fragmento de concha marina."
+  },
+  {
+    "id": "DOME-FOSSIL",
+    "name": "Fósil Domo",
+    "description": "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser un fragmento de concha."
+  },
+  {
+    "id": "OLD-AMBER",
+    "name": "Ámbar Viejo",
+    "description": "Fragmento de ámbar que contiene información genética de un Pokémon ancestral. Es de color amarillo."
+  },
+  {
+    "id": "ROOT-FOSSIL",
+    "name": "Fósil Raíz",
+    "description": "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser parte de una raíz."
+  },
+  {
+    "id": "CLAW-FOSSIL",
+    "name": "Fósil Garra",
+    "description": "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser parte de una garra."
+  },
+  {
+    "id": "SKULL-FOSSIL",
+    "name": "Fósil Cráneo",
+    "description": "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una cabeza."
+  },
+  {
+    "id": "ARMOR-FOSSIL",
+    "name": "Fósil Coraza",
+    "description": "Fósil de un Pokémon prehistórico terrestre. Parece ser un fragmento del cuello."
+  },
+  {
+    "id": "COVER-FOSSIL",
+    "name": "Fósil Tapa",
+    "description": "Fósil de un Pokémon ancestral que vivió en el fondo del mar. Parece ser un fragmento de caparazón."
+  },
+  {
+    "id": "PLUME-FOSSIL",
+    "name": "Fósil Pluma",
+    "description": "Fósil de un Pokémon ancestral que surcó los cielos. Parece ser parte de un ala suya."
+  },
+  {
+    "id": "JAW-FOSSIL",
+    "name": "Fósil Mandíbula",
+    "description": "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una mandíbula."
+  },
+  {
+    "id": "SAIL-FOSSIL",
+    "name": "Fósil Aleta",
+    "description": "Fósil de un Pokémon prehistórico marino. Parece ser parte de una aleta."
+  },
+  {
+    "id": "FOSSILIZED-BIRD",
+    "name": "Ornitofósil",
+    "description": "Parte del fósil de un Pokémon prehistórico que surcaba los cielos. Su apariencia es una incógnita."
+  },
+  {
+    "id": "FOSSILIZED-FISH",
+    "name": "Ictiofósil",
+    "description": "Parte del fósil de un Pokémon prehistórico que habitaba en el mar. Su apariencia es una incógnita."
+  },
+  {
+    "id": "FOSSILIZED-DRAKE",
+    "name": "Dracofósil",
+    "description": "Parte del fósil de un Pokémon prehistórico que habitaba en tierra firme. Su apariencia es una incógnita."
+  },
+  {
+    "id": "FOSSILIZED-DINO",
+    "name": "Plesiofósil",
+    "description": "Parte del fósil de un Pokémon prehistórico que habitaba en el mar. Su apariencia es una incógnita."
+  },
+  {
+    "id": "PRETTY-FEATHER",
+    "name": "Pluma Bella",
+    "description": "Pluma normal y corriente. Muy bonita, pero no sirve para nada."
+  },
+  {
+    "id": "TINY-MUSHROOM",
+    "name": "Mini Seta",
+    "description": "Seta pequeña bastante popular. Hay quien las usa para cambiar las habilidades de tus Pokémon."
+  },
+  {
+    "id": "BIG-MUSHROOM",
+    "name": "Seta Grande",
+    "description": "Seta grande y poco común muy popular entre determinados grupos de gourmets."
+  },
+  {
+    "id": "BALM-MUSHROOM",
+    "name": "Seta Aroma",
+    "description": "Extraña seta que desprende un agradable aroma. Muy apreciada por los gourmets."
+  },
+  {
+    "id": "PEARL",
+    "name": "Perla",
+    "description": "Brillante perla plateada de tamaño más bien pequeño que no alcanza mucho precio en las tiendas."
+  },
+  {
+    "id": "BIG-PEARL",
+    "name": "Perla Grande",
+    "description": "Brillante perla plateada de gran tamaño que puede venderse a buen precio en las tiendas."
+  },
+  {
+    "id": "PEARL-STRING",
+    "name": "Sarta de perlas",
+    "description": "Brillantes perlas plateadas de gran tamaño. Muy valoradas por los coleccionistas."
+  },
+  {
+    "id": "STARDUST",
+    "name": "Polvoestelar",
+    "description": "Bonita arena roja de tacto sedoso que alcanza un alto precio en las tiendas."
+  },
+  {
+    "id": "STAR-PIECE",
+    "name": "Trozo Estrella",
+    "description": "Fragmento de una bonita gema roja que puede venderse muy caro en las tiendas."
+  },
+  {
+    "id": "COMET-SHARD",
+    "name": "Fragmento Cometa",
+    "description": "Fragmento de un cometa caído al suelo al atravesar la atmósfera. Muy valorado por los coleccionistas."
+  },
+  {
+    "id": "NUGGET",
+    "name": "Pepita",
+    "description": "Pepita de oro puro que desprende un brillo espectacular. Puede venderse muy cara en las tiendas."
+  },
+  {
+    "id": "BIG-NUGGET",
+    "name": "Maxipepita",
+    "description": "Pepita grande de oro puro que desprende un brillo espectacular. Muy valorada por los coleccionistas."
+  },
+  {
+    "id": "HEART-SCALE",
+    "name": "Escama Corazón",
+    "description": "Bella escama con forma de corazón que brilla con los colores del arco iris. Es muy poco común."
+  },
+  {
+    "id": "SLOWPOKE-TAIL",
+    "name": "Cola Slowpoke",
+    "description": "Cola de origen desconocido y muy sabrosa. Se vende muy cara."
+  },
+  {
+    "id": "RARE-BONE",
+    "name": "Hueso Raro",
+    "description": "Un hueso de gran valor arqueológico que puede alcanzar un alto precio en las tiendas."
+  },
+  {
+    "id": "RELIC-COPPER",
+    "name": "Real de cobre",
+    "description": "Moneda de cobre de más de tres mil años de antigüedad. Muy valorada por los coleccionistas."
+  },
+  {
+    "id": "RELIC-SILVER",
+    "name": "Real de plata",
+    "description": "Moneda de plata de más de tres mil años de antigüedad. Muy valorada por los coleccionistas."
+  },
+  {
+    "id": "RELIC-GOLD",
+    "name": "Real de oro",
+    "description": "Moneda de oro de más de tres mil años de antigüedad. Muy valorada por los coleccionistas."
+  },
+  {
+    "id": "RELIC-VASE",
+    "name": "Ánfora Antigua",
+    "description": "Jarrón de más de tres mil años de antigüedad. Muy valorado por los coleccionistas."
+  },
+  {
+    "id": "RELIC-BAND",
+    "name": "Brazal antiguo",
+    "description": "Brazalete de más de tres mil años de antigüedad. Muy valorado por los coleccionistas."
+  },
+  {
+    "id": "RELIC-STATUE",
+    "name": "Efigie Antigua",
+    "description": "Efigie de piedra de más de tres mil años de antigüedad. Muy valorado por los coleccionistas."
+  },
+  {
+    "id": "RELIC-CROWN",
+    "name": "Corona Antigua",
+    "description": "Corona de más de tres mil años de antigüedad. Muy valorada por los coleccionistas."
+  },
+  {
+    "id": "GROWTH-MULCH",
+    "name": "Abono Rápido",
+    "description": "Un fertilizante que se usa en tierra suelta. Acelera el crecimiento de las bayas, pero también seca el suelo."
+  },
+  {
+    "id": "DAMP-MULCH",
+    "name": "Abono Lento",
+    "description": "Fertilizante para tierra suelta que ralentiza el crecimiento de las bayas y seca el suelo lentamente."
+  },
+  {
+    "id": "STABLE-MULCH",
+    "name": "Abono Fijador",
+    "description": "Fertilizante para tierra suelta que retrasa la caída de las bayas maduras."
+  },
+  {
+    "id": "GOOEY-MULCH",
+    "name": "Abono Brote",
+    "description": "Fertilizante para tierra suelta que hace que broten más plantas nuevas de las plantas marchitas."
+  },
+  {
+    "id": "SHOAL-SALT",
+    "name": "Sal Cardumen",
+    "description": "Sal pura y de sabor intenso procedente de las profundidades de la Cueva Cardumen."
+  },
+  {
+    "id": "SHOAL-SHELL",
+    "name": "Concha Cardumen",
+    "description": "Hermosa concha marina hallada en lo más profundo de la Cueva Cardumen. Tiene rayas azules y blancas."
+  },
+  {
+    "id": "ODD-KEYSTONE",
+    "name": "Piedra Espíritu",
+    "description": "Vital para impedir que una torre de piedra se derrumbe. A veces se oyen voces en su interior."
+  },
+  {
+    "id": "RED-NECTAR",
+    "name": "Néctar Rojo",
+    "description": "Néctar de ciertas flores de los Jardines de Ula-Ula, capaz de hacer cambiar de forma a Oricorio."
+  },
+  {
+    "id": "YELLOW-NECTAR",
+    "name": "Néctar Amarillo",
+    "description": "Néctar de ciertas flores de los Jardines de Melemele, capaz de hacer cambiar de forma a Oricorio."
+  },
+  {
+    "id": "PINK-NECTAR",
+    "name": "Néctar Rosa",
+    "description": "Néctar de ciertas flores de los parterres de la Avenida Royale, capaz de hacer cambiar de forma a Oricorio."
+  },
+  {
+    "id": "PURPLE-NECTAR",
+    "name": "Néctar Violeta",
+    "description": "Néctar de ciertas flores de los Jardines de Poni, capaz de hacer cambiar de forma a Oricorio."
+  },
+  {
+    "id": "AIR-BALLOON",
+    "name": "Globo Helio",
+    "description": "El Pokémon que lo lleve flotará en el aire. Si recibe un golpe, estallará."
+  },
+  {
+    "id": "BRIGHT-POWDER",
+    "name": "Polvo Brillo",
+    "description": "Lanza un destello que baja la precisión del enemigo. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "EVIOLITE",
+    "name": "Mineral Evolutivo",
+    "description": "El Pokémon portador aumentará su Defensa y su Defensa Especial si aún puede evolucionar."
+  },
+  {
+    "id": "FLOAT-STONE",
+    "name": "Piedra Pómez",
+    "description": "Piedra muy ligera que reduce el peso del Pokémon que la lleve."
+  },
+  {
+    "id": "DESTINY-KNOT",
+    "name": "Lazo Destino",
+    "description": "Un hilo largo y delgado de color rojo que transmite el enamoramiento del Pokémon que lo lleva a su rival."
+  },
+  {
+    "id": "ROCKY-HELMET",
+    "name": "Casco Dentado",
+    "description": "Si el portador es alcanzado por un ataque físico, el agresor también recibe daño."
+  },
+  {
+    "id": "ASSAULT-VEST",
+    "name": "Chaleco Asalto",
+    "description": "Chaleco que potencia la Def. Esp. del Pokémon que lo lleva, pero le impide lanzar ataques de estado."
+  },
+  {
+    "id": "SAFETY-GOGGLES",
+    "name": "Gafa Protectora",
+    "description": "Gafa que protege de los efectos adversos del clima y del polvo lanzado por los rivales."
+  },
+  {
+    "id": "PROTECTIVE-PADS",
+    "name": "Paracontacto",
+    "description": "Protege al Pokémon de los efectos que le produciría el contacto directo en combate."
+  },
+  {
+    "id": "HEAVY-DUTY-BOOTS",
+    "name": "Botas Gruesas",
+    "description": "Anula los efectos de aquello que se coloca a los pies del Pokémon para obstaculizarlo, como las trampas."
+  },
+  {
+    "id": "UTILITY-UMBRELLA",
+    "name": "Parasol Multiuso",
+    "description": "El portador se vuelve invulnerable a los efectos de los climas lluvioso y soleado."
+  },
+  {
+    "id": "EJECT-BUTTON",
+    "name": "Botón Escape",
+    "description": "Si el portador es alcanzado por un ataque, saldrá del combate y será sustituido por otro Pokémon."
+  },
+  {
+    "id": "EJECT-PACK",
+    "name": "Mochila Escape",
+    "description": "Si el portador ve reducidas sus características, será sustituido por otro Pokémon del equipo."
+  },
+  {
+    "id": "RED-CARD",
+    "name": "Tarjeta Roja",
+    "description": "Misteriosa tarjeta que permite al Pokémon que la lleve expulsar al agresor cuando este le cause daño."
+  },
+  {
+    "id": "SHED-SHELL",
+    "name": "Muda Concha",
+    "description": "En combate, esta concha desechada sirve para que un Pokémon se cambie por otro que no esté combatiendo."
+  },
+  {
+    "id": "SMOKE-BALL",
+    "name": "Bola Humo",
+    "description": "Debe llevarla un Pokémon. Permite huir de combates contra Pokémon salvajes."
+  },
+  {
+    "id": "LUCKY-EGG",
+    "name": "Huevo Suerte",
+    "description": "Es un huevo lleno de felicidad que te hará ganar Puntos de Exp. extra en combate. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "EXP-SHARE",
+    "name": "Repartir Exp",
+    "description": "El Pokémon que lo lleva obtiene parte de los Puntos de Exp. conseguidos en el combate sin participar en él."
+  },
+  {
+    "id": "EXP-SHARE2",
+    "name": "Repartir Exp Equipo",
+    "description": "Permite repartir los Puntos de Exp. entre los Pokémon que el entrenador elija desde la opción del equipo."
+  },
+  {
+    "id": "AMULET-COIN",
+    "name": "Moneda Amuleto",
+    "description": "Si el Pokémon que la lleva lucha en un combate, duplica las ganancias."
+  },
+  {
+    "id": "SOOTHE-BELL",
+    "name": "Cascabel Alivio",
+    "description": "Una campana con un tañido calmante que reconforta al Pokémon que la lleva y lo vuelve más amistoso."
+  },
+  {
+    "id": "CLEANSE-TAG",
+    "name": "Amuleto",
+    "description": "Si lo lleva el primer Pokémon del equipo, se reduce la probabilidad de que se acerquen Pokémon salvajes."
+  },
+  {
+    "id": "CHOICE-BAND",
+    "name": "Cinta Elección",
+    "description": "Aumenta el Ataque un 50% pero solo permite usar un tipo de movimiento un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "CHOICE-SPECS",
+    "name": "Gafas Elección",
+    "description": "Potencian el At. Esp. un 50% pero solo permiten usar un tipo de movimiento. Debe llevarlas un Pokémon."
+  },
+  {
+    "id": "CHOICE-SCARF",
+    "name": "Pañuelo Elección",
+    "description": "Debe llevarlo un Pokémon. Potencia la Velocidad un 50%, pero solo permite usar un tipo de movimiento."
+  },
+  {
+    "id": "HEAT-ROCK",
+    "name": "Roca Calor",
+    "description": "Prolonga la duración del movimiento Día Soleado que use el Pokémon que la lleva."
+  },
+  {
+    "id": "DAMP-ROCK",
+    "name": "Roca Lluvia",
+    "description": "Prolonga la duración del movimiento Danza Lluvia que use el Pokémon que la lleva."
+  },
+  {
+    "id": "SMOOTH-ROCK",
+    "name": "Roca Suave",
+    "description": "Prolonga la duración del movimiento Tormenta Arena que use el Pokémon que la lleva."
+  },
+  {
+    "id": "ICY-ROCK",
+    "name": "Roca Helada",
+    "description": "Prolonga la duración del movimiento Granizo del Pokémon que la lleva."
+  },
+  {
+    "id": "TERRAIN-EXTENDER",
+    "name": "Cubresuelos",
+    "description": "Al llevarlo, prolonga la duración de los campos creados por el Pokémon en el terreno de combate."
+  },
+  {
+    "id": "LIGHT-CLAY",
+    "name": "Refleluz",
+    "description": "Prolonga la duración de barreras como Reflejo y Pantalla de Luz. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "GRIPCLAW",
+    "name": "Garra Garfio",
+    "description": "Prolonga la duración de ataques multiturno como Atadura y Repetición. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "BINDING-BAND",
+    "name": "Banda Atadura",
+    "description": "Banda que potencia los movimientos que estrujan al rival."
+  },
+  {
+    "id": "BIG-ROOT",
+    "name": "Raíz Grande",
+    "description": "Potencia los movimientos que roban PS. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "BLACK-SLUDGE",
+    "name": "Lodo Negro",
+    "description": "Restaura gradualmente los PS de los Pokémon de tipo Veneno y daña a todos los demás."
+  },
+  {
+    "id": "LEFTOVERS",
+    "name": "Restos",
+    "description": "Restauran gradualmente los PS del Pokémon que los lleva durante el combate."
+  },
+  {
+    "id": "SHELL-BELL",
+    "name": "Cascabel Concha",
+    "description": "Debe llevarla un Pokémon. Cada vez que este inflija daño, recuperará algunos PS."
+  },
+  {
+    "id": "MENTAL-HERB",
+    "name": "Hierba Mental",
+    "description": "El Pokémon que la lleve se libera del enamoramiento. Solo puede usarse una vez."
+  },
+  {
+    "id": "WHITE-HERB",
+    "name": "Hierba Blanca",
+    "description": "Restaura cualquier característica debilitada en combate. Solo se puede usar una vez."
+  },
+  {
+    "id": "POWER-HERB",
+    "name": "Hierba Única",
+    "description": "Permite el uso inmediato de cualquier movimiento en el primer turno. Es de un solo uso."
+  },
+  {
+    "id": "ABSORB-BULB",
+    "name": "Tubérculo",
+    "description": "Raíz de usar y tirar que sube el Ataque Especial cuando se recibe un ataque de tipo Agua."
+  },
+  {
+    "id": "CELL-BATTERY",
+    "name": "Pila",
+    "description": "Batería de usar y tirar que sube el Ataque de quien la lleva cuando recibe un golpe de tipo Eléctrico."
+  },
+  {
+    "id": "LUMINOUS-MOSS",
+    "name": "Musgo Brillante",
+    "description": "Objeto de un solo uso. Aumenta la Def. Esp. del Pokémon que la lleva si este recibe un ataque de tipo Agua."
+  },
+  {
+    "id": "SNOWBALL",
+    "name": "Bola de Nieve",
+    "description": "Objeto de un solo uso. Aumenta el Ataque del Pokémon que lo lleva si este recibe un ataque de tipo Hielo."
+  },
+  {
+    "id": "WEAKNESS-POLICY",
+    "name": "Seguro Debilidad",
+    "description": "Aumenta mucho el Atq. y el At. Esp. cuando el Pokémon que lo lleva recibe un ataque frente al cual es débil."
+  },
+  {
+    "id": "BLUNDER-POLICY",
+    "name": "Seguro Fallo",
+    "description": "Aumenta mucho la Velocidad cuando el Pokémon erra el movimiento debido a la precisión."
+  },
+  {
+    "id": "THROAT-SPRAY",
+    "name": "Espray Bucal",
+    "description": "Aumenta el Ataque Especial al emplear un movimiento que se sirva del sonido."
+  },
+  {
+    "id": "ADRENALINE-ORB",
+    "name": "Nerviosfera",
+    "description": "Si lo lleva un Pokémon, sube la Velocidad al ser intimidado. De un solo uso."
+  },
+  {
+    "id": "ROOM-SERVICE",
+    "name": "Servicio Raro",
+    "description": "Si lo lleva un Pokémon, reduce la Velocidad cuando se usa Espacio Raro."
+  },
+  {
+    "id": "ELECTRIC-SEED",
+    "name": "Semilla Electro",
+    "description": "Aumenta la Defensa del portador si el terreno está cubierto por un Campo Eléctrico."
+  },
+  {
+    "id": "GRASSY-SEED",
+    "name": "Semilla Hierba",
+    "description": "Aumenta la Defensa del portador si el terreno está cubierto por un Campo de Hierba."
+  },
+  {
+    "id": "MISTY-SEED",
+    "name": "Semilla Bruma",
+    "description": "Aumenta la Defensa Especial del portador si el terreno está cubierto por un Campo de Niebla."
+  },
+  {
+    "id": "PSYCHIC-SEED",
+    "name": "Semilla Psique",
+    "description": "Aumenta la Defensa Especial del portador si el terreno está cubierto por un Campo Psíquico."
+  },
+  {
+    "id": "LIFE-ORB",
+    "name": "Vidasfera",
+    "description": "Potencia los movimientos, pero consume PS con cada ataque un 30%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "EXPERT-BELT",
+    "name": "Cinta Experto",
+    "description": "Potencia ligeramente los movimientos supereficaces un 20%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "METRONOME",
+    "name": "Metrónomo",
+    "description": "Potencia un movimiento que se use de forma consecutiva. Pero el efecto se pierde si se emplea otro movimiento."
+  },
+  {
+    "id": "MUSCLE-BAND",
+    "name": "Cinta Fuerte",
+    "description": "Cinta de pelo que aumenta ligeramente la potencia de los movimientos físicos."
+  },
+  {
+    "id": "WISE-GLASSES",
+    "name": "Gafas Especiales",
+    "description": "Potencian ligeramente los movimientos especiales. Debe llevarlas un Pokémon."
+  },
+  {
+    "id": "RAZOR-CLAW",
+    "name": "Garra Afilada",
+    "description": "Aumenta a la probabilidad de que el Pokémon que la lleva consiga un golpe crítico."
+  },
+  {
+    "id": "SCOPE-LENS",
+    "name": "Periscopio",
+    "description": "Su lente aumenta la posibilidad que tiene el Pokémon que lo lleva de conseguir un golpe crítico."
+  },
+  {
+    "id": "WIDE-LENS",
+    "name": "Lupa",
+    "description": "Debe llevarla un Pokémon. Aumenta ligeramente la precisión de los movimientos."
+  },
+  {
+    "id": "ZOOM-LENS",
+    "name": "Telescopio",
+    "description": "Debe llevarlo un Pokémon. Si se mueve después del enemigo, aumenta el índice de precisión del Pokémon."
+  },
+  {
+    "id": "KINGS-ROCK",
+    "name": "Roca del Rey",
+    "description": "Puede amedrentar al enemigo cuando el Pokémon que la lleva le hiera."
+  },
+  {
+    "id": "RAZOR-FANG",
+    "name": "Colmillo Agudo",
+    "description": "Si lo lleva un Pokémon cuando hiere a un rival, puede amedrentarlo."
+  },
+  {
+    "id": "LAGGING-TAIL",
+    "name": "Cola Plúmbea",
+    "description": "Es muy pesada y hace que el Pokémon que la lleva se mueva más lento de lo normal."
+  },
+  {
+    "id": "QUICK-CLAW",
+    "name": "Garra Rápida",
+    "description": "Garra ligera y afilada que permite que el Pokémon que la lleve ataque primero ocasionalmente."
+  },
+  {
+    "id": "FOCUS-BAND",
+    "name": "Cinta Aguante",
+    "description": "El Pokémon que la lleve puede resistir un golpe que lo debilitaría y quedarse con 1 PS."
+  },
+  {
+    "id": "FOCUS-SASH",
+    "name": "Banda Aguante",
+    "description": "Si el Pokémon que la lleva tiene los PS al máximo, resistirá un golpe que potencialmente lo deja KO con 1 PS."
+  },
+  {
+    "id": "FLAME-ORB",
+    "name": "Llamasfera",
+    "description": "Extraña esfera que causa quemaduras a quien la usa en combate. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "TOXIC-ORB",
+    "name": "Toxisfera",
+    "description": "Extraña esfera que envenena gravemente a quien la usa en combate. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "STICKY-BARB",
+    "name": "Toxiestrella",
+    "description": "Daña en cada turno al Pokémon que la lleva y también puede dañar a los enemigos que toquen al Pokémon."
+  },
+  {
+    "id": "IRON-BALL",
+    "name": "Bola Férrea",
+    "description": "Reduce la Velocidad y los movimientos tipo Tierra afectan a Pokémon que levitan y los de tipo Volador."
+  },
+  {
+    "id": "RING-TARGET",
+    "name": "Blanco",
+    "description": "El Pokémon que lo lleva es vulnerable frente a movimientos que normalmente no afectan a su tipo."
+  },
+  {
+    "id": "MACHO-BRACE",
+    "name": "Brazal Firme",
+    "description": "Sólido y pesado brazal que fomenta el crecimiento pero reduce la Velocidad. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "POWER-WEIGHT",
+    "name": "Pesa Recia",
+    "description": "Ayuda a conseguir más PS al subir de nivel, pero reduce la Velocidad. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "POWER-BRACER",
+    "name": "Brazal Recio",
+    "description": "Ayuda a ganar Ataque al subir de nivel, pero reduce la Velocidad. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "POWER-BELT",
+    "name": "Cinto Recio",
+    "description": "Ayuda a ganar Defensa al subir de nivel, pero reduce la Velocidad. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "POWER-LENS",
+    "name": "Lente Recia",
+    "description": "Ayuda a ganar At. Esp. al subir de nivel, pero reduce la Velocidad. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "POWER-BAND",
+    "name": "Banda Recia",
+    "description": "Ayuda a ganar Def. Esp. al subir de nivel, pero reduce la Velocidad. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "POWER-ANKLET",
+    "name": "Franja Recia",
+    "description": "Ayuda a ganar Velocidad al subir de nivel, pero reduce la Velocidad en combate. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "LAX-INCENSE",
+    "name": "Incienso Suave",
+    "description": "Debe llevarlo un Pokémon. Su peculiar aroma reduce la precisión del rival."
+  },
+  {
+    "id": "FULL-INCENSE",
+    "name": "Incienso Lento",
+    "description": "Exótica sustancia aromática que hace que el Pokémon que la lleva se mueva más despacio."
+  },
+  {
+    "id": "LUCK-INCENSE",
+    "name": "Incienso Duplo",
+    "description": "Incienso de aroma exótico. Si el Pokémon que lo lleva participa en un combate, duplica las ganancias."
+  },
+  {
+    "id": "PURE-INCENSE",
+    "name": "Incienso Puro",
+    "description": "Si lo lleva el primer Pokémon del equipo, los Pokémon salvajes se acercarán con menos frecuencia."
+  },
+  {
+    "id": "SEA-INCENSE",
+    "name": "Incienso Marino",
+    "description": "Tiene un curioso aroma que potencia la energía de los ataques de tipo Agua. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "WAVE-INCENSE",
+    "name": "Incienso Aqua",
+    "description": "Incienso exótico que fortalece los movimientos de tipo Agua. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "ROSE-INCENSE",
+    "name": "Incienso Floral",
+    "description": "Incienso de exótico aroma que fortalece los movimientos de tipo Planta. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "ODD-INCENSE",
+    "name": "Incienso Raro",
+    "description": "Incienso de exótico aroma que fortalece los movimientos de tipo Psíquico. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "ROCK-INCENSE",
+    "name": "Incienso Roca",
+    "description": "Incienso de exótico aroma que fortalece los movimientos de tipo Roca. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "CHARCOAL",
+    "name": "Carbón",
+    "description": "Actúa como combustible y potencia la energía de los ataques de tipo Fuego. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "MYSTIC-WATER",
+    "name": "Agua Mística",
+    "description": "Gema con forma de lágrima que fortalece los ataques de tipo Agua un 20%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "MAGNET",
+    "name": "Imán",
+    "description": "Debe llevarlo un Pokémon. Su potente magnetismo fortalece los ataques de tipo Eléctrico."
+  },
+  {
+    "id": "MIRACLE-SEED",
+    "name": "Semilla Milagro",
+    "description": "Debe llevarla un Pokémon. La vitalidad de la semilla fortalece los ataques de tipo Planta."
+  },
+  {
+    "id": "NEVER-MELT-ICE",
+    "name": "Antiderretir",
+    "description": "Fragmento de hielo que repele el calor y fortalece los ataques de tipo Hielo. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "BLACK-BELT",
+    "name": "Cinturón Negro",
+    "description": "Debe llevarlo un Pokémon. Aumenta la decisión y fortalece los ataques de tipo Lucha."
+  },
+  {
+    "id": "POISON-BARB",
+    "name": "Flecha Venenosa",
+    "description": "Flecha venenosa que refuerza los movimientos de tipo Veneno un 20%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "SOFT-SAND",
+    "name": "Arena Fina",
+    "description": "Debe llevarla un Pokémon. La suavidad de la arena fortalece los ataques de tipo Tierra."
+  },
+  {
+    "id": "SHARP-BEAK",
+    "name": "Pico Afilado",
+    "description": "Pico largo y afilado que aumenta la potencia de los movimientos de tipo Volador. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "TWISTED-SPOON",
+    "name": "Cuchara Torcida",
+    "description": "Cuchara llena de energía telequinética que potencia los movimientos de tipo Psíquico."
+  },
+  {
+    "id": "SILVER-POWDER",
+    "name": "Polvo Plata",
+    "description": "Polvo de brillo argénteo que fortalece los ataques de tipo Bicho. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "HARD-STONE",
+    "name": "Piedra Dura",
+    "description": "Debe llevarla un Pokémon. La robustez de la piedra fortalece los ataques de tipo Roca."
+  },
+  {
+    "id": "SPELL-TAG",
+    "name": "Hechizo",
+    "description": "Misterioso y oscuro objeto que refuerza los ataques de tipo Fantasma. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "DRAGON-FANG",
+    "name": "Colmillo Dragón",
+    "description": "Colmillo de gran dureza que refuerza los ataques de tipo Dragón. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "BLACK-GLASSES",
+    "name": "Gafas de Sol",
+    "description": "Debe llevarlas un Pokémon. Fortalecen los ataques de tipo Siniestro."
+  },
+  {
+    "id": "METAL-COAT",
+    "name": "Revestim. Metálico",
+    "description": "Película metálica que fortalece los ataques de tipo Acero. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "SILK-SCARF",
+    "name": "Pañuelo Seda",
+    "description": "La delicadeza del pañuelo fortalece los ataques de tipo Normal. Debe llevarlo un Pokémon."
+  },
+  {
+    "id": "FLAME-PLATE",
+    "name": "Tabla Llama",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Fuego un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "SPLASH-PLATE",
+    "name": "Tabla Linfa",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Agua un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "ZAP-PLATE",
+    "name": "Tabla Trueno",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Eléctrico un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "MEADOW-PLATE",
+    "name": "Tabla Pradal",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Planta un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "ICICLE-PLATE",
+    "name": "Tabla Helada",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Hielo un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "FIST-PLATE",
+    "name": "Tabla Fuerte",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Lucha un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "TOXIC-PLATE",
+    "name": "Tabla Tóxica",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Veneno un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "EARTH-PLATE",
+    "name": "Tabla Terrax",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Tierra un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "SKY-PLATE",
+    "name": "Tabla Cielo",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Volador un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "MIND-PLATE",
+    "name": "Tabla Mental",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Psíquico un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "INSECT-PLATE",
+    "name": "Tabla Bicho",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Bicho un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "STONE-PLATE",
+    "name": "Tabla Pétrea",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Roca un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "SPOOKY-PLATE",
+    "name": "Tabla Terror",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Fantasma un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "DRACO-PLATE",
+    "name": "Tabla Draco",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Dragón un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "DREAD-PLATE",
+    "name": "Tabla Oscura",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Siniestro un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "IRON-PLATE",
+    "name": "Tabla Acero",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Acero un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "PIXIE-PLATE",
+    "name": "Tabla Duende",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Hada un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "FIRE-GEM",
+    "name": "Gema Fuego",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Fuego un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "WATER-GEM",
+    "name": "Gema Agua",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Agua un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "ELECTRIC-GEM",
+    "name": "Gema Eléctrico",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Eléctrico un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "GRASS-GEM",
+    "name": "Gema Planta",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Planta un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "ICE-GEM",
+    "name": "Gema Hielo",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Hielo un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "FIGHTING-GEM",
+    "name": "Gema Lucha",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Lucha un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "POISON-GEM",
+    "name": "Gema Veneno",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Veneno un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "GROUND-GEM",
+    "name": "Gema Tierra",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Tierra un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "FLYING-GEM",
+    "name": "Gema Volador",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Volador un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "PSYCHIC-GEM",
+    "name": "Gema Psíquico",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Psíquico un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "BUG-GEM",
+    "name": "Gema Bicho",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Bicho un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "ROCK-GEM",
+    "name": "Gema Roca",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Roca un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "GHOST-GEM",
+    "name": "Gema Fantasma",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Fantasma un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "DRAGON-GEM",
+    "name": "Gema Dragón",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Dragón un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "DARK-GEM",
+    "name": "Gema Siniestro",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Siniestro un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "STEEL-GEM",
+    "name": "Gema Acero",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Acero un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "FAIRY-GEM",
+    "name": "Gema Hada",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Hada un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "NORMAL-GEM",
+    "name": "Gema Normal",
+    "description": "Joya de un solo uso que potencia los movimientos de tipo Normal un 50%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "LIGHT-BALL",
+    "name": "Bolaluminosa",
+    "description": "Asombrosa esfera que debe llevar Pikachu y que aumenta el Ataque y el Ataque Especial."
+  },
+  {
+    "id": "LUCKY-PUNCH",
+    "name": "Puño Suerte",
+    "description": "Debe llevarlo Chansey. Potencia su índice de golpe crítico."
+  },
+  {
+    "id": "METAL-POWDER",
+    "name": "Polvo Metálico",
+    "description": "Debe llevarlo Ditto. Es un polvo muy fino, pero a la vez resistente, que aumentará su Defensa."
+  },
+  {
+    "id": "QUICK-POWDER",
+    "name": "Polvo Veloz",
+    "description": "Este objeto duplica la Velocidad de Ditto en batalla. Deja de ser efectivo una vez se transforma."
+  },
+  {
+    "id": "THICK-CLUB",
+    "name": "Hueso Grueso",
+    "description": "Un extraño tipo de hueso que potencia el Ataque. Suelen llevarlo Cubone o Marowak."
+  },
+  {
+    "id": "LEEK",
+    "name": "Puerro",
+    "description": "Es un puerro muy largo que suele llevar Farfetch'd. Aumenta la probabilidad de un golpe crítico."
+  },
+  {
+    "id": "SOUL-DEW",
+    "name": "Rocío Bondad",
+    "description": "Un orbe fantástico que deben llevar Latios o Latias. Potencia los movimientos de tipo Dragón y Psíquico en un 20%."
+  },
+  {
+    "id": "DEEP-SEA-TOOTH",
+    "name": "Diente Marino",
+    "description": "Tiene el brillo afilado de la plata y debe llevarlo Clamperl. Sube el At. Esp."
+  },
+  {
+    "id": "DEEP-SEA-SCALE",
+    "name": "Escama Marina",
+    "description": "Tiene un débil brillo rosado y debe llevarla Clamperl. Sube la Def. Esp."
+  },
+  {
+    "id": "ADAMANT-ORB",
+    "name": "Diamansfera",
+    "description": "Una esfera brillante que potencia los ataques de tipo Acero y Dragón. Debe llevarla Dialga."
+  },
+  {
+    "id": "LUSTROUS-ORB",
+    "name": "Lustresfera",
+    "description": "Una bonita esfera que potencia los ataques de tipo Dragón y Agua. Debe llevarla Palkia."
+  },
+  {
+    "id": "GRISEOUS-ORB",
+    "name": "Griseosfera",
+    "description": "Una esfera brillante que potencia los ataques de tipo Dragón y Fantasma. Debe llevarla Giratina."
+  },
+  {
+    "id": "RUSTED-SWORD",
+    "name": "Espada Oxidada",
+    "description": "Cuenta una antigua leyenda que un valiente héroe blandió esta espada para hacer frente a un cataclismo."
+  },
+  {
+    "id": "RUSTED-SHIELD",
+    "name": "Escudo Oxidado",
+    "description": "Cuenta una antigua leyenda que un valiente héroe asió este escudo para hacer frente a un cataclismo."
+  },
+  {
+    "id": "DOUSE-DRIVE",
+    "name": "HidroROM",
+    "description": "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Agua."
+  },
+  {
+    "id": "SHOCK-DRIVE",
+    "name": "FulgoROM",
+    "description": "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Eléctrico."
+  },
+  {
+    "id": "BURN-DRIVE",
+    "name": "PiroROM",
+    "description": "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Fuego."
+  },
+  {
+    "id": "CHILL-DRIVE",
+    "name": "CrioROM",
+    "description": "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Hielo."
+  },
+  {
+    "id": "FIRE-MEMORY",
+    "name": "Disco Fuego",
+    "description": "Disco de datos que contiene información relativa al tipo Fuego. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "WATER-MEMORY",
+    "name": "Disco Agua",
+    "description": "Disco de datos que contiene información relativa al tipo Agua. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "ELECTRIC-MEMORY",
+    "name": "Disco Eléctrico",
+    "description": "Disco de datos que contiene información relativa al tipo Eléctrico. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "GRASS-MEMORY",
+    "name": "Disco Planta",
+    "description": "Disco de datos que contiene información relativa al tipo Planta. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "ICE-MEMORY",
+    "name": "Disco Hielo",
+    "description": "Disco de datos que contiene información relativa al tipo Hielo. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "FIGHTING-MEMORY",
+    "name": "Disco Lucha",
+    "description": "Disco de datos que contiene información relativa al tipo Lucha. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "POISON-MEMORY",
+    "name": "Disco Veneno",
+    "description": "Disco de datos que contiene información relativa al tipo Veneno. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "GROUND-MEMORY",
+    "name": "Disco Tierra",
+    "description": "Disco de datos que contiene información relativa al tipo Tierra. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "FLYING-MEMORY",
+    "name": "Disco Volador",
+    "description": "Disco de datos que contiene información relativa al tipo Volador. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "PSYCHIC-MEMORY",
+    "name": "Disco Psíquico",
+    "description": "Disco de datos que contiene información relativa al tipo Psíquico. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "BUG-MEMORY",
+    "name": "Disco Bicho",
+    "description": "Disco de datos que contiene información relativa al tipo Bicho. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "ROCK-MEMORY",
+    "name": "Disco Roca",
+    "description": "Disco de datos que contiene información relativa al tipo Roca. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "GHOST-MEMORY",
+    "name": "Disco Fantasma",
+    "description": "Disco de datos que contiene info. relativa al tipo Fantasma. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "DRAGON-MEMORY",
+    "name": "Disco Dragón",
+    "description": "Disco de datos que contiene información relativa al tipo Dragón. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "DARK-MEMORY",
+    "name": "Disco Siniestro",
+    "description": "Disco de datos que contiene información relativa al tipo Siniestro. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "STEEL-MEMORY",
+    "name": "Disco Acero",
+    "description": "Disco de datos que contiene información relativa al tipo Acero. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "FAIRY-MEMORY",
+    "name": "Disco Hada",
+    "description": "Disco de datos que contiene información relativa al tipo Hada. Permite cambiar de tipo a Silvally."
+  },
+  {
+    "id": "EVERSTONE",
+    "name": "Piedra Eterna",
+    "description": "El Pokémon que lleve esta piedra mágica no evolucionará."
+  },
+  {
+    "id": "DRAGON-SCALE",
+    "name": "Escamadragón",
+    "description": "Una gruesa y resistente escama que pueden llevar los Pokémon de tipo Dragón cuando son capturados."
+  },
+  {
+    "id": "UPGRADE",
+    "name": "Mejora",
+    "description": "Peculiar dispositivo fabricado en Silph S.A. que contiene todo tipo de datos. Permite evolucionar a Porygon."
+  },
+  {
+    "id": "DUBIOUS-DISC",
+    "name": "Disco Extraño",
+    "description": "Dispositivo transparente que contiene datos misteriosos. Permite evolucionar a Porygon2."
+  },
+  {
+    "id": "PROTECTOR",
+    "name": "Protector",
+    "description": "Dispositivo de protección muy pesado. Sirve para evolucionar a Rhydon."
+  },
+  {
+    "id": "ELECTIRIZER",
+    "name": "Electrizador",
+    "description": "Este dispositivo contiene una gran cantidad de energía eléctrica. Sirve para evolucionar a Electabuzz."
+  },
+  {
+    "id": "MAGMARIZER",
+    "name": "Magmatizador",
+    "description": "Esta caja contiene una enorme cantidad de energía magmática. Sirve para evolucionar a Magmar."
+  },
+  {
+    "id": "REAPER-CLOTH",
+    "name": "Tela Terrible",
+    "description": "Tela imbuida de una energía espiritual muy potente. Sirve para evolucionar a Dusclops."
+  },
+  {
+    "id": "PRISM-SCALE",
+    "name": "Escama Bella",
+    "description": "Preciosa escama que permite evolucionar a Feebas. Brilla con los colores del arcoíris."
+  },
+  {
+    "id": "OVAL-STONE",
+    "name": "Piedra Oval",
+    "description": "Una piedra peculiar que permite evolucionar a Happiny. Tiene forma de huevo."
+  },
+  {
+    "id": "WHIPPED-DREAM",
+    "name": "Dulce de Nata",
+    "description": "Un dulce a base de suave y esponjosa nata montada. Sirve para evolucionar a Swirlix."
+  },
+  {
+    "id": "SACHET",
+    "name": "Saquito Fragante",
+    "description": "Saquito que desprende un aroma peculiar. Sirve para evolucionar a Spritzee."
+  },
+  {
+    "id": "STRAWBERRY-SWEET",
+    "name": "Confite Fresa",
+    "description": "Confite con forma de fresa. Permite evolucionar a Milcery."
+  },
+  {
+    "id": "LOVE-SWEET",
+    "name": "Confite Corazón",
+    "description": "Confite con forma de corazón. Permite evolucionar a Milcery."
+  },
+  {
+    "id": "BERRY-SWEET",
+    "name": "Confite Fruto",
+    "description": "Confite con forma de fruto. Permite evolucionar a Milcery."
+  },
+  {
+    "id": "CLOVER-SWEET",
+    "name": "Confite Trébol",
+    "description": "Confite con forma de trébol. Permite evolucionar a Milcery."
+  },
+  {
+    "id": "FLOWER-SWEET",
+    "name": "Confite Flor",
+    "description": "Confite con forma de flor. Permite evolucionar a Milcery."
+  },
+  {
+    "id": "STAR-SWEET",
+    "name": "Confite Estrella",
+    "description": "Confite con forma de estrella. Permite evolucionar a Milcery."
+  },
+  {
+    "id": "RIBBON-SWEET",
+    "name": "Confite Lazo",
+    "description": "Confite con forma de lazo. Permite evolucionar a Milcery."
+  },
+  {
+    "id": "VENUSAURITE-X",
+    "name": "Venusaurita X",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Venusaur en combate."
+  },
+  {
+    "id": "VENUSAURITE-Y",
+    "name": "Venusaurita Y",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Venusaur en combate."
+  },
+  {
+    "id": "CHARIZARDITE-X",
+    "name": "Charizardita X",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Charizard en combate."
+  },
+  {
+    "id": "CHARIZARDITE-Y",
+    "name": "Charizardita Y",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Charizard en combate."
+  },
+  {
+    "id": "BLASTOISINITE-X",
+    "name": "Blastoisita X",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Blastoise en combate."
+  },
+  {
+    "id": "BLASTOISINITE-Y",
+    "name": "Blastoisita Y",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Blastoise en combate."
+  },
+  {
+    "id": "BEEDRILLITE",
+    "name": "Beedrillita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Beedrill en combate."
+  },
+  {
+    "id": "PIDGEOTITE",
+    "name": "Pidgeotita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pidgeot en combate."
+  },
+  {
+    "id": "ALAKAZITE",
+    "name": "Alakazamita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Alakazam en combate."
+  },
+  {
+    "id": "SLOWBRONITE",
+    "name": "Slowbronita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Slowbro en combate."
+  },
+  {
+    "id": "GENGARITE-X",
+    "name": "Gengarita X",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gengar en combate."
+  },
+  {
+    "id": "GENGARITE-Y",
+    "name": "Gengarita Y",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gengar en combate."
+  },
+  {
+    "id": "KANGASKHANITE",
+    "name": "Kangaskhanita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Kangaskhan en combate."
+  },
+  {
+    "id": "PINSIRITE",
+    "name": "Pinsirita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pinsir en combate."
+  },
+  {
+    "id": "GYARADOSITE",
+    "name": "Gyaradosita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gyarados en combate."
+  },
+  {
+    "id": "AERODACTYLITE",
+    "name": "Aerodactylita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Aerodactyl en combate."
+  },
+  {
+    "id": "MEWTWONITE-X",
+    "name": "Mewtwoita X",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Mewtwo en combate."
+  },
+  {
+    "id": "MEWTWONITE-Y",
+    "name": "Mewtwoita Y",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Mewtwo en combate."
+  },
+  {
+    "id": "AMPHAROSITE",
+    "name": "Ampharosita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Ampharos en combate."
+  },
+  {
+    "id": "STEELIXITE",
+    "name": "Steelixita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Steelix en combate."
+  },
+  {
+    "id": "SCIZORITE",
+    "name": "Scizorita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Scizor en combate."
+  },
+  {
+    "id": "HERACRONITE",
+    "name": "Heracrossita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Heracross en combate."
+  },
+  {
+    "id": "HOUNDOOMINITE",
+    "name": "Houndoomita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Houndoom en combate."
+  },
+  {
+    "id": "TYRANITARITE",
+    "name": "Tyranitarita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Tyranitar en combate."
+  },
+  {
+    "id": "SCEPTILITE",
+    "name": "Sceptilita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Sceptile en combate."
+  },
+  {
+    "id": "BLAZIKENITE",
+    "name": "Blazikenita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Blaziken en combate."
+  },
+  {
+    "id": "SWAMPERTITE",
+    "name": "Swampertita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Swampert en combate."
+  },
+  {
+    "id": "GARDEVOIRITE",
+    "name": "Gardevoirita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gardevoir en combate."
+  },
+  {
+    "id": "SABLENITE",
+    "name": "Sableynita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Sableye en combate."
+  },
+  {
+    "id": "MAWILITE",
+    "name": "Mawilita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Mawile en combate."
+  },
+  {
+    "id": "AGGRONITE",
+    "name": "Aggronita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Aggron en combate."
+  },
+  {
+    "id": "MEDICHAMITE",
+    "name": "Medichamita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Medicham en combate."
+  },
+  {
+    "id": "MANECTITE",
+    "name": "Manectricita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Manectric en combate."
+  },
+  {
+    "id": "SHARPEDONITE",
+    "name": "Sharpedonita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Sharpedo en combate."
+  },
+  {
+    "id": "CAMERUPTITE",
+    "name": "Cameruptita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Camerupt en combate."
+  },
+  {
+    "id": "ALTARIANITE",
+    "name": "Altarianita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Altaria en combate."
+  },
+  {
+    "id": "BANETTITE",
+    "name": "Banettita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Banette en combate."
+  },
+  {
+    "id": "ABSOLITE",
+    "name": "Absolita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Absol en combate."
+  },
+  {
+    "id": "GLALITITE",
+    "name": "Glalita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Glalie en combate."
+  },
+  {
+    "id": "SALAMENCITE",
+    "name": "Salamencita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Salamence en combate."
+  },
+  {
+    "id": "METAGROSSITE",
+    "name": "Metagrossita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Metagross en combate."
+  },
+  {
+    "id": "LATIASITE",
+    "name": "Latiasita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Latias en combate."
+  },
+  {
+    "id": "LATIOSITE",
+    "name": "Latiosita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Latios en combate."
+  },
+  {
+    "id": "LOPUNNITE",
+    "name": "Lopunnita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Lopunny en combate."
+  },
+  {
+    "id": "GARCHOMPITE",
+    "name": "Garchompita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Garchomp en combate."
+  },
+  {
+    "id": "LUCARIONITE",
+    "name": "Lucarita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Lucario en combate."
+  },
+  {
+    "id": "ABOMASITE",
+    "name": "Abomasnowita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Abomasnow en combate."
+  },
+  {
+    "id": "GALLADITE",
+    "name": "Galladita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Gallade en combate."
+  },
+  {
+    "id": "AUDINITE",
+    "name": "Audinita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Audino en combate."
+  },
+  {
+    "id": "DIANCITE",
+    "name": "Diancita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Diancie en combate."
+  },
+  {
+    "id": "JUMPLUFITE",
+    "name": "Jumplufita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Jumpluff en combate."
+  },
+  {
+    "id": "RILLABOOMITE",
+    "name": "Rillabomita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Rillaboom en combate."
+  },
+  {
+    "id": "CINDERECITE",
+    "name": "Cinderecita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Cinderace en combate."
+  },
+  {
+    "id": "INTELEONITE",
+    "name": "Inteleonita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Inteleon en combate."
+  },
+  {
+    "id": "SNORLAXITE",
+    "name": "Snorlaxita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Snorlax en combate."
+  },
+  {
+    "id": "RED-ORB",
+    "name": "Prisma Rojo",
+    "description": "Piedra carmesí de la que se dice que guarda una estrecha relación con las leyendas de Hoenn."
+  },
+  {
+    "id": "BLUE-ORB",
+    "name": "Prisma Azul",
+    "description": "Piedra añil que, según dicen, guarda una estrecha relación con las leyendas de Hoenn."
+  },
+  {
+    "id": "POTION",
+    "name": "Poción",
+    "description": "Medicina en spray que cura heridas y restaura 20 PS de un Pokémon."
+  },
+  {
+    "id": "SUPER-POTION",
+    "name": "Superpoción",
+    "description": "Medicina en spray que cura heridas y restaura 60 PS de un Pokémon."
+  },
+  {
+    "id": "HYPER-POTION",
+    "name": "Hiperpoción",
+    "description": "Medicina en spray que cura heridas y restaura 120 PS de un Pokémon."
+  },
+  {
+    "id": "MAX-POTION",
+    "name": "Poción Máxima",
+    "description": "Medicina en spray que cura heridas y restaura todos los PS de un Pokémon."
+  },
+  {
+    "id": "FULL-RESTORE",
+    "name": "Restaura Todo",
+    "description": "Medicina que restaura todos los PS y cura todos los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "SACRED-ASH",
+    "name": "Ceniza Sagrada",
+    "description": "Reanima completamente a los Pokémon debilitados y restaura todos sus PS."
+  },
+  {
+    "id": "AWAKENING",
+    "name": "Despertar",
+    "description": "Medicina en spray que libera a un Pokémon de las garras del sueño."
+  },
+  {
+    "id": "ANTIDOTE",
+    "name": "Antídoto",
+    "description": "Medicina en spray que contrarresta los efectos del veneno en un Pokémon."
+  },
+  {
+    "id": "BURN-HEAL",
+    "name": "Antiquemadura",
+    "description": "Medicina en spray que cura las quemaduras a un Pokémon."
+  },
+  {
+    "id": "PARALYZE-HEAL",
+    "name": "Antiparalizante",
+    "description": "Medicina en spray que cura a un Pokémon paralizado."
+  },
+  {
+    "id": "ICE-HEAL",
+    "name": "Antihielo",
+    "description": "Medicina en spray que descongela a un Pokémon."
+  },
+  {
+    "id": "FULL-HEAL",
+    "name": "Cura Total",
+    "description": "Medicina en spray que cura todos los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "PEWTER-CRUNCHIES",
+    "name": "Rokikos",
+    "description": "Snack crujiente típico de Ciudad Plateada. Cura todos los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "RAGE-CANDY-BAR",
+    "name": "Caramelo Furia",
+    "description": "Caramelo típico de Pueblo Caoba, muy popular como souvenir."
+  },
+  {
+    "id": "LAVA-COOKIE",
+    "name": "Galleta Lava",
+    "description": "Dulce típico de Pueblo Lavacalda que cura todos los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "OLD-GATEAU",
+    "name": "Barrita Plus",
+    "description": "Especialidad de la Vieja Mansión. Cura los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "CASTELIA-CONE",
+    "name": "Porcehelado",
+    "description": "Especialidad de Ciudad Porcelana. Cura los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "LUMIOS-GALETTE",
+    "name": "Crêpe Luminalia",
+    "description": "Postre típico de Ciudad Luminalia. Cura los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "SHALOUR-SABLE",
+    "name": "Galleta Yantra",
+    "description": "Especialidad de Ciudad Yantra. Cura los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "BIG-MALASADA",
+    "name": "Malasada Maxi",
+    "description": "Fritura típica de Alola que cura todos los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "REVIVE",
+    "name": "Revivir",
+    "description": "Medicina que reanima a un Pokémon debilitado y restaura la mitad de sus PS."
+  },
+  {
+    "id": "MAX-REVIVE",
+    "name": "Revivir Máximo",
+    "description": "Medicina que reanima a un Pokémon debilitado y restaura todos sus PS."
+  },
+  {
+    "id": "BERRY-JUICE",
+    "name": "Zumo de Baya",
+    "description": "Zumo de bayas 100% natural que restaura 20 PS de un Pokémon."
+  },
+  {
+    "id": "SWEET-HEART",
+    "name": "Corazón Dulce",
+    "description": "Chocolatina de sabor dulce. Restaura 20 PS de un Pokémon."
+  },
+  {
+    "id": "FRESH-WATER",
+    "name": "Agua Fresca",
+    "description": "Agua de alto contenido mineral que restaura 30 PS de un Pokémon."
+  },
+  {
+    "id": "SODA-POP",
+    "name": "Refresco",
+    "description": "Chispeante bebida gaseosa que restaura 50 PS de un Pokémon."
+  },
+  {
+    "id": "LEMONADE",
+    "name": "Limonada",
+    "description": "Bebida dulce que restaura 70 PS de un Pokémon."
+  },
+  {
+    "id": "MOOMOO-MILK",
+    "name": "Leche Mu-mu",
+    "description": "Leche de alto valor nutritivo que restaura 100 PS de un Pokémon."
+  },
+  {
+    "id": "ENERGY-POWDER",
+    "name": "Polvoenergía",
+    "description": "Polvo medicinal muy amargo que restaura 50 PS de un Pokémon."
+  },
+  {
+    "id": "ENERGY-ROOT",
+    "name": "Raíz Energía",
+    "description": "Raíz muy amarga que restaura 120 PS de un Pokémon."
+  },
+  {
+    "id": "HEAL-POWDER",
+    "name": "Polvo Curación",
+    "description": "Polvos muy amargos que curan todos los problemas de estado de un Pokémon."
+  },
+  {
+    "id": "REVIVAL-HERB",
+    "name": "Hierba Revivir",
+    "description": "Hierba muy amarga que reanima a un Pokémon debilitado y restaura todos sus PS."
+  },
+  {
+    "id": "MAX-HONEY",
+    "name": "Maxipanal",
+    "description": "Miel producida por un Vespiquen Dinamax. Revive y restaura todos los PS de un Pokémon."
+  },
+  {
+    "id": "ETHER",
+    "name": "Éter",
+    "description": "Restaura un máximo de 10 PP del ataque que elijas de un Pokémon."
+  },
+  {
+    "id": "MAX-ETHER",
+    "name": "Éter Máximo",
+    "description": "Restaura completamente los PP del movimiento que elijas de un Pokémon."
+  },
+  {
+    "id": "ELIXIR",
+    "name": "Elixir",
+    "description": "Restaura 10 PP de todos los movimientos aprendidos por un Pokémon."
+  },
+  {
+    "id": "MAX-ELIXIR",
+    "name": "Elixir Máximo",
+    "description": "Restaura completamente los PP de todos los movimientos aprendidos por el Pokémon elegido."
+  },
+  {
+    "id": "PP-UP",
+    "name": "Más PP",
+    "description": "Aumenta ligeramente los PP máximos del ataque que elijas de un Pokémon."
+  },
+  {
+    "id": "PP-MAX",
+    "name": "PP Máximos",
+    "description": "Aumenta al máximo los PP del ataque que elijas de un Pokémon."
+  },
+  {
+    "id": "HP-UP",
+    "name": "Más PS",
+    "description": "Nutritiva bebida que aumenta los PS de un Pokémon."
+  },
+  {
+    "id": "PROTEIN",
+    "name": "Proteína",
+    "description": "Nutritiva bebida que aumenta el Ataque de un Pokémon."
+  },
+  {
+    "id": "IRON",
+    "name": "Hierro",
+    "description": "Nutritiva bebida que aumenta la Defensa de un Pokémon."
+  },
+  {
+    "id": "CALCIUM",
+    "name": "Calcio",
+    "description": "Nutritiva bebida que sube el At. Esp. de un Pokémon."
+  },
+  {
+    "id": "ZINC",
+    "name": "Zinc",
+    "description": "Nutritiva bebida que aumenta la Defensa Especial de un Pokémon."
+  },
+  {
+    "id": "CARBOS",
+    "name": "Carburante",
+    "description": "Nutritiva bebida que sube la Velocidad de un Pokémon."
+  },
+  {
+    "id": "HEALTH-FEATHER",
+    "name": "Pluma Vigor",
+    "description": "Objeto que aumenta los PS base de un Pokémon."
+  },
+  {
+    "id": "MUSCLE-FEATHER",
+    "name": "Pluma Músculo",
+    "description": "Objeto que aumenta el Ataque base de un Pokémon."
+  },
+  {
+    "id": "RESIST-FEATHER",
+    "name": "Pluma Aguante",
+    "description": "Objeto que aumenta la Defensa base de un Pokémon."
+  },
+  {
+    "id": "GENIUS-FEATHER",
+    "name": "Pluma Intelecto",
+    "description": "Objeto que aumenta el Ataque Especial base de un Pokémon."
+  },
+  {
+    "id": "CLEVER-FEATHER",
+    "name": "Pluma Mente",
+    "description": "Objeto que aumenta la Defensa Especial base de un Pokémon."
+  },
+  {
+    "id": "SWIFT-FEATHER",
+    "name": "Pluma Ímpetu",
+    "description": "Objeto que aumenta la Velocidad base de un Pokémon."
+  },
+  {
+    "id": "LONELY-MINT",
+    "name": "Menta Huraña",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Huraña (+At., -Def.)."
+  },
+  {
+    "id": "ADAMANT-MINT",
+    "name": "Menta Firme",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Firme (+At., -At.Esp.)."
+  },
+  {
+    "id": "NAUGHTY-MINT",
+    "name": "Menta Pícara",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Pícara (+At., -Def.Esp.)."
+  },
+  {
+    "id": "BRAVE-MINT",
+    "name": "Menta Audaz",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Audaz (+At., -Vel.)."
+  },
+  {
+    "id": "BOLD-MINT",
+    "name": "Menta Osada",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Osada (+Def., -At.)."
+  },
+  {
+    "id": "IMPISH-MINT",
+    "name": "Menta Agitada",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Agitada (+Def., -At.Esp.)."
+  },
+  {
+    "id": "LAX-MINT",
+    "name": "Menta Floja",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Floja (+Def., -Def.Esp.)."
+  },
+  {
+    "id": "RELAXED-MINT",
+    "name": "Menta Plácida",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Plácida (+Def., -Vel.)."
+  },
+  {
+    "id": "MODEST-MINT",
+    "name": "Menta Modesta",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Modesta (+At.Esp., -At.)."
+  },
+  {
+    "id": "MILD-MINT",
+    "name": "Menta Afable",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Afable (+At.Esp., -Def.)."
+  },
+  {
+    "id": "RASH-MINT",
+    "name": "Menta Alocada",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Alocada (+At.Esp., -Def.Esp.)."
+  },
+  {
+    "id": "QUIET-MINT",
+    "name": "Menta Mansa",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Mansa (+At.Esp., -Vel.)."
+  },
+  {
+    "id": "CALM-MINT",
+    "name": "Menta Serena",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Serena (+Def.Esp., -At.)."
+  },
+  {
+    "id": "GENTLE-MINT",
+    "name": "Menta Amable",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Amable (+Def.Esp., -Def.)."
+  },
+  {
+    "id": "CAREFUL-MINT",
+    "name": "Menta Cauta",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Cauta (+Def.Esp., -At.Esp.)."
+  },
+  {
+    "id": "SASSY-MINT",
+    "name": "Menta Grosera",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Grosera (+Def.Esp., -Vel.)."
+  },
+  {
+    "id": "TIMID-MINT",
+    "name": "Menta Miedosa",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Miedosa (+Vel., -At.)."
+  },
+  {
+    "id": "HASTY-MINT",
+    "name": "Menta Activa",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Activa (+Vel., -Def.)."
+  },
+  {
+    "id": "JOLLY-MINT",
+    "name": "Menta Alegre",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Alegre (+Vel., -At.Esp.)."
+  },
+  {
+    "id": "NAIVE-MINT",
+    "name": "Menta Ingenua",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a Ingenua (+Vel., -Def.Esp.)."
+  },
+  {
+    "id": "SERIOUS-MINT",
+    "name": "Menta Seria",
+    "description": "Menta que cambia la naturaleza de tu Pokémon a seria (neutra)."
+  },
+  {
+    "id": "SUPER-CAPSULE",
+    "name": "Super Cápsula",
+    "description": "Una cápsula especial que permite a un Pokémon cambiar de habilidad entre todas las que tiene."
+  },
+  {
+    "id": "EXP-CANDY-XS",
+    "name": "Caramelo Exp. XS",
+    "description": "Caramelo energético que aumenta ligerísimamente los Puntos de Experiencia de un Pokémon."
+  },
+  {
+    "id": "EXP-CANDY-S",
+    "name": "Caramelo Exp. S",
+    "description": "Caramelo energético que aumenta ligeramente los Puntos de Experiencia de un Pokémon."
+  },
+  {
+    "id": "EXP-CANDY-M",
+    "name": "Caramelo Exp. M",
+    "description": "Caramelo energético que aumenta los Puntos de Experiencia de un Pokémon."
+  },
+  {
+    "id": "EXP-CANDY-L",
+    "name": "Caramelo Exp. L",
+    "description": "Caramelo energético que aumenta bastante los Puntos de Experiencia de un Pokémon."
+  },
+  {
+    "id": "EXP-CANDY-XL",
+    "name": "Caramelo Exp. XL",
+    "description": "Caramelo energético que aumenta mucho los Puntos de Experiencia de un Pokémon."
+  },
+  {
+    "id": "RARE-CANDY",
+    "name": "Caramelo Raro",
+    "description": "Caramelo energético que sube a un Pokémon de nivel."
+  },
+  {
+    "id": "UNRARE-CANDY",
+    "name": "Caramelo Malo",
+    "description": "Caramelo energético que baja a un Pokémon de nivel."
+  },
+  {
+    "id": "POKE-BALL",
+    "name": "Poké Ball",
+    "description": "Dispositivo con diseño capsular que atrapa Pokémon salvajes. Se lanza como una bola contra el blanco."
+  },
+  {
+    "id": "GREAT-BALL",
+    "name": "Super Ball",
+    "description": "Poké Ball de alto rendimiento. Tiene un índice de éxito superior al de la Poké Ball."
+  },
+  {
+    "id": "ULTRA-BALL",
+    "name": "Ultra Ball",
+    "description": "Poké Ball de rendimiento superior. Tiene más índice de éxito que la Superball."
+  },
+  {
+    "id": "MASTER-BALL",
+    "name": "Master Ball",
+    "description": "La Poké Ball definitiva. Atrapa a cualquier Pokémon salvaje y no falla nunca."
+  },
+  {
+    "id": "SAFARI-BALL",
+    "name": "Safari Ball",
+    "description": "Poké Ball con un diseño de camuflaje que se utiliza únicamente en el Gran Pantano."
+  },
+  {
+    "id": "SPORT-BALL",
+    "name": "Competi Ball",
+    "description": "Poké Ball especial para el Concurso de Captura de Bichos."
+  },
+  {
+    "id": "NET-BALL",
+    "name": "Malla Ball",
+    "description": "Es algo distinta a las demás. Funciona especialmente bien con los Pokémon de tipo Agua y Bicho."
+  },
+  {
+    "id": "DIVE-BALL",
+    "name": "Buceo Ball",
+    "description": "Es algo distinta a las demás. Funciona especialmente bien con los Pokémon que viven en el mar."
+  },
+  {
+    "id": "NEST-BALL",
+    "name": "Nido Ball",
+    "description": "Es algo distinta a las demás. Funciona especialmente bien con los Pokémon salvajes de menor nivel."
+  },
+  {
+    "id": "REPEAT-BALL",
+    "name": "Acopio Ball",
+    "description": "Es algo distinta a las demás. Funciona especialmente bien con los Pokémon iguales a los que ya has capturado."
+  },
+  {
+    "id": "TIMER-BALL",
+    "name": "Turno Ball",
+    "description": "Una Poké Ball algo distinta que va mejorando su rendimiento con cada turno de combate."
+  },
+  {
+    "id": "LUXURY-BALL",
+    "name": "Lujo Ball",
+    "description": "Acogedora Poké Ball que hace más amistosos a los Pokémon salvajes capturados."
+  },
+  {
+    "id": "PREMIER-BALL",
+    "name": "Honor Ball",
+    "description": "Es una Poké Ball muy particular que se creó para conmemorar algún acontecimiento."
+  },
+  {
+    "id": "DUSK-BALL",
+    "name": "Ocaso Ball",
+    "description": "Es algo distinta. Hace que sea más fácil capturar a Pokémon salvajes en la oscuridad."
+  },
+  {
+    "id": "HEAL-BALL",
+    "name": "Sana Ball",
+    "description": "Poké Ball curativa que restaura los PS de un Pokémon capturado y cura sus problemas de estado."
+  },
+  {
+    "id": "QUICK-BALL",
+    "name": "Veloz Ball",
+    "description": "Una Poké Ball que aumenta su eficacia si se usa en el turno 1 del combate."
+  },
+  {
+    "id": "CHERISH-BALL",
+    "name": "Gloria Ball",
+    "description": "Es una Poké Ball muy particular que se creó para conmemorar algún acontecimiento."
+  },
+  {
+    "id": "FAST-BALL",
+    "name": "Rapid Ball",
+    "description": "Poké Ball algo distinta, especialmente indicada para capturar Pokémon con Velocidad muy alta."
+  },
+  {
+    "id": "LEVEL-BALL",
+    "name": "Nivel Ball",
+    "description": "Una Poké Ball diseñada para capturar Pokémon de nivel inferior al de tu Pokémon."
+  },
+  {
+    "id": "LURE-BALL",
+    "name": "Cebo Ball",
+    "description": "Poké Ball algo distinta, especialmente indicada para capturar los Pokémon que se han pescado con una Caña."
+  },
+  {
+    "id": "HEAVY-BALL",
+    "name": "Peso Ball",
+    "description": "Una Poké Ball diseñada para capturar Pokémon muy pesados."
+  },
+  {
+    "id": "LOVE-BALL",
+    "name": "Amor Ball",
+    "description": "Una Poké Ball diseñada para capturar Pokémon del género opuesto al de tu Pokémon."
+  },
+  {
+    "id": "FRIEND-BALL",
+    "name": "Amigo Ball",
+    "description": "Una Poké Ball que hace más amistosos a los Pokémon capturados."
+  },
+  {
+    "id": "MOON-BALL",
+    "name": "Luna Ball",
+    "description": "Una Poké Ball diseñada para capturar Pokémon que evolucionan con Piedra Lunar."
+  },
+  {
+    "id": "DREAM-BALL",
+    "name": "Ensueño Ball",
+    "description": "Una Poké Ball algo diferente que funciona mejor cuando el Pokémon está dormido."
+  },
+  {
+    "id": "BEAST-BALL",
+    "name": "Ente Ball",
+    "description": "Una Poké Ball especial diseñada para capturar Ultraentes. Con otros Pokémon suele fallar."
+  },
+  {
+    "id": "TM01",
+    "name": "MT01",
+    "description": "Tormenta de hielo que puede llegar a congelar."
+  },
+  {
+    "id": "TM02",
+    "name": "MT02",
+    "description": "Araña al objetivo con garras afiladas."
+  },
+  {
+    "id": "TM03",
+    "name": "MT03",
+    "description": "Crea una onda psíquica que golpea al objetivo y provoca un gran daño físico."
+  },
+  {
+    "id": "TM04",
+    "name": "MT04",
+    "description": "Aumenta la concentración y calma el espíritu para subir el Ataque Especial y la Defensa Especial."
+  },
+  {
+    "id": "TM05",
+    "name": "MT05",
+    "description": "El usuario mueve un dedo y estimula su cerebro para usar al azar casi cualquier movimiento."
+  },
+  {
+    "id": "TM06",
+    "name": "MT06",
+    "description": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo se amedrente."
+  },
+  {
+    "id": "TM07",
+    "name": "MT07",
+    "description": "Tormenta de nieve que dura cinco turnos. Aumenta la defensa de los Pokémon tipo Hielo en un 50%."
+  },
+  {
+    "id": "TM08",
+    "name": "MT08",
+    "description": "Robustece el cuerpo para subir el Ataque y la Defensa."
+  },
+  {
+    "id": "TM09",
+    "name": "MT09",
+    "description": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo."
+  },
+  {
+    "id": "TM10",
+    "name": "MT10",
+    "description": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate."
+  },
+  {
+    "id": "TM11",
+    "name": "MT11",
+    "description": "Intensifica el sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+  },
+  {
+    "id": "TM12",
+    "name": "MT12",
+    "description": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+  },
+  {
+    "id": "TM13",
+    "name": "MT13",
+    "description": "Rayo de hielo que puede llegar a congelar."
+  },
+  {
+    "id": "TM14",
+    "name": "MT14",
+    "description": "Ataque único cuyo tipo y potencia varían según el agresor."
+  },
+  {
+    "id": "TM15",
+    "name": "MT15",
+    "description": "Inunda el campo de batalla con una ola gigante."
+  },
+  {
+    "id": "TM16",
+    "name": "MT16",
+    "description": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+  },
+  {
+    "id": "TM17",
+    "name": "MT17",
+    "description": "Frena s los ataques, pero puede fallar si se usa repetidamente."
+  },
+  {
+    "id": "TM18",
+    "name": "MT18",
+    "description": "Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos."
+  },
+  {
+    "id": "TM19",
+    "name": "MT19",
+    "description": "Provoca un terrible escalofrío en el objetivo y lo congela."
+  },
+  {
+    "id": "TM20",
+    "name": "MT20",
+    "description": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte."
+  },
+  {
+    "id": "TM21",
+    "name": "MT21",
+    "description": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo."
+  },
+  {
+    "id": "TM22",
+    "name": "MT22",
+    "description": "Primer turno: absorbe luz. Segundo turno: ataca."
+  },
+  {
+    "id": "TM23",
+    "name": "MT23",
+    "description": "Viento cortante que azota. Suele ser un golpe crítico."
+  },
+  {
+    "id": "TM24",
+    "name": "MT24",
+    "description": "Potente ataque eléctrico que puede paralizar al objetivo."
+  },
+  {
+    "id": "TM25",
+    "name": "MT25",
+    "description": "Lanza al objetivo una descarga de semillas explosivas desde arriba."
+  },
+  {
+    "id": "TM26",
+    "name": "MT26",
+    "description": "Un terremoto que afecta a los Pokémon de alrededor en combate."
+  },
+  {
+    "id": "TM27",
+    "name": "MT27",
+    "description": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque."
+  },
+  {
+    "id": "TM28",
+    "name": "MT28",
+    "description": "El primer turno el Pokémon alza el vuelo, para posteriormente en el segundo atacar a su objetivo."
+  },
+  {
+    "id": "TM29",
+    "name": "MT29",
+    "description": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo."
+  },
+  {
+    "id": "TM30",
+    "name": "MT30",
+    "description": "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo."
+  },
+  {
+    "id": "TM31",
+    "name": "MT31",
+    "description": "Potente ataque que también es capaz de destruir barreras como pantalla de luz y reflejo."
+  },
+  {
+    "id": "TM32",
+    "name": "MT32",
+    "description": "Ataca agitando la cola como si fuera una ola rabiosa en una tormenta devastadora."
+  },
+  {
+    "id": "TM33",
+    "name": "MT33",
+    "description": "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+  },
+  {
+    "id": "TM34",
+    "name": "MT34",
+    "description": "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas."
+  },
+  {
+    "id": "TM35",
+    "name": "MT35",
+    "description": "Patada baja. Cuanto más pesa el objetivo, más daño causa."
+  },
+  {
+    "id": "TM36",
+    "name": "MT36",
+    "description": "Arroja residuos al objetivo. Puede llegar a envenenar."
+  },
+  {
+    "id": "TM37",
+    "name": "MT37",
+    "description": "Tormenta de arena que dura cinco turnos y hiere a s, excepto a los de tipo Roca, Tierra y Acero."
+  },
+  {
+    "id": "TM38",
+    "name": "MT38",
+    "description": "Llama intensa que lo chamusca  y puede causar quemaduras."
+  },
+  {
+    "id": "TM39",
+    "name": "MT39",
+    "description": "Tira rocas que detienen al objetivo y bajan su Velocidad."
+  },
+  {
+    "id": "TM40",
+    "name": "MT40",
+    "description": "El usuario lanza un ataque muy rápido e ineludible."
+  },
+  {
+    "id": "TM41",
+    "name": "MT41",
+    "description": "Puñetazo ardiente. Puede quemar."
+  },
+  {
+    "id": "TM42",
+    "name": "MT42",
+    "description": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+  },
+  {
+    "id": "TM43",
+    "name": "MT43",
+    "description": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante."
+  },
+  {
+    "id": "TM44",
+    "name": "MT44",
+    "description": "Restaura s los PS y cura s los problemas de estado del usuario. Duerme los dos próximos turnos."
+  },
+  {
+    "id": "TM45",
+    "name": "MT45",
+    "description": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+  },
+  {
+    "id": "TM46",
+    "name": "MT46",
+    "description": "Ataca y le quita al objetivo su objeto. Si el agresor lleva un objeto, no robará el del objetivo."
+  },
+  {
+    "id": "TM47",
+    "name": "MT47",
+    "description": "Ataque con garras o guadañas que crece en intensidad si se usa repetidas veces."
+  },
+  {
+    "id": "TM48",
+    "name": "MT48",
+    "description": "Puñetazo eléctrico. Puede paralizar."
+  },
+  {
+    "id": "TM49",
+    "name": "MT49",
+    "description": "Puñetazo helado. Puede congelar."
+  },
+  {
+    "id": "TM50",
+    "name": "MT50",
+    "description": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo se amedrente."
+  },
+  {
+    "id": "TM51",
+    "name": "MT51",
+    "description": "Ataca con un potente chorro de agua. Puede confundir al objetivo."
+  },
+  {
+    "id": "TM52",
+    "name": "MT52",
+    "description": "Agudiza la concentración mental y libera su poder. Puede disminuir la Def. Esp. del rival."
+  },
+  {
+    "id": "TM53",
+    "name": "MT53",
+    "description": "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+  },
+  {
+    "id": "TM54",
+    "name": "MT54",
+    "description": "Ataque moderado que no debilita al objetivo y le deja al menos un PS."
+  },
+  {
+    "id": "TM55",
+    "name": "MT55",
+    "description": "Ataca al objetivo rociándolo con un agua gélida y desalentadora que reduce su Ataque."
+  },
+  {
+    "id": "TM56",
+    "name": "MT56",
+    "description": "Ataca con una cola férrea y puede bajar la Defensa del objetivo."
+  },
+  {
+    "id": "TM57",
+    "name": "MT57",
+    "description": "Lanza un rayo eléctrico contra el rival. Puede subir el Ataque Especial de quien lo usa."
+  },
+  {
+    "id": "TM58",
+    "name": "MT58",
+    "description": "Ataca con una gran ráfaga de fuego que puede causar quemaduras."
+  },
+  {
+    "id": "TM59",
+    "name": "MT59",
+    "description": "Llamas que golpean a los objetivos adyacentes. Si llevan Bayas, se quemarán y desaparecerán."
+  },
+  {
+    "id": "TM60",
+    "name": "MT60",
+    "description": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario."
+  },
+  {
+    "id": "TM61",
+    "name": "MT61",
+    "description": "Siniestra llama morada que produce quemaduras."
+  },
+  {
+    "id": "TM62",
+    "name": "MT62",
+    "description": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+  },
+  {
+    "id": "TM63",
+    "name": "MT63",
+    "description": "Absorbe la mitad del daño producido."
+  },
+  {
+    "id": "TM64",
+    "name": "MT64",
+    "description": "Abre mucho la boca y libera una onda de choque que ataca al objetivo."
+  },
+  {
+    "id": "TM65",
+    "name": "MT65",
+    "description": "Ataca con una garra afilada hecha de sombras. Suele ser crítico."
+  },
+  {
+    "id": "TM66",
+    "name": "MT66",
+    "description": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes."
+  },
+  {
+    "id": "TM67",
+    "name": "MT67",
+    "description": "Ataca al adversario golpeándolo dos veces con las alas."
+  },
+  {
+    "id": "TM68",
+    "name": "MT68",
+    "description": "Hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo."
+  },
+  {
+    "id": "TM69",
+    "name": "MT69",
+    "description": "Ataque eléctrico muy rápido e ineludible."
+  },
+  {
+    "id": "TM70",
+    "name": "MT70",
+    "description": "Grito desgarrador que inflige daño al objetivo."
+  },
+  {
+    "id": "TM71",
+    "name": "MT71",
+    "description": "Clava piedras muy afiladas al objetivo. Suele ser crítico."
+  },
+  {
+    "id": "TM72",
+    "name": "MT72",
+    "description": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+  },
+  {
+    "id": "TM73",
+    "name": "MT73",
+    "description": "Una ligera descarga que paraliza al objetivo si lo alcanza."
+  },
+  {
+    "id": "TM74",
+    "name": "MT74",
+    "description": "Embiste con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa."
+  },
+  {
+    "id": "TM75",
+    "name": "MT75",
+    "description": "Baile frenético que aumenta mucho el Ataque."
+  },
+  {
+    "id": "TM76",
+    "name": "MT76",
+    "description": "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+  },
+  {
+    "id": "TM77",
+    "name": "MT77",
+    "description": "Inflige daño a los oponentes con una potente luz."
+  },
+  {
+    "id": "TM78",
+    "name": "MT78",
+    "description": "Ataca con una sacudida sísmica que afecta a los Pokémon adyacentes y baja su Velocidad."
+  },
+  {
+    "id": "TM79",
+    "name": "MT79",
+    "description": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial."
+  },
+  {
+    "id": "TM80",
+    "name": "MT80",
+    "description": "Lanza grandes pedruscos. Puede amedrentar al objetivo."
+  },
+  {
+    "id": "TM81",
+    "name": "MT81",
+    "description": "Cruza las guadañas o las garras para atacar al rival como si fueran unas tijeras."
+  },
+  {
+    "id": "TM82",
+    "name": "MT82",
+    "description": "Violenta embestida con cuernos imponentes."
+  },
+  {
+    "id": "TM83",
+    "name": "MT83",
+    "description": "Movimiento que aumenta el Ataque y el Ataque Especial de quien lo usa."
+  },
+  {
+    "id": "TM84",
+    "name": "MT84",
+    "description": "Pincha al rival con un tentáculo o brazo envenenado. Puede llegar a envenenar al rival."
+  },
+  {
+    "id": "TM85",
+    "name": "MT85",
+    "description": "Ataque con aire helado que baja la Velocidad del objetivo."
+  },
+  {
+    "id": "TM86",
+    "name": "MT86",
+    "description": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+  },
+  {
+    "id": "TM87",
+    "name": "MT87",
+    "description": "Libera una horrible aura llena de malos pensamientos y puede amedrentar al objetivo."
+  },
+  {
+    "id": "TM88",
+    "name": "MT88",
+    "description": "Picotea al objetivo. Si este sostiene una Baya, la picotea también y obtiene sus efectos."
+  },
+  {
+    "id": "TM89",
+    "name": "MT89",
+    "description": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+  },
+  {
+    "id": "TM90",
+    "name": "MT90",
+    "description": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+  },
+  {
+    "id": "TM91",
+    "name": "MT91",
+    "description": "El usuario concentra toda la luz del cuerpo y la libera. Puede bajar la Defensa Especial del objetivo."
+  },
+  {
+    "id": "TM92",
+    "name": "MT92",
+    "description": "Provoca un viento abrasador que puede quemar al objetivo."
+  },
+  {
+    "id": "TM93",
+    "name": "MT93",
+    "description": "Corta con garras, guadañas, etc. También sirve para cortar árboles finos."
+  },
+  {
+    "id": "TM94",
+    "name": "MT94",
+    "description": "Ataca con puñetazos que pueden romper rocas. Puede bajar la Defensa del objetivo."
+  },
+  {
+    "id": "TM95",
+    "name": "MT95",
+    "description": "Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo."
+  },
+  {
+    "id": "TM96",
+    "name": "MT96",
+    "description": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo."
+  },
+  {
+    "id": "TM97",
+    "name": "MT97",
+    "description": "Ataca al objetivo arrojándole arena a temperaturas muy elevadas. Puede causar quemaduras."
+  },
+  {
+    "id": "TM98",
+    "name": "MT98",
+    "description": "Lanza una trampa de púas tóxicas a los pies del objetivo. El veneno afecta a los Pokémon que entran."
+  },
+  {
+    "id": "TM99",
+    "name": "MT99",
+    "description": "Patea hasta tres veces seguidas y cada vez más fuerte."
+  },
+  {
+    "id": "TM100",
+    "name": "MT100",
+    "description": "Hace que grandes cometas caigan del cielo. Baja mucho el Ataque Especial de quien lo usa."
+  },
+  {
+    "id": "TM101",
+    "name": "MT101",
+    "description": "Ataca abalanzándose sobre el objetivo y le reduce la Velocidad."
+  },
+  {
+    "id": "TM102",
+    "name": "MT102",
+    "description": "Ataca como si saltara desde la hierba alta. Aumenta su Velocidad."
+  },
+  {
+    "id": "TM103",
+    "name": "MT103",
+    "description": "Recubre las extremidades con una capa de hielo y golpea al rival. Si hay un campo lo rompe."
+  },
+  {
+    "id": "TM104",
+    "name": "MT104",
+    "description": "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando."
+  },
+  {
+    "id": "TM105",
+    "name": "MT105",
+    "description": "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS."
+  },
+  {
+    "id": "TM106",
+    "name": "MT106",
+    "description": "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor."
+  },
+  {
+    "id": "TM107",
+    "name": "MT107",
+    "description": "Se crea un espacio extraño en el que los Pokémon lentos se mueven primero durante cinco turnos."
+  },
+  {
+    "id": "TM108",
+    "name": "MT108",
+    "description": "Potente puñetazo."
+  },
+  {
+    "id": "TM109",
+    "name": "MT109",
+    "description": "Dispara rápido de dos a cinco ráfagas de semillas de manera consecutiva."
+  },
+  {
+    "id": "TM110",
+    "name": "MT110",
+    "description": "Un rayo fulminante, pero el atacante deberá descansar en el siguiente turno."
+  },
+  {
+    "id": "TM111",
+    "name": "MT111",
+    "description": "Crea un campo protector que evita problemas de estado durante cinco turnos."
+  },
+  {
+    "id": "TM112",
+    "name": "MT112",
+    "description": "Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas."
+  },
+  {
+    "id": "TM113",
+    "name": "MT113",
+    "description": "Crea copias de sí mismo para mejorar la Evasión."
+  },
+  {
+    "id": "TM114",
+    "name": "MT114",
+    "description": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento."
+  },
+  {
+    "id": "TM115",
+    "name": "MT115",
+    "description": "El movimiento de las alas crea una onda sónica dañina. Puede disminuir la Defensa Especial del objetivo."
+  },
+  {
+    "id": "TM116",
+    "name": "MT116",
+    "description": "Ataca lanzando un chillido insoportable que baja el Ataque Especial de los objetivos."
+  },
+  {
+    "id": "TM117",
+    "name": "MT117",
+    "description": "Picotea al objetivo. Si este sostiene una Baya, la picotea también y obtiene sus efectos."
+  },
+  {
+    "id": "TM118",
+    "name": "MT118",
+    "description": "Embiste con un gran impulso que puede amedrentar. También sirve para remontar cascadas."
+  },
+  {
+    "id": "TM119",
+    "name": "MT119",
+    "description": "Ataca con una gran embestida. Puede confundir al objetivo."
+  },
+  {
+    "id": "TM120",
+    "name": "MT120",
+    "description": "Este ataque inflige el doble de daño a un objetivo que haya golpeado al usuario en ese mismo turno."
+  },
+  {
+    "id": "TM121",
+    "name": "MT121",
+    "description": "Permite atacar primero. Falla si el objetivo no está preparando ningún ataque."
+  },
+  {
+    "id": "TM122",
+    "name": "MT122",
+    "description": "Electrifica su cuerpo y salta en plancha sobre el objetivo. Si falla, se hiere a sí mismo."
+  },
+  {
+    "id": "TM123",
+    "name": "MT123",
+    "description": "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras."
+  },
+  {
+    "id": "TM124",
+    "name": "MT124",
+    "description": "Bramido que aumenta la probabilidad de golpe crítico de aliados, y en dos niveles si es Dragón."
+  },
+  {
+    "id": "TM125",
+    "name": "MT125",
+    "description": "Canto angelical que confunde al objetivo si sus características han aumentado en ese turno."
+  },
+  {
+    "id": "HM01",
+    "name": "MO01",
+    "description": "Corta con garras, guadañas, etc. También sirve para cortar árboles finos."
+  },
+  {
+    "id": "HM02",
+    "name": "MO02",
+    "description": "El primer turno el Pokémon alza el vuelo, para posteriormente en el segundo atacar a su objetivo."
+  },
+  {
+    "id": "HM03",
+    "name": "MO03",
+    "description": "Inunda el campo de batalla con una ola gigante."
+  },
+  {
+    "id": "HM04",
+    "name": "MO04",
+    "description": "Potente puñetazo."
+  },
+  {
+    "id": "HM05",
+    "name": "MO05",
+    "description": "Embiste con un gran impulso que puede amedrentar. También sirve para remontar cascadas."
+  },
+  {
+    "id": "HM06",
+    "name": "MO06",
+    "description": "Primer turno: se sumerge en el mar. Segundo turno: emerge y ataca."
+  },
+  {
+    "id": "CHERI-BERRY",
+    "name": "Baya Zreza",
+    "description": "Los Pokémon pueden llevarla o usarla para recuperarse de la parálisis."
+  },
+  {
+    "id": "CHESTO-BERRY",
+    "name": "Baya Atania",
+    "description": "Los Pokémon pueden llevarla o usarla para despertar del sueño."
+  },
+  {
+    "id": "PECHA-BERRY",
+    "name": "Baya Meloc",
+    "description": "Los Pokémon pueden llevarla o usarla para curarse del envenenamiento."
+  },
+  {
+    "id": "RAWST-BERRY",
+    "name": "Baya Safre",
+    "description": "Los Pokémon pueden llevarla o usarla para curarse las quemaduras."
+  },
+  {
+    "id": "ASPEAR-BERRY",
+    "name": "Baya Perasi",
+    "description": "Los Pokémon pueden llevarla o usarla para descongelarse."
+  },
+  {
+    "id": "LEPPA-BERRY",
+    "name": "Baya Zanama",
+    "description": "Los Pokémon pueden llevarla o usarla para restaurar 10 PP de un movimiento."
+  },
+  {
+    "id": "ORAN-BERRY",
+    "name": "Baya Aranja",
+    "description": "Los Pokémon pueden usarla o llevarla para restaurar 10 PS."
+  },
+  {
+    "id": "PERSIM-BERRY",
+    "name": "Baya Caquic",
+    "description": "Los Pokémon pueden usarla o llevarla para salir del estado de confusión."
+  },
+  {
+    "id": "LUM-BERRY",
+    "name": "Baya Ziuela",
+    "description": "Los Pokémon pueden llevarla o usarla para recuperarse de problemas de estado."
+  },
+  {
+    "id": "SITRUS-BERRY",
+    "name": "Baya Zidra",
+    "description": "Los Pokémon pueden usarla o llevarla para restaurar algunos PS."
+  },
+  {
+    "id": "FIGY-BERRY",
+    "name": "Baya Higog",
+    "description": "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión."
+  },
+  {
+    "id": "WIKI-BERRY",
+    "name": "Baya Wiki",
+    "description": "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión."
+  },
+  {
+    "id": "MAGO-BERRY",
+    "name": "Baya Ango",
+    "description": "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión."
+  },
+  {
+    "id": "AGUAV-BERRY",
+    "name": "Baya Guaya",
+    "description": "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión."
+  },
+  {
+    "id": "IAPAPA-BERRY",
+    "name": "Baya Pabaya",
+    "description": "Restaura los PS del Pokémon que la usa en un apuro, pero puede causar confusión."
+  },
+  {
+    "id": "RAZZ-BERRY",
+    "name": "Baya Frambu",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Frambu."
+  },
+  {
+    "id": "BLUK-BERRY",
+    "name": "Baya Oram",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Oram."
+  },
+  {
+    "id": "NANAB-BERRY",
+    "name": "Baya Latano",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Latano."
+  },
+  {
+    "id": "WEPEAR-BERRY",
+    "name": "Baya Peragu",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Peragu."
+  },
+  {
+    "id": "PINAP-BERRY",
+    "name": "Baya Pinia",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Pinia."
+  },
+  {
+    "id": "POMEG-BERRY",
+    "name": "Baya Grana",
+    "description": "Si la usas en un Pokémon te ganas su amistad, pero también reduces sus PS."
+  },
+  {
+    "id": "KELPSY-BERRY",
+    "name": "Baya Algama",
+    "description": "Si la usas en un Pokémon te ganas su amistad, pero reduces su Ataque."
+  },
+  {
+    "id": "QUALOT-BERRY",
+    "name": "Baya Ispero",
+    "description": "Si la usas en un Pokémon te ganas su amistad, pero reduces su Defensa."
+  },
+  {
+    "id": "HONDEW-BERRY",
+    "name": "Baya Meluce",
+    "description": "Si la usas en un Pokémon te ganas su amistad, pero reduces su Ataque Especial."
+  },
+  {
+    "id": "GREPA-BERRY",
+    "name": "Baya Uvav",
+    "description": "Si la usas en un Pokémon te ganas su amistad, pero reduces su Defensa Especial."
+  },
+  {
+    "id": "TAMATO-BERRY",
+    "name": "Baya Tamate",
+    "description": "Si la usas en un Pokémon te ganas su amistad, pero baja su Velocidad."
+  },
+  {
+    "id": "CORNN-BERRY",
+    "name": "Baya Mais",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Mais."
+  },
+  {
+    "id": "MAGOST-BERRY",
+    "name": "Baya Aostan",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Aostan."
+  },
+  {
+    "id": "RABUTA-BERRY",
+    "name": "Baya Rautan",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Rautan."
+  },
+  {
+    "id": "NOMEL-BERRY",
+    "name": "Baya Monli",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Monli."
+  },
+  {
+    "id": "SPELON-BERRY",
+    "name": "Baya Wikano",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Wikano."
+  },
+  {
+    "id": "PAMTRE-BERRY",
+    "name": "Baya Plama",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Plama."
+  },
+  {
+    "id": "WATMEL-BERRY",
+    "name": "Baya Sambia",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Sambia."
+  },
+  {
+    "id": "DURIN-BERRY",
+    "name": "Baya Rudion",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Rudion."
+  },
+  {
+    "id": "BELUE-BERRY",
+    "name": "Baya Andano",
+    "description": "Si la plantas en tierra suelta, saldrá una planta de Andano."
+  },
+  {
+    "id": "OCCA-BERRY",
+    "name": "Baya Caoca",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Fuego."
+  },
+  {
+    "id": "PASSHO-BERRY",
+    "name": "Baya Pasio",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Agua."
+  },
+  {
+    "id": "WACAN-BERRY",
+    "name": "Baya Gualot",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Eléctrico."
+  },
+  {
+    "id": "RINDO-BERRY",
+    "name": "Baya Tamar",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Planta."
+  },
+  {
+    "id": "YACHE-BERRY",
+    "name": "Baya Rimoya",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Hielo."
+  },
+  {
+    "id": "CHOPLE-BERRY",
+    "name": "Baya Pomaro",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Lucha."
+  },
+  {
+    "id": "KEBIA-BERRY",
+    "name": "Baya Kebia",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Veneno."
+  },
+  {
+    "id": "SHUCA-BERRY",
+    "name": "Baya Acardo",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Tierra."
+  },
+  {
+    "id": "COBA-BERRY",
+    "name": "Baya Kouba",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Volador."
+  },
+  {
+    "id": "PAYAPA-BERRY",
+    "name": "Baya Payapa",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Psíquico."
+  },
+  {
+    "id": "TANGA-BERRY",
+    "name": "Baya Yecana",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Bicho."
+  },
+  {
+    "id": "CHARTI-BERRY",
+    "name": "Baya Alcho",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Roca."
+  },
+  {
+    "id": "KASIB-BERRY",
+    "name": "Baya Drasi",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Fantasma."
+  },
+  {
+    "id": "HABAN-BERRY",
+    "name": "Baya Anjiro",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Dragón."
+  },
+  {
+    "id": "COLBUR-BERRY",
+    "name": "Baya Dillo",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Siniestro."
+  },
+  {
+    "id": "BABIRI-BERRY",
+    "name": "Baya Baribá",
+    "description": "Si la lleva un Pokémon, debilita ataques supereficaces de tipo Acero."
+  },
+  {
+    "id": "ROSELI-BERRY",
+    "name": "Baya Hibis",
+    "description": "Debilita ataques super eficaces de tipo Hada."
+  },
+  {
+    "id": "CHILAN-BERRY",
+    "name": "Baya Chilan",
+    "description": "Si la lleva un Pokémon, debilita el ataque de tipo Normal de un enemigo."
+  },
+  {
+    "id": "LIECHI-BERRY",
+    "name": "Baya Lichi",
+    "description": "Si la lleva un Pokémon, le subirá el Ataque en un momento de apuro."
+  },
+  {
+    "id": "GANLON-BERRY",
+    "name": "Baya Gonlan",
+    "description": "Si la lleva un Pokémon, le subirá la Defensa en un momento de apuro."
+  },
+  {
+    "id": "SALAC-BERRY",
+    "name": "Baya Aslac",
+    "description": "Si la lleva un Pokémon, le subirá la Velocidad en un momento de apuro."
+  },
+  {
+    "id": "PETAYA-BERRY",
+    "name": "Baya Yapati",
+    "description": "Si la lleva un Pokémon, le subirá el At. Esp. en un momento de apuro."
+  },
+  {
+    "id": "APICOT-BERRY",
+    "name": "Baya Aricoc",
+    "description": "Si la lleva un Pokémon, le subirá la Def. Esp. en un momento de apuro."
+  },
+  {
+    "id": "LANSAT-BERRY",
+    "name": "Baya Zonlan",
+    "description": "Si la lleva un Pokémon, sube su capacidad de dar un golpe crítico en un apuro."
+  },
+  {
+    "id": "STARF-BERRY",
+    "name": "Baya Arabol",
+    "description": "Si la lleva un Pokémon, aumenta drásticamente 1 característica en un momento de apuro."
+  },
+  {
+    "id": "ENIGMA-BERRY",
+    "name": "Baya Enigma",
+    "description": "Restaura los PS de un Pokémon si la lleva cuando le alcanza un ataque supereficaz."
+  },
+  {
+    "id": "MICLE-BERRY",
+    "name": "Baya Lagro",
+    "description": "Cuando la lleve un Pokémon, le subirá la precisión de un movimiento en un momento de apuro."
+  },
+  {
+    "id": "CUSTAP-BERRY",
+    "name": "Baya Chiri",
+    "description": "El Pokémon que la lleve podrá actuar en primer lugar una vez cuando se encuentre en un momento de apuro."
+  },
+  {
+    "id": "JABOCA-BERRY",
+    "name": "Baya Jaboca",
+    "description": "Si la lleva un Pokémon cuando un enemigo lanza un ataque físico, este también recibirá daño."
+  },
+  {
+    "id": "ROWAP-BERRY",
+    "name": "Baya Magua",
+    "description": "Si la lleva un Pokémon cuando un enemigo lanza un ataque especial, este también recibirá daño."
+  },
+  {
+    "id": "KEE-BERRY",
+    "name": "Baya Biglia",
+    "description": "Aumenta la defensa cuando el Pokémon recibe un ataque físico."
+  },
+  {
+    "id": "MARANGA-BERRY",
+    "name": "Baya Maranga",
+    "description": "Aumenta la defensa especial cuando el Pokémon recibe un ataque especial."
+  },
+  {
+    "id": "GRASS-MAIL",
+    "name": "Carta Hierba",
+    "description": "Carta con un estampado de hierba. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "FLAME-MAIL",
+    "name": "Carta Fuego",
+    "description": "Carta con los colores del fuego. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "BUBBLE-MAIL",
+    "name": "Carta Pompas",
+    "description": "Carta con una imagen de burbujas. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "BLOOM-MAIL",
+    "name": "Carta Flores",
+    "description": "Carta con un bonito estampado floral. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "TUNNEL-MAIL",
+    "name": "Carta Mina",
+    "description": "Carta con la imagen de una mina de carbón poco iluminada. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "STEEL-MAIL",
+    "name": "Carta Acero",
+    "description": "Carta con un estupendo diseño de estilo industrial. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "HEART-MAIL",
+    "name": "Carta Corazón",
+    "description": "Carta con un estampado de corazones. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "SNOW-MAIL",
+    "name": "Carta Nieve",
+    "description": "Carta con la imagen de un bonito mundo cubierto de nieve. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "SPACE-MAIL",
+    "name": "Carta Sideral",
+    "description": "Carta con la imagen de una galaxia. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "AIR-MAIL",
+    "name": "Carta Áerea",
+    "description": "Carta con el diseño tradicional del correo aéreo. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "MOSAIC-MAIL",
+    "name": "Carta Mosaico",
+    "description": "Carta con un mosaico de arco iris. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "BRICK-MAIL",
+    "name": "Carta Pared",
+    "description": "Carta con la imagen de una pared de ladrillos. Haz que la entregue un Pokémon."
+  },
+  {
+    "id": "X-ATTACK",
+    "name": "Ataque X 1",
+    "description": "Aumenta 1 nivel el Ataque en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-ATTACK2",
+    "name": "Ataque X 2",
+    "description": "Aumenta 2 niveles el Ataque en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-ATTACK3",
+    "name": "Ataque X 3",
+    "description": "Aumenta 3 niveles el Ataque en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-ATTACK6",
+    "name": "Ataque X 6",
+    "description": "Aumenta 6 niveles el Ataque en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-DEFENSE",
+    "name": "Defensa X 1",
+    "description": "Aumenta 1 nivel la Defensa en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-DEFENSE2",
+    "name": "Defensa X 2",
+    "description": "Aumenta 2 niveles la Defensa en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-DEFENSE3",
+    "name": "Defensa X 3",
+    "description": "Aumenta 3 niveles la Defensa en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-DEFENSE6",
+    "name": "Defensa X 6",
+    "description": "Aumenta 6 niveles la Defensa en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SP-ATK",
+    "name": "Ataque Especial X 1",
+    "description": "Aumenta 1 nivel el At. Especial en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SP-ATK2",
+    "name": "Ataque Especial X 2",
+    "description": "Aumenta 2 niveles el At. Especial en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SP-ATK3",
+    "name": "Ataque Especial X 3",
+    "description": "Aumenta 3 niveles el At. Especial en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SP-ATK6",
+    "name": "Ataque Especial X 6",
+    "description": "Aumenta 6 niveles el At. Especial en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SP-DEF",
+    "name": "Defensa Especial X 1",
+    "description": "Aumenta 1 nivel la Def. Especial en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SP-DEF2",
+    "name": "Defensa Especial X 2",
+    "description": "Aumenta 2 niveles la Def. Especial en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SP-DEF3",
+    "name": "Defensa Especial X 3",
+    "description": "Aumenta 3 niveles la Def. Especial en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SP-DEF6",
+    "name": "Defensa Especial X 6",
+    "description": "Aumenta 6 niveles la Def. Especial en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SPEED",
+    "name": "Velocidad X 1",
+    "description": "Aumenta 1 nivel la Velocidad en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SPEED2",
+    "name": "Velocidad X 2",
+    "description": "Aumenta 2 niveles la Velocidad en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SPEED3",
+    "name": "Velocidad X 3",
+    "description": "Aumenta 3 niveles la Velocidad en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-SPEED6",
+    "name": "Velocidad X 6",
+    "description": "Aumenta 6 niveles la Velocidad en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-ACCURACY",
+    "name": "Precisión X 1",
+    "description": "Aumenta 1 nivel la Precisión en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-ACCURACY2",
+    "name": "Precisión X 2",
+    "description": "Aumenta 2 niveles la Precisión en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-ACCURACY3",
+    "name": "Precisión X 3",
+    "description": "Aumenta 3 niveles la Precisión en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "X-ACCURACY6",
+    "name": "Precisión X 6",
+    "description": "Aumenta 6 niveles la Precisión en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "MAX-MUSHROOMS",
+    "name": "Maxisetas",
+    "description": "Setas que aumentan todas las estadísticas de un Pokémon en combate."
+  },
+  {
+    "id": "DIRE-HIT",
+    "name": "Directo 1",
+    "description": "Aumenta 1 nivel el índice de golpe crítico en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "DIRE-HIT2",
+    "name": "Directo 2",
+    "description": "Aumenta 2 niveles el índice de golpe crítico en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "DIRE-HIT3",
+    "name": "Directo 3",
+    "description": "Aumenta 3 niveles el índice de golpe crítico en combate. Al cambiar de Pokémon, el efecto desaparece."
+  },
+  {
+    "id": "GUARD-SPEC",
+    "name": "Prot. Especial",
+    "description": "Evita que bajen las características del equipo Pokémon durante cinco turnos."
+  },
+  {
+    "id": "RESET-URGE",
+    "name": "Quitaestado",
+    "description": "Cuando se usa, se anulan los cambios en las características de un Pokémon de tu equipo."
+  },
+  {
+    "id": "ABILITY-URGE",
+    "name": "Habilitador",
+    "description": "Al usarlo, activa la habilidad de un Pokémon de tu equipo."
+  },
+  {
+    "id": "ITEM-URGE",
+    "name": "Activaobjeto",
+    "description": "Cuando se usa, un Pokémon de tu equipo utiliza su objeto inmediatamente."
+  },
+  {
+    "id": "ITEM-DROP",
+    "name": "Tiraobjeto",
+    "description": "Cuando se usa, un Pokémon de tu equipo pierde su objeto."
+  },
+  {
+    "id": "BLUE-FLUTE",
+    "name": "Flauta Azul",
+    "description": "Flauta de cristal azul cuya melodía despierta a los Pokémon dormidos."
+  },
+  {
+    "id": "YELLOW-FLUTE",
+    "name": "Flauta Amarilla",
+    "description": "Flauta de cristal amarillo que espabila a los Pokémon confusos."
+  },
+  {
+    "id": "RED-FLUTE",
+    "name": "Flauta Roja",
+    "description": "Flauta de cristal rojo que libera a un Pokémon del enamoramiento."
+  },
+  {
+    "id": "POKE-DOLL",
+    "name": "Pokémuñeco",
+    "description": "Un muñeco que atrae a los Pokémon. Puedes utilizarlo para huir de un combate con un Pokémon salvaje."
+  },
+  {
+    "id": "FLUFFY-TAIL",
+    "name": "Cola Skitty",
+    "description": "Atrae a los Pokémon y sirve para huir de un combate con un Pokémon salvaje."
+  },
+  {
+    "id": "POKE-TOY",
+    "name": "Pokéseñuelo",
+    "description": "Un objeto que atrae a los Pokémon. Puedes utilizarlo para huir de un combate con un Pokémon salvaje."
+  },
+  {
+    "id": "BICYCLE",
+    "name": "Bici",
+    "description": "Bicicleta plegable con la que se va más rápido que con deportivas."
+  },
+  {
+    "id": "OLD-ROD",
+    "name": "Caña Vieja",
+    "description": "Una caña de pescar bastante usada y desgastada. Pesca Pokémon salvajes en todo tipo de aguas."
+  },
+  {
+    "id": "GOOD-ROD",
+    "name": "Caña Buena",
+    "description": "Una caña de pescar nuevecita y de gran calidad. Pesca Pokémon salvajes en todo tipo de aguas."
+  },
+  {
+    "id": "SUPER-ROD",
+    "name": "Caña de Pescar",
+    "description": "Una increíble caña de pescar de alta tecnología. Pesca Pokémon salvajes en todo tipo de aguas."
+  },
+  {
+    "id": "ITEM-FINDER",
+    "name": "Buscaobjetos",
+    "description": "Detector de objetos invisibles por ondas sonoras. Emite una señal cuando encuentra un objeto."
+  },
+  {
+    "id": "DOWSING-MACHINE",
+    "name": "Zahorí",
+    "description": "Aparato de precisión que reacciona con luz y sonido ante los objetos que no se ven e indica su posición."
+  },
+  {
+    "id": "POKE-RADAR",
+    "name": "Poké Radar",
+    "description": "Busca Pokémon que se esconden en la hierba. La batería se recarga mientras caminas."
+  },
+  {
+    "id": "TOWN-MAP",
+    "name": "Mapa",
+    "description": "Un mapa que puede consultarse en cualquier momento y que te indica dónde te encuentras."
+  },
+  {
+    "id": "ESCAPE-ROPE",
+    "name": "Cuerda Huida",
+    "description": "Cuerda larga y resistente que sirve para huir de cuevas y sitios cerrados en general."
+  },
+  {
+    "id": "COIN-CASE",
+    "name": "Monedero",
+    "description": "Pequeño monedero para guardar fichas."
+  },
+  {
+    "id": "POKE-FLUTE",
+    "name": "Poké Flauta",
+    "description": "Consigue despertar al instante a cualquier Pokémon y suena de maravilla."
+  },
+  {
+    "id": "SOOT-SACK",
+    "name": "Saco Hollín",
+    "description": "Un saco grande y resistente utilizado para transportar la ceniza volcánica."
+  },
+  {
+    "id": "SILPH-SCOPE",
+    "name": "Detector Silph",
+    "description": "Dispositivo hecho en SILPH S.A para ver Pokémon invisibles."
+  },
+  {
+    "id": "DEVON-SCOPE",
+    "name": "Detector Devon",
+    "description": "Dispositivo hecho en DEVON para ver Pokémon invisibles."
+  },
+  {
+    "id": "SQUIRT-BOTTLE",
+    "name": "Squirgadera",
+    "description": "Una regadera con forma de Squirtle. Ayuda a que las bayas plantadas en tierra suelta crezcan mejor."
+  },
+  {
+    "id": "SPRAY-DUCK",
+    "name": "Psydugadera",
+    "description": "Una regadera con forma de Psyduck. Ayuda a que las bayas plantadas en tierra suelta crezcan mejor."
+  },
+  {
+    "id": "WAILMER-PAIL",
+    "name": "Wailmegadera",
+    "description": "Una regadera con forma de Wailmer. Ayuda a que las bayas plantadas en tierra suelta crezcan mejor."
+  },
+  {
+    "id": "SPRINKLOTAD",
+    "name": "Lotadgadera",
+    "description": "Una regadera con forma de Lotad. Ayuda a que las bayas plantadas en suelo blandito crezcan mejor."
+  },
+  {
+    "id": "GRACIDEA",
+    "name": "Gracídea",
+    "description": "Una flor que se suele regalar para expresar agradecimiento. Permite cambiar a Shaymin a su forma Cielo."
+  },
+  {
+    "id": "REVEAL-GLASS",
+    "name": "Espejo Veraz",
+    "description": "Espejo misterioso que refleja la verdad y devuelve los Pokémon a su forma original."
+  },
+  {
+    "id": "PRISON-BOTTLE",
+    "name": "Vasija Castigo",
+    "description": "Vasija en la que se halla confinado el poder de cierto Pokémon desde hace mucho tiempo."
+  },
+  {
+    "id": "ROTOM-CATALOG",
+    "name": "Catálogo Rotom",
+    "description": "Catálogos con los distintos electrodomésticos que Rotom puede poseer."
+  },
+  {
+    "id": "ZYGARDE-CUBE",
+    "name": "Arca de Zygarde",
+    "description": "Dispositivo para almacenar células de Zygarde. Permite cambiarle de forma y movs."
+  },
+  {
+    "id": "DNA-SPLICERS",
+    "name": "Punta ADN",
+    "description": "Punta que permite fusionar a Kyurem con cierto Pokémon con el que, originariamente, formaba un solo ser."
+  },
+  {
+    "id": "DNA-SPLICERS-USED",
+    "name": "Punta ADN",
+    "description": "Punta que permite fusionar a Kyurem con cierto Pokémon con el que, originariamente, formaba un solo ser."
+  },
+  {
+    "id": "N-SOLARIZER",
+    "name": "Necrosol",
+    "description": "Artefacto que permite fusionar a Necrozma, ávido de luz, con Solgaleo."
+  },
+  {
+    "id": "N-SOLARIZER-USED",
+    "name": "Necrosol",
+    "description": "Artefacto que permite fusionar a Necrozma, ávido de luz, con Solgaleo."
+  },
+  {
+    "id": "N-LUNARIZER",
+    "name": "Necroluna",
+    "description": "Artefacto que permite fusionar a Necrozma, ávido de luz, con Lunala."
+  },
+  {
+    "id": "N-LUNARIZER-USED",
+    "name": "Necroluna",
+    "description": "Artefacto que permite fusionar a Necrozma, ávido de luz, con Lunala."
+  },
+  {
+    "id": "REINS-OF-UNITY",
+    "name": "Riendas Unión",
+    "description": "Riendas que permiten unir a Calyrex con su montura."
+  },
+  {
+    "id": "REINS-OF-UNITY-USED",
+    "name": "Riendas Unión",
+    "description": "Riendas que permiten unir a Calyrex con su montura."
+  },
+  {
+    "id": "OVAL-CHARM",
+    "name": "Amuleto Oval",
+    "description": "Misterioso amuleto redondo que aumenta la posibilidad de encontrar Huevos en la Guardería Pokémon."
+  },
+  {
+    "id": "SHINY-CHARM",
+    "name": "Amuleto Iris",
+    "description": "Misterioso amuleto brillante que aumenta la probabilidad de encontrar Pokémon variocolores."
+  },
+  {
+    "id": "CATCHING-CHARM",
+    "name": "Amuleto Captura",
+    "description": "Misterioso amuleto que aumenta la posibilidad de hacer capturas críticas."
+  },
+  {
+    "id": "EXP-CHARM",
+    "name": "Amuleto Exp",
+    "description": "Amuleto que aumenta los Puntos de Exp. que ganan los Pokémon en combate."
+  },
+  {
+    "id": "MEGA-RING",
+    "name": "Mega Aro",
+    "description": "Aro que sirve para activar el poder de la Mega Evolución."
+  },
+  {
+    "id": "POKEMON-BOX-LINK",
+    "name": "Pokémon Box Link",
+    "description": "Te permite acceder al sistema de almacenamiento desde el equipo. En algunos lugares falla."
+  },
+  {
+    "id": "AURORA-TICKET",
+    "name": "Carné Espacial",
+    "description": "Una tarjeta de identificación necesaria para acceder a los Puertos Espaciales."
+  },
+  {
+    "id": "OLD-SEA-MAP",
+    "name": "Mapa Viejo",
+    "description": "Un mapa viejo descolorido que muestra el camino a una determinada isla."
+  },
+  {
+    "id": "BLACK-AUGURITE",
+    "name": "Mineral Negro",
+    "description": "Mineral de color muy oscuro que permite evolucionar a Scyther."
+  },
+  {
+    "id": "PEAT-BLOCK",
+    "name": "Bloque de Turba",
+    "description": "Extraño bloque compuesto de carbón fósil. Permite evolucionar a Ursaring."
+  },
+  {
+    "id": "LINKING-CORD",
+    "name": "Cordón Unión",
+    "description": "Extraño cordón que recuerda a un cable. Permite evolucionar a ciertos Pokémon."
+  },
+  {
+    "id": "ADAMANT-CRYSTAL",
+    "name": "Gran Diamansfera",
+    "description": "Si se usa en Dialga, esta gran gema le hace cambiar de forma."
+  },
+  {
+    "id": "LUSTROUS-GLOBE",
+    "name": "Gran Lustresfera",
+    "description": "Si se usa en Palkia, esta gran gema le hace cambiar de forma."
+  },
+  {
+    "id": "LEGEND-PLATE",
+    "name": "Tabla Legendaria",
+    "description": "Tabla de piedra que convierte a Arceus en función del tipo del rival."
+  },
+  {
+    "id": "BLANK-PLATE",
+    "name": "Tabla Normal",
+    "description": "Tabla de piedra que potencia los movimientos de tipo Normal un 25%. Debe llevarla un Pokémon."
+  },
+  {
+    "id": "GRISEOUS-CORE",
+    "name": "Gran Griseosfera",
+    "description": "Si se usa en Giratina, esta gran gema le hace cambiar de forma."
+  },
+  {
+    "id": "AUSPICIOUS-ARMOR",
+    "name": "Armadura Auspiciosa",
+    "description": "Armadura que alberga sentimientos auspiciosos. Permite evolucionar a Charcadet."
+  },
+  {
+    "id": "MALICIOUS-ARMOR",
+    "name": "Armadura Maldita",
+    "description": "Armadura que alberga sentimientos de rencor. Permite evolucionar a Charcadet."
+  },
+  {
+    "id": "SCROLL-OF-DARKNESS",
+    "name": "Manuscrito Sombras",
+    "description": "Curioso manuscrito que permite cambiar a Urshifu a su forma Estilo brusco."
+  },
+  {
+    "id": "SCROLL-OF-WATERS",
+    "name": "Manuscrito Aguas",
+    "description": "Curioso manuscrito que permite cambiar a Urshifu a su forma Estilo fluido."
+  },
+  {
+    "id": "LEADERS-CREST",
+    "name": "Distintivo de Líder",
+    "description": "Fragmento de lo que parece una cuchilla desgastada. Permite evolucionar a Bisharp."
+  },
+  {
+    "id": "BOOSTER-ENERGY",
+    "name": "Energía Potenciadora",
+    "description": "Tanque que contiene energía. Si lo lleva un Pokémon que posea cierta habilidad, potenciará su poder."
+  },
+  {
+    "id": "ABILITY-SHIELD",
+    "name": "Escudo Habilidad",
+    "description": "Escudo muy bonito que impide que otros Pokémon cambien la habilidad del Pokémon que lo lleva."
+  },
+  {
+    "id": "CLEAR-AMULET",
+    "name": "Amuleto Puro",
+    "description": "Amuleto brillante y transparente. Impide que otros Pokémon reduzcan las características de quien lo lleva."
+  },
+  {
+    "id": "MIRROR-HERB",
+    "name": "Hierba Copia",
+    "description": "Quien la lleva aumenta sus características si el rival aumenta las suyas. De un solo uso."
+  },
+  {
+    "id": "PUNCHING-GLOVE",
+    "name": "Guante de Boxeo",
+    "description": "Guante que aumenta la potencia de los movimientos con puños y evita que hagan contacto con el rival."
+  },
+  {
+    "id": "COVERT-CLOAK",
+    "name": "Capa Furtiva",
+    "description": "Capa con capucha que protege de los efectos secundarios de los movimientos de sus rivales."
+  },
+  {
+    "id": "LOADED-DICE",
+    "name": "Dado Trucado",
+    "description": "Dado que siempre cae favorablemente. Los movimientos de ataque múltiple golpearán más veces."
+  },
+  {
+    "id": "GIMMIGHOUL-COIN",
+    "name": "Moneda de Gimmighoul",
+    "description": "Moneda perteneciente al cofre de un Gimmighoul. Permite hacerle evolucionar."
+  },
+  {
+    "id": "TINY-BAMBOO-SHOOT",
+    "name": "Bambú Pequeño",
+    "description": "Un pequeño y raro trozo de bambú. Es muy popular entre cierta clase de gourmets."
+  },
+  {
+    "id": "BIG-BAMBOO-SHOOT",
+    "name": "Bambú Grande",
+    "description": "Un trozo grande y raro de bambú. Es muy popular entre cierta clase de gourmets."
+  },
+  {
+    "id": "SCARLET-BOOK",
+    "name": "Libro Escarlata",
+    "description": "Antiguo libro de la región de Paldea que habla sobre especies de ensueño del pasado."
+  },
+  {
+    "id": "VIOLET-BOOK",
+    "name": "Libro Púrpura",
+    "description": "Antiguo libro de la región de Paldea que habla sobre especies de ensueño del futuro."
+  },
+  {
+    "id": "HEALTH-MOCHI",
+    "name": "Mochi Vigor",
+    "description": "Mochi preparado con bayas que aumenta en 50 EVs los PS de un Pokémon."
+  },
+  {
+    "id": "MUSCLE-MOCHI",
+    "name": "Mochi Músculo",
+    "description": "Mochi preparado con bayas que aumenta en 50 EVs el Ataque de un Pokémon."
+  },
+  {
+    "id": "RESIST-MOCHI",
+    "name": "Mochi Aguante",
+    "description": "Mochi preparado con bayas que aumenta en 50 EVs la Defensa de un Pokémon."
+  },
+  {
+    "id": "GENIUS-MOCHI",
+    "name": "Mochi Intelecto",
+    "description": "Mochi preparado con bayas que aumenta en 50 EVs el At. Esp. de un Pokémon."
+  },
+  {
+    "id": "CLEVER-MOCHI",
+    "name": "Mochi Mente",
+    "description": "Mochi preparado con bayas que aumenta en 50 EVs la Def. Esp. de un Pokémon."
+  },
+  {
+    "id": "SWIFT-MOCHI",
+    "name": "Mochi Ímpetu",
+    "description": "Mochi preparado con bayas que aumenta en 50 EVs la Velocidad de un Pokémon."
+  },
+  {
+    "id": "FRESH-START-MOCHI",
+    "name": "Mochi Reinicio",
+    "description": "Mochi preparado con bayas que reinicia todos los EVs un Pokémon."
+  },
+  {
+    "id": "FAIRY-FEATHER",
+    "name": "Pluma Feérica",
+    "description": "Hermosa pluma que brilla si le da el sol. Fortalece los ataques de tipo Hada."
+  },
+  {
+    "id": "SYRUPY-APPLE",
+    "name": "Manzana Melosa",
+    "description": "Curiosa manzana recubierta de sirope que permite evolucionar a Applin."
+  },
+  {
+    "id": "UNREMARKABLE-TEACUP",
+    "name": "Cuenco Mediocre",
+    "description": "Cuenco mediocre que permite evolucionar a Poltchageist (forma Fraudulenta)."
+  },
+  {
+    "id": "MASTERPIECE-TEACUP",
+    "name": "Cuenco Exquisito",
+    "description": "Cuenco exquisito que permite evolucionar a Poltchageist (forma Opulenta)."
+  },
+  {
+    "id": "WELLSPRING-MASK",
+    "name": "Máscara Fuente",
+    "description": "Extraña máscara que permite cambiar a Ogerpon a su forma Máscara Fuente."
+  },
+  {
+    "id": "HEARTHFLAME-MASK",
+    "name": "Máscara Horno",
+    "description": "Extraña máscara que permite cambiar a Ogerpon a su forma Máscara Horno."
+  },
+  {
+    "id": "CORNERSTONE-MASK",
+    "name": "Máscara Cimiento",
+    "description": "Extraña máscara que permite cambiar a Ogerpon a su forma Máscara Cimiento."
+  },
+  {
+    "id": "TEAL-MASK",
+    "name": "Máscara Turquesa",
+    "description": "Máscara que se dice que perteneció a un Pokémon muy fuerte de la región de Noroteo."
+  },
+  {
+    "id": "METAL-ALLOY",
+    "name": "Metal Compuesto",
+    "description": "Metal resultante de la mezcla de otros metales. Permite evolucionar a Duraludon."
+  },
+  {
+    "id": "INDIGO-DISK",
+    "name": "Disco Índigo",
+    "description": "Extraño disco que parece estar relacionado con el Área Cero de Paldea."
+  },
+  {
+    "id": "MYTHICAL-PECHA-BERRY",
+    "name": "Baya Meloc singular",
+    "description": "Baya Meloc de la más alta calidad. Hay un Pokémon que la adora."
+  },
+  {
+    "id": "METEORITE",
+    "name": "Meteorito",
+    "description": "Extraño meteorito proveniente del espacio. Permite cambiar de forma a Deoxys."
+  },
+  {
+    "id": "INF-REPEL",
+    "name": "Repelente Infinito",
+    "description": "Un repelente que nunca se gasta. Puedes activarlo y desactivarlo."
+  },
+  {
+    "id": "INF-REPEL-OFF",
+    "name": "Repelente Infinito",
+    "description": "El Repelente infinito está desactivado."
+  },
+  {
+    "id": "RADAR",
+    "name": "PokéRadar",
+    "description": "Dispositivo que ofrece información sobre los Pokémon salvajes del lugar en el que estés."
+  },
+  {
+    "id": "VIAL",
+    "name": "Pokévial",
+    "description": "Aparato de usos limitados que permite curar a todo tu equipo. Se recarga en Centros Pokémon."
+  },
+  {
+    "id": "EMPTY-VIAL",
+    "name": "Pokévial",
+    "description": "Aparato de usos limitados que permite curar a todo tu equipo. Se recarga en Centros Pokémon. Vacío."
+  },
+  {
+    "id": "EGG-HATCHER",
+    "name": "Incubadora",
+    "description": "Incubadora que permite mantener 6 huevos hasta que eclosionen."
+  },
+  {
+    "id": "POKE-RIDER",
+    "name": "PokéRider",
+    "description": "Dispositivo con forma de flauta. Permite volar a distintos puntos ya visitados."
+  },
+  {
+    "id": "PELUCA-REGIA",
+    "name": "Peluca Regia",
+    "description": "Perteneció a un importante noble, pero le sentaría mejor a un Pokémon."
+  },
+  {
+    "id": "PLUMA-EOLICA",
+    "name": "Pluma Eólica",
+    "description": "La pluma parece moverse siempre como si hubiera una ligera brisa."
+  },
+  {
+    "id": "PIKACHUITE",
+    "name": "Pikachuita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pikachu en combate."
+  },
+  {
+    "id": "EEVEEITE",
+    "name": "Eeveeita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Eevee en combate."
+  },
+  {
+    "id": "LAPRASITE",
+    "name": "Laprasita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Lapras en combate."
+  },
+  {
+    "id": "BUTTERFREEITE",
+    "name": "Butterfreeita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Butterfree en combate."
+  },
+  {
+    "id": "MACHAMPITE",
+    "name": "Machampita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Machamp en combate."
+  },
+  {
+    "id": "KINGLERITE",
+    "name": "Kinglerita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Kingler en combate."
+  },
+  {
+    "id": "GARBODORITE",
+    "name": "Garbodorita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Garbodor en combate."
+  },
+  {
+    "id": "CORVIKNIGHTITE",
+    "name": "Corvinightita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Corvinight en combate."
+  },
+  {
+    "id": "ORBEETLEITE",
+    "name": "Orbeetleita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Orbeetle en combate."
+  },
+  {
+    "id": "DREDNAWITE",
+    "name": "Drednawita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Drednaw en combate."
+  },
+  {
+    "id": "COALOSSALITE",
+    "name": "Coalossalita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Coalossal en combate."
+  },
+  {
+    "id": "FLAPPLETUNITE",
+    "name": "Flappletunita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Flapple y Appletun en combate."
+  },
+  {
+    "id": "SANDACONDITE",
+    "name": "Sandacondita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Sandaconda en combate."
+  },
+  {
+    "id": "TOXTRICITITE",
+    "name": "Toxtricitita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Toxtricity en combate."
+  },
+  {
+    "id": "CENTISKORCHITE",
+    "name": "Centiskorchita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Centiskorch en combate."
+  },
+  {
+    "id": "HATTERENITE",
+    "name": "Hatterenita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Hatterene en combate."
+  },
+  {
+    "id": "GRIMMSNARLITE",
+    "name": "Grimmsnarlita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Grimmsnarl en combate."
+  },
+  {
+    "id": "ALCREMITE",
+    "name": "Alcremita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Alcremie en combate."
+  },
+  {
+    "id": "COPPERAJITE",
+    "name": "Copperajita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Copperajah en combate."
+  },
+  {
+    "id": "DURALUDONITE",
+    "name": "Duraludonita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Duraludon en combate."
+  },
+  {
+    "id": "DRAGONITITE",
+    "name": "Dragonitita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Dragonite en combate."
+  },
+  {
+    "id": "HAWLUCHITE",
+    "name": "Hawluchanita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Hawlucha en combate."
+  },
+  {
+    "id": "VICTREEBELITE",
+    "name": "Victreebelita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Victreebel en combate."
+  },
+  {
+    "id": "CHESNAUGHTITE",
+    "name": "Chesnaughtita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Chesnaught en combate."
+  },
+  {
+    "id": "DELPHOXITE",
+    "name": "Delphoxita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Delphox en combate."
+  },
+  {
+    "id": "GRENINJITE",
+    "name": "Greninjanita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Greninja en combate."
+  },
+  {
+    "id": "CLEFABLITE",
+    "name": "Clefablita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Clefable en combate."
+  },
+  {
+    "id": "STARMINITE",
+    "name": "Starmita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Starmie en combate."
+  },
+  {
+    "id": "MEGANIUMITE",
+    "name": "Meganiumita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Meganium en combate."
+  },
+  {
+    "id": "FERALIGITE",
+    "name": "Feraligatrita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Feraligatr en combate."
+  },
+  {
+    "id": "SKARMORITE",
+    "name": "Skarmorita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Skarmory en combate."
+  },
+  {
+    "id": "FROSLASSITE",
+    "name": "Froslassita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Froslass en combate."
+  },
+  {
+    "id": "EMBOARITE",
+    "name": "Emboarita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Emboar en combate."
+  },
+  {
+    "id": "EXCADRITE",
+    "name": "Excadrilita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Excadril en combate."
+  },
+  {
+    "id": "SCOLIPITE",
+    "name": "Scolipeditas",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Scolipede en combate."
+  },
+  {
+    "id": "EELEKTROSSITE",
+    "name": "Elektrossita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Eelektross en combate."
+  },
+  {
+    "id": "SCRAFTINITE",
+    "name": "Scraftita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Scrafty en combate."
+  },
+  {
+    "id": "CHANDELURITE",
+    "name": "Chandelurita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Chandelure en combate."
+  },
+  {
+    "id": "PYROARITE",
+    "name": "Pyroarita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Pyroar en combate."
+  },
+  {
+    "id": "MALAMARITE",
+    "name": "Malamarita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Malamar en combate."
+  },
+  {
+    "id": "BARBARACITE",
+    "name": "Barbaraclita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Barbaracle en combate."
+  },
+  {
+    "id": "DRAGALGITE",
+    "name": "Dragalgita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Dragalge en combate."
+  },
+  {
+    "id": "DRAMPANITE",
+    "name": "Drampanita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Drampa en combate."
+  },
+  {
+    "id": "FALINKSITE",
+    "name": "Falinksita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Falinks en combate."
+  },
+  {
+    "id": "ZYGARDITE",
+    "name": "Zygardita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Zygarde en combate."
+  },
+  {
+    "id": "FLOETTITE",
+    "name": "Floettita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Floette Flor Eterna en combate."
+  },
+  {
+    "id": "GARCHOMPITE-Z",
+    "name": "Garchompita Z",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Garchomp en combate."
+  },
+  {
+    "id": "ABSOLITE-Z",
+    "name": "Absolita Z",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Absol en combate."
+  },
+  {
+    "id": "LUCARIONITE-Z",
+    "name": "Lucarita Z",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Lucario en combate."
+  },
+  {
+    "id": "SCOVILLAINITE",
+    "name": "Scovillainita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Scovillain en combate."
+  },
+  {
+    "id": "CRABOMINITE",
+    "name": "Crabominablita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Crabominable en combate."
+  },
+  {
+    "id": "STARAPTITE",
+    "name": "Staraptorita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Staraptor en combate."
+  },
+  {
+    "id": "GOLURKITE",
+    "name": "Golurkita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Golurk en combate."
+  },
+  {
+    "id": "RAICHUITE-X",
+    "name": "Raichuita X",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Raichu en combate."
+  },
+  {
+    "id": "RAICHUITE-Y",
+    "name": "Raichuita Y",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Raichu en combate."
+  },
+  {
+    "id": "DARKRANITE",
+    "name": "Darkrainita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Darkrai en combate."
+  },
+  {
+    "id": "TATSUGIRINITE",
+    "name": "Tatsugirita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Tatsugiri en combate."
+  },
+  {
+    "id": "MAGEARNITE",
+    "name": "Magearnita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Magearna en combate."
+  },
+  {
+    "id": "GOLISOPITE",
+    "name": "Golisopodita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Golisopod en combate."
+  },
+  {
+    "id": "MEOWSTICITE",
+    "name": "Meowsticita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Meowstic en combate."
+  },
+  {
+    "id": "HEATRANITE",
+    "name": "Heatranita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Heatran en combate."
+  },
+  {
+    "id": "GLIMMORANITE",
+    "name": "Glimmoranita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Glimmora en combate."
+  },
+  {
+    "id": "BAXCALIBRITE",
+    "name": "Baxcaliburita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Baxcalibur en combate."
+  },
+  {
+    "id": "CHIMECHITE",
+    "name": "Chimechita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Chimecho en combate."
+  },
+  {
+    "id": "ZERAORITE",
+    "name": "Zeraoranita",
+    "description": "Una de las misteriosas Megapiedras. Permite megaevolucionar a Zeraora en combate."
+  },
+  {
+    "id": "TICKET-BARCO",
+    "name": "Ticket Barco",
+    "description": "Un ticket para embarcar en el SS Anne de Ciudad Carmín."
+  },
+  {
+    "id": "BONOBICI",
+    "name": "Bono Bici",
+    "description": "Se puede intercambiar por una bici en Ciudad Celeste."
+  },
+  {
+    "id": "CENIZAS-SAGRADAS",
+    "name": "Cenizas Sagradas",
+    "description": "Reaniman a un Pokemon. Funcionan incluso en un Nuzlocke."
+  },
+  {
+    "id": "VISOR-SILPH",
+    "name": "Visor Silph",
+    "description": "Dispositivo desarrollado por Silph SA que permite ver entidades espectrales."
+  },
+  {
+    "id": "LLAVE-ROCKET",
+    "name": "Llave Ascensor",
+    "description": "Una llave que activa el ascensor de la Guarida Rocket."
+  },
+  {
+    "id": "RESGUARDO",
+    "name": "Resguardo",
+    "description": "El resguardo de una generosa compra de Leche Mu-Mu."
+  },
+  {
+    "id": "MUNECO-COPIONA",
+    "name": "Pokémuñeco Especial",
+    "description": "Pertenece a la Copiona de Ciudad Azafrán."
+  },
+  {
+    "id": "ANILLO",
+    "name": "Anillo de Compromiso",
+    "description": "Un anillo de compromiso que llevó una persona casada alguna vez"
+  },
+  {
+    "id": "TESECRETO",
+    "name": "Té Secreto",
+    "description": "Su aroma es embriagador."
+  },
+  {
+    "id": "TMAGN1",
+    "name": "Tarjeta Magnética 1",
+    "description": "Combinada con otra tarjeta"
+  },
+  {
+    "id": "TMAGN2",
+    "name": "Tarjeta Magnética 2",
+    "description": "Combinada con otra tarjeta"
+  },
+  {
+    "id": "SHINY-ZADOR",
+    "name": "Poción Brillante",
+    "description": "El siguiente Pokémon salvaje que te encuentres será variocolor (no pueden salir super shinys)."
+  },
+  {
+    "id": "LLAVE-SUPERSECRETA",
+    "name": "Llave Supersecreta",
+    "description": "Activa el ascensor secreto de la Guarida Rocket."
+  },
+  {
+    "id": "CAMPANA-DORADA",
+    "name": "Campana Dorada",
+    "description": "Tal vez, si se acompañase del sonido de una campana más grande..."
+  },
+  {
+    "id": "CAMPANA-PLATEADA",
+    "name": "Campana Plateada",
+    "description": "Tal vez, si se acompañase del sonido de una campana más grande..."
+  },
+  {
+    "id": "CRISTAL-PRISMA",
+    "name": "Cristal Prisma",
+    "description": "Atrae Pokémon en los Nidos Alfa de la Isla Prisma."
+  },
+  {
+    "id": "LLAVE-CAMION",
+    "name": "Llave Camión",
+    "description": "Abre la parte trasera de un camión."
+  },
+  {
+    "id": "OFRENDA-PRISMATICA",
+    "name": "Ofrenda Prismática",
+    "description": "Entrégalas en los Altares de las Aves Guardianas."
+  },
+  {
+    "id": "PLUMA-ARTICUNO",
+    "name": "Pluma de Articuno",
+    "description": "Está sorprendentemente fría."
+  },
+  {
+    "id": "PLUMA-ZAPDOS",
+    "name": "Pluma de Zapdos",
+    "description": "Al tocarla, notas una pequeña corriente"
+  },
+  {
+    "id": "PLUMA-MOLTRES",
+    "name": "Pluma de Moltres",
+    "description": "Es sorprendentemente cálida."
+  },
+  {
+    "id": "DIPLOMA",
+    "name": "Diploma",
+    "description": "Un diploma por haber completado la Pokédex."
+  },
+  {
+    "id": "TRUFA",
+    "name": "Trufa",
+    "description": "Producto de alta cocina. Altera el género del Pokémon."
+  },
+  {
+    "id": "SUPER-EVIOLITE",
+    "name": "Supermin. Evol.",
+    "description": "Aumenta un 50% las estadísticas si puede evolucionar 2 veces. Evita evolucionar."
+  },
+  {
+    "id": "RANDOM-ABILITY-CAPSULE",
+    "name": "Random. de habs.",
+    "description": "Capsula que permite randomizar las habilidades de un Pokémon."
+  },
+  {
+    "id": "LENS-OF-TRUTH",
+    "name": "Lente de la Verdad",
+    "description": "Permite revelar verdades ocultas en el mundo..."
+  },
+  {
+    "id": "ROCK-SMASH-ITEM",
+    "name": "Pico",
+    "description": "Una herramienta que permite romper rocas pequeñas y hacerlas desaparecer."
+  },
+  {
+    "id": "CUT-ITEM",
+    "name": "Talador",
+    "description": "Una herramienta que permite cortar arbustos y hacerlos desaparecer, muy ecológico."
+  },
+  {
+    "id": "STRENGTH-ITEM",
+    "name": "Brazo Robótico",
+    "description": "Brazos con super fuerza que permiten mover objetos pesados."
+  },
+  {
+    "id": "FLASH-ITEM",
+    "name": "Iluminador",
+    "description": "Artilugio que permite iluminar zonas oscuras."
+  },
+  {
+    "id": "SURF-ITEM",
+    "name": "Montura Surf",
+    "description": "Te permite navegar por el agua."
+  },
+  {
+    "id": "ROCK-CLIMB-ITEM",
+    "name": "Equipo de Escalada",
+    "description": "Herramientas para poder trepar por una pared rocosa."
+  },
+  {
+    "id": "ALBUMFOTOS",
+    "name": "Álbum de Fotos",
+    "description": "Álbum donde puedes ver todas las fotografías que te vayas haciendo por la región."
+  },
+  {
+    "id": "RULE-BOOK",
+    "name": "Libro de Reglas",
+    "description": "Libro donde puedes ver las reglas de los distintos modos de juego que tengas activos."
+  },
+  {
+    "id": "MONEDA-PRODIG",
+    "name": "Moneda Prodigiosa",
+    "description": "Moneda muy valorada por entrenadores Prodigiosos. Es posible que alguien la acepte a cambio de intercambios."
+  },
+  {
+    "id": "DESBUGUEADOR",
+    "name": "Desbugueador",
+    "description": "Dispositivo para usar si estas bugueado atravesando una pared o en una casilla de la que no puedes salir."
+  }
+]

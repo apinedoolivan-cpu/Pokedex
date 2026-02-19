@@ -1,5 +1,9 @@
 <div class="pokemon-showcase-container">
-    <h1 class="pokemon-showcase-name">{{ pokemon().name }}</h1>
+    <div class="pokemon-showcase-image-container">
+        <h1 class="pokemon-showcase-name">{{ pokemon().name }}</h1>
+        <span class="pokemon-showcase-number">#{{ pokemon().dexNumber}}</span>
+    </div>
+    
     <div class="pokemon-showcase-image-container">
         <img class="pokemon-showcase-image" [src]="selectedPokemonSprite()" alt="{{ pokemon().name }}" />
         <div class="pokemon-showcase-types">

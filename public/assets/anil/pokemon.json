@@ -2170,7 +2170,7 @@
     "generation": "1",
     "pokedexEntry": "Butterfree tiene una habilidad especial para encontrar rico néctar en las flores. Localiza, extrae y transporta polen de flores que están a 10 km de distancia.",
     "heldItems": {
-      "uncommon": "SILVERPOWDER"
+      "uncommon": "SILVER-POWDER"
     },
     "hiddenAbility": "TINTEDLENS"
   },
@@ -2508,7 +2508,7 @@
     "generation": "1",
     "pokedexEntry": "Los Beedrill defienden su territorio a toda costa. No conviene acercarse a su colmena, por seguridad. Si se les molesta, todo un enjambre atacará ferozmente.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "SNIPER"
   },
@@ -3159,7 +3159,7 @@
     "generation": "1",
     "pokedexEntry": "Rattata es cauto como él solo. Hasta cuando duerme mueve las orejas para oír todo lo que pueda suponer un peligro. Cava su madriguera en cualquier sitio.",
     "heldItems": {
-      "uncommon": "CHILANBERRY"
+      "uncommon": "CHILAN-BERRY"
     },
     "hiddenAbility": "HUSTLE"
   },
@@ -3350,7 +3350,7 @@
     "generation": "1",
     "pokedexEntry": "A Raticate le crecen unos colmillos firmes y fuertes. Para mantenerlos afilados, roe rocas, troncos e incluso las paredes de las casas.",
     "heldItems": {
-      "uncommon": "CHILANBERRY"
+      "uncommon": "CHILAN-BERRY"
     },
     "hiddenAbility": "HUSTLE"
   },
@@ -3515,7 +3515,7 @@
     "generation": "1",
     "pokedexEntry": "Cuando pía, se le puede oír a 1 km. Si a su agudo chillido le sigue una especie de eco, estaremos oyendo a otros Spearow responder al aviso de peligro.",
     "heldItems": {
-      "uncommon": "SHARPBEAK"
+      "uncommon": "SHARP-BEAK"
     },
     "hiddenAbility": "SNIPER"
   },
@@ -3676,7 +3676,7 @@
     "generation": "1",
     "pokedexEntry": "Se le reconoce por tener un pescuezo y un pico largos que le permiten cazar en agua y en tierra firme. Mueve el pico con habilidad para atrapar a sus presas.",
     "heldItems": {
-      "uncommon": "SHARPBEAK"
+      "uncommon": "SHARP-BEAK"
     },
     "hiddenAbility": "SNIPER"
   },
@@ -4346,7 +4346,7 @@
     "generation": "1",
     "pokedexEntry": "Tiene unas bolsas en las mejillas en las que almacena electricidad. Cuando la libera de golpe, la potencia de la descarga es igual a la de un rayo.",
     "heldItems": {
-      "uncommon": "LIGHTBALL"
+      "uncommon": "LIGHT-BALL"
     },
     "hiddenAbility": "LIGHTNINGROD"
   },
@@ -4804,7 +4804,7 @@
     "generation": "1",
     "pokedexEntry": "Cuando se hace una bola, repele cualquier ataque. Como vive en el desierto tiene una piel tosca y dura. Le gusta revolcarse por la arena seca para limpiar su piel.",
     "heldItems": {
-      "uncommon": "GRIPCLAW"
+      "uncommon": "GRIP-CLAW"
     },
     "hiddenAbility": "SANDRUSH"
   },
@@ -5028,7 +5028,7 @@
     "generation": "1",
     "pokedexEntry": "Se enrosca para protegerse del enemigo y de los golpes de calor que hay durante el día, cuando aumenta la temperatura. Si se le caen las garras le crecen.",
     "heldItems": {
-      "uncommon": "GRIPCLAW"
+      "uncommon": "GRIP-CLAW"
     },
     "hiddenAbility": "SANDRUSH"
   },
@@ -6489,7 +6489,7 @@
     "generation": "1",
     "pokedexEntry": "Cuando hay luna llena, salen en grupo para jugar. Al amanecer, los Clefairy, agotados, regresan a sus refugios de montaña para dormir acurrucados unos contra otros.",
     "heldItems": {
-      "uncommon": "MOONSTONE"
+      "uncommon": "MOON-STONE"
     },
     "hiddenAbility": "FRIENDGUARD"
   },
@@ -6774,7 +6774,7 @@
     "generation": "1",
     "pokedexEntry": "Usa las alas para dar saltitos y poder caminar por el agua, pero no llega a volar. Se sabe que le encanta pasear por los lagos en tranquilas noches de luna llena.",
     "heldItems": {
-      "uncommon": "MOONSTONE"
+      "uncommon": "MOON-STONE"
     },
     "hiddenAbility": "UNAWARE"
   },
@@ -7000,7 +7000,7 @@
     "generation": "1",
     "pokedexEntry": "Puede controlar el fuego a su antojo y libera llamas por la boca. Tiene seis colas cuya temperatura sube de forma radical justo antes de evolucionar.",
     "heldItems": {
-      "common": "RAWSTBERRY",
+      "common": "RAWST-BERRY",
       "uncommon": "CHARCOAL"
     },
     "hiddenAbility": "DROUGHT"
@@ -7481,7 +7481,7 @@
     "generation": "1",
     "pokedexEntry": "Aquel que oye su canción cae dormido. Las ondas acústicas de su voz cantarina se acoplan a las ondas cerebrales de quien lo oye y le hacen caer en un profundo sueño.",
     "heldItems": {
-      "uncommon": "MOONSTONE"
+      "uncommon": "MOON-STONE"
     },
     "hiddenAbility": "MISTYSURGE"
   },
@@ -7769,7 +7769,7 @@
     "generation": "1",
     "pokedexEntry": "Su piel tiene una calidad de lujo. Dormir junto a un Wigglytuff es una maravilla. Cuando aspira, su tamaño aumenta de forma desmesurada.",
     "heldItems": {
-      "uncommon": "MOONSTONE"
+      "uncommon": "MOON-STONE"
     },
     "hiddenAbility": "MISTYSURGE"
   },
@@ -8309,7 +8309,7 @@
     "generation": "1",
     "pokedexEntry": "Este Pokémon crece absorbiendo luz de luna. Durante el día, se entierra en el suelo y sólo deja las hojas fuera. Así evita que los enemigos lo detecten.",
     "heldItems": {
-      "uncommon": "ABSORBBULB"
+      "uncommon": "ABSORB-BULB"
     },
     "hiddenAbility": "RUNAWAY"
   },
@@ -8484,7 +8484,7 @@
     "generation": "1",
     "pokedexEntry": "De su boca cae una miel muy nociva que desprende un hedor que puede provocar la pérdida de memoria. Con todo, hay quien afirma deleitarse con su fetidez.",
     "heldItems": {
-      "uncommon": "ABSORBBULB"
+      "uncommon": "ABSORB-BULB"
     },
     "hiddenAbility": "STENCH"
   },
@@ -8675,7 +8675,7 @@
     "generation": "1",
     "pokedexEntry": "En las estaciones en las que produce más polen, Vileplume tiñe de amarillo el aire al caminar. El polen es altamente tóxico y provoca parálisis.",
     "heldItems": {
-      "uncommon": "ABSORBBULB"
+      "uncommon": "ABSORB-BULB"
     },
     "hiddenAbility": "EFFECTSPORE"
   },
@@ -8860,8 +8860,8 @@
     "generation": "1",
     "pokedexEntry": "Lleva dos setas parásitas, llamadas tochukaso, que se alimentan a partir de los nutrientes del propio Paras. Las setas se usan como elixir de vida.",
     "heldItems": {
-      "common": "TINYMUSHROOM",
-      "uncommon": "BIGMUSHROOM"
+      "common": "TINY-MUSHROOM",
+      "uncommon": "BIG-MUSHROOM"
     },
     "hiddenAbility": "DAMP"
   },
@@ -9040,8 +9040,8 @@
     "generation": "1",
     "pokedexEntry": "Destruyen grandes árboles absorbiendo sus nutrientes. Cuando un árbol azotado por la plaga muere, los Parasect van a por el siguiente al instante.",
     "heldItems": {
-      "common": "TINYMUSHROOM",
-      "uncommon": "BIGMUSHROOM"
+      "common": "TINY-MUSHROOM",
+      "uncommon": "BIG-MUSHROOM"
     },
     "hiddenAbility": "DAMP"
   },
@@ -9446,7 +9446,7 @@
     "generation": "1",
     "pokedexEntry": "Es nocturno, solo actúa en la oscuridad. Su alimento preferido son los pequeños insectos que se concentran por la noche cerca de los focos de luz.",
     "heldItems": {
-      "uncommon": "SHEDSHELL"
+      "uncommon": "SHED-SHELL"
     },
     "hiddenAbility": "WONDERSKIN"
   },
@@ -9638,7 +9638,7 @@
     "generation": "1",
     "pokedexEntry": "En muchas granjas suelen criarlos porque, caven donde caven, dejan la tierra bien labrada para sembrar. El terreno queda listo para plantar ricas verduras.",
     "heldItems": {
-      "uncommon": "SOFTSAND"
+      "uncommon": "SOFT-SAND"
     },
     "hiddenAbility": "SANDFORCE"
   },
@@ -9824,7 +9824,7 @@
     "generation": "1",
     "pokedexEntry": "Los Dugtrio son trillizos que salieron de un mismo cuerpo, por eso piensan de la misma forma. A la hora de cavar, trabajan en equipo y sin descanso.",
     "heldItems": {
-      "uncommon": "SOFTSAND"
+      "uncommon": "SOFT-SAND"
     },
     "hiddenAbility": "SANDFORCE"
   },
@@ -10041,7 +10041,7 @@
     "generation": "1",
     "pokedexEntry": "Retrae sus afiladas uñas en las zarpas y camina a hurtadillas. Así pasa inadvertido. No se sabe por qué, pero adora las monedas brillantes que resplandecen.",
     "heldItems": {
-      "uncommon": "QUICKCLAW"
+      "uncommon": "QUICK-CLAW"
     },
     "hiddenAbility": "UNNERVE"
   },
@@ -10262,7 +10262,7 @@
     "generation": "1",
     "pokedexEntry": "Tiene seis llamativos bigotes que le dan un aspecto feroz y le sirven para detectar cualquier amenaza. Si se le agarra por los bigotes, se vuelve dócil.",
     "heldItems": {
-      "uncommon": "QUICKCLAW"
+      "uncommon": "QUICK-CLAW"
     },
     "hiddenAbility": "TOUGHCLAWS"
   },
@@ -11434,7 +11434,7 @@
     "generation": "1",
     "pokedexEntry": "Tiene un sentido del olfato excepcional y una gran memoria sensitiva: nunca olvida una esencia e incluso puede identificar las emociones de otros seres vivos.",
     "heldItems": {
-      "common": "RAWSTBERRY"
+      "common": "RAWST-BERRY"
     },
     "hiddenAbility": "JUSTIFIED"
   },
@@ -12031,7 +12031,7 @@
     "generation": "1",
     "pokedexEntry": "Tiene la piel húmeda y lubricada con un fluido aceitoso. Gracias a esta película grasa, puede escapar de las garras de cualquier rival en pleno combate.",
     "heldItems": {
-      "uncommon": "KINGSROCK"
+      "uncommon": "KINGS-ROCK"
     },
     "hiddenAbility": "SWIFTSWIM"
   },
@@ -12255,7 +12255,7 @@
     "generation": "1",
     "pokedexEntry": "Tiene músculos fornidos y desarrollados, que nunca se cansan por más que los use. Cruzar el océano Pacífico un par de veces no le supone ningún esfuerzo.",
     "heldItems": {
-      "uncommon": "KINGSROCK"
+      "uncommon": "KINGS-ROCK"
     },
     "hiddenAbility": "SWIFTSWIM"
   },
@@ -12425,7 +12425,7 @@
     "generation": "1",
     "pokedexEntry": "Es un Pokémon que duerme 18 horas al día. Se ha demostrado que cada hora utiliza teletransporte para cambiar de sitio. Puede usar sus poderes dormido.",
     "heldItems": {
-      "uncommon": "TWISTEDSPOON"
+      "uncommon": "TWISTED-SPOON"
     },
     "hiddenAbility": "MAGICGUARD"
   },
@@ -12653,7 +12653,7 @@
     "generation": "1",
     "pokedexEntry": "Dicen que un chico que tenía capacidades psíquicas se transformó de repente en Kadabra mientras ayudaba en un estudio sobre poderes extrasensoriales.",
     "heldItems": {
-      "uncommon": "TWISTEDSPOON"
+      "uncommon": "TWISTED-SPOON"
     },
     "hiddenAbility": "MAGICGUARD"
   },
@@ -12871,7 +12871,7 @@
     "generation": "1",
     "pokedexEntry": "Aunque tiene una gran capacidad psíquica y una inteligencia excepcional, la musculatura de Alakazam es muy débil. Para moverse, utiliza poderes psíquicos.",
     "heldItems": {
-      "uncommon": "TWISTEDSPOON"
+      "uncommon": "TWISTED-SPOON"
     },
     "hiddenAbility": "MAGICGUARD"
   },
@@ -13092,7 +13092,7 @@
     "generation": "1",
     "pokedexEntry": "Se entrena hasta la extenuación para dominar todo tipo de artes marciales. Es tan fuerte que puede llevar a un luchador de sumo sobre los hombros.",
     "heldItems": {
-      "uncommon": "FOCUSBAND"
+      "uncommon": "FOCUS-BAND"
     },
     "hiddenAbility": "STEADFAST"
   },
@@ -13306,7 +13306,7 @@
     "generation": "1",
     "pokedexEntry": "Machoke lleva un cinturón para controlar su abrumadora energía. Como es tan peligroso, nadie se lo ha quitado nunca. Utiliza su fuerza para ayudar a la gente.",
     "heldItems": {
-      "uncommon": "FOCUSBAND"
+      "uncommon": "FOCUS-BAND"
     },
     "hiddenAbility": "STEADFAST"
   },
@@ -13516,7 +13516,7 @@
     "generation": "1",
     "pokedexEntry": "Es imposible defenderse de los puñetazos que reparte con los cuatro brazos que tiene. Si aparece un rival fuerte, le entran unas ganas enormes de luchar.",
     "heldItems": {
-      "uncommon": "FOCUSBAND"
+      "uncommon": "FOCUS-BAND"
     },
     "hiddenAbility": "STEADFAST"
   },
@@ -14279,7 +14279,7 @@
     "generation": "1",
     "pokedexEntry": "Se compone casi enteramente de agua. Atrapa a su enemigo con sus dos largos tentáculos y le clava los venenosos aguijones que tiene en los extremos.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "RAINDISH"
   },
@@ -14481,7 +14481,7 @@
     "generation": "1",
     "pokedexEntry": "Vive en formaciones complejas de roca en el suelo marino y atrapa a su presa usando sus 80 tentáculos. Si se pone nervioso, le brillan las esferas rojas de la cabeza.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "RAINDISH"
   },
@@ -15714,7 +15714,7 @@
     "generation": "1",
     "pokedexEntry": "Con la cola, atrapa a su rival metiéndolo bajo agua en las riberas de los ríos. Suele olvidar lo que estaba haciendo y pasarse días enteros holgazaneando en la orilla.",
     "heldItems": {
-      "uncommon": "LAGGINGTAIL"
+      "uncommon": "LAGGING-TAIL"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -15961,7 +15961,7 @@
     "generation": "1",
     "pokedexEntry": "Lleva en la cola un Shellder enganchado por los dientes. Como Slowbro no puede pescar con la cola, se mete en el agua de mala gana en busca de sus presas.",
     "heldItems": {
-      "uncommon": "KINGSROCK"
+      "uncommon": "KINGS-ROCK"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -16145,7 +16145,7 @@
     "generation": "1",
     "pokedexEntry": "Las unidades de las extremidades son imanes de largo alcance. Generan magnetismo suficiente para atraer objetos de hierro a 100 m de distancia.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "ANALYTIC"
   },
@@ -16344,7 +16344,7 @@
     "generation": "1",
     "pokedexEntry": "Son tres Magnemite que se atraen entre sí. Genera ondas de radio de gran alcance que provocan que la temperatura suba 2 grados centígrados en un radio de 1 km.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "ANALYTIC"
   },
@@ -16768,7 +16768,7 @@
     "generation": "1",
     "pokedexEntry": "Incluso mientras come o duerme, una de las cabezas sigue estando en guardia para detectar cualquier peligro. Si lo amenazan, sale huyendo a 100 km por hora.",
     "heldItems": {
-      "uncommon": "SHARPBEAK"
+      "uncommon": "SHARP-BEAK"
     },
     "hiddenAbility": "CAMORRISTA"
   },
@@ -16971,7 +16971,7 @@
     "generation": "1",
     "pokedexEntry": "Pertenece a una rara especie de Pokémon que tiene tres cabezas. Corre con energía por verdes praderas incluso en estaciones secas con poca lluvia.",
     "heldItems": {
-      "uncommon": "SHARPBEAK"
+      "uncommon": "SHARP-BEAK"
     },
     "hiddenAbility": "CAMORRISTA"
   },
@@ -17605,7 +17605,7 @@
     "generation": "1",
     "pokedexEntry": "Nacido del lodo contaminado del mar, el alimento preferido de Grimer es la basura. Se alimenta de lo que encuentra en las aguas residuales de las fábricas.",
     "heldItems": {
-      "uncommon": "BLACKSLUDGE"
+      "uncommon": "BLACK-SLUDGE"
     },
     "hiddenAbility": "POISONTOUCH"
   },
@@ -17822,7 +17822,7 @@
     "generation": "1",
     "pokedexEntry": "Prefiere los hábitats cálidos y húmedos. En verano, las sustancias tóxicas que contiene se intensifican y hacen que apeste como la basura podrida.",
     "heldItems": {
-      "common": "BLACKSLUDGE"
+      "common": "BLACK-SLUDGE"
     },
     "hiddenAbility": "STICKYHOLD"
   },
@@ -18020,7 +18020,7 @@
     "pokedexEntry": "De noche, usa su ancha lengua para hacer un agujero en el fondo del mar donde descansar. Cuando duerme, Shellder cierra la concha, pero deja la lengua fuera.",
     "heldItems": {
       "common": "PEARL",
-      "uncommon": "BIGPEARL"
+      "uncommon": "BIG-PEARL"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -18213,7 +18213,7 @@
     "pokedexEntry": "Puede nadar por el mar tragando agua y expulsándola por el conducto que tiene en la parte trasera. Del mismo modo lanza los pinchos que tiene sobre la concha.",
     "heldItems": {
       "common": "PEARL",
-      "uncommon": "BIGPEARL"
+      "uncommon": "BIG-PEARL"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -20482,7 +20482,7 @@
     "generation": "1",
     "pokedexEntry": "Está compuesto de seis huevos que forman una tupida piña que va girando. Si empiezan a resquebrajarse las cáscaras, es que le queda poco para evolucionar.",
     "heldItems": {
-      "uncommon": "PSYCHICSEED"
+      "uncommon": "PSYCHIC-SEED"
     },
     "hiddenAbility": "SKILLLINK"
   },
@@ -20909,7 +20909,7 @@
     "generation": "1",
     "pokedexEntry": "Le apena no volver a ver a su madre. La luna llena le recuerda a ella y se pone a chillar. Las marcas que tiene en el cráneo que lleva son debido a sus lágrimas.",
     "heldItems": {
-      "uncommon": "THICKCLUB"
+      "uncommon": "THICK-CLUB"
     },
     "hiddenAbility": "BATTLEARMOR"
   },
@@ -21116,7 +21116,7 @@
     "generation": "1",
     "pokedexEntry": "Es más fuerte que Cubone porque ha superado la pena por la pérdida de su madre. Tiene el ánimo curtido, por lo que no resulta fácil alterarlo.",
     "heldItems": {
-      "uncommon": "THICKCLUB"
+      "uncommon": "THICK-CLUB"
     },
     "hiddenAbility": "BATTLEARMOR"
   },
@@ -21781,7 +21781,7 @@
     "generation": "1",
     "pokedexEntry": "Cada vez que se encuentra con algo que no conoce, le da un lametazo. Así memoriza las cosas: por la textura y el sabor. No soporta los sabores ácidos.",
     "heldItems": {
-      "uncommon": "LAGGINGTAIL"
+      "uncommon": "LAGGING-TAIL"
     },
     "hiddenAbility": "CLOUDNINE"
   },
@@ -21975,7 +21975,7 @@
     "generation": "1",
     "pokedexEntry": "Ver de cerca a un Koffing permite observar, a través de su fina piel, los gases tóxicos que se remolinan en su interior. A la mínima, explota.",
     "heldItems": {
-      "uncommon": "SMOKEBALL"
+      "uncommon": "SMOKE-BALL"
     },
     "hiddenAbility": "MISTYSURGE"
   },
@@ -22154,7 +22154,7 @@
     "generation": "1",
     "pokedexEntry": "Al diluir sus gases tóxicos mediante un proceso especial, se extrae un perfume delicioso. Para Weezing, los gases que emana la basura son una exquisitez.",
     "heldItems": {
-      "uncommon": "SMOKEBALL"
+      "uncommon": "SMOKE-BALL"
     },
     "hiddenAbility": "MISTYSURGE"
   },
@@ -22906,7 +22906,7 @@
     "generation": "1",
     "pokedexEntry": "Pone a diario huevos con un enorme valor nutritivo. Están tan ricos que hasta quien no tenga hambre se los comerá en un abrir y cerrar de ojos.",
     "heldItems": {
-      "common": "LUCKYPUNCH"
+      "common": "LUCKY-PUNCH"
     },
     "hiddenAbility": "HEALER"
   },
@@ -23534,7 +23534,7 @@
     "generation": "1",
     "pokedexEntry": "Batiendo hábilmente las aletas que tiene en el lomo, se mueve en cualquier dirección al avanzar. Si detecte peligro, escupe tinta para escapar.",
     "heldItems": {
-      "uncommon": "DRAGONSCALE"
+      "uncommon": "DRAGON-SCALE"
     },
     "hiddenAbility": "DAMP"
   },
@@ -23726,7 +23726,7 @@
     "generation": "1",
     "pokedexEntry": "Las púas venenosas que cubren su cuerpo tienen mucho valor a la hora de preparar remedios de hierbas tradicionales. Como algo amenace su nido, atacará sin piedad.",
     "heldItems": {
-      "uncommon": "DRAGONSCALE"
+      "uncommon": "DRAGON-SCALE"
     },
     "hiddenAbility": "DAMP"
   },
@@ -23903,7 +23903,7 @@
     "generation": "1",
     "pokedexEntry": "En primavera, se pueden ver bancos de Goldeen remontando cascadas y ríos. Causa mucho daño cuando embiste con su único cuerno.",
     "heldItems": {
-      "uncommon": "MYSTICWATER"
+      "uncommon": "MYSTIC-WATER"
     },
     "hiddenAbility": "LIGHTNINGROD"
   },
@@ -24078,7 +24078,7 @@
     "generation": "1",
     "pokedexEntry": "Perfora agujeros en los cantos rodados de las cuencas de los ríos. Así protege sus huevos de cualquier ataque y evita que los arrastre la corriente.",
     "heldItems": {
-      "uncommon": "MYSTICWATER"
+      "uncommon": "MYSTIC-WATER"
     },
     "hiddenAbility": "LIGHTNINGROD"
   },
@@ -24269,7 +24269,7 @@
     "pokedexEntry": "De noche, se agrupan y hacen brillar su núcleo rojo. Los destellos se intercalan con el centelleo estelar. Si les arrancan alguna parte del cuerpo, la regeneran.",
     "heldItems": {
       "common": "STARDUST",
-      "uncommon": "STARPIECE"
+      "uncommon": "STAR-PIECE"
     },
     "hiddenAbility": "ANALYTIC"
   },
@@ -24476,7 +24476,7 @@
     "pokedexEntry": "En otro tiempo, se pensaba que Starmie era el resultado de los reflejos de las estrellas que centelleaban con suavidad en el cielo nocturno.",
     "heldItems": {
       "common": "STARDUST",
-      "uncommon": "STARPIECE"
+      "uncommon": "STAR-PIECE"
     },
     "hiddenAbility": "ANALYTIC"
   },
@@ -26533,9 +26533,9 @@
     "generation": "1",
     "pokedexEntry": "Está en peligro de extinción. Dicen que, al anochecer, se pone a cantar quejicoso mientras busca a los miembros de su especie que puedan quedar.",
     "heldItems": {
-      "common": "MYSTICWATER",
-      "uncommon": "MYSTICWATER",
-      "rare": "MYSTICWATER"
+      "common": "MYSTIC-WATER",
+      "uncommon": "MYSTIC-WATER",
+      "rare": "MYSTIC-WATER"
     },
     "hiddenAbility": "HYDRATION"
   },
@@ -26582,8 +26582,8 @@
     "generation": "1",
     "pokedexEntry": "Altera su estructura celular para cambiar de forma. Pero, si intenta transformarse en algo según los datos que tenga en la memoria, habrá detalles que se le escapen.",
     "heldItems": {
-      "common": "QUICKPOWDER",
-      "uncommon": "METALPOWDER"
+      "common": "QUICK-POWDER",
+      "uncommon": "METAL-POWDER"
     },
     "hiddenAbility": "IMPOSTER"
   },
@@ -29709,7 +29709,7 @@
     "generation": "1",
     "pokedexEntry": "Está mudando la piel continuamente. Es algo que necesita hacer porque la energía que tiene en su interior alcanza niveles que resultan incontrolables.",
     "heldItems": {
-      "uncommon": "DRAGONSCALE"
+      "uncommon": "DRAGON-SCALE"
     },
     "hiddenAbility": "MARVELSCALE"
   },
@@ -29889,7 +29889,7 @@
     "generation": "1",
     "pokedexEntry": "Acumula gran cantidad de energía. Dicen que altera el clima descargando energía por las esferas de cristal que tiene en el cuello y en la cola.",
     "heldItems": {
-      "uncommon": "DRAGONSCALE"
+      "uncommon": "DRAGON-SCALE"
     },
     "hiddenAbility": "MARVELSCALE"
   },
@@ -30139,7 +30139,7 @@
     "generation": "1",
     "pokedexEntry": "Es capaz de dar la vuelta al mundo en sólo 16 horas. Tiene buen corazón: guía a tierra firme a los barcos que se han perdido en plena tormenta.",
     "heldItems": {
-      "uncommon": "DRAGONSCALE"
+      "uncommon": "DRAGON-SCALE"
     },
     "hiddenAbility": "MULTISCALE"
   },
@@ -30863,9 +30863,9 @@
     "generation": "1",
     "pokedexEntry": "Dicen que posee el mapa genético de todos los Pokémon. Puede hacerse invisible a voluntad, así que logra pasar inadvertido aunque haya gente cerca.",
     "heldItems": {
-      "common": "LUMBERRY",
-      "uncommon": "LUMBERRY",
-      "rare": "LUMBERRY"
+      "common": "LUM-BERRY",
+      "uncommon": "LUM-BERRY",
+      "rare": "LUM-BERRY"
     }
   },
   "CHIKORITA": {
@@ -34757,7 +34757,7 @@
     "generation": "2",
     "pokedexEntry": "Cuando detecta peligro, descarga electricidad positiva y negativa por sus dos antenas. Vive en zonas profundas a las que no llega la luz del sol.",
     "heldItems": {
-      "uncommon": "DEEPSEASCALE"
+      "uncommon": "DEEP-SEA-SCALE"
     },
     "hiddenAbility": "WATERABSORB"
   },
@@ -34951,7 +34951,7 @@
     "generation": "2",
     "pokedexEntry": "Las esferas brillantes que tiene en la cabeza emiten luz y se forman a partir de su aleta dorsal. Este Pokémon logra iluminar las profundidades abisales.",
     "heldItems": {
-      "uncommon": "DEEPSEASCALE"
+      "uncommon": "DEEP-SEA-SCALE"
     },
     "hiddenAbility": "WATERABSORB"
   },
@@ -35312,7 +35312,7 @@
     "generation": "2",
     "pokedexEntry": "Cuando hay lluvia de estrellas, se les ve danzando en círculos durante la noche. Sólo paran de día; entonces, dejan de bailar y beben el rocío de la mañana.",
     "heldItems": {
-      "uncommon": "MOONSTONE"
+      "uncommon": "MOON-STONE"
     },
     "hiddenAbility": "FRIENDGUARD"
   },
@@ -37185,7 +37185,7 @@
     "generation": "2",
     "pokedexEntry": "A los pétalos de las flores se les acentúa el color si están expuestas a la luz solar. Cuando persiste el tiempo nublado, dicen que invoca al sol mediante un baile ritual.",
     "heldItems": {
-      "uncommon": "ABSORBBULB"
+      "uncommon": "ABSORB-BULB"
     },
     "hiddenAbility": "HEALER"
   },
@@ -38069,7 +38069,7 @@
     "generation": "2",
     "pokedexEntry": "El mechón rizado de Politoed confirma su condición de rey. Dicen que cuanto más le crece y más se le riza, mayor es el respeto que recibe de sus súbditos.",
     "heldItems": {
-      "uncommon": "KINGSROCK"
+      "uncommon": "KINGS-ROCK"
     },
     "hiddenAbility": "DRIZZLE"
   },
@@ -39510,7 +39510,7 @@
     "generation": "2",
     "pokedexEntry": "Tiene un ángulo de visión de 360 grados. Es capaz de pararse de repente y cambiar de dirección mientras vuela, lo que le resulta útil para dar caza a sus presas.",
     "heldItems": {
-      "uncommon": "WIDELENS"
+      "uncommon": "WIDE-LENS"
     },
     "hiddenAbility": "FRISK"
   },
@@ -40883,7 +40883,7 @@
     "generation": "2",
     "pokedexEntry": "Slowking investiga cada día los misterios del mundo que aún no se han resuelto, pero al parecer se le olvida lo aprendido cuando el Shellder que lleva se suelta.",
     "heldItems": {
-      "uncommon": "KINGSROCK"
+      "uncommon": "KINGS-ROCK"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -42651,7 +42651,7 @@
     "generation": "2",
     "pokedexEntry": "Vive a aún mayor profundidad que Onix. Se le conoce por cavar hacia el centro de la tierra. Hay datos que demuestran que ha llegado a alcanzar 1 km de profundidad.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "SHEERFORCE"
   },
@@ -43373,7 +43373,7 @@
     "generation": "2",
     "pokedexEntry": "Bebe agua, se hincha y usa la presión del agua que ha tragado para lanzar plumas tóxicas a través de la piel. Para Qwilfish, nadar es todo un desafío.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "INTIMIDATE"
   },
@@ -43801,9 +43801,9 @@
     "generation": "2",
     "pokedexEntry": "Se esconde bajo las rocas, oculto en su caparazón, para comerse las bayas que ha recolectado. Las bayas se mezclan con sus fluidos corporales y originan zumo.",
     "heldItems": {
-      "common": "BERRYJUICE",
-      "uncommon": "BERRYJUICE",
-      "rare": "BERRYJUICE"
+      "common": "BERRY-JUICE",
+      "uncommon": "BERRY-JUICE",
+      "rare": "BERRY-JUICE"
     },
     "hiddenAbility": "CONTRARY"
   },
@@ -44253,7 +44253,7 @@
     "generation": "2",
     "pokedexEntry": "Trepa a los árboles clavando en la corteza sus garras curvadas. Busca nidos desprovistos de vigilancia paterna para robar huevos y comérselos.",
     "heldItems": {
-      "uncommon": "QUICKCLAW"
+      "uncommon": "QUICK-CLAW"
     },
     "hiddenAbility": "PICKPOCKET"
   },
@@ -45703,7 +45703,7 @@
     "generation": "2",
     "pokedexEntry": "Corsola vive en las cálidas aguas de los mares del Sur. Cuando hay contaminación, las bellas ramas coralinas que le cubren se decoloran y se caen a pedazos.",
     "heldItems": {
-      "uncommon": "LUMINOUSMOSS"
+      "uncommon": "LUMINOUS-MOSS"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -46754,7 +46754,7 @@
     "generation": "2",
     "pokedexEntry": "Tiene el cuerpo y las alas de acero. Hace mucho, la gente usaba las plumas que se le caían a Skarmory para forjar espadas y cuchillos.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "WEAKARMOR"
   },
@@ -47407,7 +47407,7 @@
     "generation": "2",
     "pokedexEntry": "Duerme tranquilamente en el fondo del mar. Cuando sale a la superficie, crea un enorme torbellino que puede tragarse botes enteros.",
     "heldItems": {
-      "uncommon": "DRAGONSCALE"
+      "uncommon": "DRAGON-SCALE"
     },
     "hiddenAbility": "DAMP"
   },
@@ -49478,9 +49478,9 @@
     "generation": "2",
     "pokedexEntry": "Miltank da al día 20 litros de una dulce leche que gusta a grandes y pequeños. Aquellos a los que no les agrada la leche, la toman en forma de yogurt.",
     "heldItems": {
-      "common": "MOOMOOMILK",
-      "uncommon": "MOOMOOMILK",
-      "rare": "MOOMOOMILK"
+      "common": "MOOMOO-MILK",
+      "uncommon": "MOOMOO-MILK",
+      "rare": "MOOMOO-MILK"
     },
     "hiddenAbility": "SAPSIPPER"
   },
@@ -49748,9 +49748,9 @@
     "generation": "2",
     "pokedexEntry": "Percibe la tristeza a través de su sedoso pelaje. Si ve que alguien está apenado, acudirá a su lado y compartirá un huevo de la felicidad para animarle.",
     "heldItems": {
-      "common": "LUCKYEGG",
-      "uncommon": "LUCKYEGG",
-      "rare": "LUCKYEGG"
+      "common": "LUCKY-EGG",
+      "uncommon": "LUCKY-EGG",
+      "rare": "LUCKY-EGG"
     },
     "hiddenAbility": "HEALER"
   },
@@ -51422,9 +51422,9 @@
     "generation": "2",
     "pokedexEntry": "Su plumaje contiene siete colores que se ven según el ángulo desde el que le da la luz. Se cree que es portador de alegría. Este Pokémon vive a los pies del arco iris.",
     "heldItems": {
-      "common": "SACREDASH",
-      "uncommon": "SACREDASH",
-      "rare": "SACREDASH"
+      "common": "SACRED-ASH",
+      "uncommon": "SACRED-ASH",
+      "rare": "SACRED-ASH"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -51627,9 +51627,9 @@
     "generation": "2",
     "pokedexEntry": "Vino del futuro haciendo un viaje en el tiempo. Hay quien piensa que, mientras Celebi siga apareciendo, el futuro será brillante y esperanzador.",
     "heldItems": {
-      "common": "LUMBERRY",
-      "uncommon": "LUMBERRY",
-      "rare": "LUMBERRY"
+      "common": "LUM-BERRY",
+      "uncommon": "LUM-BERRY",
+      "rare": "LUM-BERRY"
     }
   },
   "TREECKO": {
@@ -54498,7 +54498,7 @@
     "pokedexEntry": "Es tremendamente rápido si corre en línea recta. Cuando detecta a su presa bajo el agua de una charca, da un veloz salto y la atrapa con sus afiladas garras.",
     "heldItems": {
       "common": "POTION",
-      "uncommon": "MAXREVIVE"
+      "uncommon": "MAX-REVIVE"
     },
     "hiddenAbility": "QUICKFEET"
   },
@@ -54575,8 +54575,8 @@
     "generation": "3",
     "pokedexEntry": "Se encarama a las ramas de los árboles y come hojas. El hilo que escupe por la boca se solidifica al contacto con el aire y ralentiza los movimientos del enemigo.",
     "heldItems": {
-      "common": "PECHABERRY",
-      "uncommon": "BRIGHTPOWDER"
+      "common": "PECHA-BERRY",
+      "uncommon": "BRIGHT-POWDER"
     },
     "hiddenAbility": "RUNAWAY"
   },
@@ -54812,7 +54812,7 @@
     "generation": "3",
     "pokedexEntry": "Su principal característica son los dibujos y colores de sus alas. Vuela por campos cubiertos de flores para recoger el polen. Si le molestan, ataca sin dudar.",
     "heldItems": {
-      "uncommon": "SHEDSHELL"
+      "uncommon": "SHED-SHELL"
     },
     "hiddenAbility": "RIVALRY"
   },
@@ -55046,7 +55046,7 @@
     "generation": "3",
     "pokedexEntry": "Es un Pokémon nocturno que llega desde campos y montañas atraído por las luces. Al batir las alas, libera un polvillo muy tóxico.",
     "heldItems": {
-      "uncommon": "SHEDSHELL"
+      "uncommon": "SHED-SHELL"
     },
     "hiddenAbility": "COMPOUNDEYES"
   },
@@ -55230,7 +55230,7 @@
     "generation": "3",
     "pokedexEntry": "Vive en charcas de agua clara. Ayuda a los Pokémon pequeños a cruzar las charcas transportándolos sobre la hoja que tiene.",
     "heldItems": {
-      "uncommon": "MENTALHERB"
+      "uncommon": "MENTAL-HERB"
     },
     "hiddenAbility": "OWNTEMPO"
   },
@@ -55453,7 +55453,7 @@
     "generation": "3",
     "pokedexEntry": "De noche, le encanta surgir de repente del río para asustar a la gente. Se alimenta del musgo que crece en las rocas de las cuencas de los ríos.",
     "heldItems": {
-      "uncommon": "MENTALHERB"
+      "uncommon": "MENTAL-HERB"
     },
     "hiddenAbility": "OWNTEMPO"
   },
@@ -55672,7 +55672,7 @@
     "generation": "3",
     "pokedexEntry": "Cuando oye música festiva, las células se le revolucionan y comienza a bailar con mucho ritmo. No se acobarda ni delante del enemigo más fuerte.",
     "heldItems": {
-      "uncommon": "MENTALHERB"
+      "uncommon": "MENTAL-HERB"
     },
     "hiddenAbility": "OWNTEMPO"
   },
@@ -55862,7 +55862,7 @@
     "generation": "3",
     "pokedexEntry": "Se cuelga de las ramas y absorbe sus nutrientes. Cuando acaba de comer, se queda tan lleno que acaba cayéndose al suelo y dándose un tortazo.",
     "heldItems": {
-      "uncommon": "POWERHERB"
+      "uncommon": "POWER-HERB"
     },
     "hiddenAbility": "PICKPOCKET"
   },
@@ -56107,7 +56107,7 @@
     "generation": "3",
     "pokedexEntry": "Vive en los bosques y se le da muy bien subirse a los árboles. La nariz que tiene, grande y puntiaguda, es su punto débil. Si se la pellizcan, pierde fuerza.",
     "heldItems": {
-      "uncommon": "POWERHERB"
+      "uncommon": "POWER-HERB"
     },
     "hiddenAbility": "PICKPOCKET"
   },
@@ -56406,7 +56406,7 @@
     "generation": "3",
     "pokedexEntry": "Dicen que llega con los fríos vientos de invierno. Se le considera guardián de los bosques y se le teme; nadie se atreve a adentrarse en su morada.",
     "heldItems": {
-      "uncommon": "POWERHERB"
+      "uncommon": "POWER-HERB"
     },
     "hiddenAbility": "SHARPNESS"
   },
@@ -56900,7 +56900,7 @@
     "generation": "3",
     "pokedexEntry": "Hace su nido en acantilados escarpados, a la orilla del mar. Como le cuesta batir las alas durante mucho tiempo, se deja llevar por las corrientes de aire ascendentes.",
     "heldItems": {
-      "common": "PRETTYFEATHER"
+      "common": "PRETTY-FEATHER"
     },
     "hiddenAbility": "RAINDISH"
   },
@@ -57116,7 +57116,7 @@
     "generation": "3",
     "pokedexEntry": "Va esquivando las crestas de las olas. Cuando localiza a su presa, usa el enorme pico que tiene para sacarla del agua. También protege sus huevos con él.",
     "heldItems": {
-      "common": "PRETTYFEATHER"
+      "common": "PRETTY-FEATHER"
     },
     "hiddenAbility": "RAINDISH"
   },
@@ -58248,7 +58248,7 @@
     "generation": "3",
     "pokedexEntry": "Intimida al enemigo con los ojos que tiene dibujados en las antenas. Como no puede volar si se le mojan las alas, se protege de la lluvia bajo aleros y grandes árboles.",
     "heldItems": {
-      "uncommon": "SILVERPOWDER"
+      "uncommon": "SILVER-POWDER"
     },
     "hiddenAbility": "UNNERVE"
   },
@@ -58418,8 +58418,8 @@
     "generation": "3",
     "pokedexEntry": "Le encanta alimentarse de la tierra abonada y húmeda de los bosques. Si vas a un bosque después de que haya llovido, verás a Shroomish engullendo tierra.",
     "heldItems": {
-      "common": "TINYMUSHROOM",
-      "uncommon": "BIGMUSHROOM"
+      "common": "TINY-MUSHROOM",
+      "uncommon": "BIG-MUSHROOM"
     },
     "hiddenAbility": "QUICKFEET"
   },
@@ -58649,8 +58649,8 @@
     "generation": "3",
     "pokedexEntry": "Libera esporas por los orificios de la cabeza. Le encanta el clima cálido y húmedo. Se nutre de árboles y plantas que hay en el campo y en el bosque.",
     "heldItems": {
-      "common": "TINYMUSHROOM",
-      "uncommon": "BIGMUSHROOM"
+      "common": "TINY-MUSHROOM",
+      "uncommon": "BIG-MUSHROOM"
     },
     "hiddenAbility": "POISONHEAL"
   },
@@ -59506,7 +59506,7 @@
     "generation": "3",
     "pokedexEntry": "Hace su nido en las raíces de un árbol resistente. Tiene unas antenas con forma de bigotes que usa para examinar el oscuro terreno que le rodea.",
     "heldItems": {
-      "uncommon": "SOFTSAND"
+      "uncommon": "SOFT-SAND"
     },
     "hiddenAbility": "RUNAWAY"
   },
@@ -60669,7 +60669,7 @@
     "generation": "3",
     "pokedexEntry": "Lo que más le gusta es fortalecer su cuerpo. Si notas que el suelo de una cueva tiembla y el sonido retumba, es porque Makuhita está entrenándose.",
     "heldItems": {
-      "uncommon": "BLACKBELT"
+      "uncommon": "BLACK-BELT"
     },
     "hiddenAbility": "SHEERFORCE"
   },
@@ -60902,7 +60902,7 @@
     "generation": "3",
     "pokedexEntry": "Tiene la costumbre de desafiar a otros sin medir la fuerza del adversario. Alguna vez se ha montado sobre las vías del tren y parado trenes a base de puñetazos.",
     "heldItems": {
-      "uncommon": "KINGSROCK"
+      "uncommon": "KINGS-ROCK"
     },
     "hiddenAbility": "SHEERFORCE"
   },
@@ -61948,7 +61948,7 @@
     "generation": "3",
     "pokedexEntry": "Cava conductos en cuevas usando sus afiladas garras para buscar rocas con las que alimentarse. Sableye permanece al acecho en la oscuridad; no es fácil verlo.",
     "heldItems": {
-      "uncommon": "WIDELENS"
+      "uncommon": "WIDE-LENS"
     },
     "hiddenAbility": "PRANKSTER"
   },
@@ -62189,7 +62189,7 @@
     "generation": "3",
     "pokedexEntry": "Las gigantescas fauces que tiene fueron cuernos de acero en su día. Engaña al enemigo con gestos dóciles y a continuación abre sus fauces.",
     "heldItems": {
-      "uncommon": "IRONBALL"
+      "uncommon": "IRON-BALL"
     },
     "hiddenAbility": "SHEERFORCE"
   },
@@ -62392,7 +62392,7 @@
     "generation": "3",
     "pokedexEntry": "Está cubierto por una coraza de acero que se regenera cuando evoluciona. La coraza vieja, ya estropeada, se recicla para fabricar productos de hierro.",
     "heldItems": {
-      "uncommon": "HARDSTONE"
+      "uncommon": "HARD-STONE"
     },
     "hiddenAbility": "HEAVYMETAL"
   },
@@ -62588,7 +62588,7 @@
     "generation": "3",
     "pokedexEntry": "Si dos Lairon se encuentran en su hábitat natural, luchan por su territorio golpeándose con sus cuerpos de acero. El estruendo que forman se oye a kilómetros.",
     "heldItems": {
-      "uncommon": "HARDSTONE"
+      "uncommon": "HARD-STONE"
     },
     "hiddenAbility": "HEAVYMETAL"
   },
@@ -62829,7 +62829,7 @@
     "generation": "3",
     "pokedexEntry": "Los cuernos de hierro que tiene le crecen poco a poco. Sirven para determinar la edad que tiene. Luce los desperfectos de su coraza en recuerdo de sus combates.",
     "heldItems": {
-      "uncommon": "HARDSTONE"
+      "uncommon": "HARD-STONE"
     },
     "hiddenAbility": "HEAVYMETAL"
   },
@@ -63894,7 +63894,7 @@
     "generation": "3",
     "pokedexEntry": "Siempre anima a sus compañeros Pokémon. Crea cortocircuitos con la electricidad que libera por las patas para hacer pompones de chispas y animar al resto.",
     "heldItems": {
-      "uncommon": "CELLBATTERY"
+      "uncommon": "CELL-BATTERY"
     },
     "hiddenAbility": "LIGHTNINGROD"
   },
@@ -64114,7 +64114,7 @@
     "generation": "3",
     "pokedexEntry": "En una reunión de estudiosos de Pokémon, se anunció que la exposición simultánea a la electricidad de un Plusle y de un Minun mejora la circulación y da más vitalidad.",
     "heldItems": {
-      "uncommon": "CELLBATTERY"
+      "uncommon": "CELL-BATTERY"
     },
     "hiddenAbility": "VOLTABSORB"
   },
@@ -64338,7 +64338,7 @@
     "generation": "3",
     "pokedexEntry": "Vuelan en enjambres dibujando con la luz de la cola formas geométricas en el cielo nocturno. Si la charca en la que viven se ensucia, se mudan a otro sitio.",
     "heldItems": {
-      "uncommon": "BRIGHTPOWDER"
+      "uncommon": "BRIGHT-POWDER"
     },
     "hiddenAbility": "PRANKSTER"
   },
@@ -64564,7 +64564,7 @@
     "generation": "3",
     "pokedexEntry": "Este Pokémon nocturno sólo está activo de noche. Guía a un enjambre de Volbeat para que hagan dibujos en el cielo de la noche y saben hacer hasta 200 distintos.",
     "heldItems": {
-      "uncommon": "BRIGHTPOWDER"
+      "uncommon": "BRIGHT-POWDER"
     },
     "hiddenAbility": "PRANKSTER"
   },
@@ -64769,7 +64769,7 @@
     "generation": "3",
     "pokedexEntry": "Si Roselia absorbe sus nutrientes de las ricas lluvias primaverales, florece con gran belleza. La fragancia de sus flores hace que sus enemigos se confíen.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "LEAFGUARD"
   },
@@ -64969,8 +64969,8 @@
     "generation": "3",
     "pokedexEntry": "Con el líquido que tiene en el estómago, puede digerir hasta hierro de desecho. Es capaz de tragarse de una sentada cualquier cosa que lo iguale en tamaño.",
     "heldItems": {
-      "common": "ORANBERRY",
-      "uncommon": "SITRUSBERRY"
+      "common": "ORAN-BERRY",
+      "uncommon": "SITRUS-BERRY"
     },
     "hiddenAbility": "GLUTTONY"
   },
@@ -65171,8 +65171,8 @@
     "generation": "3",
     "pokedexEntry": "Tiene un ácido tan potente en el estómago que le permite digerir casi cualquier cosa. Lo único que Swalot no puede digerir es su propio estómago.",
     "heldItems": {
-      "common": "ORANBERRY",
-      "uncommon": "SITRUSBERRY"
+      "common": "ORAN-BERRY",
+      "uncommon": "SITRUS-BERRY"
     },
     "hiddenAbility": "GLUTTONY"
   },
@@ -65359,7 +65359,7 @@
     "generation": "3",
     "pokedexEntry": "Los Carvanha van en grupo atacando barcos hasta que los hunden. Aunque dicen que es un Pokémon muy violento, huye en cuanto se queda solo.",
     "heldItems": {
-      "uncommon": "DEEPSEATOOTH"
+      "uncommon": "DEEP-SEA-TOOTH"
     },
     "hiddenAbility": "SPEEDBOOST"
   },
@@ -65564,7 +65564,7 @@
     "generation": "3",
     "pokedexEntry": "Este Pokémon, muy violento y astuto, es el terror de los mares. La textura de su piel reduce al mínimo la resistencia al agua. Llega a alcanzar los 120 km por hora.",
     "heldItems": {
-      "uncommon": "DEEPSEATOOTH"
+      "uncommon": "DEEP-SEA-TOOTH"
     },
     "hiddenAbility": "SPEEDBOOST"
   },
@@ -67429,7 +67429,7 @@
     "generation": "3",
     "pokedexEntry": "Tiene unas enormes fauces con las que destruye piedras. Como tiene una cabeza muy grande, le cuesta conseguir ponerse de pie si se cae de espaldas.",
     "heldItems": {
-      "uncommon": "SOFTSAND"
+      "uncommon": "SOFT-SAND"
     },
     "hiddenAbility": "SHEERFORCE"
   },
@@ -68172,7 +68172,7 @@
     "generation": "3",
     "pokedexEntry": "Cacnea vive en desiertos donde nunca llueve. Para luchar, balancea los brazos muy gruesos y cubiertos de pinchos. Una vez al año, le brota una flor amarilla.",
     "heldItems": {
-      "uncommon": "STICKYBARB"
+      "uncommon": "STICKY-BARB"
     },
     "hiddenAbility": "WATERABSORB"
   },
@@ -68422,7 +68422,7 @@
     "generation": "3",
     "pokedexEntry": "Como ha pasado miles de años en áridos desiertos, la sangre se le ha transformado en una especie de arena. Es nocturno, así que caza de noche.",
     "heldItems": {
-      "uncommon": "STICKYBARB"
+      "uncommon": "STICKY-BARB"
     },
     "hiddenAbility": "WATERABSORB"
   },
@@ -69155,7 +69155,7 @@
     "generation": "3",
     "pokedexEntry": "Cuando lucha, se yergue sobre las patas traseras y ataca con sus afiladas zarpas. El pelaje se le eriza si se encuentra con un Seviper.",
     "heldItems": {
-      "uncommon": "QUICKCLAW"
+      "uncommon": "QUICK-CLAW"
     },
     "hiddenAbility": "TOXICBOOST"
   },
@@ -69389,7 +69389,7 @@
     "generation": "3",
     "pokedexEntry": "Seviper y Zangoose son rivales eternos. Contrarresta la gran agilidad de Zangoose con una cola en forma de espada que además rezuma un veneno terrible.",
     "heldItems": {
-      "uncommon": "SHEDSHELL"
+      "uncommon": "SHED-SHELL"
     },
     "hiddenAbility": "SHEDSKIN"
   },
@@ -69606,7 +69606,7 @@
     "pokedexEntry": "Llega a ser muy activo en las noches de luna llena. Este Pokémon fue descubierto hace 40 años en el lugar en el que había caído un meteorito.",
     "heldItems": {
       "common": "STARDUST",
-      "uncommon": "MOONSTONE"
+      "uncommon": "MOON-STONE"
     }
   },
   "SOLROCK": {
@@ -69831,7 +69831,7 @@
     "pokedexEntry": "El origen de la fuerza de este Pokémon está en la energía solar. En días soleados, grupos de Solrock se alinean de cara al sol para absorber su luz.",
     "heldItems": {
       "common": "STARDUST",
-      "uncommon": "SUNSTONE"
+      "uncommon": "SUN-STONE"
     }
   },
   "BARBOACH": {
@@ -70824,7 +70824,7 @@
     "generation": "3",
     "pokedexEntry": "Los Baltoy se mueven haciendo girar su única extremidad inferior. Aparecen representados en las pinturas murales de las ruinas de una antigua ciudad.",
     "heldItems": {
-      "uncommon": "LIGHTCLAY"
+      "uncommon": "LIGHT-CLAY"
     }
   },
   "CLAYDOL": {
@@ -71054,7 +71054,7 @@
     "generation": "3",
     "pokedexEntry": "Claydol duerme mientras levita. Tiene los brazos separados del cuerpo y los mantiene flotando gracias a sus poderes psicoquinéticos.",
     "heldItems": {
-      "uncommon": "LIGHTCLAY"
+      "uncommon": "LIGHT-CLAY"
     }
   },
   "LILEEP": {
@@ -71240,7 +71240,7 @@
     "generation": "3",
     "pokedexEntry": "Se disfraza de alga marina moviendo los tentáculos. Si una presa se le acerca despistada, será engullida de golpe. Se extinguió hace 100 millones de años.",
     "heldItems": {
-      "uncommon": "BIGROOT"
+      "uncommon": "BIG-ROOT"
     },
     "hiddenAbility": "STORMDRAIN"
   },
@@ -71429,7 +71429,7 @@
     "generation": "3",
     "pokedexEntry": "Arrastra su pesado cuerpo por el fondo marino. Anida cerca de la superficie, en aguas templadas. Cuando hay marea baja, es posible ver a Cradily en la playa.",
     "heldItems": {
-      "uncommon": "BIGROOT"
+      "uncommon": "BIG-ROOT"
     },
     "hiddenAbility": "STORMDRAIN"
   },
@@ -72306,9 +72306,9 @@
     "generation": "3",
     "pokedexEntry": "Tiene la habilidad de cambiar y adaptarse al tiempo. Según el clima, se transformará en sol, o en nubarrones de lluvia, nieve o arena.",
     "heldItems": {
-      "common": "MYSTICWATER",
-      "uncommon": "MYSTICWATER",
-      "rare": "MYSTICWATER"
+      "common": "MYSTIC-WATER",
+      "uncommon": "MYSTIC-WATER",
+      "rare": "MYSTIC-WATER"
     }
   },
   "KECLEON": {
@@ -72757,7 +72757,7 @@
     "generation": "3",
     "pokedexEntry": "Este Pokémon deambula en la oscuridad de la noche en busca de sentimientos negativos, como el rencor y la envidia. Antes del amanecer, se retira a su hogar.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     },
     "hiddenAbility": "CURSEDBODY"
   },
@@ -72962,7 +72962,7 @@
     "generation": "3",
     "pokedexEntry": "Solía ser un muñeco de felpa al que abandonaron. Dicen que vive en vertederos de basura y que va buscando al niño que lo tiró en su día.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     },
     "hiddenAbility": "INSOMNIA"
   },
@@ -73155,7 +73155,7 @@
     "generation": "3",
     "pokedexEntry": "Una única mirada lanzada por su ojo escarlata basta para dejar petrificado de miedo al rival más fuerte. Deambula sin rumbo al amparo de la noche.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     },
     "hiddenAbility": "FRISK"
   },
@@ -73391,7 +73391,7 @@
     "generation": "3",
     "pokedexEntry": "Se piensa que su cuerpo es hueco y que sólo contiene una fantasmagórica bola de fuego. Con todo, nadie ha podido confirmar esta teoría.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     },
     "hiddenAbility": "FRISK"
   },
@@ -73843,7 +73843,7 @@
     "generation": "3",
     "pokedexEntry": "Se ponen a volar sin parar cuando llega la estación cálida. Se comunica con otros a través de siete tipos de grito distintos muy característicos.",
     "heldItems": {
-      "uncommon": "CLEANSETAG"
+      "uncommon": "CLEANSE-TAG"
     }
   },
   "ABSOL": {
@@ -75248,7 +75248,7 @@
     "pokedexEntry": "Un Clamperl cierra de golpe la concha para evitar que escape su presa. Dicen que la perla que crea al evolucionar está dotada de una misteriosa energía.",
     "heldItems": {
       "common": "PEARL",
-      "uncommon": "BIGPEARL"
+      "uncommon": "BIG-PEARL"
     },
     "hiddenAbility": "RATTLED"
   },
@@ -75417,7 +75417,7 @@
     "generation": "3",
     "pokedexEntry": "Para soportar la presión del mar a gran profundidad desarrolla una espina dorsal muy gruesa y fuerte. La cola, con forma de pez, tiene ojos que brillan.",
     "heldItems": {
-      "uncommon": "DEEPSEATOOTH"
+      "uncommon": "DEEP-SEA-TOOTH"
     },
     "hiddenAbility": "WATERVEIL"
   },
@@ -75586,7 +75586,7 @@
     "generation": "3",
     "pokedexEntry": "Gorebyss absorbe los fluidos corporales de su presa a través de la boca, que es fina y tubular. Cuando acaba de comer, se le acentúa el tono rosado.",
     "heldItems": {
-      "uncommon": "DEEPSEASCALE"
+      "uncommon": "DEEP-SEA-SCALE"
     },
     "hiddenAbility": "HYDRATION"
   },
@@ -75785,7 +75785,7 @@
     "generation": "3",
     "pokedexEntry": "Se llegó a creer que se había extinguido. La especie no ha cambiado de forma desde hace 100 millones de años. Camina por el fondo marino usando las aletas frontales.",
     "heldItems": {
-      "uncommon": "DEEPSEASCALE"
+      "uncommon": "DEEP-SEA-SCALE"
     },
     "hiddenAbility": "STURDY"
   },
@@ -75976,7 +75976,7 @@
     "generation": "3",
     "pokedexEntry": "Para Luvdisc, las ramas de Corsola son su nido. Existe una antigua costumbre que consiste en regalar un Luvdisc para expresar un sentimiento amoroso.",
     "heldItems": {
-      "common": "HEARTSCALE"
+      "common": "HEART-SCALE"
     },
     "hiddenAbility": "HYDRATION"
   },
@@ -76157,7 +76157,7 @@
     "generation": "3",
     "pokedexEntry": "Aunque pequeño, este Pokémon es muy fuerte porque su cuerpo es puro músculo. Propina cabezazos con el cráneo, que es tan duro como el hierro.",
     "heldItems": {
-      "uncommon": "DRAGONFANG"
+      "uncommon": "DRAGON-FANG"
     },
     "hiddenAbility": "SHEERFORCE"
   },
@@ -76333,7 +76333,7 @@
     "generation": "3",
     "pokedexEntry": "Apenas come cuando va a evolucionar. Soportar el hambre lo vuelve resistente. Cuando empieza a evolucionar, comienza a perder su coraza.",
     "heldItems": {
-      "uncommon": "DRAGONFANG"
+      "uncommon": "DRAGON-FANG"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -76550,7 +76550,7 @@
     "generation": "3",
     "pokedexEntry": "Después de muchos años, su estructura celular sufrió una mutación repentina y le crecieron alas. Cuando se enfada, no se atiene a razones y entra en cólera.",
     "heldItems": {
-      "uncommon": "DRAGONFANG"
+      "uncommon": "DRAGON-FANG"
     },
     "hiddenAbility": "MOXIE"
   },
@@ -76617,7 +76617,7 @@
     "generation": "3",
     "pokedexEntry": "Cuando los Beldum van en enjambre, se mueven al unísono en perfecta armonía, como si fueran un solo Pokémon. Se comunican por ondas cerebrales.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "LIGHTMETAL"
   },
@@ -76824,7 +76824,7 @@
     "generation": "3",
     "pokedexEntry": "Sus brazos acaban en unas garras que acumulan energía destructiva con la que rasga planchas de hierro como si fueran de papel. Vuela a más de 100 km por hora.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "LIGHTMETAL"
   },
@@ -77041,7 +77041,7 @@
     "generation": "3",
     "pokedexEntry": "Metagross tiene cuatro cerebros unidos por una compleja red neuronal. Esta integración hace que sea más inteligente que un ordenador de última generación.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "IRONFIST"
   },
@@ -78857,9 +78857,9 @@
     "generation": "3",
     "pokedexEntry": "Dicen que Jirachi hace que se cumplan los deseos. Mientras duerme, una resistente capa cristalina lo envuelve para protegerlo de los enemigos.",
     "heldItems": {
-      "common": "STARPIECE",
-      "uncommon": "STARPIECE",
-      "rare": "STARPIECE"
+      "common": "STAR-PIECE",
+      "uncommon": "STAR-PIECE",
+      "rare": "STAR-PIECE"
     }
   },
   "DEOXYS": {
@@ -82737,7 +82737,7 @@
     "generation": "4",
     "pokedexEntry": "En invierno cierra su capullo para protegerse del frío. En primavera el capullo se abre y esparce polen. Vive junto a los estanques de agua clara.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "LEAFGUARD"
   },
@@ -82938,7 +82938,7 @@
     "generation": "4",
     "pokedexEntry": "Atrae a las presas con un dulce aroma y las derrota con los látigos espinosos de sus brazos. Cada una de sus manos contiene toxinas diferentes.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "TECHNICIAN"
   },
@@ -83947,7 +83947,7 @@
     "generation": "4",
     "pokedexEntry": "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon. Los materiales que encuentra pasan a formar parte de su cuerpo.",
     "heldItems": {
-      "uncommon": "SILVERPOWDER"
+      "uncommon": "SILVER-POWDER"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -84128,7 +84128,7 @@
     "generation": "4",
     "pokedexEntry": "Le encanta la miel de las flores y roba la que recoge Combee. No tiene nido. Vuela sobre los campos y las montañas en busca de miel floral.",
     "heldItems": {
-      "uncommon": "SILVERPOWDER"
+      "uncommon": "SILVER-POWDER"
     },
     "hiddenAbility": "TINTEDLENS"
   },
@@ -84438,7 +84438,7 @@
     "generation": "4",
     "pokedexEntry": "Su abdomen es un panal de larvas que alimenta con la miel recogida por Combee. Libera feromonas para hacer que hagan lo que diga cuando combate.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "UNNERVE"
   },
@@ -85239,7 +85239,7 @@
     "generation": "4",
     "pokedexEntry": "La pequeña esfera, dulce y sabrosa, contiene los nutrientes necesarios para evolucionar. Está tan rica que los Starly siempre intentan comérsela.",
     "heldItems": {
-      "uncommon": "MIRACLESEED"
+      "uncommon": "MIRACLE-SEED"
     }
   },
   "CHERRIM": {
@@ -85391,7 +85391,7 @@
     "generation": "4",
     "pokedexEntry": "Florece en épocas de mucha luz solar. Intenta compensar lo que soportó como capullo. Si la luz solar mengua, se transforma en capullo.",
     "heldItems": {
-      "uncommon": "MIRACLESEED"
+      "uncommon": "MIRACLE-SEED"
     }
   },
   "SHELLOS": {
@@ -87788,7 +87788,7 @@
     "generation": "4",
     "pokedexEntry": "Emite chillidos al agitar la esfera de su garganta. Se mueve con enérgicos saltos. Ensordece a sus rivales con sonidos de alta frecuencia.",
     "heldItems": {
-      "uncommon": "CLEANSETAG"
+      "uncommon": "CLEANSE-TAG"
     }
   },
   "STUNKY": {
@@ -88410,7 +88410,7 @@
     "generation": "4",
     "pokedexEntry": "Se descubrieron herramientas con su forma en tumbas antiguas. Algunos investigadores creen que antiguamente reflejaba las cosas como un espejo.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "HEAVYMETAL"
   },
@@ -88651,7 +88651,7 @@
     "generation": "4",
     "pokedexEntry": "Se produjo un gran revuelo cuando encontraron uno en una obra después de 2000 años durmiendo. Hace tiempo, la gente creía que traía buenas cosechas.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "HEAVYMETAL"
   },
@@ -89245,7 +89245,7 @@
     "generation": "4",
     "pokedexEntry": "Le encantan las cosas blancas y redondas. Imita a Chansey llevando una roca en forma de huevo. Se cuela entre los pies de los demás y hace que tropiecen.",
     "heldItems": {
-      "common": "OVALSTONE"
+      "common": "OVAL-STONE"
     },
     "hiddenAbility": "FRIENDGUARD"
   },
@@ -91506,7 +91506,7 @@
     "generation": "4",
     "pokedexEntry": "Agarra a sus presas con las garras de la cola y les inyecta veneno. Espera hasta que hace efecto. Se entierra en la arena y espera a que pase una presa.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "KEENEYE"
   },
@@ -91734,7 +91734,7 @@
     "generation": "4",
     "pokedexEntry": "Sus brazos tienen fuerza para destrozar un coche. La punta de sus zarpas segrega veneno. Su cabeza rota 180 grados para poder ver en todas direcciones.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "KEENEYE"
   },
@@ -91971,7 +91971,7 @@
     "generation": "4",
     "pokedexEntry": "Pilla desprevenidos a sus rivales para pincharles. Tiene bolsas venenosas en las mejillas. Cuando las infla emite un sonido para intimidar.",
     "heldItems": {
-      "uncommon": "BLACKSLUDGE"
+      "uncommon": "BLACK-SLUDGE"
     },
     "hiddenAbility": "ANTICIPATION"
   },
@@ -92189,7 +92189,7 @@
     "generation": "4",
     "pokedexEntry": "Sus bolsas venenosas almacenan una toxina que le llega a las garras por unos tubos en los brazos. Es tan potente que un simple arañazo puede ser mortal.",
     "heldItems": {
-      "uncommon": "BLACKSLUDGE"
+      "uncommon": "BLACK-SLUDGE"
     },
     "hiddenAbility": "ANTICIPATION"
   },
@@ -93110,7 +93110,7 @@
     "generation": "4",
     "pokedexEntry": "Vive en montañas nevadas. Apenas tiene contacto con los humanos. En primavera, le crecen las bayas con apariencia de helado alrededor de la panza.",
     "heldItems": {
-      "uncommon": "NEVERMELTICE"
+      "uncommon": "NEVER-MELT-ICE"
     },
     "hiddenAbility": "SOUNDPROOF"
   },
@@ -93318,7 +93318,7 @@
     "generation": "4",
     "pokedexEntry": "Es el abominable hombre de las nieves. Produce ventiscas en las montañas. Aparece con las flores de nieve y se retira cuando se les caen los pétalos.",
     "heldItems": {
-      "uncommon": "NEVERMELTICE"
+      "uncommon": "NEVER-MELT-ICE"
     },
     "hiddenAbility": "SOUNDPROOF"
   },
@@ -93569,7 +93569,7 @@
     "generation": "4",
     "pokedexEntry": "Viven en zonas frías y forman grupos de cuatro o cinco para cazar coordinados. Envía señales a otros esculpiendo dibujos extraños en el hielo.",
     "heldItems": {
-      "uncommon": "QUICKCLAW"
+      "uncommon": "QUICK-CLAW"
     },
     "hiddenAbility": "PICKPOCKET"
   },
@@ -93787,7 +93787,7 @@
     "generation": "4",
     "pokedexEntry": "Evolucionó por la exposición a un campo magnético especial. Investigadores intentaron provocar su evolución por medios artificiales, pero fracasaron.",
     "heldItems": {
-      "uncommon": "METALCOAT"
+      "uncommon": "METAL-COAT"
     },
     "hiddenAbility": "ANALYTIC"
   },
@@ -93993,7 +93993,7 @@
     "generation": "4",
     "pokedexEntry": "Agarra cosas con su lengua extensible. La alta concentración de sustancias en su saliva lo disuelve todo. Un lametón provoca un entumecimiento permanente.",
     "heldItems": {
-      "uncommon": "LAGGINGTAIL"
+      "uncommon": "LAGGING-TAIL"
     },
     "hiddenAbility": "CLOUDNINE"
   },
@@ -95320,7 +95320,7 @@
     "generation": "4",
     "pokedexEntry": "Agita sus alas para crear ondas de choque que producen lesiones internas a sus rivales. Vuela a gran velocidad mientras se equilibra con las alas de su cola.",
     "heldItems": {
-      "uncommon": "WIDELENS"
+      "uncommon": "WIDE-LENS"
     },
     "hiddenAbility": "FRISK"
   },
@@ -97214,7 +97214,7 @@
     "generation": "4",
     "pokedexEntry": "La antena de la cabeza capta ondas de otra dimensión que le incitan a llevarse allí a la gente. Es temido porque se cree que absorbe almas errantes.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     },
     "hiddenAbility": "FRISK"
   },
@@ -100155,9 +100155,9 @@
     "generation": "4",
     "pokedexEntry": "Se dice que, cuando florecen las gracídeas, Shaymin alza su vuelo para mostrar su gratitud. Vive entre las flores enroscado como si fuera una planta.",
     "heldItems": {
-      "common": "LUMBERRY",
-      "uncommon": "LUMBERRY",
-      "rare": "LUMBERRY"
+      "common": "LUM-BERRY",
+      "uncommon": "LUM-BERRY",
+      "rare": "LUM-BERRY"
     }
   },
   "ARCEUS": {
@@ -106027,7 +106027,7 @@
     "pokedexEntry": "Descubierto en unas grietas generadas por un terremoto hace 100 años. Tiene un núcleo energético en su cuerpo.",
     "heldItems": {
       "common": "EVERSTONE",
-      "uncommon": "HARDSTONE"
+      "uncommon": "HARD-STONE"
     },
     "hiddenAbility": "SANDFORCE"
   },
@@ -106195,7 +106195,7 @@
     "pokedexEntry": "La energía que no puede contener en el interior de su cuerpo se escapa formando cristales naranjas.",
     "heldItems": {
       "common": "EVERSTONE",
-      "uncommon": "HARDSTONE"
+      "uncommon": "HARD-STONE"
     },
     "hiddenAbility": "SANDFORCE"
   },
@@ -106356,7 +106356,7 @@
     "pokedexEntry": "Con los cristales naranjas de su cuerpo, absorbe la energía de los rayos del sol, la amplifica y la expulsa por la boca.",
     "heldItems": {
       "common": "EVERSTONE",
-      "uncommon": "HARDSTONE"
+      "uncommon": "HARD-STONE"
     },
     "hiddenAbility": "SANDFORCE"
   },
@@ -107371,8 +107371,8 @@
     "generation": "5",
     "pokedexEntry": "Su sentido del oído es infalible: capta cualquier ruido de su alrededor y hace las veces de radar.",
     "heldItems": {
-      "common": "ORANBERRY",
-      "uncommon": "SITRUSBERRY"
+      "common": "ORAN-BERRY",
+      "uncommon": "SITRUS-BERRY"
     },
     "hiddenAbility": "KLUTZ"
   },
@@ -108637,7 +108637,7 @@
     "generation": "5",
     "pokedexEntry": "Su carácter le empuja a sentir ansias de lanzar por los aires a rivales mayores que él. Forman manadas de cinco.",
     "heldItems": {
-      "uncommon": "BLACKBELT"
+      "uncommon": "BLACK-BELT"
     },
     "hiddenAbility": "MOLDBREAKER"
   },
@@ -108807,7 +108807,7 @@
     "generation": "5",
     "pokedexEntry": "La potencia de sus puñetazos aumenta si se aprieta el cinturón. Si le molestan cuando se entrena, se enfada.",
     "heldItems": {
-      "uncommon": "BLACKBELT"
+      "uncommon": "BLACK-BELT"
     },
     "hiddenAbility": "MOLDBREAKER"
   },
@@ -108964,7 +108964,7 @@
     "generation": "5",
     "pokedexEntry": "Recorta hojas y las teje con el líquido viscoso que segrega por la boca para hacerse su propia ropa.",
     "heldItems": {
-      "uncommon": "MENTALHERB"
+      "uncommon": "MENTAL-HERB"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -109117,7 +109117,7 @@
     "generation": "5",
     "pokedexEntry": "Se guarece del frío envolviéndose en hojas. se desplaza por el bosque comiendo a su paso hojas caídas.",
     "heldItems": {
-      "uncommon": "MENTALHERB"
+      "uncommon": "MENTAL-HERB"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -109307,7 +109307,7 @@
     "generation": "5",
     "pokedexEntry": "Calienta sus huevos con el calor desprendido por el humus. Hace mantillas con las hojas para Sewaddle.",
     "heldItems": {
-      "uncommon": "MENTALHERB"
+      "uncommon": "MENTAL-HERB"
     },
     "hiddenAbility": "SILVANO"
   },
@@ -109480,7 +109480,7 @@
     "generation": "5",
     "pokedexEntry": "Percibe su entorno con su sentido del tacto, residente en su cabeza y cola. Su carácter es violento por naturaleza.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "SPEEDBOOST"
   },
@@ -109651,7 +109651,7 @@
     "generation": "5",
     "pokedexEntry": "Normalmente no se mueve, pero se pone a rodar frenéticamente y contraataca con placajes si lo atacan.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "SPEEDBOOST"
   },
@@ -109853,7 +109853,7 @@
     "generation": "5",
     "pokedexEntry": "Las garras del cuello contienen un potente veneno capaz de acabar con sus rivales. Es muy agresivo.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "SPEEDBOOST"
   },
@@ -110036,7 +110036,7 @@
     "generation": "5",
     "pokedexEntry": "Se deja llevar por las ráfagas de viento. Cuando llueve, su cuepo pesa mucho, así que se guarece bajo árboles grandes.",
     "heldItems": {
-      "uncommon": "ABSORBBULB"
+      "uncommon": "ABSORB-BULB"
     },
     "hiddenAbility": "CHLOROPHYLL"
   },
@@ -110239,7 +110239,7 @@
     "generation": "5",
     "pokedexEntry": "Aparece con remolinos de viento. Entra en las casas por las rendijas y les encanta hacer travesuras.",
     "heldItems": {
-      "uncommon": "ABSORBBULB"
+      "uncommon": "ABSORB-BULB"
     },
     "hiddenAbility": "CHLOROPHYLL"
   },
@@ -110418,7 +110418,7 @@
     "generation": "5",
     "pokedexEntry": "Habita tierras húmedas ricas en nutrientes donde la cosecha es abundante.",
     "heldItems": {
-      "uncommon": "ABSORBBULB"
+      "uncommon": "ABSORB-BULB"
     },
     "hiddenAbility": "LEAFGUARD"
   },
@@ -110635,7 +110635,7 @@
     "generation": "5",
     "pokedexEntry": "El aroma de la flor de su tocado relaja a cualquiera a su alrededor. Hay que cuidarlo para que no se marchite.",
     "heldItems": {
-      "uncommon": "ABSORBBULB"
+      "uncommon": "ABSORB-BULB"
     },
     "hiddenAbility": "LEAFGUARD"
   },
@@ -111042,7 +111042,7 @@
     "generation": "5",
     "pokedexEntry": "Se desplaza hundido en la arena, dejando al descubierto solo los ojos y la nariz. Una membrana negra le protege los ojos.",
     "heldItems": {
-      "uncommon": "BLACKGLASSES"
+      "uncommon": "BLACK-GLASSES"
     },
     "hiddenAbility": "ANGERPOINT"
   },
@@ -111265,7 +111265,7 @@
     "generation": "5",
     "pokedexEntry": "Una membrana especial cubre sus ojos y le permite detectar el calor de los cuerpos, por eso ve en la oscuridad.",
     "heldItems": {
-      "uncommon": "BLACKGLASSES"
+      "uncommon": "BLACK-GLASSES"
     },
     "hiddenAbility": "ANGERPOINT"
   },
@@ -111503,7 +111503,7 @@
     "generation": "5",
     "pokedexEntry": "Sus ojos le permiten escudriñar en la lejanía ampliando lo que ve a manera de prismáticos.",
     "heldItems": {
-      "common": "BLACKGLASSES"
+      "common": "BLACK-GLASSES"
     },
     "hiddenAbility": "ANGERPOINT"
   },
@@ -112107,7 +112107,7 @@
     "generation": "5",
     "pokedexEntry": "Vive en territorio árido. Emite un sonido parecido a unas maracas si se mueve de forma rítmica.",
     "heldItems": {
-      "uncommon": "MIRACLESEED"
+      "uncommon": "MIRACLE-SEED"
     },
     "hiddenAbility": "STORMDRAIN"
   },
@@ -112286,7 +112286,7 @@
     "generation": "5",
     "pokedexEntry": "Abre un agujero en la roca y vive en él. Si la roca se resquebraja, no se queda tranquilo hasta que no encuentra otra.",
     "heldItems": {
-      "uncommon": "HARDSTONE"
+      "uncommon": "HARD-STONE"
     },
     "hiddenAbility": "WEAKARMOR"
   },
@@ -112465,7 +112465,7 @@
     "generation": "5",
     "pokedexEntry": "Su inmensa capacidad motriz le permite desplazarse cargando a sus espaldas rocas enormes durante días.",
     "heldItems": {
-      "uncommon": "HARDSTONE"
+      "uncommon": "HARD-STONE"
     },
     "hiddenAbility": "ANGERSHELL"
   },
@@ -112702,7 +112702,7 @@
     "generation": "5",
     "pokedexEntry": "Propina un cabezazo inmediato a todo aquel que lo mira a los ojos. Su cráneo es muy duro.",
     "heldItems": {
-      "uncommon": "SHEDSHELL"
+      "uncommon": "SHED-SHELL"
     },
     "hiddenAbility": "INTIMIDATE"
   },
@@ -112927,7 +112927,7 @@
     "generation": "5",
     "pokedexEntry": "El líder del grupo es aquel cuya cresta es mayor. Es capaz de romper bloques de cemento con sus potentes patadas.",
     "heldItems": {
-      "uncommon": "SHEDSHELL"
+      "uncommon": "SHED-SHELL"
     },
     "hiddenAbility": "INTIMIDATE"
   },
@@ -113323,7 +113323,7 @@
     "generation": "5",
     "pokedexEntry": "Nació del alma de un humano enterrado hace milenios. Aún conserva recuerdos del pasado.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     }
   },
   "COFAGRIGUS": {
@@ -113512,7 +113512,7 @@
     "generation": "5",
     "pokedexEntry": "Se hace pasar por un ataúd y castiga a los ladrones de tumbas. Tiene el cuerpo bañado en oro puro.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     }
   },
   "TIRTOUGA": {
@@ -114482,7 +114482,7 @@
     "generation": "5",
     "pokedexEntry": "Pokémon nacido de la reacción química entre una bolsa de basura y residuos industriales.",
     "heldItems": {
-      "uncommon": "SILKSCARF"
+      "uncommon": "SILK-SCARF"
     },
     "hiddenAbility": "CORROSION"
   },
@@ -114684,8 +114684,8 @@
     "generation": "5",
     "pokedexEntry": "Traga basura y la integra en su cuerpo. Despide veneno líquido por la punta de los dedos de su mano derecha.",
     "heldItems": {
-      "common": "SILKSCARF",
-      "uncommon": "BLACKSLUDGE"
+      "common": "SILK-SCARF",
+      "uncommon": "BLACK-SLUDGE"
     },
     "hiddenAbility": "CORROSION"
   },
@@ -117270,7 +117270,7 @@
     "generation": "5",
     "pokedexEntry": "Nació de un carámbano que absorbió la energía del sol al alba. Duerme arropado por la nieve.",
     "heldItems": {
-      "uncommon": "NEVERMELTICE"
+      "uncommon": "NEVER-MELT-ICE"
     },
     "hiddenAbility": "WEAKARMOR"
   },
@@ -117435,7 +117435,7 @@
     "generation": "5",
     "pokedexEntry": "Genera multitud de partículas de hielo para ocultarse de sus enemigos. Migró hacia el sur durante la era glaciar, hace muchísimos años.",
     "heldItems": {
-      "uncommon": "NEVERMELTICE"
+      "uncommon": "NEVER-MELT-ICE"
     },
     "hiddenAbility": "WEAKARMOR"
   },
@@ -117609,7 +117609,7 @@
     "generation": "5",
     "pokedexEntry": "Si sus dos cabezas se irritan al mismo tiempo, genera una ventisca desde su cuerno cubriendo su entorno con nieve.",
     "heldItems": {
-      "common": "NEVERMELTICE"
+      "common": "NEVER-MELT-ICE"
     },
     "hiddenAbility": "PODERGELIDO"
   },
@@ -118749,8 +118749,8 @@
     "generation": "5",
     "pokedexEntry": "Por razones desconocidas, se parece a una Poké Ball. Lanza esporas de veneno para repeler al enemigo.",
     "heldItems": {
-      "common": "TINYMUSHROOM",
-      "uncommon": "BIGMUSHROOM"
+      "common": "TINY-MUSHROOM",
+      "uncommon": "BIG-MUSHROOM"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -118909,8 +118909,8 @@
     "generation": "5",
     "pokedexEntry": "Aunque intenta pasar por parte superior de una Poké Ball para atraer a sus presas, consigue engañar a pocos.",
     "heldItems": {
-      "common": "TINYMUSHROOM",
-      "uncommon": "BIGMUSHROOM"
+      "common": "TINY-MUSHROOM",
+      "uncommon": "BIG-MUSHROOM"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -120045,7 +120045,7 @@
     "generation": "5",
     "pokedexEntry": "Tiene por costumbre estampar sus púas en las paredes de cuevas. Absorbe los minerales que contienen las rocas.",
     "heldItems": {
-      "uncommon": "STICKYBARB"
+      "uncommon": "STICKY-BARB"
     },
     "hiddenAbility": "ANTICIPATION"
   },
@@ -120235,7 +120235,7 @@
     "generation": "5",
     "pokedexEntry": "Se pega al techo de las cuevas y lanza púas de metal a todo el que pase por debajo de donde se encuentre.",
     "heldItems": {
-      "uncommon": "STICKYBARB"
+      "uncommon": "STICKY-BARB"
     },
     "hiddenAbility": "ANTICIPATION"
   },
@@ -123380,7 +123380,7 @@
     "generation": "5",
     "pokedexEntry": "Nació entre nubes de nieve. Atrapa a sus presas con una cadena hecha de hielo cristalizado.",
     "heldItems": {
-      "uncommon": "NEVERMELTICE"
+      "uncommon": "NEVER-MELT-ICE"
     },
     "hiddenAbility": "PODERGELIDO"
   },
@@ -123948,7 +123948,7 @@
     "generation": "5",
     "pokedexEntry": "Acecha a sus presas oculto en la arena húmeda de la playa. Las paraliza con una descarga eléctrica cuando lo tocan.",
     "heldItems": {
-      "uncommon": "SOFTSAND"
+      "uncommon": "SOFT-SAND"
     },
     "hiddenAbility": "STORMDRAIN"
   },
@@ -124566,7 +124566,7 @@
     "generation": "5",
     "pokedexEntry": "Corre por estrechas cavernas y atrapa a sus presas con sus afiladas garras. La piel de su cara es mas dura que una roca.",
     "heldItems": {
-      "uncommon": "DRAGONFANG"
+      "uncommon": "DRAGON-FANG"
     },
     "hiddenAbility": "MOLDBREAKER"
   },
@@ -124778,7 +124778,7 @@
     "generation": "5",
     "pokedexEntry": "Los rumores apuntan a que fue un Pokémon creado por la ciencia de una antigua y misteriosa civilización.",
     "heldItems": {
-      "uncommon": "LIGHTCLAY"
+      "uncommon": "LIGHT-CLAY"
     },
     "hiddenAbility": "NOGUARD"
   },
@@ -125014,7 +125014,7 @@
     "generation": "5",
     "pokedexEntry": "Al parecer, aquel que antaño lo creó le ordenó proteger a los Pokémon y a los humanos.",
     "heldItems": {
-      "uncommon": "LIGHTCLAY"
+      "uncommon": "LIGHT-CLAY"
     },
     "hiddenAbility": "NOGUARD"
   },
@@ -127758,9 +127758,9 @@
     "generation": "5",
     "pokedexEntry": "Cuando combate, despide escamas ardientes de sus seis alas y genera un mar ígneo a su alrededor.",
     "heldItems": {
-      "common": "SILVERPOWDER",
-      "uncommon": "SILVERPOWDER",
-      "rare": "SILVERPOWDER"
+      "common": "SILVER-POWDER",
+      "uncommon": "SILVER-POWDER",
+      "rare": "SILVER-POWDER"
     },
     "hiddenAbility": "SWARM"
   },
@@ -129871,9 +129871,9 @@
     "generation": "5",
     "pokedexEntry": "Se han creado innumerables canciones inspiradas en las melodías que emite Meloetta.",
     "heldItems": {
-      "common": "STARPIECE",
-      "uncommon": "STARPIECE",
-      "rare": "STARPIECE"
+      "common": "STAR-PIECE",
+      "uncommon": "STAR-PIECE",
+      "rare": "STAR-PIECE"
     }
   },
   "GENESECT": {
@@ -134655,7 +134655,7 @@
     "generation": "6",
     "pokedexEntry": "Se esfuerza mucho para que el enemigo no lo menosprecie, pero su mirada no intimida demasiado. Se caracteriza por mascar siempre una hoja.",
     "heldItems": {
-      "uncommon": "MENTALHERB"
+      "uncommon": "MENTAL-HERB"
     },
     "hiddenAbility": "SCRAPPY"
   },
@@ -134887,7 +134887,7 @@
     "generation": "6",
     "pokedexEntry": "Es muy temperamental, pero no permite que nadie se meta con los débiles. Mediante su hoja, predice los movimientos del enemigo.",
     "heldItems": {
-      "uncommon": "MENTALHERB"
+      "uncommon": "MENTAL-HERB"
     },
     "hiddenAbility": "SCRAPPY"
   },
@@ -139875,7 +139875,7 @@
     "generation": "6",
     "pokedexEntry": "A pesar de ser un Pokémon de pequeña estatura, su pericia en el combate le permite plantar cara a Pokémon como Machamp o Hariyama.",
     "heldItems": {
-      "uncommon": "KINGSROCK"
+      "uncommon": "KINGS-ROCK"
     },
     "hiddenAbility": "MOLDBREAKER"
   },
@@ -140435,7 +140435,7 @@
     "generation": "6",
     "pokedexEntry": "Es el Pokémon de tipo Dragón más débil. Habita en zonas oscuras y húmedas para evitar que su viscoso cuerpo se seque.",
     "heldItems": {
-      "uncommon": "SHEDSHELL"
+      "uncommon": "SHED-SHELL"
     },
     "hiddenAbility": "GOOEY"
   },
@@ -140593,7 +140593,7 @@
     "generation": "6",
     "pokedexEntry": "Segrega una mucosidad que corroe todo lo que toca y consigue así ahuyentar al enemigo. Sus ojos han involucionado, por lo que no puede ver.",
     "heldItems": {
-      "uncommon": "SHEDSHELL"
+      "uncommon": "SHED-SHELL"
     },
     "hiddenAbility": "GOOEY"
   },
@@ -141584,9 +141584,9 @@
     "generation": "6",
     "pokedexEntry": "En el interior de la calabaza reside un espíritu que ha permanecido atrapado en este mundo. Entra en acción al caer la noche.",
     "heldItems": {
-      "common": "MIRACLESEED",
-      "uncommon": "MIRACLESEED",
-      "rare": "MIRACLESEED"
+      "common": "MIRACLE-SEED",
+      "uncommon": "MIRACLE-SEED",
+      "rare": "MIRACLE-SEED"
     },
     "hiddenAbility": "FLASHFIRE"
   },
@@ -141783,9 +141783,9 @@
     "generation": "6",
     "pokedexEntry": "En las noches de luna nueva deambula por las calles de las ciudades y emite espeluznantes alaridos que maldicen a quienes los oyen.",
     "heldItems": {
-      "common": "MIRACLESEED",
-      "uncommon": "MIRACLESEED",
-      "rare": "MIRACLESEED"
+      "common": "MIRACLE-SEED",
+      "uncommon": "MIRACLE-SEED",
+      "rare": "MIRACLE-SEED"
     },
     "hiddenAbility": "FLASHFIRE"
   },
@@ -145750,7 +145750,7 @@
     "generation": "7",
     "pokedexEntry": "Agujerea los árboles con su robusto pico. Al oír su picoteo, uno puede deducir más o menos su humor o su estado de forma.",
     "heldItems": {
-      "uncommon": "ORANBERRY"
+      "uncommon": "ORAN-BERRY"
     },
     "hiddenAbility": "PICKUP"
   },
@@ -145913,7 +145913,7 @@
     "generation": "7",
     "pokedexEntry": "Almacena en su pico las semillas de las bayas de las que se alimenta para usarlas como arma contra enemigos y posibles presas.",
     "heldItems": {
-      "uncommon": "SITRUSBERRY"
+      "uncommon": "SITRUS-BERRY"
     },
     "hiddenAbility": "PICKUP"
   },
@@ -146092,7 +146092,7 @@
     "generation": "7",
     "pokedexEntry": "Hace estallar los gases de su interior para disparar semillas por el pico con una potencia capaz de pulverizar rocas enormes.",
     "heldItems": {
-      "uncommon": "RAWSTBERRY"
+      "uncommon": "RAWST-BERRY"
     },
     "hiddenAbility": "SHEERFORCE"
   },
@@ -146287,7 +146287,7 @@
     "generation": "7",
     "pokedexEntry": "Deambula todo el día en busca de alimento. Al anochecer, exhausto, se deja caer en cualquier lugar y se queda dormido.",
     "heldItems": {
-      "uncommon": "PECHABERRY"
+      "uncommon": "PECHA-BERRY"
     },
     "hiddenAbility": "ADAPTABILITY"
   },
@@ -146482,7 +146482,7 @@
     "generation": "7",
     "pokedexEntry": "Sus presas favoritas son los Rattata y Raticate, pero, al ser estos diurnos, rara vez se cruza con ellos. La perseverancia es su gran virtud.",
     "heldItems": {
-      "uncommon": "PECHABERRY"
+      "uncommon": "PECHA-BERRY"
     },
     "hiddenAbility": "ADAPTABILITY"
   },
@@ -146813,7 +146813,7 @@
     "generation": "7",
     "pokedexEntry": "Escondido bajo la hojarasca, permanece casi inmóvil mientras come humus con fruición. Quien lo pisa en un descuido se lleva una descarga.",
     "heldItems": {
-      "uncommon": "CELLBATTERY"
+      "uncommon": "CELL-BATTERY"
     }
   },
   "VIKAVOLT": {
@@ -147215,7 +147215,7 @@
     "generation": "7",
     "pokedexEntry": "Usa hábilmente sus robustas pinzas tanto para atacar como para defenderse. Las peleas entre congéneres parecen combates de boxeo.",
     "heldItems": {
-      "uncommon": "ASPEARBERRY"
+      "uncommon": "ASPEAR-BERRY"
     },
     "hiddenAbility": "ANGERPOINT"
   },
@@ -147420,7 +147420,7 @@
     "generation": "7",
     "pokedexEntry": "En el interior de las pinzas acumula aire gélido. Los golpes que asesta son capaces de hacer añicos incluso gruesas paredes de hielo.",
     "heldItems": {
-      "uncommon": "CHERIBERRY"
+      "uncommon": "CHERI-BERRY"
     },
     "hiddenAbility": "ANGERPOINT"
   },
@@ -148728,7 +148728,7 @@
     "generation": "7",
     "pokedexEntry": "Reptan por las profundidades marinas o junto a la costa. Les encantan las ramas de coral que crecen en la cabeza de los Corsola.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -148918,7 +148918,7 @@
     "generation": "7",
     "pokedexEntry": "Ataca a su enemigo lanzándole unas espinas extremadamente venenosas. Si este se acerca, lo acribilla con las garras de sus extremidades.",
     "heldItems": {
-      "uncommon": "POISONBARB"
+      "uncommon": "POISON-BARB"
     },
     "hiddenAbility": "REGENERATOR"
   },
@@ -149097,7 +149097,7 @@
     "generation": "7",
     "pokedexEntry": "El lodo que impregna sus patas le otorga una fuerte tracción, lo que le permite alcanzar altas velocidades al correr.",
     "heldItems": {
-      "uncommon": "LIGHTCLAY"
+      "uncommon": "LIGHT-CLAY"
     },
     "hiddenAbility": "INNERFOCUS"
   },
@@ -149275,7 +149275,7 @@
     "generation": "7",
     "pokedexEntry": "Su especialidad son los ataques a base de patadas con lodo endurecido, con las que puede reducir a chatarra un camión de gran tamaño.",
     "heldItems": {
-      "uncommon": "LIGHTCLAY"
+      "uncommon": "LIGHT-CLAY"
     },
     "hiddenAbility": "INNERFOCUS"
   },
@@ -149468,7 +149468,7 @@
     "generation": "7",
     "pokedexEntry": "Sólo puede respirar el oxígeno presente en el agua, por lo que utiliza una burbuja para respirar en tierra firme.",
     "heldItems": {
-      "uncommon": "MYSTICWATER"
+      "uncommon": "MYSTIC-WATER"
     },
     "hiddenAbility": "WATERABSORB"
   },
@@ -149656,7 +149656,7 @@
     "generation": "7",
     "pokedexEntry": "Propina cabezazos con su burbuja. Los Pokémon de menor tamaño quedan atrapados en su interior y perecen ahogados.",
     "heldItems": {
-      "uncommon": "MYSTICWATER"
+      "uncommon": "MYSTIC-WATER"
     },
     "hiddenAbility": "WATERABSORB"
   },
@@ -149829,7 +149829,7 @@
     "generation": "7",
     "pokedexEntry": "Mientras que de día duerme tranquilamente a la luz del sol, al caer la noche busca un sitio más seguro para dormir.",
     "heldItems": {
-      "uncommon": "MIRACLESEED"
+      "uncommon": "MIRACLE-SEED"
     },
     "hiddenAbility": "CONTRARY"
   },
@@ -150028,7 +150028,7 @@
     "generation": "7",
     "pokedexEntry": "Sus pétalos en forma de guadaña liberan un rayo con una potencia capaz de partir por la mitad una plancha de hierro bien gruesa.",
     "heldItems": {
-      "uncommon": "MIRACLESEED"
+      "uncommon": "MIRACLE-SEED"
     },
     "hiddenAbility": "CONTRARY"
   },
@@ -150196,8 +150196,8 @@
     "generation": "7",
     "pokedexEntry": "Prefiere los lugares oscuros y húmedos. Por la noche, las esporas que almacena en los sombrerillos lucen en la oscuridad.",
     "heldItems": {
-      "common": "TINYMUSHROOM",
-      "uncommon": "BIGMUSHROOM"
+      "common": "TINY-MUSHROOM",
+      "uncommon": "BIG-MUSHROOM"
     },
     "hiddenAbility": "RAINDISH"
   },
@@ -150353,8 +150353,8 @@
     "generation": "7",
     "pokedexEntry": "Las esporas parpadeantes que despide tienen un efecto somnífero. Absorbe la vitalidad de su presa cuando esta se queda dormida.",
     "heldItems": {
-      "common": "TINYMUSHROOM",
-      "uncommon": "BIGMUSHROOM"
+      "common": "TINY-MUSHROOM",
+      "uncommon": "BIG-MUSHROOM"
     },
     "hiddenAbility": "RAINDISH"
   },
@@ -150555,7 +150555,7 @@
     "generation": "7",
     "pokedexEntry": "Los machos están a merced de las hembras. Les ceden la mayoría de presas que capturan, y la falta de nutrientes les impide evolucionar.",
     "heldItems": {
-      "uncommon": "SMOKEBALL"
+      "uncommon": "SMOKE-BALL"
     },
     "hiddenAbility": "OBLIVIOUS"
   },
@@ -150795,7 +150795,7 @@
     "generation": "7",
     "pokedexEntry": "Su gas venenoso contiene numerosas feromonas. Al diluirlo es posible elaborar un perfume que resulta verdaderamente embriagador.",
     "heldItems": {
-      "uncommon": "SMOKEBALL"
+      "uncommon": "SMOKE-BALL"
     },
     "hiddenAbility": "OBLIVIOUS"
   },
@@ -151313,7 +151313,7 @@
     "generation": "7",
     "pokedexEntry": "El dulce aroma que desprenden los convierte en presa de los Pokémon pájaro, pero, al no ser muy avispados, no se alteran en absoluto.",
     "heldItems": {
-      "uncommon": "GRASSYSEED"
+      "uncommon": "GRASSY-SEED"
     },
     "hiddenAbility": "SWEETVEIL"
   },
@@ -151488,7 +151488,7 @@
     "generation": "7",
     "pokedexEntry": "El cáliz de su cabeza se ha desarrollado y le protege todo el cuerpo. Es tan duro que no le importa que lo picoteen los Pokémon pájaro.",
     "heldItems": {
-      "uncommon": "GRASSYSEED"
+      "uncommon": "GRASSY-SEED"
     },
     "hiddenAbility": "SWEETVEIL"
   },
@@ -151682,7 +151682,7 @@
     "generation": "7",
     "pokedexEntry": "Propinar patadas implacables es su especialidad. Patea a sus oponentes derrotados y proclama su victoria con una gran carcajada.",
     "heldItems": {
-      "common": "GRASSYSEED"
+      "common": "GRASSY-SEED"
     },
     "hiddenAbility": "SWEETVEIL"
   },
@@ -151912,7 +151912,7 @@
     "generation": "7",
     "pokedexEntry": "Prende flores en su tallo, que es muy rico en nutrientes. Las flores se revitalizan y desprenden una agradable fragancia.",
     "heldItems": {
-      "uncommon": "MISTYSEED"
+      "uncommon": "MISTY-SEED"
     },
     "hiddenAbility": "NATURALCURE"
   },
@@ -152834,7 +152834,7 @@
     "generation": "7",
     "pokedexEntry": "Los montículos de arena que los niños no allanan antes de irse a casa pueden acabar poseídos por un espíritu y convertirse en este Pokémon.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     },
     "hiddenAbility": "SANDVEIL"
   },
@@ -153009,7 +153009,7 @@
     "generation": "7",
     "pokedexEntry": "Cada grano de arena de su cuerpo tiene voluntad propia. Engulle a pokémon pequeños estando aún vivos para robarles la energía vital.",
     "heldItems": {
-      "uncommon": "SPELLTAG"
+      "uncommon": "SPELL-TAG"
     },
     "hiddenAbility": "SANDVEIL"
   },
@@ -153767,7 +153767,7 @@
     "generation": "7",
     "pokedexEntry": "Vive en la capa de ozono hasta que su caparazón se hace demasiado pesado y cae sin remisión a tierra firme.",
     "heldItems": {
-      "uncommon": "STARPIECE"
+      "uncommon": "STAR-PIECE"
     }
   },
   "KOMALA": {
@@ -154329,7 +154329,7 @@
     "generation": "7",
     "pokedexEntry": "Eriza inconscientemente las 14 púas de su lomo cuando se asusta o se pone nervioso.",
     "heldItems": {
-      "uncommon": "ELECTRICSEED"
+      "uncommon": "ELECTRIC-SEED"
     },
     "hiddenAbility": "STURDY"
   },
@@ -154529,7 +154529,7 @@
     "generation": "7",
     "pokedexEntry": "Es de carácter tranquilo y propenso a sentirse solo. Odia que intenten mirar bajo su saco, y se resiste con todas sus fuerzas.",
     "heldItems": {
-      "uncommon": "CHESTOBERRY"
+      "uncommon": "CHESTO-BERRY"
     }
   },
   "BRUXISH": {
@@ -154722,7 +154722,7 @@
     "generation": "7",
     "pokedexEntry": "Oculto bajo la arena, emite poderes psíquicos por la protuberancia de su cabeza. Analiza el entorno mientras espera a que caiga su presa.",
     "heldItems": {
-      "uncommon": "RAZORFANG"
+      "uncommon": "RAZOR-FANG"
     },
     "hiddenAbility": "WONDERSKIN"
   },
@@ -154928,7 +154928,7 @@
     "generation": "7",
     "pokedexEntry": "Es de naturaleza mansa, pero si se le provoca y monta en cólera, destruye todo lo que le rodea con su aliento devastador.",
     "heldItems": {
-      "uncommon": "PERSIMBERRY"
+      "uncommon": "PERSIM-BERRY"
     },
     "hiddenAbility": "CLOUDNINE"
   },
@@ -155315,7 +155315,7 @@
     "generation": "7",
     "pokedexEntry": "Comunica sus sentimientos haciendo sonar sus escamas. El ruido metálico producido reverbera en las altas montañas donde habita.",
     "heldItems": {
-      "uncommon": "RAZORCLAW"
+      "uncommon": "RAZOR-CLAW"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -155512,7 +155512,7 @@
     "generation": "7",
     "pokedexEntry": "Se lanza sobre su presa entonando un grito de guerra. Golpea al enemigo y lo hace trizas con sus escamas.",
     "heldItems": {
-      "uncommon": "RAZORCLAW"
+      "uncommon": "RAZOR-CLAW"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -155748,7 +155748,7 @@
     "generation": "7",
     "pokedexEntry": "Lucha valerosamente con sus puños recubiertos de escamas de acero. Tiene un gancho formidable.",
     "heldItems": {
-      "common": "RAZORCLAW"
+      "common": "RAZOR-CLAW"
     },
     "hiddenAbility": "OVERCOAT"
   },
@@ -161853,7 +161853,7 @@
     "generation": "8",
     "pokedexEntry": "Siempre están comiendo bayas, por lo que son más robustos de lo que aparentan. Frecuentan los huertos en busca de su preciado manjar.",
     "heldItems": {
-      "uncommon": "ORANBERRY"
+      "uncommon": "ORAN-BERRY"
     },
     "hiddenAbility": "GLUTTONY"
   },
@@ -162019,7 +162019,7 @@
     "generation": "8",
     "pokedexEntry": "Sus incisivos, de fuerza y dureza extraordinarias, le permiten mordisquear incluso las bayas más duras. Es un Pokémon muy común en Galar.",
     "heldItems": {
-      "uncommon": "SITRUSBERRY"
+      "uncommon": "SITRUS-BERRY"
     },
     "hiddenAbility": "GLUTTONY"
   },
@@ -162707,7 +162707,7 @@
     "generation": "8",
     "pokedexEntry": "Apenas se mueve, pero está vivo. Se cree que adquiere poderes psíquicos mientras permanece recluido en su caparazón sin comer ni beber.",
     "heldItems": {
-      "uncommon": "PSYCHICSEED"
+      "uncommon": "PSYCHIC-SEED"
     },
     "hiddenAbility": "NEUROFORCE"
   },
@@ -162885,7 +162885,7 @@
     "generation": "8",
     "pokedexEntry": "Se sirve de sus poderes psíquicos, con los que es capaz de percibir lo que ocurre en un radio de 10 km, para examinar sus alrededores.",
     "heldItems": {
-      "uncommon": "PSYCHICSEED"
+      "uncommon": "PSYCHIC-SEED"
     },
     "hiddenAbility": "PSYCHICSURGE"
   },
@@ -171927,7 +171927,7 @@
     "generation": "8",
     "pokedexEntry": "Su constitución fornida le permite transportar sin inmutarse cargas de 5 toneladas. Utiliza la trompa para excavar la tierra.",
     "heldItems": {
-      "uncommon": "LAGGINGTAIL"
+      "uncommon": "LAGGING-TAIL"
     },
     "hiddenAbility": "HEAVYMETAL"
   },
@@ -172114,7 +172114,7 @@
     "generation": "8",
     "pokedexEntry": "Su piel verdosa es resistente al agua. Proviene de tierras lejanas y presta ayuda a las personas en la realización de ciertos trabajos.",
     "heldItems": {
-      "uncommon": "LAGGINGTAIL"
+      "uncommon": "LAGGING-TAIL"
     },
     "hiddenAbility": "HEAVYMETAL"
   },
@@ -173694,9 +173694,9 @@
     "generation": "8",
     "pokedexEntry": "Este Pokémon está considerado como un héroe de leyenda. Absorbe el metal para transformarlo y emplearlo como armamento.",
     "heldItems": {
-      "common": "RUSTEDSWORD",
-      "uncommon": "RUSTEDSWORD",
-      "rare": "RUSTEDSWORD"
+      "common": "RUSTED-SWORD",
+      "uncommon": "RUSTED-SWORD",
+      "rare": "RUSTED-SWORD"
     }
   },
   "ZAMAZENTA": {
@@ -173876,9 +173876,9 @@
     "generation": "8",
     "pokedexEntry": "Con la apariencia de una estatua de piedra, este Pokémon se sumió en un letargo tan profundo que acabó cayendo en el olvido.",
     "heldItems": {
-      "common": "RUSTEDSHIELD",
-      "uncommon": "RUSTEDSHIELD",
-      "rare": "RUSTEDSHIELD"
+      "common": "RUSTED-SHIELD",
+      "uncommon": "RUSTED-SHIELD",
+      "rare": "RUSTED-SHIELD"
     }
   },
   "ETERNATUS": {
@@ -176120,7 +176120,7 @@
     "generation": "8",
     "pokedexEntry": "Durante las remontadas de los ríos, se envuelve de las almas de sus congéneres caídos en la ardua travesía. No tiene rival en ninguna de las corrientes que fluyen.",
     "heldItems": {
-      "uncommon": "DEEPSEATOOTH"
+      "uncommon": "DEEP-SEA-TOOTH"
     },
     "hiddenAbility": "MOLDBREAKER"
   },
@@ -183684,7 +183684,7 @@
     "generation": "9",
     "pokedexEntry": "Los pliegues ondulados que se desprenden de su cuerpo cuentan con una textura curiosa y un sabor delicioso. Habita en bosques húmedos.",
     "heldItems": {
-      "uncommon": "TINYMUSHROOM"
+      "uncommon": "TINY-MUSHROOM"
     }
   },
   "TOEDSCRUEL": {
@@ -183844,7 +183844,7 @@
     "generation": "9",
     "pokedexEntry": "Forma colonias de varios ejemplares en lo más profundo de los bosques. No soporta las visitas indeseadas de extraños.",
     "heldItems": {
-      "common": "TINYMUSHROOM"
+      "common": "TINY-MUSHROOM"
     }
   },
   "KLAWF": {
@@ -189584,7 +189584,7 @@
     "generation": "9",
     "pokedexEntry": "Su aspecto recuerda al de un extraño Pokémon de origen primitivo que apareció en un artículo de cierta revista esotérica.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "SCREAMTAIL": {
@@ -189767,7 +189767,7 @@
     "generation": "9",
     "pokedexEntry": "Guarda similitud con el supuesto aspecto que, según una revista esotérica, tenía Jigglypuff hace mil millones de años.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "BRUTEBONNET": {
@@ -189913,7 +189913,7 @@
     "generation": "9",
     "pokedexEntry": "Guarda un leve parecido con un Pokémon mitad dinosaurio y mitad seta que apareció en un artículo de cierta revista de dudosa veracidad.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "FLUTTERMANE": {
@@ -190067,7 +190067,7 @@
     "generation": "9",
     "pokedexEntry": "Sus rasgos distintivos se asemejan a los del espíritu de un reptil volador mencionado en una revista esotérica.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "SLITHERWING": {
@@ -190230,7 +190230,7 @@
     "generation": "9",
     "pokedexEntry": "Guarda un ligero parecido con un supuesto antepasado de Volcarona publicado en cierta revista de dudosa veracidad.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "SANDYSHOCKS": {
@@ -190391,7 +190391,7 @@
     "generation": "9",
     "pokedexEntry": "Su aspecto recuerda ligeramente a un supuesto Magneton que ha vivido 10000 años y cuya imagen se publicó en una revista esotérica.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "IRONTREADS": {
@@ -190545,7 +190545,7 @@
     "generation": "9",
     "pokedexEntry": "Su aspecto recuerda al de un arma científica de origen extraterrestre que apareció en un artículo de una revista esotérica.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "IRONBUNDLE": {
@@ -190685,7 +190685,7 @@
     "generation": "9",
     "pokedexEntry": "Tiene una forma similar a la del robot construido por una civilización antigua mencionado en cierto artículo de una revista esotérica.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "IRONHANDS": {
@@ -190846,7 +190846,7 @@
     "generation": "9",
     "pokedexEntry": "Guarda parecido con un atleta, supuestamente transformado en cíborg, que apareció entre las exclusivas de una revista esotérica.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "IRONJUGULIS": {
@@ -191009,7 +191009,7 @@
     "generation": "9",
     "pokedexEntry": "Se asemeja a un Pokémon que apareció en una revista esotérica descrito como \"el fruto de un romance entre un Hydreigon y un robot\".",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "IRONMOTH": {
@@ -191170,7 +191170,7 @@
     "generation": "9",
     "pokedexEntry": "Se asemeja a un extraño objeto descrito en una revista esotérica como \"un ovni enviado con el objetivo de espiar a la raza humana\".",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "IRONTHORNS": {
@@ -191358,7 +191358,7 @@
     "generation": "9",
     "pokedexEntry": "Guarda similitudes con el supuesto aspecto que, según cierta revista de dudosa veracidad, tendrá Tyranitar dentro de mil millones de años.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "FRIGIBAX": {
@@ -192881,7 +192881,7 @@
     "generation": "9",
     "pokedexEntry": "Según un artículo publicado en cierta revista de dudosa veracidad, este Pokémon guarda relación con un fenómeno que tiene lugar en otra región.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "IRONVALIANT": {
@@ -193067,7 +193067,7 @@
     "generation": "9",
     "pokedexEntry": "Comparte varios rasgos con el invento de un científico loco que apareció en un artículo de una revista esotérica.",
     "heldItems": {
-      "uncommon": "BOOSTERENERGY"
+      "uncommon": "BOOSTER-ENERGY"
     }
   },
   "KORAIDON": {
