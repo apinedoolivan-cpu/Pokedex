@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "Pueblo Paleta",
+    "pokemons": [
+      "PIDGEY",
+      "LEDYBA",
+      "RATTATA",
+      "MAREEP",
+      "FIDOUGH",
+      "POOCHYENA",
+      "SENTRET",
+      "SMOLIV",
+      "MARILL",
+      "POLIWAG"
+    ]
+  },
+  {
+    "id": "Ruta 1",
+    "pokemons": [
+      "BIDOOF",
+      "FLABEBE",
+      "LEDYBA",
+      "LITLEO",
+      "MAREEP",
+      "PIDGEY",
+      "STARLY",
+      "PATRAT",
+      "PURRLOIN",
+      "PSYDUCK",
+      "BARBOACH"
+    ]
+  },
+  {
+    "id": "Ciudad Verde",
+    "pokemons": [
+      "GLAMEOW",
+      "HOPPIP",
+      "PIDOVE",
+      "SNUBBULL",
+      "TIMBURR",
+      "MASCHIFF",
+      "POLTCHAGEIST",
+      "WOOLOO",
+      "CUBCHOO",
+      "MILCERY",
+      "DEWPIDER",
+      "STARYU"
+    ]
+  },
+  {
+    "id": "Ruta 22",
+    "pokemons": [
+      "MANKEY",
+      "POOCHYENA",
+      "FLETCHLING",
+      "SPEAROW",
+      "BUNEARY",
+      "SKWOVET",
+      "ROCKRUFF",
+      "SWINUB",
+      "CHEWTLE",
+      "SLOWPOKE"
+    ]
+  },
+  {
+    "id": "Ruta 2 Sur",
+    "pokemons": [
+      "ODDISH",
+      "ROCKRUFF",
+      "SEEDOT",
+      "WOOPER",
+      "GULPIN",
+      "DWEBBLE",
+      "PAWNIARD",
+      "SCRAGGY",
+      "SHINX",
+      "SNOVER",
+      "CHEWTLE",
+      "BARBOACH"
+    ]
+  },
+  {
+    "id": "Ruta 2 Norte",
+    "pokemons": [
+      "BUNNELBY",
+      "EXEGGCUTE",
+      "GULPIN",
+      "RALTS",
+      "VENIPEDE",
+      "CUFANT",
+      "SNEASEL",
+      "BRAMBLIN",
+      "NOIBAT"
+    ]
+  },
+  {
+    "id": "Bosque Verde",
+    "pokemons": [
+      "CATERPIE",
+      "SLAKOTH",
+      "WEEDLE",
+      "MORELULL",
+      "KRICKETOT",
+      "TAROUNTULA",
+      "WURMPLE",
+      "BURMY",
+      "PIKACHU"
+    ]
+  },
+  {
+    "id": "Ciudad Plateada",
+    "pokemons": [
+      "BONSLY",
+      "ELEKID",
+      "LILLIPUP",
+      "MACHOP",
+      "SKITTY",
+      "ZIGZAGOON",
+      "BRONZOR",
+      "VANILLITE",
+      "SPOINK",
+      "TYNAMO"
+    ]
+  },
+  {
+    "id": "Ruta 3",
+    "pokemons": [
+      "EKANS",
+      "JIGGLYPUFF",
+      "PHANPY",
+      "BUDEW",
+      "LECHONK",
+      "PAWMI",
+      "SPINARAK",
+      "MEOWTH_1",
+      "SANDSHREW_1",
+      "PSYDUCK",
+      "TYMPOLE"
+    ]
+  },
+  {
+    "id": "Ruta 3",
+    "pokemons": [
+      "EKANS",
+      "JIGGLYPUFF",
+      "PHANPY",
+      "BUDEW",
+      "LECHONK",
+      "PAWMI",
+      "SPINARAK",
+      "STUNKY",
+      "SANDSHREW_1",
+      "PSYDUCK",
+      "TYMPOLE"
+    ]
+  },
+  {
+    "id": "Monte Moon",
+    "pokemons": [
+      "GEODUDE",
+      "ZUBAT",
+      "DRILBUR",
+      "GRUBBIN",
+      "PARAS",
+      "SANDSHREW",
+      "CLEFAIRY",
+      "ONIX",
+      "SANDILE",
+      "SLOWPOKE",
+      "BARBOACH"
+    ]
+  },
+  {
+    "id": "Monte Moon Exterior",
+    "pokemons": [
+      "CLEFAIRY",
+      "CUBONE",
+      "ELGYEM",
+      "MUNNA",
+      "TINKATINK",
+      "YAMASK_1"
+    ]
+  },
+  {
+    "id": "Monte Moon",
+    "pokemons": [
+      "ROGGENROLA",
+      "WOOBAT",
+      "CLEFAIRY",
+      "DRILBUR",
+      "GRUBBIN",
+      "PARAS",
+      "SANDSHREW",
+      "ONIX",
+      "SLOWPOKE",
+      "BARBOACH"
+    ]
+  },
+  {
+    "id": "Ruta 4",
+    "pokemons": [
+      "HOUNDOUR",
+      "IMPIDIMP",
+      "SANDSHREW",
+      "STUNKY",
+      "TEDDIURSA",
+      "CACNEA",
+      "YAMPER",
+      "ROOKIDEE",
+      "VAROOM",
+      "PSYDUCK",
+      "BARBOACH"
+    ]
+  },
+  {
+    "id": "Ciudad Celeste",
+    "pokemons": [
+      "AIPOM",
+      "CROAGUNK",
+      "DROWZEE",
+      "PETILIL",
+      "HOOTHOOT",
+      "WATTREL",
+      "MEDITITE",
+      "WINGULL",
+      "POLIWAG",
+      "STARYU",
+      "DUCKLETT",
+      "BASCULIN_2",
+      "BASCULIN_3"
+    ]
+  },
+  {
+    "id": "Ruta 20",
+    "pokemons": [
+      "ABRA",
+      "BUIZEL",
+      "DEERLING",
+      "SHINX",
+      "VENONAT",
+      "BELLSPROUT",
+      "ODDISH",
+      "FOMANTIS",
+      "BINACLE",
+      "DUCKLETT"
+    ]
+  },
+  {
+    "id": "Ruta 21",
+    "pokemons": [
+      "ABRA",
+      "BUIZEL",
+      "DEERLING",
+      "SHINX",
+      "VENONAT",
+      "FOONGUS",
+      "LOMBRE",
+      "NUZLEAF",
+      "TOEDSCOOL",
+      "WOOPER_1",
+      "SQUAWKABILLY",
+      "SQUAWKABILLY_1",
+      "DUCKLETT"
+    ]
+  },
+  {
+    "id": "Ruta 5",
+    "pokemons": [
+      "SWABLU",
+      "VULPIX",
+      "SUNKERN",
+      "DUNSPARCE",
+      "FIDOUGH",
+      "FLOETTE",
+      "GRUBBIN",
+      "MEOWTH",
+      "DITTO",
+      "MARILL",
+      "FINNEON"
+    ]
+  },
+  {
+    "id": "Ruta 6",
+    "pokemons": [
+      "MAGNEMITE",
+      "SNEASEL",
+      "SPOINK",
+      "SWELLOW",
+      "NYMBLE",
+      "PINECO",
+      "SPRITZEE",
+      "SWIRLIX",
+      "FURFROU",
+      "GOLDEEN",
+      "FEEBAS"
+    ]
+  },
+  {
+    "id": "Ciudad Carmín",
+    "pokemons": [
+      "DRILBUR",
+      "GRIMER",
+      "MAGNEMITE",
+      "SNEASEL",
+      "LIEPARD",
+      "PURRLOIN",
+      "MEOWTH_2",
+      "SNEASEL_1",
+      "PINCURCHIN",
+      "REMORAID",
+      "CARVANHA"
+    ]
+  },
+  {
+    "id": "Ciudad Carmín",
+    "pokemons": [
+      "DRILBUR",
+      "GRIMER",
+      "MAGNEMITE",
+      "SNEASEL",
+      "LIEPARD",
+      "PURRLOIN",
+      "MEOWTH_2",
+      "MRMIME",
+      "SNEASEL_1",
+      "PINCURCHIN",
+      "REMORAID",
+      "CARVANHA"
+    ]
+  },
+  {
+    "id": "Ciudad Carmín",
+    "pokemons": [
+      "REMORAID",
+      "CARVANHA"
+    ]
+  },
+  {
+    "id": "Ruta 15",
+    "pokemons": [
+      "SIZZLIPEDE",
+      "SOLOSIS",
+      "YAMPER",
+      "SENTRET",
+      "CHARCADET",
+      "SKIPLOOM",
+      "NOCTOWL",
+      "SEVIPER",
+      "ZANGOOSE",
+      "LOTAD",
+      "SURSKIT"
+    ]
+  },
+  {
+    "id": "Túnel Diglett",
+    "pokemons": [
+      "DIGLETT",
+      "DUGTRIO",
+      "DIGLETT_1",
+      "DUGTRIO_1"
+    ]
+  },
+  {
+    "id": "Ruta 9",
+    "pokemons": [
+      "CORVISQUIRE",
+      "CUTIEFLY",
+      "DARUMAKA",
+      "SANDILE",
+      "SKIDDO",
+      "FARFETCHD_1",
+      "LAIRON",
+      "SANDSHREW",
+      "STANTLER"
+    ]
+  },
+  {
+    "id": "Ruta 10 Norte",
+    "pokemons": [
+      "ELECTRIKE",
+      "FARFETCHD",
+      "SALANDIT",
+      "VOLTORB",
+      "ORTHWORM",
+      "GEODUDE_1",
+      "WEEPINBELL",
+      "VOLTORB_1",
+      "BLITZLE",
+      "KLINK",
+      "MINUN",
+      "PLUSLE",
+      "KRABBY",
+      "CLAUNCHER"
+    ]
+  },
+  {
+    "id": "Ruta 10 Sur",
+    "pokemons": [
+      "CUBONE",
+      "NATU",
+      "PHANTUMP",
+      "SHROOMISH",
+      "ZORUA",
+      "CASTFORM",
+      "GOLETT",
+      "LITWICK",
+      "PUMPKABOO",
+      "INKAY"
+    ]
+  },
+  {
+    "id": "Túnel Roca",
+    "pokemons": [
+      "GOLBAT",
+      "RHYHORN",
+      "TEDDIURSA",
+      "BOLDORE",
+      "NACLSTACK",
+      "ONIX",
+      "PHANPY",
+      "URSARING",
+      "KANGASKHAN",
+      "MINIOR"
+    ]
+  },
+  {
+    "id": "Túnel Roca",
+    "pokemons": [
+      "GOLBAT",
+      "RHYHORN",
+      "TEDDIURSA",
+      "BOLDORE",
+      "NACLSTACK",
+      "ONIX",
+      "PHANPY",
+      "URSARING",
+      "KANGASKHAN",
+      "MINIOR"
+    ]
+  },
+  {
+    "id": "Pueblo Lavanda",
+    "pokemons": [
+      "FRILLISH",
+      "BUIZEL"
+    ]
+  },
+  {
+    "id": "Torre Pokémon",
+    "pokemons": [
+      "DUSKULL",
+      "GASTLY",
+      "HAUNTER",
+      "GREAVARD",
+      "LITWICK",
+      "MISDREAVUS",
+      "SHUPPET",
+      "YAMASK",
+      "GIMMIGHOUL",
+      "SABLEYE",
+      "SPIRITOMB"
+    ]
+  },
+  {
+    "id": "Ruta 8",
+    "pokemons": [
+      "GROWLITHE",
+      "IMPIDIMP",
+      "MURKROW",
+      "VULPIX",
+      "CAPSAKID",
+      "SHELMET",
+      "KARRABLAST",
+      "COMFEY",
+      "KLEFKI",
+      "NINCADA",
+      "GUMSHOOS",
+      "ROTOM"
+    ]
+  },
+  {
+    "id": "Ruta 7",
+    "pokemons": [
+      "CROAGUNK",
+      "HATENNA",
+      "MISDREAVUS",
+      "RELLOR",
+      "ROSELIA",
+      "SAWK",
+      "SINISTEA",
+      "THROH",
+      "MIMIKYU"
+    ]
+  },
+  {
+    "id": "Ciudad Azulona",
+    "pokemons": [
+      "APPLIN",
+      "ELEKID",
+      "ROSELIA",
+      "AIPOM",
+      "CUTIEFLY",
+      "FLITTLE",
+      "RIBOMBEE",
+      "PANPOUR",
+      "PANSAGE",
+      "PANSEAR",
+      "GRIMER",
+      "MUK"
+    ]
+  },
+  {
+    "id": "Ruta 12 Norte",
+    "pokemons": [
+      "CRABRAWLER",
+      "DRAPION",
+      "KILOWATTREL",
+      "TANGELA",
+      "YANMA",
+      "LINOONE_1",
+      "SLOWPOKE_1",
+      "SCYTHER",
+      "HORSEA",
+      "TENTACOOL"
+    ]
+  },
+  {
+    "id": "Ruta 11",
+    "pokemons": [
+      "DODUO",
+      "HERACROSS",
+      "SLUGMA",
+      "TRUBBISH",
+      "MASCHIFF",
+      "SHROODLE",
+      "CHANSEY",
+      "BOMBIRDIER",
+      "KOMALA"
+    ]
+  },
+  {
+    "id": "Pueblo Marengo",
+    "pokemons": [
+      "MILTANK",
+      "TAUROS",
+      "SKIDDO",
+      "DUBWOOL",
+      "MUDBRAY",
+      "MUDSDALE",
+      "WOOLOO",
+      "GOGOAT",
+      "OCTILLERY",
+      "TENTACOOL"
+    ]
+  },
+  {
+    "id": "Ruta 13",
+    "pokemons": [
+      "CHARJABUG",
+      "ELDEGOSS",
+      "GLIGAR",
+      "LICKITUNG",
+      "GASTRODON",
+      "SHELLOS",
+      "DITTO",
+      "TROPIUS",
+      "CORSOLA_1",
+      "SKRELP",
+      "TENTACOOL"
+    ]
+  },
+  {
+    "id": "Ruta 14",
+    "pokemons": [
+      "FLOETTE",
+      "SKITTY",
+      "CHIMECHO",
+      "DRIFLOON",
+      "FLETCHINDER",
+      "OINKOLOGNE",
+      "PINSIR",
+      "DRIFBLIM",
+      "DITTO",
+      "GOLDEEN",
+      "BRUXISH"
+    ]
+  },
+  {
+    "id": "Ciudad Fucsia",
+    "pokemons": [
+      "SCRAGGY",
+      "TOXTRICITY",
+      "TOXTRICITY_1",
+      "PINECO",
+      "GLAMEOW",
+      "ILLUMISE",
+      "PURUGLY",
+      "VOLBEAT",
+      "FORRETRESS",
+      "TANDEMAUS",
+      "AUDINO",
+      "GOLDEEN",
+      "BRUXISH"
+    ]
+  },
+  {
+    "id": "Ruta 16",
+    "pokemons": [
+      "DOTTLER",
+      "RUFFLET",
+      "SALAZZLE",
+      "VULLABY",
+      "HELIOLISK",
+      "SMEARGLE",
+      "DODRIO",
+      "FLAMIGO",
+      "GOLISOPOD",
+      "STANTLER",
+      "ORICORIO",
+      "GYARADOS",
+      "MAGIKARP",
+      "TENTACOOL",
+      "TENTACRUEL"
+    ]
+  },
+  {
+    "id": "Ruta 17",
+    "pokemons": [
+      "ORANGURU",
+      "PASSIMIAN",
+      "SANDYGAST",
+      "TOUCANNON",
+      "PELIPPER",
+      "WINGULL",
+      "PYUKUMUKU",
+      "WUGTRIO",
+      "WIGLETT",
+      "EXEGGUTOR_1",
+      "CARVANHA",
+      "CLAUNCHER",
+      "CLAWITZER",
+      "OCTILLERY",
+      "QWILFISH",
+      "REMORAID",
+      "SHARPEDO",
+      "STARYU",
+      "TENTACOOL",
+      "TENTACRUEL",
+      "LUVDISC",
+      "MAREANIE",
+      "CHINCHOU"
+    ]
+  },
+  {
+    "id": "Ciudad Azafrán",
+    "pokemons": [
+      "GOTHORITA",
+      "MANECTRIC",
+      "MEOWSTIC",
+      "NUZLEAF",
+      "NICKIT",
+      "THIEVUL",
+      "KECLEON",
+      "INDEEDEE",
+      "SIGILYPH"
+    ]
+  },
+  {
+    "id": "Ruta 18",
+    "pokemons": [
+      "ALOMOMOLA",
+      "CHINCHOU",
+      "SEADRA",
+      "TENTACOOL",
+      "TENTACRUEL",
+      "WAILMER",
+      "DHELMISE",
+      "DONDOZO",
+      "WISHIWASHI"
+    ]
+  },
+  {
+    "id": "Ruta 19",
+    "pokemons": [
+      "CHATOT",
+      "LOUDRED",
+      "MEDITITE",
+      "VESPIQUEN",
+      "CRAWDAUNT",
+      "WYNAUT",
+      "MEDICHAM",
+      "CARNIVINE",
+      "MARACTUS",
+      "MINCCINO",
+      "BRUXISH",
+      "GYARADOS",
+      "LUMINEON",
+      "MAGIKARP",
+      "TENTACOOL",
+      "TENTACRUEL",
+      "WAILMER",
+      "VELUZA"
+    ]
+  },
+  {
+    "id": "Ruta 12 Sur",
+    "pokemons": [
+      "CRABRAWLER",
+      "DRAPION",
+      "KILOWATTREL",
+      "TANGELA",
+      "YANMA",
+      "SCYTHER",
+      "HORSEA",
+      "TENTACOOL"
+    ]
+  },
+  {
+    "id": "Camino de Bicis",
+    "pokemons": [
+      "GURDURR",
+      "LINOONE",
+      "MIGHTYENA",
+      "CYCLIZAR",
+      "FALINKS",
+      "SKUNTANK",
+      "VAROOM",
+      "PERRSERKER",
+      "BARRASKEWDA",
+      "BASCULIN"
+    ]
+  },
+  {
+    "id": "Zona Safari 1",
+    "pokemons": [
+      "CHANSEY",
+      "KANGASKHAN",
+      "PYROAR",
+      "TSAREENA",
+      "TAUROS",
+      "BOUFFALANT",
+      "QWILFISH",
+      "GOLISOPOD"
+    ]
+  },
+  {
+    "id": "Zona Safari 2",
+    "pokemons": [
+      "BEWEAR",
+      "DARUMAKA",
+      "HIPPOPOTAS",
+      "KLEAVOR",
+      "SKARMORY",
+      "TURTONATOR",
+      "CHANSEY",
+      "CUFANT"
+    ]
+  },
+  {
+    "id": "Zona Safari 3",
+    "pokemons": [
+      "PALPITOAD",
+      "STUNFISK",
+      "SWALOT",
+      "CROAGUNK",
+      "MASQUERAIN",
+      "SURSKIT",
+      "VENOMOTH",
+      "CHANSEY",
+      "TOEDSCRUEL",
+      "WHISCASH",
+      "GOLISOPOD"
+    ]
+  },
+  {
+    "id": "Zona Safari 4",
+    "pokemons": [
+      "BALTOY",
+      "CACTURNE",
+      "BRAMBLIN",
+      "NUMEL",
+      "SILICOBRA",
+      "SIZZLIPEDE",
+      "TRAPINCH",
+      "DONPHAN",
+      "CHANSEY",
+      "WHISCASH",
+      "DRATINI"
+    ]
+  },
+  {
+    "id": "Isla Canela",
+    "pokemons": [
+      "ALOMOMOLA",
+      "CHINCHOU",
+      "SEADRA",
+      "TENTACOOL",
+      "TENTACRUEL",
+      "WAILMER"
+    ]
+  },
+  {
+    "id": "Mansión Quemada",
+    "pokemons": [
+      "DURANT",
+      "MAGMAR",
+      "CARKOL",
+      "GOLETT",
+      "GOLURK",
+      "PONYTA",
+      "WEEZING",
+      "HEATMOR",
+      "DITTO"
+    ]
+  },
+  {
+    "id": "Mansión Quemada",
+    "pokemons": [
+      "DURANT",
+      "MAGMAR",
+      "CARKOL",
+      "GOLETT",
+      "GOLURK",
+      "PONYTA",
+      "WEEZING",
+      "HEATMOR",
+      "DITTO"
+    ]
+  },
+  {
+    "id": "Mansión Quemada",
+    "pokemons": [
+      "DURANT",
+      "MAGMAR",
+      "TORKOAL",
+      "CARKOL",
+      "PONYTA",
+      "WEEZING",
+      "HEATMOR",
+      "DITTO"
+    ]
+  },
+  {
+    "id": "Mansión Quemada",
+    "pokemons": [
+      "BISHARP",
+      "DURANT",
+      "REUNICLUS",
+      "HEATMOR",
+      "TORKOAL",
+      "WEEZING",
+      "DITTO",
+      "GLIMMORA",
+      "RAPIDASH",
+      "SALAZZLE"
+    ]
+  },
+  {
+    "id": "Islas Espuma",
+    "pokemons": [
+      "BERGMITE",
+      "JYNX",
+      "SNORUNT",
+      "CRABOMINABLE",
+      "DEWGONG",
+      "SEEL",
+      "DELIBIRD",
+      "NINETALES_1",
+      "MAWILE",
+      "SEALEO",
+      "SHELLDER"
+    ]
+  },
+  {
+    "id": "Islas Espuma",
+    "pokemons": [
+      "BERGMITE",
+      "JYNX",
+      "SNORUNT",
+      "CRABOMINABLE",
+      "DEWGONG",
+      "SEEL",
+      "DELIBIRD",
+      "NINETALES_1",
+      "MAWILE",
+      "SEALEO",
+      "SHELLDER"
+    ]
+  },
+  {
+    "id": "Islas Espuma",
+    "pokemons": [
+      "EISCUE",
+      "SNORUNT",
+      "VANILLISH",
+      "CRABOMINABLE",
+      "DEWGONG",
+      "SEEL",
+      "DELIBIRD",
+      "MAWILE",
+      "SEALEO",
+      "SHELLDER"
+    ]
+  },
+  {
+    "id": "Islas Espuma",
+    "pokemons": [
+      "EISCUE",
+      "SNORUNT",
+      "VANILLISH",
+      "CRABOMINABLE",
+      "DEWGONG",
+      "SEEL",
+      "DELIBIRD",
+      "MAWILE",
+      "SEALEO",
+      "SHELLDER"
+    ]
+  },
+  {
+    "id": "Central Electrica",
+    "pokemons": [
+      "BELLIBOLT",
+      "ELECTRODE",
+      "SWALOT",
+      "BISHARP",
+      "CHARJABUG",
+      "ELECTABUZZ",
+      "TOXTRICITY",
+      "TOXTRICITY_1",
+      "EELEKTROSS",
+      "DEDENNE",
+      "TOGEDEMARU",
+      "EMOLGA",
+      "PACHIRISU",
+      "MORPEKO"
+    ]
+  },
+  {
+    "id": "Volcan Canela",
+    "pokemons": [
+      "BOLDORE",
+      "MAGCARGO",
+      "COALOSSAL",
+      "DARMANITAN",
+      "CAMERUPT",
+      "TURTONATOR",
+      "SWOOBAT",
+      "MAGMAR",
+      "MAROWAK_1"
+    ]
+  },
+  {
+    "id": "Volcan Canela",
+    "pokemons": [
+      "BOLDORE",
+      "MAGCARGO",
+      "COALOSSAL",
+      "DARMANITAN",
+      "CAMERUPT",
+      "TURTONATOR",
+      "SWOOBAT",
+      "MAGMAR",
+      "MAROWAK_1"
+    ]
+  },
+  {
+    "id": "Volcan Canela",
+    "pokemons": [
+      "BOLDORE",
+      "MAGCARGO",
+      "COALOSSAL",
+      "DARMANITAN",
+      "CAMERUPT",
+      "TURTONATOR",
+      "SWOOBAT",
+      "MAGMAR",
+      "MAROWAK_1"
+    ]
+  },
+  {
+    "id": "Ruta 21",
+    "pokemons": [
+      "ABSOL",
+      "CORVIKNIGHT",
+      "FLOATZEL",
+      "HAWLUCHA",
+      "LYCANROC",
+      "FINIZEN",
+      "BARBOACH",
+      "CLAMPERL",
+      "HUNTAIL",
+      "GOREBYSS"
+    ]
+  },
+  {
+    "id": "Ruta 22",
+    "pokemons": [
+      "BRAVIARY",
+      "EXPLOUD",
+      "GIRAFARIG",
+      "HARIYAMA",
+      "MIENSHAO",
+      "FINIZEN",
+      "CRAWDAUNT",
+      "CLAMPERL",
+      "HUNTAIL",
+      "GOREBYSS"
+    ]
+  },
+  {
+    "id": "Ruta 22",
+    "pokemons": [
+      "BRAVIARY",
+      "EXPLOUD",
+      "GIRAFARIG",
+      "HARIYAMA",
+      "MIENSHAO",
+      "FINIZEN",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Cataratas Tohjo",
+    "pokemons": [
+      "BRONZONG",
+      "GABITE",
+      "GOLURK",
+      "HARIYAMA",
+      "NOSEPASS",
+      "PROBOPASS",
+      "DRUDDIGON",
+      "GOLBAT",
+      "HAXORUS",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Ruta 23",
+    "pokemons": [
+      "MEDICHAM",
+      "NOIVERN",
+      "ROSERADE",
+      "SNEASLER",
+      "WYRDEER",
+      "SIRFETCHD",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Monte Plateado",
+    "pokemons": [
+      "GOLURK",
+      "LARVITAR",
+      "METANG",
+      "SNEASLER",
+      "KLAWF",
+      "ZWEILOUS",
+      "FRAXURE",
+      "GOLEM",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Monte Plateado",
+    "pokemons": [
+      "GOLURK",
+      "SNEASLER",
+      "URSARING",
+      "WYRDEER",
+      "KLAWF",
+      "ZWEILOUS",
+      "STONJOURNER",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Monte Plateado",
+    "pokemons": [
+      "ARCTIBAX",
+      "GOLURK",
+      "LARVITAR",
+      "METANG",
+      "SNEASLER",
+      "FRAXURE",
+      "GOLEM",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Monte Plateado",
+    "pokemons": [
+      "ARCTIBAX",
+      "FROSMOTH",
+      "METANG",
+      "PUPITAR",
+      "WEAVILE",
+      "ABOMASNOW",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Monte Plateado",
+    "pokemons": [
+      "ARCTIBAX",
+      "METANG",
+      "PUPITAR",
+      "SHELGON",
+      "WEAVILE",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Ruta 25",
+    "pokemons": [
+      "BEARTIC",
+      "CETITAN",
+      "FROSMOTH",
+      "MAMOSWINE",
+      "SKARMORY",
+      "ABOMASNOW",
+      "AVALUGG_1",
+      "DARMANITAN_2",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Ciudad Anil",
+    "pokemons": [
+      "AMPHAROS",
+      "CETITAN",
+      "FROSMOTH",
+      "GRANBULL",
+      "CHANSEY",
+      "DUNSPARCE",
+      "MRMIME_1",
+      "DREDNAW",
+      "CRAWDAUNT"
+    ]
+  },
+  {
+    "id": "Cueva Celeste",
+    "pokemons": [
+      "CARBINK",
+      "KADABRA",
+      "PARASECT",
+      "REUNICLUS",
+      "AGGRON",
+      "METANG",
+      "BRUXISH",
+      "GOLISOPOD"
+    ]
+  },
+  {
+    "id": "Cueva Celeste",
+    "pokemons": [
+      "CHIMECHO",
+      "GOTHITELLE",
+      "KADABRA",
+      "MUSHARNA",
+      "ORBEETLE",
+      "WOBBUFFET",
+      "AGGRON",
+      "ALAKAZAM",
+      "METANG",
+      "BRUXISH",
+      "GOLISOPOD"
+    ]
+  },
+  {
+    "id": "Cueva Celeste",
+    "pokemons": [
+      "DOUBLADE",
+      "GRIMMSNARL",
+      "KADABRA",
+      "MEOWSTIC",
+      "MUSHARNA",
+      "ORBEETLE",
+      "AEGISLASH",
+      "AGGRON",
+      "ALAKAZAM",
+      "METANG",
+      "METAGROSS",
+      "BRUXISH",
+      "GOLISOPOD"
+    ]
+  },
+  {
+    "id": "Bosque Celeste",
+    "pokemons": [
+      "BRUTEBONNET",
+      "FLUTTERMANE",
+      "GREATTUSK",
+      "IRONBUNDLE",
+      "IRONHANDS",
+      "IRONJUGULIS",
+      "IRONMOTH",
+      "IRONTHORNS",
+      "IRONTREADS",
+      "SANDYSHOCKS",
+      "SCREAMTAIL",
+      "SLITHERWING",
+      "ROARINGMOON",
+      "IRONVALIANT",
+      "BRUXISH",
+      "GOLISOPOD"
+    ]
+  },
+  {
+    "id": "Claro Oculto",
+    "pokemons": [
+      "UNOWN"
+    ]
+  },
+  {
+    "id": "Villa Ambar",
+    "pokemons": [
+      "TATSUGIRI",
+      "TATSUGIRI_1",
+      "TATSUGIRI_2",
+      "ALOMOMOLA"
+    ]
+  },
+  {
+    "id": "Ruta 26",
+    "pokemons": [
+      "PANGORO",
+      "PINECO",
+      "RIOLU",
+      "DUOSION",
+      "REUNICLUS",
+      "ROSELIA",
+      "ROSERADE",
+      "ALOMOMOLA",
+      "KINGDRA",
+      "PELIPPER",
+      "STARMIE",
+      "TATSUGIRI",
+      "TATSUGIRI_1",
+      "TATSUGIRI_2"
+    ]
+  },
+  {
+    "id": "Villa Azabache",
+    "pokemons": [
+      "DRAKLOAK",
+      "GALVANTULA",
+      "SCOVILLAIN",
+      "STARAPTOR",
+      "VESPIQUEN",
+      "RATICATE_1"
+    ]
+  },
+  {
+    "id": "Cabo Azabache",
+    "pokemons": [
+      "BRAVIARY",
+      "DOUBLADE",
+      "FLYGON",
+      "LYCANROC",
+      "NOSEPASS",
+      "TATSUGIRI",
+      "TATSUGIRI_1",
+      "TATSUGIRI_2",
+      "ALOMOMOLA"
+    ]
+  },
+  {
+    "id": "Ruta 27",
+    "pokemons": [
+      "BISHARP",
+      "GOLURK",
+      "KROKOROK",
+      "LYCANROC",
+      "RHYPERIOR",
+      "ARCANINE_1",
+      "MACHOKE",
+      "PERRSERKER",
+      "TATSUGIRI",
+      "TATSUGIRI_1",
+      "TATSUGIRI_2",
+      "ALOMOMOLA"
+    ]
+  },
+  {
+    "id": "Almacen Secreto",
+    "pokemons": [
+      "BISHARP",
+      "MIGHTYENA",
+      "NIDOKING",
+      "NIDOQUEEN",
+      "PIDGEOT",
+      "ARBOK",
+      "STUNFISK_1",
+      "WEEZING_1",
+      "TATSUGIRI",
+      "TATSUGIRI_1",
+      "TATSUGIRI_2",
+      "ALOMOMOLA"
+    ]
+  },
+  {
+    "id": "Islote Recuerdo",
+    "pokemons": [
+      "CRUSTLE",
+      "GARDEVOIR",
+      "KOMMOO",
+      "TSAREENA",
+      "LUNATONE",
+      "SOLROCK",
+      "SLOWBRO_1",
+      "SLOWKING_1",
+      "ALOMOMOLA",
+      "CLAWITZER",
+      "KINGDRA",
+      "STARMIE",
+      "TATSUGIRI",
+      "TATSUGIRI_1",
+      "TATSUGIRI_2",
+      "TOXAPEX"
+    ]
+  },
+  {
+    "id": "Ruta 28",
+    "pokemons": [
+      "BRONZONG",
+      "FERROTHORN",
+      "GRAPPLOCT",
+      "LEAVANNY",
+      "PALOSSAND",
+      "BRAVIARY_1",
+      "EXEGGUTOR_1",
+      "PERSIAN_1",
+      "GASTRODON",
+      "PALAFIN"
+    ]
+  },
+  {
+    "id": "Villa Magenta",
+    "pokemons": [
+      "SWANNA",
+      "MASQUERAIN"
+    ]
+  },
+  {
+    "id": "Ruta 29",
+    "pokemons": [
+      "ABSOL",
+      "BELLIBOLT",
+      "DRAMPA",
+      "FLOETTE",
+      "WHIMSICOTT",
+      "GOLEM_1",
+      "OVERQWIL",
+      "CRAMORANT",
+      "DEWGONG"
+    ]
+  },
+  {
+    "id": "Ruta 29",
+    "pokemons": [
+      "CORVIKNIGHT",
+      "MIGHTYENA",
+      "RABSCA",
+      "SLIGGOO",
+      "SPINDA",
+      "ELECTRODE_1",
+      "LILLIGANT_1",
+      "GRIMER_1",
+      "MUK_1",
+      "CRAMORANT",
+      "DEWGONG"
+    ]
+  },
+  {
+    "id": "Ruta 30",
+    "pokemons": [
+      "GYARADOS",
+      "KINGDRA",
+      "SHARPEDO"
+    ]
+  },
+  {
+    "id": "Cabo Magenta",
+    "pokemons": [
+      "ALTARIA",
+      "DURALUDON",
+      "GASTRODON",
+      "ILLUMISE",
+      "VOLBEAT",
+      "PALOSSAND",
+      "SLIGGOO_1",
+      "GOODRA_1",
+      "PELIPPER",
+      "LAPRAS"
+    ]
+  },
+  {
+    "id": "Cueva Glaciada",
+    "pokemons": [
+      "AVALUGG",
+      "BAXCALIBUR",
+      "CROBAT",
+      "CRYOGONAL",
+      "FROSLASS",
+      "BEARTIC",
+      "GLALIE",
+      "VANILLUXE",
+      "WALREIN",
+      "CLOYSTER"
+    ]
+  },
+  {
+    "id": "Bosque Arcoiris",
+    "pokemons": [
+      "CHERRIM",
+      "RIBOMBEE",
+      "SLURPUFF",
+      "TOGEKISS",
+      "WYRDEER",
+      "AROMATISSE",
+      "RAPIDASH_1",
+      "VIVILLON",
+      "ZOROARK_1",
+      "PELIPPER",
+      "LAPRAS"
+    ]
+  },
+  {
+    "id": "Bosque Arcoiris",
+    "pokemons": [
+      "MAGIKARP",
+      "GOLDEEN"
+    ]
+  }
+]

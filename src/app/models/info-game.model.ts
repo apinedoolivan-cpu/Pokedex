@@ -19,3 +19,7 @@ export interface PokemonMove {
   pp: number;
   description: string;
 }
+export interface PokemonRoute {
+  id: string;
+  pokemons: string[];
+}

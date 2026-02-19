@@ -4,7 +4,9 @@
     </div>
     <div class="pokemon-game-info-container">
         <span>Ubicación del Pokémon</span>
-        <p>Desconocida</p>
+        @for (route of routesForPokemon(); track route.id) {
+            <span>{{ route.id }}</span>
+        }
     </div>
     @if (heldItemsList().length > 0) {
         <div class="pokemon-game-info-container">
