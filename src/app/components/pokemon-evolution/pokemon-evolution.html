@@ -32,6 +32,14 @@
               <span class="method-label">{{ getMethodLabel(child.method) }}</span>
               @if (child.value) {
                 <span class="method-value">{{ getMethodValue(child) }}</span>
+                @if (isItemEvolution(child.method)) {
+                  <img
+                    [src]="spriteService.getItemImagePath(child.value).toLocaleLowerCase()"
+                    [alt]="child.value"
+                    loading="lazy"
+                    class="method-item-sprite"
+                  />
+                }
               }
               <span>▶</span>
             </div>

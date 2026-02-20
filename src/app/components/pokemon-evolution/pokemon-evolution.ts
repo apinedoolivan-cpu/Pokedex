@@ -43,6 +43,9 @@ export class PokemonEvolutionComponent {
   public readonly spriteService = inject(PokemonSpriteService);
   public readonly itemService = inject(GameItemsService);
 
+  readonly ITEM_METHODS = new Set(['Item', 'ItemFemale', 'ItemMale', 'DayHoldItem']);
+  public readonly isItemEvolution = (method: string) =>this.ITEM_METHODS.has(method);
+
   private readonly pokemonId = computed(() => this.pokemon().id);
   readonly chain = this.evolutionService.getChainFor(this.pokemonId);
 
@@ -52,8 +55,8 @@ export class PokemonEvolutionComponent {
   }
 
   getMethodValue(child: any): string {
-    if (child.method === 'Item' || child.method === 'ItemFemale' || child.method === 'ItemMale' || child.method === 'DayHoldItem') {
-      const item = this.itemService.getItemById(child.value)();
+    if (this.isItemEvolution(child.method)) {
+      const item = this.itemService.getItemById(child.value);
       return item ? item.name : child.value;
     } else {
       return child.value;

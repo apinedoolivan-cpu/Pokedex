@@ -32,9 +32,7 @@ export class GameItemsService {
     return new Map(this._items().map(item => [item.id, item]));
   });
 
-  getItemById(id: string) {
-    return computed(() =>
-      this._items().find(item => item.id === id)
-    );
+  getItemById(id: string): PokemonItem | undefined {
+    return this.itemsMap().get(id);
   }
 }
