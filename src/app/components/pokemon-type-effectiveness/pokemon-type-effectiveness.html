@@ -1,0 +1,69 @@
+<div class="effectiveness">
+  <h2 class="title">Efectividad de tipos</h2>
+
+  @if (effectiveness().quadWeak.length) {
+    <div class="section">
+      <span class="section-label">Sufre x4 a</span>
+      <div class="type-list">
+        @for (type of effectiveness().quadWeak; track type.id) {
+          <span class="type-badge" [style.background-color]="type.color">{{ type.name }}</span>
+        }
+      </div>
+    </div>
+  }
+
+  @if (effectiveness().doubleWeak.length) {
+    <div class="section">
+      <span class="section-label">Sufre x2 a</span>
+      <div class="type-list">
+        @for (type of effectiveness().doubleWeak; track type.id) {
+          <span class="type-badge" [style.background-color]="type.color">{{ type.name }}</span>
+        }
+      </div>
+    </div>
+  }
+
+  @if (effectiveness().neutral.length) {
+    <div class="section">
+      <span class="section-label">Sufre x1 a</span>
+      <div class="type-list">
+        @for (type of effectiveness().neutral; track type.id) {
+          <span class="type-badge" [style.background-color]="type.color">{{ type.name }}</span>
+        }
+      </div>
+    </div>
+  }
+
+  @if (effectiveness().resistant.length) {
+    <div class="section">
+      <span class="section-label">Resiste x0.5 a</span>
+      <div class="type-list">
+        @for (type of effectiveness().resistant; track type.id) {
+          <span class="type-badge" [style.background-color]="type.color">{{ type.name }}</span>
+        }
+      </div>
+    </div>
+  }
+
+  @if (effectiveness().quadResistant.length) {
+    <div class="section">
+      <span class="section-label">Resiste x0.25 a</span>
+      <div class="type-list">
+        @for (type of effectiveness().quadResistant; track type.id) {
+          <span class="type-badge" [style.background-color]="type.color">{{ type.name }}</span>
+        }
+      </div>
+    </div>
+  }
+
+  @if (effectiveness().immune.length) {
+    <div class="section">
+      <span class="section-label">Inmune a</span>
+      <div class="type-list">
+        @for (type of effectiveness().immune; track type.id) {
+          <span class="type-badge" [style.background-color]="type.color">{{ type.name }}</span>
+        }
+      </div>
+    </div>
+  }
+</div>

@@ -153,6 +153,15 @@ export const POKEMON_TYPES: PokemonType[] = [
   }
 ];
 
+export interface TypeEffectiveness {
+  quadWeak: PokemonType[];    
+  doubleWeak: PokemonType[];   
+  neutral: PokemonType[];   
+  resistant: PokemonType[];    
+  quadResistant: PokemonType[]; 
+  immune: PokemonType[];       
+}
+
 export function getPokemonTypeById(id: string): PokemonType | undefined {
   return POKEMON_TYPES.find(type => type.id === id);
 }

@@ -63,7 +63,11 @@
             }
             @case ('efectividad') {
               <div>
-                Efectividad del Pokémon
+                @if (pokemon(); as pokemon) {
+                  <app-pokemon-type-effectiveness
+                    [pokemon]="pokemon">
+                  </app-pokemon-type-effectiveness>
+                }
               </div>
             }
             @case ('movimientos') {
