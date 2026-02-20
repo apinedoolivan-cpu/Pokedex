@@ -4,19 +4,28 @@ import { Pokemon } from '../../models/pokemon.model';
 import { PokedexStoreService } from '../../services/pokedex-store-service';
 import { PokemonEvolutionService } from '../../services/pokemon-evolution-service';
 import { PokemonSpriteService } from '../../services/pokemon-sprite-service';
+import { GameItemsService } from '../../services/game-items-service';
 
 const METHOD_LABELS: Record<string, string> = {
-  level: 'Nivel',
-  item: 'Objeto',
-  trade: 'Intercambio',
-  friendship: 'Amistad',
-  stone: 'Piedra',
-  held_item: 'Objeto equipado',
-  location: 'Lugar',
-  time: 'Hora del día',
-  move: 'Movimiento',
-  gender: 'Género',
-  other: 'Especial',
+  Level: 'Nivel',
+  LevelMale: 'Nivel siendo macho',
+  LevelFemale: 'Nivel siendo hembra',
+
+  Item: 'Usar objeto',
+  ItemFemale: 'Siendo hembra, usar objeto',
+  ItemMale: 'Siendo macho, usar objeto',
+  DayHoldItem: 'Durante el día, objeto',
+
+  Happiness: 'Amistad',
+  HappinessDay: 'Amistad durante el día',
+  HappinessNight: 'Amistad durante la noche',
+
+  AttackGreater: 'Ataque > Defensa',
+  DefenseGreater: 'Defensa > Ataque',
+  AtkDefEqual: 'Ataque = Defensa',
+
+  Shedinja: 'Evoluciona a Ninjask y deja un hueco vacío',
+  Personalidad: 'Evoluciona según la personalidad a nivel'
 };
 
 @Component({
@@ -32,12 +41,22 @@ export class PokemonEvolutionComponent {
   public readonly store = inject(PokedexStoreService);
   private readonly evolutionService = inject(PokemonEvolutionService);
   public readonly spriteService = inject(PokemonSpriteService);
+  public readonly itemService = inject(GameItemsService);
 
   private readonly pokemonId = computed(() => this.pokemon().id);
   readonly chain = this.evolutionService.getChainFor(this.pokemonId);
 
   getMethodLabel(method: string | undefined): string {
     if (!method) return '';
-    return METHOD_LABELS[method.toLowerCase()] ?? method;
+    return METHOD_LABELS[method] ?? method;
+  }
+
+  getMethodValue(child: any): string {
+    if (child.method === 'Item' || child.method === 'ItemFemale' || child.method === 'ItemMale' || child.method === 'DayHoldItem') {
+      const item = this.itemService.getItemById(child.value)();
+      return item ? item.name : child.value;
+    } else {
+      return child.value;
+    }
   }
 }
