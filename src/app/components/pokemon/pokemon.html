@@ -72,7 +72,11 @@
             }
             @case ('movimientos') {
               <div>
-                Movimientos del Pokémon
+                @if (pokemon(); as pokemon) {
+                  <app-pokemon-moves
+                    [pokemon]="pokemon">
+                  </app-pokemon-moves>
+                }
               </div>
             }
           }

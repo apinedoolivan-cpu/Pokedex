@@ -13,12 +13,27 @@ export interface PokemonAbility {
 export interface PokemonMove {
   id : string;
   name: string;
-  type: PokemonType;
+  type: string;
   category: "Físico" | "Especial" | "De estado";
   power: number;
   acuracy: number;
   pp: number;
+  flags?: string[];
   description: string;
+}
+
+export interface LevelMove extends PokemonMove {
+  level: number;
+  pokemonType: PokemonType | undefined;
+}
+
+export interface MtMove extends PokemonMove {
+  mtNumber: number;
+  pokemonType: PokemonType | undefined;
+}
+
+export interface ResolvedMove extends PokemonMove {
+  pokemonType: PokemonType | undefined;
 }
 export interface PokemonRoute {
   id: string;

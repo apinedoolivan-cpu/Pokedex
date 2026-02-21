@@ -22,7 +22,11 @@ export interface Pokemon {
     move: string;
   }[];
 
-  tutorMoves?: string[];
+  mtMoves: {
+    mtNumber: number;
+    move: string;
+  }[];
+  
   eggMoves?: string[];
   eggGroups?: string[];
 

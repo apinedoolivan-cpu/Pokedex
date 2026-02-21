@@ -8,6 +8,7 @@ import { PokemonGameInfoComponent } from '../pokemon-game-info/pokemon-game-info
 import { PokemonEvolutionComponent } from '../pokemon-evolution/pokemon-evolution';
 import { PokemonStatsComponent } from '../pokemon-stats/pokemon-stats';
 import { TypeEffectivenessComponent } from '../pokemon-type-effectiveness/pokemon-type-effectiveness';
+import { PokemonMovesComponent } from '../pokemon-moves/pokemon-moves';
 
 import { GameService } from '../../services/game-service';
 import { PokemonDataService } from '../../services/pokemon-data-service';
@@ -16,7 +17,7 @@ import { getPokemonTypeById, PokemonType } from '../../models/types.model';
 @Component({
   selector: 'app-pokemon',
   imports: [GameErrorComponent, PokemonSearchComponent, PokemonShowcaseComponent, PokemonInfoComponent, PokemonGameInfoComponent, 
-    PokemonEvolutionComponent, PokemonStatsComponent, TypeEffectivenessComponent],
+    PokemonEvolutionComponent, PokemonStatsComponent, TypeEffectivenessComponent, PokemonMovesComponent],
   templateUrl: './pokemon.html',
   styleUrl: './pokemon.scss',
 })

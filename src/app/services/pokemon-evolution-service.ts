@@ -31,7 +31,7 @@ export class PokemonEvolutionService {
     });
   }
 
-  private findRoot(id: string, byId: Map<string, Pokemon>): Pokemon | null {
+  findRoot(id: string, byId: Map<string, Pokemon>): Pokemon | null {
     const pokemon = byId.get(id);
     if (!pokemon) return null;
 

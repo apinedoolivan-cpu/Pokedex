@@ -1,0 +1,83 @@
+<div class="moves-grid">
+
+  <!-- ── Por Nivel ── -->
+  <div class="moves-col">
+    <div class="col-header level-header">
+      <span class="col-title">Por Nivel</span>
+      <span class="col-count">{{ levelMoves().length }}</span>
+    </div>
+    <div class="moves-list">
+      @if (levelMoves().length === 0) {
+        <div class="empty">Sin movimientos</div>
+      }
+      @for (move of levelMoves(); track move.id) {
+        <div class="move-card">
+          <div class="move-info">
+            <span class="move-name">{{ move.name }}</span>
+            <span class="move-sub">Nivel {{ move.level }}</span>
+          </div>
+          @if (move.pokemonType; as pt) {
+            <span class="type-badge"
+              [style.background]="pt.color">
+              {{ pt.name }}
+            </span>
+          }
+        </div>
+      }
+    </div>
+  </div>
+
+  <!-- ── Por MT ── -->
+  <div class="moves-col">
+    <div class="col-header mt-header">
+      <span class="col-title">Por MT</span>
+      <span class="col-count">{{ mtMoves().length }}</span>
+    </div>
+    <div class="moves-list">
+      @if (mtMoves().length === 0) {
+        <div class="empty">Sin movimientos</div>
+      }
+      @for (move of mtMoves(); track move.id) {
+        <div class="move-card">
+          <div class="move-info">
+            <span class="move-name">{{ move.name }}</span>
+            <span class="move-sub">{{ mtLabel(move.mtNumber) }}</span>
+          </div>
+          @if (move.pokemonType; as pt) {
+            <span class="type-badge"
+              [style.background]="pt.color">
+              {{ pt.name }}
+            </span>
+          }
+        </div>
+      }
+    </div>
+  </div>
+
+  <!-- ── Movimientos Huevo ── -->
+  <div class="moves-col">
+    <div class="col-header egg-header">
+      <span class="col-title">Movimientos Huevo</span>
+      <span class="col-count">{{ eggMoves().length }}</span>
+    </div>
+    <div class="moves-list">
+      @if (eggMoves().length === 0) {
+        <div class="empty">Sin movimientos</div>
+      }
+      @for (move of eggMoves(); track move.id) {
+        <div class="move-card">
+          <div class="move-info">
+            <span class="move-name">{{ move.name }}</span>
+          </div>
+          @if (move.pokemonType; as pt) {
+            <span class="type-badge"
+              [style.background]="pt.color">
+              {{ pt.name }}
+            </span>
+          }
+        </div>
+      }
+    </div>
+  </div>
+
+</div>
