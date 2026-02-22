@@ -1,16 +1,52 @@
 <div class="pokemon-showcase-container">
-    <div class="pokemon-showcase-image-container">
-        <h1 class="pokemon-showcase-name">{{ pokemon().name }}</h1>
-        <span class="pokemon-showcase-number">#{{ pokemon().dexNumber}}</span>
+
+  <div class="pokemon-showcase-header">
+    <h1 class="pokemon-showcase-name">{{ activePokemon().name }}</h1>
+    <span class="pokemon-showcase-number">#{{ pokemon().dexNumber }}</span>
+  </div>
+
+  <div class="pokemon-showcase-image-container">
+    <img
+      class="pokemon-showcase-image"
+      [src]="selectedPokemonSprite()"
+      [alt]="activePokemon().name"
+    />
+    <div class="pokemon-showcase-types">
+      @for (type of pokemonTypes(); track type.id) {
+        <span
+          class="pokemon-showcase-type"
+          [style.background-color]="type.color">
+          {{ type.name }}
+        </span>
+      }
     </div>
-    
-    <div class="pokemon-showcase-image-container">
-        <img class="pokemon-showcase-image" [src]="selectedPokemonSprite()" alt="{{ pokemon().name }}" />
-        <div class="pokemon-showcase-types">
-             @for (type of pokemonTypes(); track type.id) {
-                <span class="pokemon-showcase-type" [style.background-color]="type.color">{{ type.name }}</span>
-             }
-        </div>
+  </div>
+
+  @if (forms().length > 0) {
+    <div class="pokemon-showcase-forms">
+      <span class="forms-label">FORMAS</span>
+      <div class="forms-list">
+
+        <button
+          class="form-btn"
+          [class.active]="isFormActive(null)"
+          (click)="selectForm(null)">
+          Normal
+        </button>
+
+        @for (form of forms(); track form.formIndex) {
+          <button
+            class="form-btn"
+            [class.active]="isFormActive(form.formIndex)"
+            [class.form-mega]="form.formType === 'mega'"
+            [class.form-regional]="form.formType === 'regional'"
+            (click)="selectForm(form.formIndex)">
+            {{ form.formName }}
+          </button>
+        }
+
+      </div>
     </div>
-    <div class="pokemon-showcase-forms"></div>
+  }
+
 </div>
