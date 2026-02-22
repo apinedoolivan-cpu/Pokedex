@@ -1,0 +1,158 @@
+$bg:        #0f1117;
+$surface:   #181c27;
+$surface2:  #1e2333;
+$border:    rgba(255,255,255,0.08);
+$text:      #e8eaf2;
+$muted:     #6b7194;
+$accent:    #4a90e2;
+$radius:    10px;
+$font:      'Segoe UI', system-ui, sans-serif;
+
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  font-family: $font;
+}
+
+// ── Search bar ────────────────────────────────────────────────────────────────
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: 6px 8px;
+  transition: border-color 0.2s;
+
+  &:focus-within {
+    border-color: $accent;
+  }
+}
+
+// ── Nav buttons ───────────────────────────────────────────────────────────────
+.nav-btn {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $surface2;
+  border: 1px solid $border;
+  border-radius: 7px;
+  color: $text;
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover:not(:disabled) {
+    background: $accent;
+    border-color: $accent;
+    color: #fff;
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
+
+// ── Input wrap ────────────────────────────────────────────────────────────────
+.input-wrap {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.search-icon {
+  position: absolute;
+  left: 8px;
+  color: $muted;
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: $text;
+  font-family: $font;
+  font-size: 0.875rem;
+  padding: 4px 8px 4px 28px;
+
+  &::placeholder { color: $muted; }
+}
+
+.selected-label {
+  position: absolute;
+  left: 28px;
+  font-size: 0.875rem;
+  color: $text;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// ── Dropdown ──────────────────────────────────────────────────────────────────
+.dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: $radius;
+  overflow: hidden;
+  z-index: 100;
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+
+  &.no-results {
+    padding: 14px 16px;
+    font-size: 0.8rem;
+    color: $muted;
+
+    strong { color: $text; }
+  }
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  max-height: 80px;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.12s;
+
+  &:hover {
+    background: $surface2;
+
+    .poke-name { color: $accent; }
+  }
+}
+
+.dex-num {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: $muted;
+  min-width: 36px;
+  font-variant-numeric: tabular-nums;
+}
+
+.poke-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: $text;
+  transition: color 0.12s;
+}

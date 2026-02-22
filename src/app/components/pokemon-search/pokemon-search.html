@@ -1,5 +1,55 @@
-<div class="pokemon-search">
-    <button>Anterior</button>
-    <input type="text" placeholder="Buscar Pokémon..." />
-    <button>Siguiente</button>
+<div class="search-wrapper">
+
+  <div class="search-bar">
+    <button
+      class="nav-btn"
+      [disabled]="!hasPrev()"
+      (click)="prev()"
+      title="Pokémon anterior">
+      ‹
+    </button>
+
+    <div class="input-wrap">
+      <span class="search-icon">⌕</span>
+      <input
+        class="search-input"
+        type="text"
+        placeholder="Buscar Pokémon..."
+        [value]="query()"
+        (input)="onInput($any($event.target).value)"
+        autocomplete="off"
+      />
+    </div>
+
+    <button
+      class="nav-btn"
+      [disabled]="!hasNext()"
+      (click)="next()"
+      title="Pokémon siguiente">
+      ›
+    </button>
+  </div>
+
+  @if (isOpen() && suggestions().length > 0) {
+    <ul class="dropdown">
+      @for (pokemon of suggestions(); track pokemon.id) {
+        <li class="suggestion" (click)="selectPokemon(pokemon)">
+          <span class="dex-num">{{ formatDexNumber(pokemon.dexNumber) }}</span>
+          <span class="poke-name">{{ pokemon.name }}</span>
+          <img
+            [src]="spriteService.getSmallSpritePath(pokemon)"
+            [alt]="pokemon.name"
+            loading="lazy"
+            class="method-item-sprite"/>
+        </li>
+      }
+    </ul>
+  }
+
+  @if (isOpen() && query() && suggestions().length === 0) {
+    <div class="dropdown no-results">
+      Sin resultados para "<strong>{{ query() }}</strong>"
+    </div>
+  }
+
 </div>
