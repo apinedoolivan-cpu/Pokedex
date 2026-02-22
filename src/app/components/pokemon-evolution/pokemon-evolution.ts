@@ -5,6 +5,7 @@ import { PokedexStoreService } from '../../services/pokedex-store-service';
 import { PokemonEvolutionService } from '../../services/pokemon-evolution-service';
 import { PokemonSpriteService } from '../../services/pokemon-sprite-service';
 import { GameItemsService } from '../../services/game-items-service';
+import { Router } from '@angular/router';
 
 const METHOD_LABELS: Record<string, string> = {
   Level: 'Nivel',
@@ -42,9 +43,10 @@ export class PokemonEvolutionComponent {
   private readonly evolutionService = inject(PokemonEvolutionService);
   public readonly spriteService = inject(PokemonSpriteService);
   public readonly itemService = inject(GameItemsService);
+  private readonly router = inject(Router);
 
   readonly ITEM_METHODS = new Set(['Item', 'ItemFemale', 'ItemMale', 'DayHoldItem']);
-  public readonly isItemEvolution = (method: string) =>this.ITEM_METHODS.has(method);
+  public readonly isItemEvolution = (method: string) => this.ITEM_METHODS.has(method);
 
   private readonly pokemonId = computed(() => this.pokemon().id);
   readonly chain = this.evolutionService.getChainFor(this.pokemonId);
@@ -60,6 +62,13 @@ export class PokemonEvolutionComponent {
       return item ? item.name : child.value;
     } else {
       return child.value;
+    }
+  }
+
+  navigateToPokemon(idPokemon: string): void {
+    const poke = this.store.getById(idPokemon);
+    if (poke) {
+      this.router.navigate(['/pokedex', poke.slug]);
     }
   }
 }

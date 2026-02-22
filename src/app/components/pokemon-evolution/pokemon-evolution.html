@@ -13,7 +13,7 @@
 <ng-template #evoNode let-node>
   <div class="evo-node">
     @if (store.getById(node.idPokemon); as poke) {
-      <div class="evo-card">
+      <div class="evo-card" (click)="navigateToPokemon(node.idPokemon)">
         <img
           [src]="spriteService.getSmallSpritePath(poke)"
           [alt]="poke.name"

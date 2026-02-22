@@ -39,9 +39,7 @@ export class PokemonSearchComponent {
   });
 
   readonly hasPrev = computed(() => this.currentIndex() > 0);
-  readonly hasNext = computed(
-    () => this.currentIndex() < this.store.all().length - 1
-  );
+  readonly hasNext = computed(() => this.currentIndex() < this.store.all().length - 1);
 
   selectPokemon(pokemon: any): void {
     this.router.navigate(['/pokedex', pokemon.slug]);
