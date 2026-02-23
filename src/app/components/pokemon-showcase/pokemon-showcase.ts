@@ -1,8 +1,10 @@
-import { Component, computed, input, inject, signal } from '@angular/core';
+import { Component, computed, input, inject, signal, effect } from '@angular/core';
 import { PokemonSpriteService } from '../../services/pokemon-sprite-service';
 import { PokemonType } from '../../models/types.model';
 import { Pokemon, PokemonForm } from '../../models/pokemon.model';
 import { PokemonFormService } from '../../services/pokemon-form-service';
+import { PokemonDataService } from '../../services/pokemon-data-service';
+import { getPokemonTypeById } from '../../models/types.model';
 
 @Component({
   selector: 'app-pokemon-showcase',
@@ -13,50 +15,45 @@ import { PokemonFormService } from '../../services/pokemon-form-service';
 export class PokemonShowcaseComponent {
   private readonly pokemonSprite = inject(PokemonSpriteService);
   private readonly formService = inject(PokemonFormService);
+  private readonly pokemonDataService = inject(PokemonDataService);
 
   public readonly pokemon = input.required<Pokemon>();
-  public readonly pokemonTypes = input.required<PokemonType[]>();
 
+  private readonly basePokemon = signal<Pokemon | null>(null);
   readonly selectedFormIndex = signal<number | null>(null);
+
+  constructor() {
+    effect(() => {
+      const p = this.pokemon();
+      this.basePokemon.set(p);
+      this.selectedFormIndex.set(null);
+      this.pokemonDataService.selectedPokemon(p);
+    });
+  }
 
   readonly forms = computed<PokemonForm[]>(() =>
     this.formService.getFormsFor(this.pokemon().id)
   );
 
-  readonly activePokemon = computed<Pokemon>(() => {
-    const idx = this.selectedFormIndex();
-    const base = this.pokemon();
-    if (idx === null) return base;
-    const form = this.forms().find(f => f.formIndex === idx);
-    return form ? this.formService.mergeWithBase(base, form) : base;
-  });
-
-  readonly activeTypes = computed<PokemonType[]>(() => {
-    const idx = this.selectedFormIndex();
-    if (idx === null) return this.pokemonTypes();
-    const form = this.forms().find(f => f.formIndex === idx);
-    if (!form?.types) return this.pokemonTypes();
-    
-    return this.pokemonTypes(); 
-  });
-
-  readonly selectedPokemonSprite = computed(() =>
-    this.pokemonSprite.getSpritePath(this.activePokemon())
+  readonly activeTypes = computed<PokemonType[]>(() =>
+    this.pokemonDataService.getSelectedPokemon()()?.types
+      .map(id => getPokemonTypeById(id))
+      .filter((t): t is PokemonType => !!t) ?? []
   );
 
-  selectForm(formIndex: number | null): void {
-    this.selectedFormIndex.set(formIndex);
+  readonly selectedPokemonSprite = computed(() =>
+    this.pokemonSprite.getSpritePath(this.pokemonDataService.getSelectedPokemon()())
+  );
+
+  selectForm(form: PokemonForm | null): void {
+    const base = this.basePokemon();
+    if (!base) return;
+    this.selectedFormIndex.set(form?.formIndex ?? null);
+    const merged = form ? this.formService.mergeWithBase(base, form) : base;
+    this.pokemonDataService.selectedPokemon(merged);
   }
 
   isFormActive(formIndex: number | null): boolean {
     return this.selectedFormIndex() === formIndex;
-  }
-
-  formTypeLabel(form: PokemonForm): string {
-    switch (form.formType) {
-      case 'mega':     return 'Mega';
-      case 'regional': return form.region ?? 'Regional';
-      default:         return 'Variante';
-    }
   }
 }

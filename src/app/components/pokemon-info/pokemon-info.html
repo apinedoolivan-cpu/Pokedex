@@ -50,5 +50,10 @@
             <span class="pokemon-info-value">{{ pokemon().generation }}</span>
         </div>     
     </div>
-
+    <div class="pokemon-info-container">
+        <h3>Grupos de huevo</h3>
+        @for (eggGroup of pokemon().eggGroups ?? []; track eggGroup) {
+            <span>{{ eggGroup }}</span>
+        }
+    </div>
 </div>

@@ -1,7 +1,7 @@
 <div class="pokemon-showcase-container">
 
   <div class="pokemon-showcase-header">
-    <h1 class="pokemon-showcase-name">{{ activePokemon().name }}</h1>
+    <h1 class="pokemon-showcase-name">{{ pokemon().name }}</h1>
     <span class="pokemon-showcase-number">#{{ pokemon().dexNumber }}</span>
   </div>
 
@@ -9,10 +9,10 @@
     <img
       class="pokemon-showcase-image"
       [src]="selectedPokemonSprite()"
-      [alt]="activePokemon().name"
+      [alt]="pokemon().name"
     />
     <div class="pokemon-showcase-types">
-      @for (type of pokemonTypes(); track type.id) {
+      @for (type of activeTypes(); track type.id) {
         <span
           class="pokemon-showcase-type"
           [style.background-color]="type.color">
@@ -40,7 +40,7 @@
             [class.active]="isFormActive(form.formIndex)"
             [class.form-mega]="form.formType === 'mega'"
             [class.form-regional]="form.formType === 'regional'"
-            (click)="selectForm(form.formIndex)">
+            (click)="selectForm(form)">
             {{ form.formName }}
           </button>
         }

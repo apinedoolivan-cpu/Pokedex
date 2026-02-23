@@ -3,9 +3,6 @@ import { GameService } from './game-service';
 import { Pokemon, PokemonForm } from '../models/pokemon.model';
 import { HttpClient } from '@angular/common/http';
 
-@Injectable({
-  providedIn: 'root',
-})
 @Injectable({ providedIn: 'root' })
 export class PokemonFormService {
   private readonly gameService = inject(GameService);
