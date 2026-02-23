@@ -17,39 +17,64 @@ export class PokemonShowcaseComponent {
   private readonly formService = inject(PokemonFormService);
   private readonly pokemonDataService = inject(PokemonDataService);
 
-  public readonly pokemon = input.required<Pokemon>();
+  // Pokemon seleccionado global
+  readonly selectedPokemon = this.pokemonDataService.getSelectedPokemon();
 
+  // Base inmutable mientras no cambie de especie
   private readonly basePokemon = signal<Pokemon | null>(null);
+
   readonly selectedFormIndex = signal<number | null>(null);
 
   constructor() {
     effect(() => {
-      const p = this.pokemon();
-      this.basePokemon.set(p);
-      this.selectedFormIndex.set(null);
-      this.pokemonDataService.selectedPokemon(p);
+      const current = this.selectedPokemon();
+      if (!current) return;
+
+      const currentBase = this.basePokemon();
+
+      // Solo cambiar base si cambia la especie
+      if (!currentBase || currentBase.id !== current.id) {
+        this.basePokemon.set(current);
+        this.selectedFormIndex.set(null);
+      }
     });
   }
 
-  readonly forms = computed<PokemonForm[]>(() =>
-    this.formService.getFormsFor(this.pokemon().id)
-  );
+  readonly forms = computed<PokemonForm[]>(() => {
+    const base = this.basePokemon();
+    if (!base) return [];
+    return this.formService.getFormsFor(base.id);
+  });
 
   readonly activeTypes = computed<PokemonType[]>(() =>
-    this.pokemonDataService.getSelectedPokemon()()?.types
+    this.selectedPokemon()?.types
       .map(id => getPokemonTypeById(id))
       .filter((t): t is PokemonType => !!t) ?? []
   );
 
   readonly selectedPokemonSprite = computed(() =>
-    this.pokemonSprite.getSpritePath(this.pokemonDataService.getSelectedPokemon()())
+    this.pokemonSprite.getSpritePath(
+      this.selectedPokemon()
+    )
   );
 
   selectForm(form: PokemonForm | null): void {
     const base = this.basePokemon();
     if (!base) return;
-    this.selectedFormIndex.set(form?.formIndex ?? null);
-    const merged = form ? this.formService.mergeWithBase(base, form) : base;
+
+    if (!form) {
+      this.selectedFormIndex.set(null);
+      this.pokemonDataService.selectedPokemon({
+        ...base,
+        formSlug: undefined,
+        isForm: false
+      });
+      return;
+    }
+
+    const merged = this.formService.mergeWithBase(base, form);
+
+    this.selectedFormIndex.set(form.formIndex ?? null);
     this.pokemonDataService.selectedPokemon(merged);
   }
 

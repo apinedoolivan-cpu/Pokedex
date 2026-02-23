@@ -2,8 +2,10 @@
   {
     "pokemonId": "VENUSAUR",
     "formIndex": 1,
+    "formSlug": "_f2",
     "formName": "Mega Venusaur X",
     "formType": "mega",
+    "dexNumber": "1",
     "megaStone": "VENUSAURITEX",
     "baseStats": {
       "hp": 80,
@@ -18,7 +20,8 @@
     ],
     "hiddenAbility": "THICKFAT",
     "height": 2.4,
-    "weight": 155.5
+    "weight": 155.5,
+    "generation": "6"
   },
   {
     "pokemonId": "CHARIZARD",

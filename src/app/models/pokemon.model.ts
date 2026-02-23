@@ -55,13 +55,15 @@ export interface Pokemon {
   category?: string;
   pokedexEntry?: string;
   generation: string;
+  formSlug?: string;
+  isForm?: boolean;
 }
 
 export interface PokemonForm {
   pokemonId: string;       
   formIndex: number;      
-  formName: string;       
-  formType: "mega" | "regional" | "variant";
+  formName: string;
+  formSlug: string;       
 
   types?: string[];
   baseStats?: { hp: number; attack: number; defense: number; speed: number; specialAttack: number; specialDefense: number; };
@@ -77,5 +79,5 @@ export interface PokemonForm {
   color?: string
   pokedexEntry?: string;
   evolutions?: { to: string; method: string; value: number | string }[];
-  
+  generation?: string;
 }

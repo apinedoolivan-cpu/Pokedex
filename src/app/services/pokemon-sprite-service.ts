@@ -22,7 +22,14 @@ export class PokemonSpriteService {
     if (!pokemon) {
       return `${this.basePathSprite}/unknown.png`;
     }
-    return `${this.basePathSprite}/${pokemon.dexNumber.toString()?.padStart(3, '0')}.png`;
+
+    const paddedDex = pokemon.dexNumber.toString().padStart(3, '0');
+
+    if (pokemon.isForm && pokemon.formSlug) {
+      return `${this.basePathSprite}/${paddedDex}${pokemon.formSlug}.png`;
+    }
+
+    return `${this.basePathSprite}/${paddedDex}.png`;
   }
 
   getUbicationImagePath(pokemon: Pokemon | null): string {

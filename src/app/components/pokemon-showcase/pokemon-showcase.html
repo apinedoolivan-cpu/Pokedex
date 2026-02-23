@@ -1,15 +1,15 @@
 <div class="pokemon-showcase-container">
 
   <div class="pokemon-showcase-header">
-    <h1 class="pokemon-showcase-name">{{ pokemon().name }}</h1>
-    <span class="pokemon-showcase-number">#{{ pokemon().dexNumber }}</span>
+    <h1 class="pokemon-showcase-name">{{ selectedPokemon()?.name }}</h1>
+    <span class="pokemon-showcase-number">#{{ selectedPokemon()?.dexNumber }}</span>
   </div>
 
   <div class="pokemon-showcase-image-container">
     <img
       class="pokemon-showcase-image"
       [src]="selectedPokemonSprite()"
-      [alt]="pokemon().name"
+      [alt]="selectedPokemon()?.name"
     />
     <div class="pokemon-showcase-types">
       @for (type of activeTypes(); track type.id) {
@@ -27,20 +27,18 @@
       <span class="forms-label">FORMAS</span>
       <div class="forms-list">
 
-        <button
-          class="form-btn"
-          [class.active]="isFormActive(null)"
-          (click)="selectForm(null)">
-          Normal
+        <!-- Botón forma normal -->
+        <button 
+          (click)="selectForm(null)"
+          [class.active]="isFormActive(null)">
+          Forma normal
         </button>
 
+        <!-- Botones de formas -->
         @for (form of forms(); track form.formIndex) {
           <button
-            class="form-btn"
-            [class.active]="isFormActive(form.formIndex)"
-            [class.form-mega]="form.formType === 'mega'"
-            [class.form-regional]="form.formType === 'regional'"
-            (click)="selectForm(form)">
+            (click)="selectForm(form)"
+            [class.active]="isFormActive(form.formIndex)">
             {{ form.formName }}
           </button>
         }
