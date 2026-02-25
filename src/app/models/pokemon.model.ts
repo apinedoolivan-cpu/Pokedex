@@ -58,26 +58,3 @@ export interface Pokemon {
   formSlug?: string;
   isForm?: boolean;
 }
-
-export interface PokemonForm {
-  pokemonId: string;       
-  formIndex: number;      
-  formName: string;
-  formSlug: string;       
-
-  types?: string[];
-  baseStats?: { hp: number; attack: number; defense: number; speed: number; specialAttack: number; specialDefense: number; };
-  abilities?: string[];
-  hiddenAbility?: string;
-  megaStone?: string;
-  region?: string;
-  moves?: { level: number; move: string }[];
-  mtMoves?: { mtNumber: number; move: string }[];
-  eggMoves?: string[];
-  height?: number;
-  weight?: number;
-  color?: string
-  pokedexEntry?: string;
-  evolutions?: { to: string; method: string; value: number | string }[];
-  generation?: string;
-}

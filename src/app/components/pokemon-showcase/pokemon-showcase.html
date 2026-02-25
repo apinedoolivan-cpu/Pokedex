@@ -27,19 +27,19 @@
       <span class="forms-label">FORMAS</span>
       <div class="forms-list">
 
-        <!-- Botón forma normal -->
-        <button 
-          (click)="selectForm(null)"
-          [class.active]="isFormActive(null)">
-          Forma normal
+        <button
+          class="form-button"
+          [class.active]="isFormActive(null)"
+          (click)="selectForm(null)">
+          {{ basePokemon()?.name }}
         </button>
 
-        <!-- Botones de formas -->
-        @for (form of forms(); track form.formIndex) {
+        @for (form of forms(); track form.id) {
           <button
-            (click)="selectForm(form)"
-            [class.active]="isFormActive(form.formIndex)">
-            {{ form.formName }}
+            class="form-button"
+            [class.active]="isFormActive(form.id)"
+            (click)="selectForm(form)">
+            {{ form.name }}
           </button>
         }
 
