@@ -28,7 +28,8 @@ export class PokemonShowcaseComponent {
       if (!current) return;
 
       const currentBase = this.basePokemon();
-      const isForm = current.id.includes('_');
+
+      const isForm = !!current.formType;
       if (!isForm && (!currentBase || currentBase.id !== current.id)) {
         this.basePokemon.set(current);
         this.selectedFormId.set(null);
@@ -58,6 +59,7 @@ export class PokemonShowcaseComponent {
 
     this.selectedFormId.set(form?.id ?? null);
     this.pokemonDataService.selectedPokemon(form ?? base);
+    console.log(form);
   }
 
   isFormActive(formId: string | null): boolean {

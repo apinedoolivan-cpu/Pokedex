@@ -4,14 +4,14 @@
 @else {
   <div class="pokemon-container">
     <app-pokemon-search></app-pokemon-search>
-    <div class ="pokemon-showcase">
+    <div class="pokemon-showcase">
       @if (pokemon(); as pokemon) {
         <app-pokemon-showcase></app-pokemon-showcase>
       }
       <div class="pokemon-details">
         <nav class="tabs-nav">
-          @for (tab of tabs; track tab.id) {
-            <button 
+          @for (tab of tabs(); track tab.id) {
+            <button
               [class.active]="selectedTab === tab.id"
               (click)="selectTab(tab.id)">
               {{tab.label}}
@@ -24,8 +24,8 @@
             @case ('caracteristicas') {
               <div>
                 @if (pokemon(); as pokemon) {
-                  <app-pokemon-info 
-                    [pokemon]="pokemon" 
+                  <app-pokemon-info
+                    [pokemon]="pokemon"
                     [pokemonTypes]="pokemonTypes()">
                   </app-pokemon-info>
                 }
@@ -34,7 +34,7 @@
             @case ('ubicacion') {
               <div>
                 @if (pokemon(); as pokemon) {
-                  <app-pokemon-game-info 
+                  <app-pokemon-game-info
                     [pokemon]="pokemon">
                   </app-pokemon-game-info>
                 }
@@ -43,7 +43,7 @@
             @case ('evolucion') {
               <div>
                 @if (pokemon(); as pokemon) {
-                  <app-pokemon-evolution 
+                  <app-pokemon-evolution
                     [pokemon]="pokemon">
                   </app-pokemon-evolution>
                 }
@@ -52,7 +52,7 @@
             @case ('estadisticas') {
               <div>
                 @if (pokemon(); as pokemon) {
-                  <app-pokemon-stats 
+                  <app-pokemon-stats
                     [pokemon]="pokemon">
                   </app-pokemon-stats>
                 }

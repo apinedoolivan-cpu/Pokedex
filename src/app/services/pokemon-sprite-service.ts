@@ -25,8 +25,8 @@ export class PokemonSpriteService {
 
     const paddedDex = pokemon.dexNumber.toString().padStart(3, '0');
 
-    if (pokemon.isForm && pokemon.formSlug) {
-      return `${this.basePathSprite}/${paddedDex}${pokemon.formSlug}.png`;
+    if (pokemon.formType && pokemon.formSlug) {
+      return `${this.basePathSprite}/${paddedDex}_${pokemon.formSlug}.png`;
     }
 
     return `${this.basePathSprite}/${paddedDex}.png`;

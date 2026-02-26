@@ -44,16 +44,16 @@ export class PokemonComponent {
       .filter((t): t is PokemonType => !!t);
   });
 
-  selectedTab = 'caracteristicas';
-
-  tabs = [
+  readonly tabs = computed(() => [
     { id: 'caracteristicas', label: 'Características' },
-    { id: 'ubicacion',       label: 'Ubicación' },
+    { id: 'ubicacion',       label: this.pokemon()?.formType === 'mega' ? 'Megapiedra' : 'Ubicación' },
     { id: 'evolucion',       label: 'Evolución' },
     { id: 'estadisticas',    label: 'Estadísticas' },
     { id: 'efectividad',     label: 'Efectividad' },
     { id: 'movimientos',     label: 'Movimientos' },
-  ];
+  ]);
+
+  selectedTab = 'caracteristicas';
 
   selectTab(tabId: string) {
     this.selectedTab = tabId;
