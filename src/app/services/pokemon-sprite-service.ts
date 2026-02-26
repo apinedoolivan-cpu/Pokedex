@@ -11,10 +11,15 @@ export class PokemonSpriteService {
   private readonly ubicationImage = 'https://guianil.pages.dev/images/location';
   private readonly itemImage = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items";
 
-  getSmallSpritePath(pokemon: Pokemon | null ): string {
+  getSmallSpritePath(pokemon: Pokemon | null): string {
     if (!pokemon) {
       return `${this.basePathSmallSprite}/unknown.png`;
     }
+
+    if (pokemon.formType && pokemon.spriteId) {
+      return `${this.basePathSmallSprite}/${pokemon.spriteId}.png`;
+    }
+
     return `${this.basePathSmallSprite}/${pokemon.dexNumber}.png`;
   }
 

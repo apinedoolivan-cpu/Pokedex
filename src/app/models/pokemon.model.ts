@@ -56,5 +56,6 @@ export interface Pokemon {
   pokedexEntry?: string;
   generation: string;
   formSlug?: string;
+  spriteId?: string;
   formType?: 'mega' | 'alola' | 'galar' | 'hisui'| 'paldea';
 }

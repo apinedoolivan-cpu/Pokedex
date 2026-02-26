@@ -61,7 +61,7 @@
     "formSlug": "f3",
     "formType": "mega"
   },
-     {
+  {
     "id": "MAROWAK_1",
     "dexNumber": "105",
     "name": "Marowak Forma Alola",
@@ -91,5 +91,79 @@
     "eggGroups": [],
     "formSlug": "f2",
     "formType": "alola"
+  },
+{
+    "id": "RATTATA_1",
+    "dexNumber": "19",
+    "name": "Rattata de Alola",
+    "slug": "rattata-alola",
+    "formType": "alola",
+    "types": ["DARK", "NORMAL"],
+    "baseStats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "speed": 72,
+      "specialAttack": 25,
+      "specialDefense": 35
+    },
+    "abilities": ["GLUTTONY", "HUSTLE"],
+    "hiddenAbility": "THICK_FAT",
+    "evolutions": [
+      { "to": "RATICATE_1", "method": "Level", "value": "20" }
+    ],
+    "moves": [],
+    "mtMoves": [],
+    "eggMoves": [],
+    "eggGroups": ["Campo"],
+    "evs": [
+      { "stat": "Velocidad", "value": 1 }
+    ],
+    "height": 0.3,
+    "weight": 1.9,
+    "color": "Negro",
+    "shape": "Cuadrúpeda",
+    "habitat": "Ciudad",
+    "category": "Ratón",
+    "generation": "7",
+    "pokedexEntry": "Se alimenta principalmente de frutas y semillas. Vive en grupos familiares formados por un macho dominante y sus compañeras.",
+    "formSlug": "f2",
+    "spriteId": "10091"
+  },
+  {
+    "id": "RATICATE_1",
+    "dexNumber": "20",
+    "name": "Raticate de Alola",
+    "slug": "raticate-alola",
+    "formType": "alola",
+    "types": ["DARK", "NORMAL"],
+    "baseStats": {
+      "hp": 75,
+      "attack": 71,
+      "defense": 70,
+      "speed": 77,
+      "specialAttack": 40,
+      "specialDefense": 80
+    },
+    "abilities": ["GLUTTONY", "HUSTLE"],
+    "hiddenAbility": "THICK_FAT",
+    "evolutions": [],
+    "moves": [],
+    "mtMoves": [],
+    "eggMoves": [],
+    "eggGroups": ["Campo"],
+    "evs": [
+      { "stat": "Defensa especial", "value": 2 }
+    ],
+    "height": 0.7,
+    "weight": 25.5,
+    "color": "Negro",
+    "shape": "Bípeda",
+    "habitat": "Ciudad",
+    "category": "Ratón",
+    "generation": "7",
+    "pokedexEntry": "Es muy exigente con la comida. Ordena a los Rattata que le rodean que le traigan solo los manjares más selectos de la región.",
+    "formSlug": "f2",
+    "spriteId": "10092"
   }
 ]

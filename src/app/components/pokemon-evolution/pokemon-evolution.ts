@@ -5,6 +5,7 @@ import { PokedexStoreService } from '../../services/pokedex-store-service';
 import { PokemonEvolutionService } from '../../services/pokemon-evolution-service';
 import { PokemonSpriteService } from '../../services/pokemon-sprite-service';
 import { GameItemsService } from '../../services/game-items-service';
+import { PokemonFormService } from '../../services/pokemon-form-service';
 import { Router } from '@angular/router';
 
 const METHOD_LABELS: Record<string, string> = {
@@ -41,6 +42,7 @@ export class PokemonEvolutionComponent {
 
   public readonly store = inject(PokedexStoreService);
   private readonly evolutionService = inject(PokemonEvolutionService);
+  private readonly formService = inject(PokemonFormService);
   public readonly spriteService = inject(PokemonSpriteService);
   public readonly itemService = inject(GameItemsService);
   private readonly router = inject(Router);
@@ -50,6 +52,11 @@ export class PokemonEvolutionComponent {
 
   private readonly pokemonId = computed(() => this.pokemon().id);
   readonly chain = this.evolutionService.getChainFor(this.pokemonId);
+
+  getPokemon(idPokemon: string): Pokemon | undefined {
+    return this.store.getById(idPokemon)
+      ?? Object.values(this.formService.forms()).flat().find(f => f.id === idPokemon);
+  }
 
   getMethodLabel(method: string | undefined): string {
     if (!method) return '';
@@ -66,9 +73,18 @@ export class PokemonEvolutionComponent {
   }
 
   navigateToPokemon(idPokemon: string): void {
+    // Primero intenta encontrarlo en el store normal
     const poke = this.store.getById(idPokemon);
     if (poke) {
       this.router.navigate(['/pokedex', poke.slug]);
+      return;
+    }
+
+    // Si es una forma, extrae el id base y navega al pokemon normal
+    const baseId = idPokemon.substring(0, idPokemon.lastIndexOf('_'));
+    const basePoke = this.store.getById(baseId);
+    if (basePoke) {
+      this.router.navigate(['/pokedex', basePoke.slug]);
     }
   }
 }

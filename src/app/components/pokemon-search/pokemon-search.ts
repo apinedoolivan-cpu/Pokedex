@@ -35,7 +35,13 @@ export class PokemonSearchComponent {
   private readonly currentIndex = computed(() => {
     const sel = this.selected();
     if (!sel) return -1;
-    return this.store.all().findIndex((p) => p.id === sel.id);
+
+    // Si es una forma, busca por el id base
+    const lookupId = sel.formType
+      ? sel.id.substring(0, sel.id.lastIndexOf('_'))
+      : sel.id;
+
+    return this.store.all().findIndex((p) => p.id === lookupId);
   });
 
   readonly hasPrev = computed(() => this.currentIndex() > 0);
